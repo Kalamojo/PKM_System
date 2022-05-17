@@ -1,0 +1,31 @@
+---
+banner: "![[Haxorus_Drip.png]]"
+banner_y: 0.25282
+banner_icon: 🐍
+---
+# Home Page
+
+`````ad-blocks
+
+```dataview
+List
+From !"📦Templates"
+WHERE tags="school"
+SORT file.mtime desc
+LIMIT 10
+`````
+
+`````ad-apply 
+```dataview
+TABLE priority as Priority, status as "Status", due as "Due Date", essays as "Essays"
+FROM "📒Planner"
+WHERE status = "todo" or status = "doing"
+SORT essays desc, due asc
+`````
+
+`````ad-essay
+```dataview
+List
+From "📝Essays"
+SORT file.name asc
+`````
