@@ -30,5 +30,6 @@
     "editor:redo",
     "editor:toggle-keyboard",
     "editor:configure-toolbar"
-  ]
+  ],
+  "fileSortOrder": "alphabetical"
 }

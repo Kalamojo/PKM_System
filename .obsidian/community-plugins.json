@@ -22,7 +22,6 @@
   "periodic-notes",
   "execute-code",
   "calendar",
-  "sliding-panes-obsidian",
   "obsidian-banners",
   "obsidian-excalidraw-plugin",
   "excalibrain",
@@ -31,5 +30,7 @@
   "file-tree-alternative",
   "obsidian-minimal-settings",
   "dbfolder",
-  "obsidian-advanced-slides"
+  "obsidian-mind-map",
+  "obsidian-advanced-slides",
+  "sliding-panes-obsidian"
 ]
