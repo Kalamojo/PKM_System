@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Probability
 
-
 ```ad-note
 How likely something is to happen.
 ```

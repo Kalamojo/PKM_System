@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Graph Cycle
 
-
 > [!note]
 > A circuit with no repeated vertices.
 
