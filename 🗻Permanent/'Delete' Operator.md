@@ -5,7 +5,6 @@ tags: [school]
 ---
 # 'Delete' Operator
 
-
 > [!note]
 > Used to free memory allocated with the 'new' operator. Is called on a pointer to dynamically allocated memory when it is no longer needed. Can delete a single variable/object or array.
 
