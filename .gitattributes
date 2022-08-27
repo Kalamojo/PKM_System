@@ -1,7 +1,2 @@
-🧮Projects/** filter=git-crypt diff=git-crypt
-📒Planner/** filter=git-crypt diff=git-crypt
-📎Attachments/** filter=git-crypt diff=git-crypt
-💭Reflection/** filter=git-crypt diff=git-crypt
-⚜️Fleeting/** filter=git-crypt diff=git-crypt
-.trash/** filter=git-crypt diff=git-crypt
-excalibrain.md filter=git-crypt diff=git-crypt
+*.md filter=git-crypt diff=git-crypt
+*/** filter=git-crypt diff=git-crypt
