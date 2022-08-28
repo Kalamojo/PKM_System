@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Propositions
 
-
 ```ad-note
 A mathematical statement that is True or False.
 ```
@@ -15,5 +14,6 @@ A mathematical statement that is True or False.
 - "Brazil is in Europe" = F
 - $\forall c P(c) =$ for all countries, country has a president $= F$
 ```
+
 ## References
 1. [[Binary Variable]]

@@ -4,7 +4,6 @@ tags: [personal]
 ---
 # Deep Learning
 
-
 ```ad-note
 A [[Machine Learning]] method based on artificial [[Neural Network|Neural Networks]] with [[Representation Learning]]. Also known as Deep Neural Networks, it is basically a huge pile of equations that can help obtain useful answers.
 ```
@@ -17,4 +16,4 @@ A [[Machine Learning]] method based on artificial [[Neural Network|Neural Networ
 
 > [!info] 
 > This allows much more complex tasks to be completed, such as winning a game of chess or checkers. A goal is defined, and it is up to the model to decide which is the best way to achieve it. This is made possible by a [[Neural Network]], which uses nodes to process things.
-Deep Learning is particularly effective for making predictions from [[Big Data]], and it is considered a sub-field of [[🗻Permanent/Data Science]].
+Deep Learning is particularly effective for making predictions from [[Big Data]], and it is considered a sub-field of [[🗻Permanent/Data Science|Data Science]].

@@ -1,4 +1,5 @@
 {
+  "openViewOnStart": true,
   "ribbonIcon": false,
   "showRootFolder": true,
   "showFilesFromSubFolders": false,

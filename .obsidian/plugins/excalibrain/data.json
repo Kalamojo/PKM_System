@@ -180,8 +180,9 @@
     "🗻Permanent/Central Limit Theorem.md",
     "🗻Permanent/Statistics.md",
     "Dashboard.md",
+    "🗻Permanent/Weight.md",
     "🗻Permanent/Data Analysis.md",
-    "🗻Permanent/Weight.md"
+    "🗻Permanent/Assessing Variable Relationships.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

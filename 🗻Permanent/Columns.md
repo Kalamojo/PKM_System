@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Columns
 
-
 ```ad-example
 - attributes
 - properties
