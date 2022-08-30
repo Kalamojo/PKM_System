@@ -5,9 +5,6 @@ banner_x: 0.87448
 ---
 # Dashboard
 
-- Change test
-- Another thing
-- NOICE
-- Based, on what though?
+- Maybe add some widgets here
 
 ## Testing
