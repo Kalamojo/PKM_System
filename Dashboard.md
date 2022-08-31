@@ -1,11 +1,9 @@
 ---
 banner: "![[Haxorus_Drip.png]]"
----
----
-banner: "![[Haxorus_Drip.png]]"
 banner_y: 0.234
 banner_x: 0.87448
 ---
 # Dashboard
 
 - Bruh sound effect
+- Less go, more stay
