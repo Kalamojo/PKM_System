@@ -4,7 +4,6 @@ tags: [personal]
 ---
 # Artificial Intelligence
 
-
 ```ad-note
 Artificial intelligence is making machines smarter with the use of programming. A more general definition would be "a machine or application with the capacity to autonomously act upon predictions made from [[Data]]".
 ```
