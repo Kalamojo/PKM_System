@@ -5,7 +5,6 @@ tags: [school]
 ---
 # NOT Function/Gate
 
-
  ```ad-note
  $$L(x) = 1 \text{ if } x = 0, \quad L(x) = 0 \text{ if } x = 1.$$
  ```

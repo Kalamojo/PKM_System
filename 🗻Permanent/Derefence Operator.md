@@ -3,7 +3,7 @@ alias: [*]
 subject: Computer Science 2
 tags: [school]
 ---
-# Derefence Operator #⌛TBC
+# Derefence Operator
 
 
 > [!note]

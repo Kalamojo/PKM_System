@@ -3,13 +3,16 @@ alias: []
 subject: Data Science Intro
 tags: [school]
 ---
-# Power-Law Distribution #⌛TBC 
+# Power-Law Distribution
 
+> [!note]
+> A distribution in which a small percentage of items hold the vast majority of the values. It is encountered commonly in real life.
 
-Is encountered commonly in real life.
-For example, regarding the networth of American citizens, very few people hold the majority of the wealth while the poorer majority of the population have many more members.
+> [!example]
+> Regarding the networth of American citizens, very few people hold the majority of the wealth while the poorer majority of the population have many more members.
 
-![[Pasted image 20220215113417.png]]
+> [!example] 
+> ![[Pasted image 20220215113417.png]]
 
 ## References
 1. [[Power-Law Density Function]]

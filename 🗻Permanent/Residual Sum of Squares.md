@@ -3,7 +3,7 @@ alias: []
 subject: Data Science Intro
 tags: [school]
 ---
-# Residual Sum of Squares #⌛TBC 
+# Residual Sum of Squares
 
 > [!note]
 > A measure of the discrepancy (error) between data and an estimation model.

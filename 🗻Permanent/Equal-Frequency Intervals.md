@@ -3,10 +3,10 @@ alias: []
 subject: Data Science Intro
 tags: [school]
 ---
-# Equal-Frequency Intervals #⌛TBC
+# Equal-Frequency Intervals
 
 > [!note]
-> The range of values $X$ into intervals that contain approxamitely the same number of points.
+> The range of values $X$ partioned into intervals that contain approxamitely the same number of points.
 
 > [!example] 
 > ![[Pasted image 20220301201324.png]]

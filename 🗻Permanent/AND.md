@@ -5,7 +5,6 @@ tags: [school]
 ---
 # AND Function/Gate
 
-
 ```ad-note
 $$L = x_1 * x_2$$
 

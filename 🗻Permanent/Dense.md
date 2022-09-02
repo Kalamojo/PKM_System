@@ -1,8 +1,0 @@
----
-alias: [Density, Dense Representation]
-tags: [personal]
----
-# Dense Representation
-#⌛TBC 
-
-

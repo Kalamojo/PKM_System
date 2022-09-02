@@ -36970,7 +36970,7 @@ __export(exports, {
 });
 var import_obsidian2 = __toModule(require("obsidian"));
 var fs = __toModule(require("fs"));
-var os = __toModule(require("os"));
+var os2 = __toModule(require("os"));
 var child_process = __toModule(require("child_process"));
 
 // Outputter.ts
@@ -37007,7 +37007,6 @@ var Outputter = class {
       return;
     this.stdoutElem.innerHTML = this.stdoutText;
     this.outputElement.style.display = "block";
-    this.clearButton.style.display = "block";
   }
   writeErr(text2) {
     if (!this.outputElement) {
@@ -37021,7 +37020,6 @@ var Outputter = class {
       return;
     this.stderrElem.setText(this.stderrText);
     this.outputElement.style.display = "block";
-    this.clearButton.style.display = "block";
   }
   getParentElement() {
     return this.codeBlockElement.parentElement;
@@ -37080,6 +37078,12 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Node args set to: " + value);
       yield this.plugin.saveSettings();
     })));
+    containerEl.createEl("h3", { text: "Golang Settings" });
+    new import_obsidian.Setting(containerEl).setName("Golang Path").setDesc("The path to your Golang installation.").addText((text2) => text2.setValue(this.plugin.settings.golangPath).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.golangPath = value;
+      console.log("Golang path set to: " + value);
+      yield this.plugin.saveSettings();
+    })));
     containerEl.createEl("h3", { text: "Python Settings" });
     new import_obsidian.Setting(containerEl).setName("Python path").setDesc("The path to your Python installation.").addText((text2) => text2.setValue(this.plugin.settings.pythonPath).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.pythonPath = value;
@@ -37115,7 +37119,7 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
     containerEl.createEl("h3", { text: "Prolog Settings" });
     new import_obsidian.Setting(containerEl).setName("Prolog Answer Limit").setDesc("Maximal number of answers to be returned by the Prolog engine. This is to prevent creating too huge texts in the notebook.").addText((text2) => text2.setValue("" + this.plugin.settings.maxPrologAnswers).onChange((value) => __async(this, null, function* () {
       if (Number(value) * 1e3) {
-        console.log("Answer limit set to: " + value);
+        console.log("Prolog answer limit set to: " + value);
         this.plugin.settings.maxPrologAnswers = Number(value);
       }
       yield this.plugin.saveSettings();
@@ -37131,11 +37135,28 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Groovy args set to: " + value);
       yield this.plugin.saveSettings();
     })));
+    containerEl.createEl("h3", { text: "R Settings" });
+    new import_obsidian.Setting(containerEl).setName("R path").setDesc("The path to your R installation.").addText((text2) => text2.setValue(this.plugin.settings.RPath).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.RPath = value;
+      console.log("R path set to: " + value);
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian.Setting(containerEl).setName("R arguments").addText((text2) => text2.setValue(this.plugin.settings.RArgs).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.RArgs = value;
+      console.log("R args set to: " + value);
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian.Setting(containerEl).setName("Embed R Plots created via <code>plot()</code> into Notes").addToggle((toggle) => toggle.setValue(this.plugin.settings.REmbedPlots).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.REmbedPlots = value;
+      console.log(value ? "Embedding R Plots into Notes." : "Not embedding R Plots into Notes.");
+      yield this.plugin.saveSettings();
+    })));
   }
 };
 
 // Magic.ts
-var SHOW_REGEX = /@show\(["'](?<path>[^<>?*=!\n#()\[\]{}]+)["'](,\s*(?<width>[0-9]+[\w%]+),?\s*(?<height>[0-9]+[\w%]+))?(,\s*(?<align>left|center|right))?\)/g;
+var os = __toModule(require("os"));
+var SHOW_REGEX = /@show\(["'](?<path>[^<>?*=!\n#()\[\]{}]+)["'](,\s*(?<width>\d+[\w%]+),?\s*(?<height>\d+[\w%]+))?(,\s*(?<align>left|center|right))?\)/g;
 var VAULT_REGEX = /@vault/g;
 var CURRENT_NOTE_REGEX = /@note/g;
 var NOTE_TITLE_REGEX = /@title/g;
@@ -37152,8 +37173,18 @@ function insertNoteTitle(source, noteTitle) {
   return source.replace(NOTE_TITLE_REGEX, `"${t}"`);
 }
 function addInlinePlotsToPython(source) {
-  const showPlot = `import io; __obsidian_execute_code_temp_pyplot_var__=io.StringIO(); plt.plot(); plt.savefig(__obsidian_execute_code_temp_pyplot_var__, format='svg'); plt.close(); print(f"<div align=\\"center\\">{__obsidian_execute_code_temp_pyplot_var__.getvalue()}</div>")`;
+  const showPlot = `import io; import sys; __obsidian_execute_code_temp_pyplot_var__=io.BytesIO(); plt.plot(); plt.savefig(__obsidian_execute_code_temp_pyplot_var__, format='svg'); plt.close(); sys.stdout.buffer.write(__obsidian_execute_code_temp_pyplot_var__.getvalue())`;
   return source.replace(/plt\.show\(\)/g, showPlot);
+}
+function addInlinePlotsToR(source) {
+  const plotRegEx = /plot\(.*\)/g;
+  const matches = source.matchAll(plotRegEx);
+  for (const match of matches) {
+    const tempFile = `${os.tmpdir()}/temp_${Date.now()}.png`.replace(/\\/g, "/");
+    const substitute = `png("${tempFile}"); ${match[0]}; dev.off(); cat('<img src="app://local/${tempFile}" align="center">')`;
+    source = source.replace(match[0], substitute);
+  }
+  return source;
 }
 function addMagicToPython(source) {
   source = pythonParseShowImage(source);
@@ -37196,14 +37227,14 @@ function buildMagicShowImage(imagePath, width = "0", height = "0", alignment = "
     imagePath = splittedPath.join("");
   }
   if (width == "0" || height == "0")
-    return `<img src="${imagePath}" align="${alignment}">`;
-  return `<img src="${imagePath}" width="${width}" height="${height}" align="${alignment}">`;
+    return `<img src="${imagePath}" align="${alignment}" alt="Image found at path ${imagePath}.>`;
+  return `<img src="${imagePath}" width="${width}" height="${height}" align="${alignment}" alt="Image found at path ${imagePath}.">`;
 }
 
 // main.ts
 var JSCPP = __toModule(require_commonjs());
 var prolog = __toModule(require_core());
-var supportedLanguages = ["js", "javascript", "python", "cpp", "prolog", "shell", "bash", "groovy"];
+var supportedLanguages = ["js", "javascript", "python", "cpp", "prolog", "shell", "bash", "groovy", "r", "go"];
 var buttonText = "Run";
 var runButtonClass = "run-code-button";
 var runButtonDisabledClass = "run-button-disabled";
@@ -37221,7 +37252,13 @@ var DEFAULT_SETTINGS = {
   groovyPath: "groovy",
   groovyArgs: "",
   groovyFileExtension: "groovy",
-  maxPrologAnswers: 15
+  golangPath: "go",
+  golangArgs: "run",
+  golangFileExtension: "go",
+  maxPrologAnswers: 15,
+  RPath: "Rscript",
+  RArgs: "",
+  REmbedPlots: true
 };
 var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
   onload() {
@@ -37233,7 +37270,7 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
         this.addRunButtons(element);
       });
       supportedLanguages.forEach((l) => {
-        console.log(`registering renderer for ${l}`);
+        console.debug(`Registering renderer for ${l}.`);
         this.registerMarkdownCodeBlockProcessor(`run-${l}`, (src, el, _ctx) => __async(this, null, function* () {
           yield import_obsidian2.MarkdownRenderer.renderMarkdown("```" + l + "\n" + src + "\n```", el, "", null);
         }));
@@ -37266,63 +37303,84 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
   }
   addRunButtons(element) {
     element.querySelectorAll("code").forEach((codeBlock) => {
+      const language = codeBlock.className.toLowerCase();
+      if (!language && !language.contains("language-"))
+        return;
       const pre = codeBlock.parentElement;
       const parent = pre.parentElement;
-      const language = codeBlock.className.toLowerCase();
       let srcCode = codeBlock.getText();
       const vars = this.getVaultVariables();
-      srcCode = insertVaultPath(srcCode, vars.vaultPath);
-      srcCode = insertNotePath(srcCode, vars.filePath);
-      srcCode = insertNoteTitle(srcCode, vars.fileName);
+      if (vars) {
+        srcCode = insertVaultPath(srcCode, vars.vaultPath);
+        srcCode = insertNotePath(srcCode, vars.filePath);
+        srcCode = insertNoteTitle(srcCode, vars.fileName);
+      } else {
+        console.warn(`Could not load all Vault variables! ${vars}`);
+      }
       if (supportedLanguages.some((lang) => language.contains(`language-${lang}`)) && !parent.classList.contains(hasButtonClass)) {
         parent.classList.add(hasButtonClass);
         const button = this.createRunButton();
         pre.appendChild(button);
         const out = new Outputter(codeBlock);
-        if (language.contains("language-js") || language.contains("language-javascript")) {
-          srcCode = addMagicToJS(srcCode);
-          button.addEventListener("click", () => {
-            button.className = runButtonDisabledClass;
-            this.runCode(srcCode, out, button, this.settings.nodePath, this.settings.nodeArgs, "js");
-          });
-        } else if (language.contains("language-python")) {
-          button.addEventListener("click", () => __async(this, null, function* () {
-            button.className = runButtonDisabledClass;
-            if (this.settings.pythonEmbedPlots)
-              srcCode = addInlinePlotsToPython(srcCode);
-            srcCode = addMagicToPython(srcCode);
-            this.runCode(srcCode, out, button, this.settings.pythonPath, this.settings.pythonArgs, "py");
-          }));
-        } else if (language.contains("language-shell") || language.contains("language-bash")) {
-          button.addEventListener("click", () => {
-            button.className = runButtonDisabledClass;
-            this.runCode(srcCode, out, button, this.settings.shellPath, this.settings.shellArgs, this.settings.shellFileExtension);
-          });
-        } else if (language.contains("language-cpp")) {
-          button.addEventListener("click", () => {
-            button.className = runButtonDisabledClass;
-            out.clear();
-            this.runCpp(srcCode, out);
-            button.className = runButtonClass;
-          });
-        } else if (language.contains("language-prolog")) {
-          button.addEventListener("click", () => {
-            button.className = runButtonDisabledClass;
-            out.clear();
-            const prologCode = srcCode.split(/\n+%+\s*query\n+/);
-            if (prologCode.length < 2)
-              return;
-            this.runPrologCode(prologCode, out);
-            button.className = runButtonClass;
-          });
-        } else if (language.contains("language-groovy")) {
-          button.addEventListener("click", () => {
-            button.className = runButtonDisabledClass;
-            this.runCode(srcCode, out, button, this.settings.groovyPath, this.settings.groovyArgs, this.settings.groovyFileExtension);
-          });
-        }
+        this.addListenerToButton(language, srcCode, button, out);
       }
     });
+  }
+  addListenerToButton(language, srcCode, button, out) {
+    if (language.contains("language-js") || language.contains("language-javascript")) {
+      srcCode = addMagicToJS(srcCode);
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCode(srcCode, out, button, this.settings.nodePath, this.settings.nodeArgs, "js");
+      });
+    } else if (language.contains("language-python")) {
+      button.addEventListener("click", () => __async(this, null, function* () {
+        button.className = runButtonDisabledClass;
+        if (this.settings.pythonEmbedPlots)
+          srcCode = addInlinePlotsToPython(srcCode);
+        srcCode = addMagicToPython(srcCode);
+        this.runCode(srcCode, out, button, this.settings.pythonPath, this.settings.pythonArgs, "py");
+      }));
+    } else if (language.contains("language-shell") || language.contains("language-bash")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCode(srcCode, out, button, this.settings.shellPath, this.settings.shellArgs, this.settings.shellFileExtension);
+      });
+    } else if (language.contains("language-cpp")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        out.clear();
+        this.runCpp(srcCode, out);
+        button.className = runButtonClass;
+      });
+    } else if (language.contains("language-prolog")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        out.clear();
+        const prologCode = srcCode.split(/\n+%+\s*query\n+/);
+        if (prologCode.length < 2)
+          return;
+        this.runPrologCode(prologCode, out);
+        button.className = runButtonClass;
+      });
+    } else if (language.contains("language-groovy")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runGroovyCode(srcCode, out, button);
+      });
+    } else if (language.contains("language-r")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        srcCode = addInlinePlotsToR(srcCode);
+        console.log(srcCode);
+        this.runCode(srcCode, out, button, this.settings.RPath, this.settings.RArgs, "R");
+      });
+    } else if (language.contains("language-go")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCode(srcCode, out, button, this.settings.golangPath, this.settings.golangArgs, this.settings.golangFileExtension);
+      });
+    }
   }
   getVaultVariables() {
     const activeView = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
@@ -37341,6 +37399,37 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       filePath
     };
   }
+  createRunButton() {
+    console.debug("Add run button");
+    const button = document.createElement("button");
+    button.classList.add(runButtonClass);
+    button.setText(buttonText);
+    return button;
+  }
+  getTempFile(ext) {
+    return `${os2.tmpdir()}/temp_${Date.now()}.${ext}`;
+  }
+  notifyError(cmd, cmdArgs, tempFileName, err, outputter) {
+    const errorMSG = `Error while executing ${cmd} ${cmdArgs} ${tempFileName}: ${err}`;
+    console.error(errorMSG);
+    outputter.writeErr(errorMSG);
+    new import_obsidian2.Notice("Error while executing code!");
+  }
+  runCode(codeBlockContent, outputter, button, cmd, cmdArgs, ext) {
+    new import_obsidian2.Notice("Running...");
+    const tempFileName = this.getTempFile(ext);
+    console.debug(`Execute ${cmd} ${cmdArgs} ${tempFileName}`);
+    fs.promises.writeFile(tempFileName, codeBlockContent).then(() => {
+      const args = cmdArgs ? cmdArgs.split(" ") : [];
+      args.push(tempFileName);
+      console.debug(`Execute ${cmd} ${args.join(" ")}`);
+      const child = child_process.spawn(cmd, args);
+      this.handleChildOutput(child, outputter, button, tempFileName);
+    }).catch((err) => {
+      this.notifyError(cmd, cmdArgs, tempFileName, err, outputter);
+      button.className = runButtonClass;
+    });
+  }
   runCpp(cppCode, out) {
     new import_obsidian2.Notice("Running...");
     const config = {
@@ -37351,36 +37440,21 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       maxTimeout: this.settings.timeout
     };
     const exitCode = JSCPP.run(cppCode, 0, config);
-    console.log("C++ exit code: " + exitCode);
     out.write("\nprogram stopped with exit code " + exitCode);
-    new import_obsidian2.Notice(exitCode === 0 ? "Done" : "Error");
+    new import_obsidian2.Notice(exitCode === 0 ? "Done!" : "Error!");
   }
-  createRunButton() {
-    console.log("Add run button");
-    const button = document.createElement("button");
-    button.classList.add(runButtonClass);
-    button.setText(buttonText);
-    return button;
-  }
-  getTempFile(ext) {
-    return `${os.tmpdir()}/temp_${Date.now()}.${ext}`;
-  }
-  runCode(codeBlockContent, outputter, button, cmd, cmdArgs, ext) {
+  runGroovyCode(codeBlockContent, outputter, button) {
     new import_obsidian2.Notice("Running...");
-    const tempFileName = this.getTempFile(ext);
-    console.log(`${tempFileName}`);
+    const tempFileName = this.getTempFile(this.settings.groovyFileExtension);
+    console.debug(`Execute ${this.settings.groovyPath} ${this.settings.groovyArgs} ${tempFileName}`);
     fs.promises.writeFile(tempFileName, codeBlockContent).then(() => {
-      console.log(`Execute ${this.settings.nodePath} ${tempFileName}`);
-      const args = cmdArgs ? cmdArgs.split(" ") : [];
+      const args = this.settings.groovyArgs ? this.settings.groovyArgs.split(" ") : [];
       args.push(tempFileName);
-      var opts = {};
-      if (ext === "groovy") {
-        opts = { shell: true };
-      }
-      const child = child_process.spawn(cmd, args, opts);
+      const child = child_process.spawn(this.settings.groovyPath, args, { shell: true });
       this.handleChildOutput(child, outputter, button, tempFileName);
     }).catch((err) => {
-      console.log("Error in 'Obsidian Execute Code' Plugin while executing: " + err);
+      this.notifyError(this.settings.groovyPath, this.settings.groovyArgs, tempFileName, err, outputter);
+      button.className = runButtonClass;
     });
   }
   runPrologCode(prologCode, out) {
@@ -37390,14 +37464,14 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       success: () => {
         session.query(prologCode[1], {
           success: (goal) => __async(this, null, function* () {
-            console.log(goal);
+            console.debug(`Prolog goal: ${goal}`);
             let answersLeft = true;
             let counter = 0;
             while (answersLeft && counter < this.settings.maxPrologAnswers) {
               yield session.answer({
                 success: function(answer) {
                   new import_obsidian2.Notice("Done!");
-                  console.log(session.format_answer(answer));
+                  console.debug(`Prolog result:${session.format_answer(answer)}`);
                   out.write(session.format_answer(answer) + "\n");
                 },
                 fail: function() {
@@ -37407,6 +37481,7 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
                   new import_obsidian2.Notice("Error!");
                   console.error(err);
                   answersLeft = false;
+                  out.writeErr(`Error while executing code: ${err}`);
                 },
                 limit: function() {
                   answersLeft = false;
@@ -37440,8 +37515,14 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       button.className = runButtonClass;
       new import_obsidian2.Notice(code === 0 ? "Done!" : "Error!");
       fs.promises.rm(fileName).catch((err) => {
-        console.log("Error in 'Obsidian Execute Code' Plugin while removing file: " + err);
+        console.error("Error in 'Obsidian Execute Code' Plugin while removing file: " + err);
+        button.className = runButtonClass;
       });
+    });
+    child.on("error", (err) => {
+      button.className = runButtonClass;
+      new import_obsidian2.Notice("Error!");
+      outputter.writeErr(err.toString());
     });
   }
 };
