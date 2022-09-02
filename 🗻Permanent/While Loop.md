@@ -5,8 +5,6 @@ tags: [school]
 ---
 # While Loop #⌛TBC 
 
-
-
 >[!note]
 >Loops complete until condition of while are met.
 
