@@ -37069,8 +37069,9 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
     })));
     containerEl.createEl("h3", { text: "JavaScript / Node Settings" });
     new import_obsidian.Setting(containerEl).setName("Node path").addText((text2) => text2.setValue(this.plugin.settings.nodePath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.nodePath = value;
-      console.log("Node path set to: " + value);
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.nodePath = sanitized;
+      console.log("Node path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
     new import_obsidian.Setting(containerEl).setName("Node arguments").addText((text2) => text2.setValue(this.plugin.settings.nodeArgs).onChange((value) => __async(this, null, function* () {
@@ -37078,16 +37079,28 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Node args set to: " + value);
       yield this.plugin.saveSettings();
     })));
-    containerEl.createEl("h3", { text: "Golang Settings" });
-    new import_obsidian.Setting(containerEl).setName("Golang Path").setDesc("The path to your Golang installation.").addText((text2) => text2.setValue(this.plugin.settings.golangPath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.golangPath = value;
-      console.log("Golang path set to: " + value);
+    containerEl.createEl("h3", { text: "Java Settings" });
+    new import_obsidian.Setting(containerEl).setName("Java path (Java 11 or higher)").setDesc("The path to your Java installation.").addText((text2) => text2.setValue(this.plugin.settings.javaPath).onChange((value) => __async(this, null, function* () {
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.javaPath = sanitized;
+      console.log("Java path set to: " + sanitized);
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian.Setting(containerEl).setName("Java arguments").addText((text2) => text2.setValue(this.plugin.settings.javaArgs).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.javaArgs = value;
+      console.log("Java args set to: " + value);
       yield this.plugin.saveSettings();
     })));
     containerEl.createEl("h3", { text: "Python Settings" });
+    new import_obsidian.Setting(containerEl).setName("Embed Python Plots").addToggle((toggle) => toggle.setValue(this.plugin.settings.pythonEmbedPlots).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.pythonEmbedPlots = value;
+      console.log(value ? "Embedding Plots into Notes." : "Not embedding Plots into Notes.");
+      yield this.plugin.saveSettings();
+    })));
     new import_obsidian.Setting(containerEl).setName("Python path").setDesc("The path to your Python installation.").addText((text2) => text2.setValue(this.plugin.settings.pythonPath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.pythonPath = value;
-      console.log("Python path set to: " + value);
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.pythonPath = sanitized;
+      console.log("Python path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
     new import_obsidian.Setting(containerEl).setName("Python arguments").addText((text2) => text2.setValue(this.plugin.settings.pythonArgs).onChange((value) => __async(this, null, function* () {
@@ -37095,15 +37108,25 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Python args set to: " + value);
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian.Setting(containerEl).setName("Embed Python Plots").addToggle((toggle) => toggle.setValue(this.plugin.settings.pythonEmbedPlots).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.pythonEmbedPlots = value;
-      console.log(value ? "Embedding Plots into Notes." : "Not embedding Plots into Notes.");
+    containerEl.createEl("h3", { text: "Golang Settings" });
+    new import_obsidian.Setting(containerEl).setName("Golang Path").setDesc("The path to your Golang installation.").addText((text2) => text2.setValue(this.plugin.settings.golangPath).onChange((value) => __async(this, null, function* () {
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.golangPath = sanitized;
+      console.log("Golang path set to: " + sanitized);
+      yield this.plugin.saveSettings();
+    })));
+    containerEl.createEl("h3", { text: "Rust Settings" });
+    new import_obsidian.Setting(containerEl).setName("Cargo Path").setDesc("The path to your Cargo installation.").addText((text2) => text2.setValue(this.plugin.settings.cargoPath).onChange((value) => __async(this, null, function* () {
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.cargoPath = sanitized;
+      console.log("Cargo path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
     containerEl.createEl("h3", { text: "Shell Settings" });
     new import_obsidian.Setting(containerEl).setName("Shell path").setDesc("The path to shell. Default is Bash but you can use any shell you want, e.g. bash, zsh, fish, ...").addText((text2) => text2.setValue(this.plugin.settings.shellPath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.shellPath = value;
-      console.log("Shell path set to: " + value);
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.shellPath = sanitized;
+      console.log("Shell path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
     new import_obsidian.Setting(containerEl).setName("Shell arguments").addText((text2) => text2.setValue(this.plugin.settings.shellArgs).onChange((value) => __async(this, null, function* () {
@@ -37116,6 +37139,23 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("Shell file extension set to: " + value);
       yield this.plugin.saveSettings();
     })));
+    containerEl.createEl("h3", { text: "Powershell Settings" });
+    new import_obsidian.Setting(containerEl).setName("Powershell path").setDesc("The path to Powershell.").addText((text2) => text2.setValue(this.plugin.settings.powershellPath).onChange((value) => __async(this, null, function* () {
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.powershellPath = sanitized;
+      console.log("Powershell path set to: " + sanitized);
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian.Setting(containerEl).setName("Shell arguments").addText((text2) => text2.setValue(this.plugin.settings.powershellArgs).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.powershellArgs = value;
+      console.log("Powershell args set to: " + value);
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian.Setting(containerEl).setName("Shell file extension").setDesc("Changes the file extension for generated shell scripts. This is useful if you want to use a shell other than bash.").addText((text2) => text2.setValue(this.plugin.settings.powershellFileExtension).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.powershellFileExtension = value;
+      console.log("Powershell file extension set to: " + value);
+      yield this.plugin.saveSettings();
+    })));
     containerEl.createEl("h3", { text: "Prolog Settings" });
     new import_obsidian.Setting(containerEl).setName("Prolog Answer Limit").setDesc("Maximal number of answers to be returned by the Prolog engine. This is to prevent creating too huge texts in the notebook.").addText((text2) => text2.setValue("" + this.plugin.settings.maxPrologAnswers).onChange((value) => __async(this, null, function* () {
       if (Number(value) * 1e3) {
@@ -37126,8 +37166,9 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
     })));
     containerEl.createEl("h3", { text: "Groovy Settings" });
     new import_obsidian.Setting(containerEl).setName("Groovy path").setDesc("The path to your Groovy installation.").addText((text2) => text2.setValue(this.plugin.settings.groovyPath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.groovyPath = value;
-      console.log("Groovy path set to: " + value);
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.groovyPath = sanitized;
+      console.log("Groovy path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
     new import_obsidian.Setting(containerEl).setName("Groovy arguments").addText((text2) => text2.setValue(this.plugin.settings.groovyArgs).onChange((value) => __async(this, null, function* () {
@@ -37136,9 +37177,15 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       yield this.plugin.saveSettings();
     })));
     containerEl.createEl("h3", { text: "R Settings" });
+    new import_obsidian.Setting(containerEl).setName("Embed R Plots created via `plot()` into Notes").addToggle((toggle) => toggle.setValue(this.plugin.settings.REmbedPlots).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.REmbedPlots = value;
+      console.log(value ? "Embedding R Plots into Notes." : "Not embedding R Plots into Notes.");
+      yield this.plugin.saveSettings();
+    })));
     new import_obsidian.Setting(containerEl).setName("R path").setDesc("The path to your R installation.").addText((text2) => text2.setValue(this.plugin.settings.RPath).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.RPath = value;
-      console.log("R path set to: " + value);
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.RPath = sanitized;
+      console.log("R path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
     new import_obsidian.Setting(containerEl).setName("R arguments").addText((text2) => text2.setValue(this.plugin.settings.RArgs).onChange((value) => __async(this, null, function* () {
@@ -37146,11 +37193,24 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       console.log("R args set to: " + value);
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian.Setting(containerEl).setName("Embed R Plots created via <code>plot()</code> into Notes").addToggle((toggle) => toggle.setValue(this.plugin.settings.REmbedPlots).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.REmbedPlots = value;
-      console.log(value ? "Embedding R Plots into Notes." : "Not embedding R Plots into Notes.");
+    containerEl.createEl("h3", { text: "Kotlin Settings" });
+    new import_obsidian.Setting(containerEl).setName("Kotlin path").setDesc("The path to your Kotlin installation.").addText((text2) => text2.setValue(this.plugin.settings.kotlinPath).onChange((value) => __async(this, null, function* () {
+      let sanitized = this.sanitizePath(value);
+      this.plugin.settings.kotlinPath = sanitized;
+      console.log("Kotlin path set to: " + sanitized);
       yield this.plugin.saveSettings();
     })));
+    new import_obsidian.Setting(containerEl).setName("Kotlin arguments").addText((text2) => text2.setValue(this.plugin.settings.kotlinArgs).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.kotlinArgs = value;
+      console.log("Kotlin args set to: " + value);
+      yield this.plugin.saveSettings();
+    })));
+  }
+  sanitizePath(path) {
+    path = path.replace(/\\/g, "/");
+    path.replace(/['"`]/, "");
+    path = path.trim();
+    return path;
   }
 };
 
@@ -37234,7 +37294,22 @@ function buildMagicShowImage(imagePath, width = "0", height = "0", alignment = "
 // main.ts
 var JSCPP = __toModule(require_commonjs());
 var prolog = __toModule(require_core());
-var supportedLanguages = ["js", "javascript", "python", "cpp", "prolog", "shell", "bash", "groovy", "r", "go"];
+var supportedLanguages = [
+  "js",
+  "javascript",
+  "python",
+  "cpp",
+  "prolog",
+  "shell",
+  "bash",
+  "groovy",
+  "r",
+  "go",
+  "rust",
+  "java",
+  "powershell",
+  "kotlin"
+];
 var buttonText = "Run";
 var runButtonClass = "run-code-button";
 var runButtonDisabledClass = "run-button-disabled";
@@ -37255,10 +37330,22 @@ var DEFAULT_SETTINGS = {
   golangPath: "go",
   golangArgs: "run",
   golangFileExtension: "go",
+  javaPath: "java",
+  javaArgs: "-ea",
+  javaFileExtension: "java",
   maxPrologAnswers: 15,
+  powershellPath: "powershell",
+  powershellArgs: "-file",
+  powershellFileExtension: "ps1",
+  cargoPath: "cargo",
+  cargoArgs: "run",
+  rustFileExtension: "rs",
   RPath: "Rscript",
   RArgs: "",
-  REmbedPlots: true
+  REmbedPlots: true,
+  kotlinPath: "kotlinc",
+  kotlinArgs: "-script",
+  kotlinFileExtension: "kts"
 };
 var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
   onload() {
@@ -37333,6 +37420,11 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
         button.className = runButtonDisabledClass;
         this.runCode(srcCode, out, button, this.settings.nodePath, this.settings.nodeArgs, "js");
       });
+    } else if (language.contains("java")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCode(srcCode, out, button, this.settings.javaPath, this.settings.javaArgs, this.settings.javaFileExtension);
+      });
     } else if (language.contains("language-python")) {
       button.addEventListener("click", () => __async(this, null, function* () {
         button.className = runButtonDisabledClass;
@@ -37345,6 +37437,11 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       button.addEventListener("click", () => {
         button.className = runButtonDisabledClass;
         this.runCode(srcCode, out, button, this.settings.shellPath, this.settings.shellArgs, this.settings.shellFileExtension);
+      });
+    } else if (language.contains("language-powershell")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCode(srcCode, out, button, this.settings.powershellPath, this.settings.powershellArgs, this.settings.powershellFileExtension);
       });
     } else if (language.contains("language-cpp")) {
       button.addEventListener("click", () => {
@@ -37366,7 +37463,12 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
     } else if (language.contains("language-groovy")) {
       button.addEventListener("click", () => {
         button.className = runButtonDisabledClass;
-        this.runGroovyCode(srcCode, out, button);
+        this.runCodeInShell(srcCode, out, button, this.settings.groovyPath, this.settings.groovyArgs, this.settings.groovyFileExtension);
+      });
+    } else if (language.contains("language-rust")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCode(srcCode, out, button, this.settings.cargoPath, this.settings.cargoArgs, this.settings.rustFileExtension);
       });
     } else if (language.contains("language-r")) {
       button.addEventListener("click", () => {
@@ -37379,6 +37481,11 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       button.addEventListener("click", () => {
         button.className = runButtonDisabledClass;
         this.runCode(srcCode, out, button, this.settings.golangPath, this.settings.golangArgs, this.settings.golangFileExtension);
+      });
+    } else if (language.contains("language-kotlin")) {
+      button.addEventListener("click", () => {
+        button.className = runButtonDisabledClass;
+        this.runCodeInShell(srcCode, out, button, this.settings.kotlinPath, this.settings.kotlinArgs, this.settings.kotlinFileExtension);
       });
     }
   }
@@ -37430,6 +37537,21 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
       button.className = runButtonClass;
     });
   }
+  runCodeInShell(codeBlockContent, outputter, button, cmd, cmdArgs, ext) {
+    new import_obsidian2.Notice("Running...");
+    const tempFileName = this.getTempFile(ext);
+    console.debug(`Execute ${cmd} ${cmdArgs} ${tempFileName}`);
+    fs.promises.writeFile(tempFileName, codeBlockContent).then(() => {
+      const args = cmdArgs ? cmdArgs.split(" ") : [];
+      args.push(tempFileName);
+      console.debug(`Execute ${cmd} ${args.join(" ")}`);
+      const child = child_process.spawn(cmd, args, { shell: true });
+      this.handleChildOutput(child, outputter, button, tempFileName);
+    }).catch((err) => {
+      this.notifyError(cmd, cmdArgs, tempFileName, err, outputter);
+      button.className = runButtonClass;
+    });
+  }
   runCpp(cppCode, out) {
     new import_obsidian2.Notice("Running...");
     const config = {
@@ -37442,20 +37564,6 @@ var ExecuteCodePlugin = class extends import_obsidian2.Plugin {
     const exitCode = JSCPP.run(cppCode, 0, config);
     out.write("\nprogram stopped with exit code " + exitCode);
     new import_obsidian2.Notice(exitCode === 0 ? "Done!" : "Error!");
-  }
-  runGroovyCode(codeBlockContent, outputter, button) {
-    new import_obsidian2.Notice("Running...");
-    const tempFileName = this.getTempFile(this.settings.groovyFileExtension);
-    console.debug(`Execute ${this.settings.groovyPath} ${this.settings.groovyArgs} ${tempFileName}`);
-    fs.promises.writeFile(tempFileName, codeBlockContent).then(() => {
-      const args = this.settings.groovyArgs ? this.settings.groovyArgs.split(" ") : [];
-      args.push(tempFileName);
-      const child = child_process.spawn(this.settings.groovyPath, args, { shell: true });
-      this.handleChildOutput(child, outputter, button, tempFileName);
-    }).catch((err) => {
-      this.notifyError(this.settings.groovyPath, this.settings.groovyArgs, tempFileName, err, outputter);
-      button.className = runButtonClass;
-    });
   }
   runPrologCode(prologCode, out) {
     new import_obsidian2.Notice("Running...");
