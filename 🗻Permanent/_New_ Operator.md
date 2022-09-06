@@ -5,7 +5,6 @@ tags: [school]
 ---
 # 'New' Operator
 
-
 > [!note]
 > Can be used to allocate a single variable/object or an array of variables/objects Returns a pointer to the data type allocated. Is used to dynamically allocate memory.
 

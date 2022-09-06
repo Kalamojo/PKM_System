@@ -11,8 +11,8 @@
   "weekly": {
     "format": "gggg [Week] ww",
     "template": "📦Templates/weekly_temp.md",
-    "folder": "💭Reflection/7️⃣Weekly Notes",
-    "enabled": false
+    "folder": "💭Reflection/7️⃣ Weekly Doist",
+    "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM",

@@ -1,10 +1,9 @@
 ---
-alias: [Delete]
+alias: [Delete, del]
 subject: Computer Science 2
 tags: [school]
 ---
 # 'Delete' Operator
-
 
 > [!note]
 > Used to free memory allocated with the 'new' operator. Is called on a pointer to dynamically allocated memory when it is no longer needed. Can delete a single variable/object or array.
