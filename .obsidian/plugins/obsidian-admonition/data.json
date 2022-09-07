@@ -47,6 +47,18 @@
       "title": "Essays",
       "injectColor": true,
       "noTitle": false
+    },
+    "method": {
+      "type": "method",
+      "color": "255, 182, 26",
+      "icon": {
+        "name": "hammer",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Methods",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": true,
