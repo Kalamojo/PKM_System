@@ -5,5 +5,4 @@ banner_x: 0.87448
 ---
 # Dashboard
 
-- Bruh sound effect
-- Less go, more stay
+Hello, there. My name is Kolade Alabi, and here is my Second brain.
