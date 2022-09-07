@@ -9,7 +9,6 @@ page(s): 110058–110058
 > [!abstract]
 > Abstract COVID-19 has now had a huge impact in the world, and more than 8 million people in more than 100 countries are infected. To contain its spread, a number of countries published control measures. However, itâs not known when the epidemic will end in global and various countries. Predicting the trend of COVID-19 is an extremely important challenge. We integrate the most updated COVID-19 epidemiological data before June 16, 2020 into the Logistic model to fit the cap of epidemic trend, and then feed the cap value into Fbprophet model, a machine learning based time series prediction model to derive the epidemic curve and predict the trend of the epidemic. Three significant points are summarized from our modeling results for global, Brazil, Russia, India, Peru and Indonesia. Under mathematical estimation, the global outbreak will peak in late October, with an estimated 14.12 million people infected cumulatively.
 
-
 # Annotations  
 (8/15/2022, 3:16:40 PM)
 

@@ -24,3 +24,5 @@
 > 
 > ![[Transfer Learning Visualizations 2022-09-06 18.28.42.excalidraw|600]]
 
+## References
+1. [[@axelkowald.etal_2022]]

@@ -34,7 +34,41 @@
   abstract = {Accurate transfer learning of clinical outcomes from one cellular context to another, between cell types, developmental stages, omics modalities or species, is considered tremendously useful. When transferring a prediction task from a source domain to a target domain, what counts is the high quality of the predictions in the target domain, requiring states or processes common to both the source and the target that can be learned by the predictor reflected by shared denominators. These may form a compendium of knowledge that is learned in the source to enable predictions in the target, usually with few, if any, labeled target training samples to learn from. Transductive transfer learning refers to the learning of the predictor in the source domain, transferring its outcome label calculations to the target domain, considering the same task. Inductive transfer learning considers cases where the target predictor is performing a different yet related task as compared with the source predictor. Often, there is also a need to first map the variables in the input/feature spaces and/or the variables in the output/outcome spaces. We here discuss and juxtapose various recently published transfer learning approaches, specifically designed (or at least adaptable) to predict clinical (human in vivo) outcomes based on preclinical (mostly animal-based) molecular data, towards finding the right tool for a given task, and paving the way for a comprehensive and systematic comparison of the suitability and accuracy of transfer learning of clinical outcomes.},
   pmcid = {9116218},
   annotation = {MAG ID: 4224316211 S2ID: 1fafdd303a3b3619e16e625db046a4dcce8cb68c},
-  file = {C\:\\Users\\nov18\\Zotero\\storage\\56AEN8PB\\Axel Kowald et al_2022_Transfer learning of clinical outcomes from preclinical molecular data,.pdf}
+  file = {C\:\\Users\\nov18\\Dropbox\\PC\\Downloads\\axelkowald.etal_2022 - Annotations (962022, 103640 PM).md;C\:\\Users\\nov18\\Zotero\\storage\\56AEN8PB\\Axel Kowald et al_2022_Transfer learning of clinical outcomes from preclinical molecular data,.pdf}
+}
+
+@article{brubaker.etal_2019,
+  title = {Computational {{Translation}} of {{Genomic Responses From Experimental Model Systems}} to {{Humans}}},
+  author = {Brubaker, Douglas K. and Proctor, Elizabeth A. and Haigis, Kevin M. and Lauffenburger, Douglas A.},
+  date = {2019-01-10},
+  journaltitle = {PLOS Computational Biology},
+  volume = {15},
+  number = {1},
+  eprint = {30629591},
+  eprinttype = {pmid},
+  doi = {10.1371/journal.pcbi.1006286},
+  abstract = {The high failure rate of therapeutics showing promise in mouse models to translate to patients is a pressing challenge in biomedical science. Though retrospective studies have examined the fidelity of mouse models to their respective human conditions, approaches for prospective translation of insights from mouse models to patients remain relatively unexplored. Here, we develop a semi-supervised learning approach for inference of disease-associated human differentially expressed genes and pathways from mouse model experiments. We examined 36 transcriptomic case studies where comparable phenotypes were available for mouse and human inflammatory diseases and assessed multiple computational approaches for inferring human biology from mouse datasets. We found that semi-supervised training of a neural network identified significantly more true human biological associations than interpreting mouse experiments directly. Evaluating the experimental design of mouse experiments where our model was most successful revealed principles of experimental design that may improve translational performance. Our study shows that when prospectively evaluating biological associations in mouse studies, semi-supervised learning approaches, combining mouse and human data for biological inference, provide the most accurate assessment of human in vivo disease processes. Finally, we proffer a delineation of four categories of model system-to-human “Translation Problems” defined by the resolution and coverage of the datasets available for molecular insight translation and suggest that the task of translating insights from model systems to human disease contexts may be better accomplished by a combination of translation-minded experimental design and computational approaches.},
+  pmcid = {6343937},
+  annotation = {MAG ID: 2909372163 S2ID: bc83644dbe87700685cad6c7fd8a65df15bbb145}
+}
+
+@article{cai.etal_2010,
+  title = {Is Human Blood a Good Surrogate for Brain Tissue in Transcriptional Studies?},
+  author = {Cai, Chaochao and Langfelder, Peter and Fuller, Tova F. and Oldham, Michael C. and Luo, Rui and van den Berg, Leonard H. and Ophoff, Roel A. and Horvath, Steve},
+  options = {useprefix=true},
+  date = {2010-10-20},
+  journaltitle = {BMC Genomics},
+  shortjournal = {BMC Genomics},
+  volume = {11},
+  number = {1},
+  pages = {589},
+  issn = {1471-2164},
+  doi = {10.1186/1471-2164-11-589},
+  url = {https://doi.org/10.1186/1471-2164-11-589},
+  urldate = {2022-09-06},
+  abstract = {Since human brain tissue is often unavailable for transcriptional profiling studies, blood expression data is frequently used as a substitute. The underlying hypothesis in such studies is that genes expressed in brain tissue leave a transcriptional footprint in blood. We tested this hypothesis by relating three human brain expression data sets (from cortex, cerebellum and caudate nucleus) to two large human blood expression data sets (comprised of 1463 individuals).},
+  keywords = {Brain Module,Caudate Nucleus,Module Membership,Module Preservation,Preserve Module},
+  file = {C\:\\Users\\nov18\\Zotero\\storage\\I4H5T5LF\\Cai et al_2010_Is human blood a good surrogate for brain tissue in transcriptional studies.pdf;C\:\\Users\\nov18\\Zotero\\storage\\TKQF2NP3\\1471-2164-11-589.html}
 }
 
 @article{domenicobenvenuto.etal_2022,
@@ -85,6 +119,34 @@
   annotation = {MAG ID: 3214788327 S2ID: f0ae96a7bd078ffbe3b8ef53f9707d72e85044e4}
 }
 
+@article{lotfollahi.etal_2020,
+  title = {Conditional Out-of-Distribution Generation for Unpaired Data Using Transfer {{VAE}}.},
+  author = {Lotfollahi, Mohammad and Naghipourfar, Mohsen and Theis, Fabian J. and Theis, Fabian J. and Wolf, F. Alexander},
+  date = {2020},
+  journaltitle = {Bioinformatics},
+  volume = {36},
+  eprint = {33381839},
+  eprinttype = {pmid},
+  doi = {10.1093/bioinformatics/btaa800},
+  abstract = {MOTIVATION While generative models have shown great success in sampling high-dimensional samples conditional on low-dimensional descriptors (stroke thickness in MNIST, hair color in CelebA, speaker identity in WaveNet), their generation out-of-distribution poses fundamental problems due to the difficulty of learning compact joint distribution across conditions. The canonical example of the conditional variational autoencoder (CVAE), for instance, does not explicitly relate conditions during training and, hence, has no explicit incentive of learning such a compact representation. RESULTS We overcome the limitation of the CVAE by matching distributions across conditions using maximum mean discrepancy in the decoder layer that follows the bottleneck. This introduces a strong regularization both for reconstructing samples within the same condition and for transforming samples across conditions, resulting in much improved generalization. As this amount to solving a style-transfer problem, we refer to the model as transfer VAE (trVAE). Benchmarking trVAE on high-dimensional image and single-cell RNA-seq, we demonstrate higher robustness and higher accuracy than existing approaches. We also show qualitatively improved predictions by tackling previously problematic minority classes and multiple conditions in the context of cellular perturbation response to treatment and disease based on high-dimensional single-cell gene expression data. For generic tasks, we improve Pearson correlations of high-dimensional estimated means and variances with their ground truths from 0.89 to 0.97 and 0.75 to 0.87, respectively. We further demonstrate that trVAE learns cell-type-specific responses after perturbation and improves the prediction of most cell-type-specific genes by 65\%. AVAILABILITY AND IMPLEMENTATION The trVAE implementation is available via github.com/theislab/trvae. The results of this article can be reproduced via github.com/theislab/trvae\_reproducibility.},
+  annotation = {MAG ID: 3117464799 S2ID: fc8bfaa15a5fb235520d0eba5c752875a7535cd6}
+}
+
+@article{mourragui.etal_2019,
+  title = {{{PRECISE}}: {{A}} Domain Adaptation Approach to Transfer Predictors of Drug Response from Pre-Clinical Models to Tumors},
+  author = {Mourragui, Soufiane and Loog, Marco and Loog, Marco and {Marcel J. T. Reinders} and Reinders, Marcel J. T. and Wessels, Lodewyk F. A.},
+  date = {2019-02-15},
+  journaltitle = {bioRxiv},
+  eprint = {31510654},
+  eprinttype = {pmid},
+  pages = {536797},
+  doi = {10.1101/536797},
+  abstract = {Motivation: Cell lines and patient-derived xenografts (PDX) have been used extensively to understand the molecular underpinnings of cancer. While core biological processes are typically conserved, these models also show important differences compared to human tumors, hampering the translation of findings from pre-clinical models to the human setting. In particular, employing drug response predictors generated on data derived from pre-clinical models to predict patient response, remains a challenging task. As very large drug response datasets have been collected for pre-clinical models, and patient drug response data is often lacking, there is an urgent need for methods that efficiently transfer drug response predictors from pre-clinical models to the human setting. Results: We show that cell lines and PDXs share common characteristics and processes with human tumors. We quantify this similarity and show that a regression model cannot simply be trained on cell lines or PDXs and then applied on tumors. We developed PRECISE, a novel methodology based on domain adaptation that captures the common information shared amongst pre-clinical models and human tumors in a consensus representation. Employing this representation, we train predictors of drug response on pre-clinical data and apply these predictors to stratify human tumors. We show that the resulting domain-invariant predictors show a small reduction in predictive performance in the pre-clinical domain but, importantly, reliably recover known associations between independent biomarkers and their companion drugs on human tumors.},
+  pmcid = {6612899},
+  annotation = {MAG ID: 2913611220 S2ID: 02a3f03af9b0fa05a786cb3a9e9f8f3a4e184bac},
+  file = {C\:\\Users\\nov18\\Zotero\\storage\\LQEJSRIH\\Mourragui et al_2019_PRECISE.pdf}
+}
+
 @article{ruder_2016,
   title = {An Overview of Gradient Descent Optimization Algorithms},
   author = {Ruder, Sebastian},
@@ -114,6 +176,19 @@
   doi = {10.1109/discover50404.2020.9278079},
   abstract = {Globally, Dengue is one of the most quickly spreading vector-borne viral sicknesses with an expanding number of territories in danger. Many researchers have worked on different measures to control and prevent the spread of disease. The main objective of the research is to develop a forecast model to control the outbreak of dengue disease that will give an opportunity for medical professionals in designing, planning and handling the disease at an early stage. Moreover, the improvement of the assortment of strategies for determining and predictive modeling utilizing measurable, numerical examination of machine learning was studied. There are mainly six issues need to be solved in determination of dengue disease, those are exploring data sources, analyzing data sources, techniques for data preparation, data representation, dengue forecasting models and evaluation approaches. A major limitation of the traditional methods is that these methods need large volumes of data for data processing, to improve the dynamic characteristics. From the review of existing methods, it can be clearly stated that the K-means clustering method with fuzzy based system has high accuracy and it significantly improves the analysis/prediction of dengue disease. The k-means clustering algorithm separates the dengue diseased patient records into k divisions. As the dengue dataset were fully clustered, k-means clustering method improves the analysis or prediction of dengue disease. Similarly, the fuzzy based system The input factors and changing over these informational factors into fuzzy membership functions will make a better decision making in predicting dengue forecasting model. Thus, the issues stated from comprehensive research provide a useful platform for public health research and epidemiology.},
   annotation = {MAG ID: 3116163045 S2ID: b18d791c6d3d588cdd7e3db8061ae417f5e71f1d}
+}
+
+@article{sharifi-noghabi.etal_2020,
+  title = {{{AITL}}: {{Adversarial Inductive Transfer Learning}} with Input and Output Space Adaptation for Pharmacogenomics},
+  author = {Sharifi-Noghabi, Hossein and Noghabi, Hossein Sharifi and Peng, Shuman and Zolotareva, Olga and Collins, Colin and Ester, Martin},
+  date = {2020-01-25},
+  journaltitle = {bioRxiv},
+  eprint = {32657371},
+  eprinttype = {pmid},
+  doi = {10.1101/2020.01.24.918953},
+  abstract = {Motivation: the goal of pharmacogenomics is to predict drug response in patients using their single- or multi-omics data. A major challenge is that clinical data (i.e. patients) with drug response outcome is very limited, creating a need for transfer learning to bridge the gap between large pre-clinical pharmacogenomics datasets (e.g. cancer cell lines), as a source domain, and clinical datasets as a target domain. Two major discrepancies exist between pre-clinical and clinical datasets: 1) in the input space, the gene expression data due to difference in the basic biology, and 2) in the output space, the different measures of the drug response. Therefore, training a computational model on cell lines and testing it on patients violates the i.i.d assumption that train and test data are from the same distribution.  Results: We propose Adversarial Inductive Transfer Learning (AITL), a deep neural network method for addressing discrepancies in input and output space between the pre-clinical and clinical datasets. AITL takes gene expression of patients and cell lines as the input, employs adversarial domain adaptation and multi-task learning to address these discrepancies, and predicts the drug response as the output. To the best of our knowledge, AITL is the first adversarial inductive transfer learning method to address both input and output discrepancies. Experimental results indicate that AITL outperforms state-of-the-art pharmacogenomics and transfer learning baselines and may guide precision oncology more accurately.},
+  pmcid = {7355265},
+  annotation = {MAG ID: 3002752511 S2ID: eebae70a6aebcc9bcd74e717fed5b655487f1245}
 }
 
 @article{sitaram.etal_2017,
