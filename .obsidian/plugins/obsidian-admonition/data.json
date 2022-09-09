@@ -59,6 +59,18 @@
       "title": "Methods",
       "injectColor": true,
       "noTitle": false
+    },
+    "options": {
+      "type": "options",
+      "color": "133, 122, 122",
+      "icon": {
+        "type": "obsidian",
+        "name": "Option"
+      },
+      "command": false,
+      "title": "Options",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": true,

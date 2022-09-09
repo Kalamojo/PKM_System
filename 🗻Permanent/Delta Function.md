@@ -1,5 +1,5 @@
 ---
-alias: [$\delta$]
+alias: [\delta]
 tags: [personal]
 ---
 # Delta Function
