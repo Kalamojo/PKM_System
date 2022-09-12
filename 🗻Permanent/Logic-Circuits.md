@@ -1,5 +1,5 @@
 ---
-alias: []
+alias: [Digital Logic]
 subject: Digital Systems Engineering
 tags: [school]
 ---
