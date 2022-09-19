@@ -8,7 +8,7 @@
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "insertAfterCompletion": true,
+  "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "showMatchStrategy": true,
   "showComplementAutomatically": true,
@@ -79,127 +79,23 @@
       "California": {
         "frontMatter": {
           "count": 3,
-          "lastUpdated": 1663594563792
+          "lastUpdated": 1663539314674
         }
       }
     },
-    "autoencoder": {
-      "autoencoder": {
-        "currentFile": {
+    "Texas": {
+      "Texas": {
+        "frontMatter": {
           "count": 2,
-          "lastUpdated": 1663551142397
+          "lastUpdated": 1663602242100
         }
       }
     },
-    "autoencoders": {
-      "autoencoders": {
-        "currentFile": {
+    "Austin": {
+      "Austin": {
+        "frontMatter": {
           "count": 1,
-          "lastUpdated": 1663551145505
-        }
-      }
-    },
-    "Autoencoders": {
-      "Autoencoders": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1663552216551
-        }
-      }
-    },
-    "Analysis": {
-      "Analysis": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663551321347
-        }
-      }
-    },
-    "Dimensionality": {
-      "Dimensionality": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663551363305
-        }
-      }
-    },
-    "representation": {
-      "representation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663551424821
-        }
-      }
-    },
-    "Decoder": {
-      "Decoder": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663551519589
-        }
-      }
-    },
-    "Encoder": {
-      "Encoder": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663551510089
-        }
-      }
-    },
-    "Training": {
-      "Training": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663552162568
-        }
-      }
-    },
-    "Representation Learning": {
-      "Representation Learning": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663552347630
-        }
-      }
-    },
-    "Difference": {
-      "Difference": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1663553453221
-        }
-      }
-    },
-    "between": {
-      "between": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663553463731
-        }
-      }
-    },
-    "Gaussian Process": {
-      "Gaussian Process": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663553484385
-        }
-      }
-    },
-    "Gaussian Density Function": {
-      "Gaussian Density Function": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663553508244
-        }
-      }
-    },
-    "Standard Normal Distribution": {
-      "Standard Normal Distribution": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663553522232
+          "lastUpdated": 1663602239703
         }
       }
     }
