@@ -3,8 +3,6 @@ alias: []
 tags: academic
 type: note
 ---
-
-
 # <% tp.file.title %>
 
 > [!summary] 

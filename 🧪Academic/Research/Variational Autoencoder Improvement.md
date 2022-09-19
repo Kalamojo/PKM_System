@@ -3,8 +3,6 @@ alias: []
 tags: academic
 type: note
 ---
-
-
 # Variational Autoencoder Improvement
 
 From what I understand, variational autoencoders are simply weird autoencoders used for generating [[data]] rather than learning more about the original data.
