@@ -78,8 +78,8 @@
     "California": {
       "California": {
         "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1663610655688
+          "count": 7,
+          "lastUpdated": 1663625030538
         }
       }
     },
@@ -112,6 +112,30 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1663613996297
+        }
+      }
+    },
+    "Amazon": {
+      "Amazon": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1663620377468
+        }
+      }
+    },
+    "San Francisco": {
+      "San Francisco": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1663624214700
+        }
+      }
+    },
+    "Los Angeles": {
+      "Los Angeles": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1663625026644
         }
       }
     }
