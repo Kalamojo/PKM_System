@@ -8,7 +8,8 @@
 .database-plugin:before,
 .database-plugin:after {
   box-sizing: inherit;
-  overflow-x: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .database-plugin {
@@ -188,6 +189,12 @@ div.database-plugin__checkbox {
   display: inline;
 }
 
+.database-plugin__md_cell ul {
+  margin-block-start: unset !important;
+  margin-block-end: unset !important;
+  display: inline-table;
+}
+
 .database-plugin__markdown-preview-view {
   padding: 0;
   height: fit-content;
@@ -292,28 +299,21 @@ div.database-plugin__checkbox {
   color: var(--text-accent);
   padding: 0.5rem;
   align-items: center;
-  font-size: 0.875rem;
   cursor: pointer;
   bottom: 0;
-  z-index: 3;
   opacity: 0.8;
+  z-index: 3;
   position: sticky;
   left: 0;
   background-color: var(--background-primary);
+  margin-top: 0 !important;
+  margin-left: 0 !important;
 }
 
 .database-plugin__add-row .svg-icon:hover {
   background-color: var(--background-secondary);
   color: var(--text-accent-hover);
   padding: 0.3rem;
-}
-
-.database-plugin__add-row .database-plugin__td {
-  border: none;
-  background-color: transparent;
-  color: var(--text-muted);
-  display: inline-flex;
-  vertical-align: middle;
 }
 
 .database-plugin__th {
@@ -388,6 +388,7 @@ div.database-plugin__checkbox {
   border-bottom: 1px solid var(--background-modifier-border);
   display: table;
   height: 1px; /** Hack to prevent collapsing of table cells */
+  overflow: scroll;
 }
 
 .database-plugin__th:last-child {
@@ -414,15 +415,18 @@ div.database-plugin__checkbox {
 }
 
 .database-plugin__sticky-level-1 {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
   z-index: 2;
 }
+
 .database-plugin__sticky-level-2 {
+  position: -webkit-sticky;
   position: sticky;
   top: 4rem;
-  z-index: 2;
+  z-index: 3;
 }
 
 .database-plugin__table-header-group {
@@ -483,10 +487,22 @@ div.database-plugin__checkbox {
   gap: 0.3rem;
 }
 
-span.text-align-right {
+.database-plugin__text-align-right {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.database-plugin__text-align-center {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+.database-plugin__text-align-left {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .cell-padding {
@@ -760,7 +776,7 @@ span.text-align-right {
   font-size: 1rem;
   resize: none;
   box-sizing: border-box;
-  height: inherit;
+  height: 100%;
   width: inherit;
   align-self: center;
   top: 0;
@@ -1500,26 +1516,21 @@ span.text-align-right {
   cursor: pointer;
   background-color: transparent;
   border: 0;
+  box-shadow: none;
   outline: 0;
   padding: 0 6px 0 0;
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
   display: table-cell;
   vertical-align: middle;
 }
 
 .react-datepicker__close-icon::after {
   cursor: pointer;
-  background-color: #216ba5;
-  color: #fff;
+  background-color: var(--text-accent);
+  color: var(--text-primary);
   border-radius: 50%;
-  height: 16px;
-  width: 16px;
-  padding: 2px;
-  font-size: 12px;
-  line-height: 1;
   text-align: center;
   display: table-cell;
   vertical-align: middle;

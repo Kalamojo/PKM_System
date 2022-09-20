@@ -4,7 +4,6 @@ tags: [personal]
 ---
 # Batch Gradient Descent
 
-
 > [!note]
 > Gradient Descent is an Algorithm that minimizes the cost function. It essentially finds which model paramenters bring error to the lowest value possible.
 > Batch Gradient Descent, as opposed to other similar algorithms, uses all training examples during each step.
@@ -20,7 +19,7 @@ tags: [personal]
 > $\alpha =$ learning rate, or how large of a step should be taken
 > $J(...) =$ cost function of model with all parameters
 
-## Example
+````ad-example
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,7 +56,7 @@ def grad(theta):
         return grad(athena)
   
 print(grad(theta))
-```
+````
 
 ## References
 1. [[🗻Permanent/Loss Function|Cost Function]]

@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Model Evaluation
 
-
 1. [[Underfitting]]
 2. [[Overfitting]]
 3. [[Appropriate Fitting]]
@@ -14,4 +13,4 @@ tags: [school]
 6. [[🗻Permanent/Loss Function]]
 7. [[Ordinary Least Squares|OLS]]
 8. [[R-Squared]]
-9. 
+9. [[Batch Gradient Descent|Gradient Descent]]

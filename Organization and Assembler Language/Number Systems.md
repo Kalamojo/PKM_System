@@ -4,5 +4,6 @@ subject: Organization and Assembler Language
 tags: [school]
 ---
 # Number Systems
-#⌛TBC 
-1. 
+
+1. [[Binary]]
+2. [[Hexadecimal]]
