@@ -3,11 +3,13 @@ alias: []
 tags: [personal]
 ---
 # Sigmoid Function
-#⌛TBC 
-## Equation
-The equation for the Sigmoid Function is:
->## $$σ(z) = \frac{1}{1+e^{-z}}$$
+
+> [!equation]
+> $$σ(z) = \frac{1}{1+e^{-z}}$$
 
 With relation to the [[Sigmoid]] neuron output, here is its graph:
-![[Drawing 2021-11-15 12.04.26.excalidraw|600]]
+
+> [!example]
+> ![[Drawing 2021-11-15 12.04.26.excalidraw|600]]
+
 Its like the smoothed out version of the [[Step Function]]

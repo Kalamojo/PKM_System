@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Naive Bayesian
 
-
 >[!note]
 > #⌛TBC 
 
