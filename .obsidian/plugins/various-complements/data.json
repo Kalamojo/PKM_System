@@ -78,16 +78,16 @@
     "California": {
       "California": {
         "frontMatter": {
-          "count": 7,
-          "lastUpdated": 1663625030538
+          "count": 8,
+          "lastUpdated": 1663736647956
         }
       }
     },
     "Texas": {
       "Texas": {
         "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1663602242100
+          "count": 3,
+          "lastUpdated": 1663736096472
         }
       }
     },
@@ -200,6 +200,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1663681772367
+        }
+      }
+    },
+    "San Jose": {
+      "San Jose": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1663736645583
+        }
+      }
+    },
+    "Adobe": {
+      "Adobe": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1663736936741
+        }
+      }
+    },
+    "New York": {
+      "New York": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1663736954557
         }
       }
     }
