@@ -1,6 +1,6 @@
 ---
 tags: 💼job
-company: 
+company: <% tp.file.cursor(1) %>
 date-applied: <% tp.date.now() %>
 oa: 
 interview: 
