@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Logistic Regression
 
 > [!summary] 
