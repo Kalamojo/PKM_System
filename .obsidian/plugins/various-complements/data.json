@@ -258,6 +258,14 @@
           "lastUpdated": 1664147304649
         }
       }
+    },
+    "Hangman": {
+      "Hangman": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664158237232
+        }
+      }
     }
   }
 }
