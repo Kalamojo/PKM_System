@@ -147,10 +147,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "💭Reflection/7️⃣Weekly Notes/2022 Week 23.md",
-    "📎Attachments/✏️Excalidraw/ExcaliBrain Snapshot - 2022-May-30.excalidraw.md",
-    "tag:excalidraw",
-    "School/Computer Science 2/'New' Operator.md",
     "💭Reflection/☀️Daily Notes/2022-May-30.md",
     "School/Data Science Intro/Discrete Variable.md",
     "🧠Cerebrum/Data.md",
@@ -192,7 +188,16 @@
     "🧪Academic/Saved/Dataset.md",
     "🗻Permanent/Columns.md",
     "🧪Academic/Saved/Pre-Train.md",
-    "🗻Permanent/Karnaugh Maps.md"
+    "🗻Permanent/Karnaugh Maps.md",
+    "🧪Academic/Literature/@axelkowald.etal_2022.md",
+    "🗻Permanent/Standard Normal Distribution.md",
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+    "🧪Academic/Processed/Prediction of epidemic trends with logistic model and ML.md",
+    "🗻Permanent/Bool.md",
+    "📒Planner/💸 JCDA.md",
+    "🗻Permanent/Natural Numbers.md",
+    "README.md",
+    "🗻Permanent/Statistical Inference.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

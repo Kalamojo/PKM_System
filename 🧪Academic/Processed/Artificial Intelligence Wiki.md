@@ -2,7 +2,6 @@
 type: article
 tags: academic
 ---
-
 # Artificial Intelligence Wiki
 
 Artificial intelligence is the demonstration of intelligence by machines.

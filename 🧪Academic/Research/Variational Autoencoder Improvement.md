@@ -20,4 +20,4 @@ However, for Variational Autoencoders, simply recreating original data is not en
 ![[Variational Autoencoder Improvement 2022-09-18 21.14.07.excalidraw|700]]
 
 ## References
-1. 
+1. [[@lotfollahi.etal_2020]]

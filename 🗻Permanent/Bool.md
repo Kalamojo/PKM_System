@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Bool
 
-
 > [!note]
 > Data type used for storing binary values. Can be either true or false.
 

@@ -21,7 +21,7 @@
 > 
 > ![[Transfer Learning Visualizations 2022-09-06 17.33.47.excalidraw|600]]
 
-### Conditional Out-of-Distribution Transfer Learning Visualization
+### [[@lotfollahi.etal_2020|Conditional Out-of-Distribution Transfer Learning Visualization]]
 
 > [!example] 
 > *Transductive*
