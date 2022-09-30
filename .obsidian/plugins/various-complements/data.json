@@ -270,8 +270,8 @@
     "oa-review": {
       "oa-review": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1664217697809
+          "count": 2,
+          "lastUpdated": 1664506052759
         }
       }
     },
@@ -296,6 +296,22 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1664456999584
+        }
+      }
+    },
+    "2022-09-06": {
+      "2022-09-06": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1664506059527
+        }
+      }
+    },
+    "settled": {
+      "settled": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664508028620
         }
       }
     }
