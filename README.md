@@ -1,4 +1,3 @@
-
 ---
 banner: "![[Haxorus_Drip.png]]"
 banner_y: 0.234
