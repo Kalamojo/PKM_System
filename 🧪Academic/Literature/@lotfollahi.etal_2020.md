@@ -44,6 +44,8 @@ where the sums run over the number of samples $n_0$ and $n_1$ for $x$ and $x^\pr
 	$\hat{x} = g_2(\hat{y})$ (5c) 
 where we distinguished the first ($g1$) and the remaining layers ($g_2$)of the decoder $g = g_{2} \degree g_1$ (Fig. 1).” ([Lotfollahi et al., 2020, p. 611](zotero://select/library/items/KAV2IB38)) ([pdf](zotero://open-pdf/library/items/LMW786A8?page=2&annotation=2TA627DL))
 
+![[Pasted image 20221007091143.png]]
+
 “While $z$ formally depends on $s$, it is commonly empirically observed $Z \perp S$, that is, the representation $z$ is disentangled from the condition information s. By contrast, the original representation typically strongly covaries with $S\text{: } X \not\perp S$. The observation can be explained by admitting that an efficient z-representation, suitable for minimizing reconstruction and regularization losses, should be as free as possible from information about $s$.” ([Lotfollahi et al., 2020, p. 611](zotero://select/library/items/KAV2IB38)) ([pdf](zotero://open-pdf/library/items/LMW786A8?page=2&annotation=T3VFYCTH))
 
 “In the standard CVAE, without any regularization of this y representation, a highly varying, non-compact distribution emerges across different values of $s$ (Fig. 2). To compactify the distribution so that it displays only subtle, controlled differences, we impose MMD Equation 2 in the first layer of the decoder (Fig. 1).” ([Lotfollahi et al., 2020, p. 611](zotero://select/library/items/KAV2IB38)) ([pdf](zotero://open-pdf/library/items/LMW786A8?page=2&annotation=DWHXNQL7))
@@ -52,7 +54,7 @@ where we distinguished the first ($g1$) and the remaining layers ($g_2$)of the d
 
 “For training, we used all normal-stroke data. Hence, the training data covers all domains $(d \epsilon \{0,1,2,\ldots,9\})$ in the normal stroke condition $(s = 0)$. In the transformed conditions (thin and thick strokes, $s \epsilon \{1,2\}$), we only kept domains $(d \epsilon \{1,3,6,7\})$.” ([Lotfollahi et al., 2020, p. 613](zotero://select/library/items/KAV2IB38)) ([pdf](zotero://open-pdf/library/items/LMW786A8?page=4&annotation=NY3CEKQN))
 
-![[Pasted image 20220927215617.png]]
+![[Pasted image 20220927215617.png|center|500]]
 
 “We focus on the task of learning a transformation that turns a non-smiling face into a smiling face. We kept the smiling ($s$) and gender ($d$) attributes and trained the model with images from both smiling and non-smiling men but only with non-smiling women.” ([Lotfollahi et al., 2020, p. 613](zotero://select/library/items/KAV2IB38)) ([pdf](zotero://open-pdf/library/items/LMW786A8?page=4&annotation=QV2IRR8J))
 

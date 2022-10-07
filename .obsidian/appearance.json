@@ -4,7 +4,8 @@
   "enabledCssSnippets": [
     "TabsObsidian",
     "latex_big",
-    "banner_pos"
+    "banner_pos",
+    "centered"
   ],
   "translucency": false
 }

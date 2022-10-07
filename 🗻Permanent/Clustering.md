@@ -8,4 +8,6 @@ tags: [personal]
 To find patterns and create groups from unlabeled [[Data]].
 It essentially groups objects that are similar to each other
 ```
-![[cluster.png|500]]
+
+> [!example]
+> ![[cluster.png|center|500]]

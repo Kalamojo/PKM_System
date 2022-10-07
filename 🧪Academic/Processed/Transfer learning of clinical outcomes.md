@@ -34,7 +34,7 @@ type: note
 > [!method]
 > This is an unsupervised learning approach using an autoencoder. An autoencoder is an unsupervised neural network that takes an input, passes it through a bottleneck layer, and tries to recreate the input. The same approach is applied in this paper, except with a twist. The autoencoder receives an input but also paired with a condition (like smiling or not smiling). The data passes through the bottleneck layer like usual, but before the model tries to decode it, it needs a condition again. For training, the autoencoder is fed correct pairings for conditions (i.e smiling image + smiling condition -> smiling condition, frowning image + frowning condition -> frowning condition). For testing, however, the condition is switched for a set that has no data (i.e smiling image + smiling condition -> frowning condition). In this way, target data is automatically transferred to a source data representation. Similar to Semisupervised Transfer Learning.
 
-![[Transfer Learning Visualizations#Conditional Out-of-Distribution Transfer Learning Visualization]]
+![[Transfer Learning Visualizations#lotfollahi etal_2020 Conditional Out-of-Distribution Transfer Learning Visualization]]
 
 ## References
 1. [[@axelkowald.etal_2022]]

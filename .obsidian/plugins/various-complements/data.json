@@ -78,24 +78,24 @@
     "California": {
       "California": {
         "frontMatter": {
-          "count": 8,
-          "lastUpdated": 1663736647956
+          "count": 13,
+          "lastUpdated": 1664404037084
         }
       }
     },
     "Texas": {
       "Texas": {
         "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1664291716030
+          "count": 5,
+          "lastUpdated": 1664405802169
         }
       }
     },
     "Austin": {
       "Austin": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663602239703
+          "count": 2,
+          "lastUpdated": 1663908607814
         }
       }
     },
@@ -110,24 +110,24 @@
     "United States": {
       "United States": {
         "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1663953876403
+          "count": 1,
+          "lastUpdated": 1663613996297
         }
       }
     },
     "Amazon": {
       "Amazon": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663620377468
+          "count": 2,
+          "lastUpdated": 1664405150800
         }
       }
     },
     "San Francisco": {
       "San Francisco": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663624214700
+          "count": 3,
+          "lastUpdated": 1664402328745
         }
       }
     },
@@ -142,8 +142,8 @@
     "Variational Autoencoder Improvement": {
       "Variational Autoencoder Improvement": {
         "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663679790250
+          "count": 2,
+          "lastUpdated": 1665150825760
         }
       }
     },
@@ -206,8 +206,8 @@
     "San Jose": {
       "San Jose": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663736645583
+          "count": 2,
+          "lastUpdated": 1663962903521
         }
       }
     },
@@ -222,8 +222,8 @@
     "New York": {
       "New York": {
         "frontMatter": {
-          "count": 5,
-          "lastUpdated": 1664730745053
+          "count": 6,
+          "lastUpdated": 1664405166213
         }
       }
     },
@@ -254,136 +254,88 @@
     "rejected": {
       "rejected": {
         "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1664977530549
-        }
-      }
-    },
-    "Hangman": {
-      "Hangman": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664158237232
-        }
-      }
-    },
-    "oa-review": {
-      "oa-review": {
-        "frontMatter": {
           "count": 2,
-          "lastUpdated": 1664506052759
+          "lastUpdated": 1664403259227
         }
       }
     },
-    "oa-to-take": {
-      "oa-to-take": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1664217729731
-        }
-      }
-    },
-    "oa-pending": {
-      "oa-pending": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1664217803789
-        }
-      }
-    },
-    " Google CSSI": {
-      "💸 Google CSSI": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1664456999584
-        }
-      }
-    },
-    "2022-09-06": {
-      "2022-09-06": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1664506059527
-        }
-      }
-    },
-    "settled": {
-      "settled": {
+    "summary": {
+      "summary": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1664508028620
+          "lastUpdated": 1663960206014
         }
       }
     },
-    "Game Recommendation": {
-      "Game Recommendation": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1664509383060
-        }
-      }
-    },
-    "\\begin{pmatrix}": {
-      "\\begin{pmatrix}": {
+    "X^\\prime": {
+      "X^\\prime": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1664731662006
+          "lastUpdated": 1664332373690
         }
       }
     },
-    "\\end{pmatrix}": {
-      "\\end{pmatrix}": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664731664909
-        }
-      }
-    },
-    "\\text{": {
-      "\\text{": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1664733030785
-        }
-      }
-    },
-    "Fibbonachi": {
-      "Fibbonachi": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664732994410
-        }
-      }
-    },
-    "Sequence": {
-      "Sequence": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664732996201
-        }
-      }
-    },
-    "equivalent": {
-      "equivalent": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664733081718
-        }
-      }
-    },
-    "fibbonachi": {
-      "fibbonachi": {
+    "\\hat{z}": {
+      "\\hat{z}": {
         "currentFile": {
           "count": 3,
-          "lastUpdated": 1664742535915
+          "lastUpdated": 1664333168090
         }
       }
     },
-    "Function": {
-      "Function": {
+    "\\hat{y}": {
+      "\\hat{y}": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1664332558625
+        }
+      }
+    },
+    "\\hat{x}": {
+      "\\hat{x}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664332546226
+        }
+      }
+    },
+    "\\epsilon": {
+      "\\epsilon": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664333676953
+        }
+      }
+    },
+    "Cohere": {
+      "Cohere": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1664402926588
+        }
+      }
+    },
+    "Autoencoder": {
+      "Autoencoder": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1665151285023
+        }
+      }
+    },
+    "Dataset": {
+      "Dataset": {
         "internalLink": {
           "count": 1,
-          "lastUpdated": 1665106420056
+          "lastUpdated": 1665151452356
+        }
+      }
+    },
+    "Class": {
+      "Class": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1665153206176
         }
       }
     }

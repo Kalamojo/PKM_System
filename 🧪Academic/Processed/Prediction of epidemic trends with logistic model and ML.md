@@ -37,7 +37,7 @@ $$Q(t) = \frac{K}{1+a \times {\rm e}^{b t}}$$
 ---
 
 
-![[Pasted image 20220815161306.png|800]]
+![[Pasted image 20220815161306.png|center|800]]
 
 - <mark style="background: #D2B3FFA6;">Cummulative Cases</mark> 
 - <mark style="background: #BBFABBA6;">Cumulative Cures</mark>

@@ -13,11 +13,11 @@ Variational Autoencoders also train to be good at this process of encoding and d
 
 The process of [[🗻Permanent/Training|training]] Variational Autoencoders, however, is slightly different from standard Autoencoders. With Autoencoders, how encodings are represented isn't terribly important (in some cases). As long as the model successfully reduces data to a form that can be regenerated, the model is rewarded.
 
-![[Variational Autoencoder Improvement 2022-09-18 20.54.36.excalidraw|700]]
+![[Variational Autoencoder Improvement 2022-09-18 20.54.36.excalidraw|center|700]]
 
 However, for Variational Autoencoders, simply recreating original data is not enough. The encodings need to be generalizable to create new variations. Instead of  simply defining loss as the difference between $x$ and $x'$, loss also takes into account the [[difference]] between the encoding distribution and a [[Standard Normal Distribution|standard Gaussian]].
 
-![[Variational Autoencoder Improvement 2022-09-18 21.14.07.excalidraw|700]]
+![[Variational Autoencoder Improvement 2022-09-18 21.14.07.excalidraw|center|700]]
 
 ## References
 1. [[@lotfollahi.etal_2020]]
