@@ -38,7 +38,7 @@ where the sums run over the number of samples $n_0$ and $n_1$ for $x$ and $x^\pr
 
 ([Lotfollahi et al., 2020, p. 611](zotero://select/library/items/KAV2IB38)) A GAN (generative adversarial network) is a competition between two neural networks where one generates data from input data and the other verifies the outputs. However, there's a catch: generated data should have the same statistics to the original inputs while still appearing as "original" data. When one model succeeds in generation, the other model is penalized for not catching the fake outputs. This network environment encourages rapid learning in both networks.
 
-“High-dimensional observations x and a scalar or low-dimensional condition s are transformed using f (encoder, corresponding to distribution q/) and g (decoder, corresponding to distribution ph), which are parametrized by weight-sharing neural networks, and give rise to predictors $\hat{z}$,  $\hat{y}$ and $\hat{x}$: 
+“High-dimensional observations x and a scalar or low-dimensional condition s are transformed using $f$ (encoder, corresponding to distribution $q_\phi$) and $g$ (decoder, corresponding to distribution $p_\theta$), which are parametrized by weight-sharing neural networks, and give rise to predictors $\hat{z}$,  $\hat{y}$ and $\hat{x}$: 
 	$\hat{z} = f(x,s)$ (5a) 
 	$\hat{y} = g_1(\hat{z},s)$ (5b) 
 	$\hat{x} = g_2(\hat{y})$ (5c) 
