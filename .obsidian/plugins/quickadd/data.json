@@ -1,0 +1,34 @@
+{
+  "choices": [
+    {
+      "id": "603e92a4-59eb-4721-bb26-f00466183c5b",
+      "name": "📖Add New Book",
+      "type": "Template",
+      "command": true,
+      "templatePath": "📦Templates/Book_note",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "📖Bookshelf"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

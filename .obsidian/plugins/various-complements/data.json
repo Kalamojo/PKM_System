@@ -339,43 +339,11 @@
         }
       }
     },
-    "Generation": {
-      "Generation": {
+    "Cover": {
+      "Cover": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1665186940421
-        }
-      }
-    },
-    "Distribution": {
-      "Distribution": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665186989961
-        }
-      }
-    },
-    "conceptually": {
-      "conceptually": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665187531343
-        }
-      }
-    },
-    "trVAE": {
-      "trVAE": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665187620924
-        }
-      }
-    },
-    "p_\\theta": {
-      "p_\\theta": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665188344023
+          "lastUpdated": 1665339156574
         }
       }
     }
