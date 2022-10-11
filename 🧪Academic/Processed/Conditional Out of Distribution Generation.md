@@ -21,5 +21,10 @@ The model could be trained on dogs with brown fur. Then, it is trained on cats w
 
 While this makes sense conceptually, creating a model that can perform this OOD in practise can be difficult. Thankfully, the Transfer Variational Autoencoder (trVAE) was created to do just this.
 
+## Variational Autoencoder
+
+
+
+
 ## References
 1. 
