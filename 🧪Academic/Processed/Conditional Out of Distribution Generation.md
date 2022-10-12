@@ -23,8 +23,13 @@ While this makes sense conceptually, creating a model that can perform this OOD 
 
 ## Variational Autoencoder
 
+Variational Autoencoders are models that take inputs and try to reproduce them with variations. In the field of transfer learning, this usually means representating input data as data from a different [[Distribution|distribution]]. In other words, making data seem as if it comes from another domain.
 
+For example, one could take an input image of a woman not smiling and place it in a Variational Autoencoder. This model may then produce an altered image of that same woman smiling.
 
+Variational Autoencoders are also used to make minor modifications to data simply to anonymize data contributers. A dataset of the financial history of users, for example, could be changed in such a way that the identity of users remains undisclosed, yet general statistics about the data stay the same.
+
+In the context of this paper, Variational Autoencoders are used for that first purpose: to transfer the domain of data.
 
 ## References
-1. 
+1. [[@lotfollahi.etal_2020]]
