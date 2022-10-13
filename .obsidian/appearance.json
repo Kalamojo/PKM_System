@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 19,
+  "baseFontSize": 16,
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "TabsObsidian",
@@ -7,5 +7,6 @@
     "banner_pos",
     "centered"
   ],
-  "translucency": false
+  "translucency": false,
+  "accentColor": ""
 }
