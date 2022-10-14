@@ -11,8 +11,14 @@
             "id": "84dfb58aabd16281",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "💼 Technology Internship Program",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Technology Internship Program.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -31,63 +37,6 @@
               "type": "markdown",
               "state": {
                 "file": "📒Planner/⚓Applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53ee5b82b862d2ac",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Schrodinger_s cat",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Schrodinger_s cat.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Q-Learning",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Q-Learning.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Shallow Algorithms",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Shallow Algorithms.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Linked Lists",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Linked Lists.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "hwWRITTEN1",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/hwWRITTEN1.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Release Notes 1.0.0",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.0.0\"}}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚜️Fleeting/Project Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,46 +118,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "e896e00c627f11d4",
-            "type": "leaf",
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
-            }
           }
         ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "f39251b1bab0de38",
-    "type": "split",
-    "children": [
+      },
       {
-        "id": "c9c48c4b9c799049",
+        "id": "40a639c6b4eba5a3",
         "type": "tabs",
         "children": [
-          {
-            "id": "4da8221a4aae6856",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
           {
             "id": "2bd45406ed844f98",
             "type": "leaf",
@@ -255,6 +171,38 @@
                 "unlinkedCollapsed": true
               }
             }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f39251b1bab0de38",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9c48c4b9c799049",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4da8221a4aae6856",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           },
           {
             "id": "65fcc7e8f33343f4",
@@ -274,28 +222,44 @@
                 "file": "📒Planner/⚓Applications.md"
               }
             }
+          },
+          {
+            "id": "e896e00c627f11d4",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 330.8333435058594
+    "width": 300.5
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "84dfb58aabd16281",
+  "active": "4da8221a4aae6856",
   "lastOpenFiles": [
-    "⚜️Fleeting/Project Ideas.md",
+    "🗻Permanent/2-3 Variable Theorems.md",
     "📒Planner/⚓Applications.md",
+    "📒Planner/💼 Technology Internship Program.md",
+    "⚜️Fleeting/Project Ideas.md",
     "⚜️Fleeting/Schrodinger_s cat.md",
     "⚜️Fleeting/Q-Learning.md",
     "⚜️Fleeting/Shallow Algorithms.md",
     "⚜️Fleeting/Linked Lists.md",
     "⚜️Fleeting/hwWRITTEN1.md",
-    "📒Planner/💼 Software Engineer, Entry Level.md",
-    "📒Planner/💼 New Grad Software Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+    "📒Planner/💼 Software Engineer, Entry Level.md"
   ]
 }
