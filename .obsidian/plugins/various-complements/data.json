@@ -41,6 +41,10 @@
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
     "Data Science": {
@@ -254,8 +258,8 @@
     "rejected": {
       "rejected": {
         "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1665592581355
+          "count": 4,
+          "lastUpdated": 1665777658994
         }
       }
     },

@@ -14,10 +14,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "💼 Technology Internship Program",
+                  "title": "💼 Software Engineer (Adobe)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Technology Internship Program.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Software Engineer (Adobe).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":16}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -240,7 +240,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -249,17 +250,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4da8221a4aae6856",
+  "active": "84dfb58aabd16281",
   "lastOpenFiles": [
-    "🗻Permanent/2-3 Variable Theorems.md",
+    "📒Planner/💼 Software Engineer (Adobe).md",
     "📒Planner/⚓Applications.md",
+    "📒Planner/💼 Machine Learning Engineer University Graduate.md",
+    "🗻Permanent/2-3 Variable Theorems.md",
     "📒Planner/💼 Technology Internship Program.md",
     "⚜️Fleeting/Project Ideas.md",
     "⚜️Fleeting/Schrodinger_s cat.md",
     "⚜️Fleeting/Q-Learning.md",
     "⚜️Fleeting/Shallow Algorithms.md",
-    "⚜️Fleeting/Linked Lists.md",
-    "⚜️Fleeting/hwWRITTEN1.md",
-    "📒Planner/💼 Software Engineer, Entry Level.md"
+    "⚜️Fleeting/Linked Lists.md"
   ]
 }
