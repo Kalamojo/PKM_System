@@ -8,7 +8,6 @@
   "better-word-count",
   "obsidian42-brat",
   "obsidian-show-file-path",
-  "pane-relief",
   "tag-wrangler",
   "url-into-selection",
   "obsidian-admonition",
@@ -27,13 +26,12 @@
   "excalibrain",
   "obsidian-citation-plugin",
   "code-block-copy",
-  "file-tree-alternative",
   "obsidian-minimal-settings",
   "dbfolder",
   "obsidian-mind-map",
   "obsidian-advanced-slides",
-  "sliding-panes-obsidian",
   "various-complements",
   "obsidian-table-to-csv-exporter",
-  "quickadd"
+  "quickadd",
+  "pane-relief"
 ]

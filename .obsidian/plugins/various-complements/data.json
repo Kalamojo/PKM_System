@@ -462,6 +462,70 @@
           "lastUpdated": 1665592320758
         }
       }
+    },
+    "standalone": {
+      "standalone": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1665870920053
+        }
+      }
+    },
+    "series": {
+      "series": {
+        "frontMatter": {
+          "count": 6,
+          "lastUpdated": 1665871410796
+        }
+      }
+    },
+    "Twist": {
+      "Twist": {
+        "frontMatter": {
+          "count": 6,
+          "lastUpdated": 1665871065848
+        }
+      }
+    },
+    "Characters": {
+      "Characters": {
+        "frontMatter": {
+          "count": 5,
+          "lastUpdated": 1665870827050
+        }
+      }
+    },
+    "Powers": {
+      "Powers": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1665870429588
+        }
+      }
+    },
+    "World": {
+      "World": {
+        "frontMatter": {
+          "count": 3,
+          "lastUpdated": 1665871067920
+        }
+      }
+    },
+    "Villain": {
+      "Villain": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1665870489949
+        }
+      }
+    },
+    "Adventure": {
+      "Adventure": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1665871406379
+        }
+      }
     }
   }
 }

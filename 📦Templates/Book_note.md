@@ -2,7 +2,9 @@
 Alias:
 Author: ""
 Description: ""
-Status:
+Tier:
 Cover:
-Rating:
+Class:
+- 
+Type:
 ---

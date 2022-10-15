@@ -4,21 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf1695df5023e5b",
+        "id": "25fecb85a3c2fb24",
         "type": "tabs",
         "children": [
           {
-            "id": "24d71abfc4356cb3",
+            "id": "45aca2b07448402d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Push Function 2022-10-15 14.27.51.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"📎Attachments/✏️Excalidraw/Push Function 2022-10-15 14.27.51.excalidraw.md\"}}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -28,7 +22,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md",
+                "file": "Library.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,6 +41,7 @@
       {
         "id": "22340fda5b387ba7",
         "type": "tabs",
+        "dimension": 68.10598626104023,
         "children": [
           {
             "id": "babab924f3735a89",
@@ -116,6 +111,7 @@
       {
         "id": "40a639c6b4eba5a3",
         "type": "tabs",
+        "dimension": 31.894013738959764,
         "children": [
           {
             "id": "2bd45406ed844f98",
@@ -132,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md",
+                "file": "Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md",
+                "file": "Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -212,29 +207,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md"
+                "file": "Library.md"
               }
-            }
-          },
-          {
-            "id": "e896e00c627f11d4",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "file-tree-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -243,17 +221,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "24d71abfc4356cb3",
+  "active": "45aca2b07448402d",
   "lastOpenFiles": [
-    "📎Attachments/✏️Excalidraw/Push Function 2022-10-15 14.36.06.excalidraw.md",
-    "⚜️Fleeting/Push Function.md",
-    "📎Attachments/✏️Excalidraw/Push Function 2022-10-15 14.34.07.excalidraw.md",
-    "📎Attachments/✏️Excalidraw/Push Function 2022-10-15 14.27.51.excalidraw.md",
-    "📒Planner/⚓Applications.md",
-    "📒Planner/💼 Software Engineer (Adobe).md",
-    "📒Planner/💼 Machine Learning Engineer University Graduate.md",
-    "🗻Permanent/2-3 Variable Theorems.md",
-    "📒Planner/💼 Technology Internship Program.md",
-    "⚜️Fleeting/Project Ideas.md"
+    "📖Bookshelf/A World Without Heroes.md",
+    "📖Bookshelf/Adventurers Wanted.md",
+    "📖Bookshelf/Graceling.md",
+    "📖Bookshelf/I am Number 4.md",
+    "📖Bookshelf/Magnus Chase.md",
+    "📖Bookshelf/Nicholas Flamel Series.md",
+    "📖Bookshelf/Restart.md",
+    "📖Bookshelf/Scythe.md",
+    "📖Bookshelf/The Inheritance Cycle.md",
+    "📖Bookshelf/The Night Angel Trilogy.md"
   ]
 }
