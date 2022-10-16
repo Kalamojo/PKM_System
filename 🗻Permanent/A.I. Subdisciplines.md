@@ -5,7 +5,7 @@ tags: academic
 
 # A.I. Subdisciplines
 
-1. [[🧪Academic/Saved/Artificial Intelligence]]
+1. [[Artificial Intelligence]]
 2. Problem Solving
 3. [[General Intelligence]]
 4. [[Social Intelligence]]

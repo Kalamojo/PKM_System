@@ -4,4 +4,5 @@ tags: [personal]
 ---
 # Geostatistics
 
->"Modeling spacial aspects of the world on a large scale."
+> [!note]
+> "Modeling spacial aspects of the world on a large scale."

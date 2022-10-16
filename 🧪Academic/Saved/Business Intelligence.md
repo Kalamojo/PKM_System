@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Business Intelligence
 
 > [!summary] 

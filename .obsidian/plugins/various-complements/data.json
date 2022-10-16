@@ -566,6 +566,14 @@
           "lastUpdated": 1665948084166
         }
       }
+    },
+    "academic": {
+      "academic": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1665948902338
+        }
+      }
     }
   }
 }

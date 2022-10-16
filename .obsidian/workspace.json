@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25fecb85a3c2fb24",
+        "id": "8509e245da3e69a2",
         "type": "tabs",
         "children": [
           {
-            "id": "10fd49ce023c326d",
+            "id": "9512598441a91ded",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,53 +16,121 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Data Analysis",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Data Analysis.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
+                },
+                {
+                  "title": "Logistic Regression",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Logistic Regression.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Linear Regression",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Linear Regression.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "K-Means Clustering",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/K-Means Clustering.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0.8888888888888888}"
+                },
+                {
+                  "title": "Feature",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Feature.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Pre-Train",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Pre-Train.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0.35555555555555557}"
+                },
+                {
+                  "title": "Weights",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Weights.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":3},\"to\":{\"line\":13,\"ch\":3}},\"scroll\":0.5925925784640842}"
+                },
+                {
+                  "title": "Logistic Regression",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Logistic Regression.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Pre-Train",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Pre-Train.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0.35555555555555557}"
+                },
+                {
+                  "title": "Feature",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Feature.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0.5925925784640842}"
+                },
+                {
+                  "title": "Linear Regression",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Linear Regression.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}}}"
+                },
+                {
+                  "title": "Logistic Regression",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Logistic Regression.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Pre-Train",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Pre-Train.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0.35555555555555557}"
+                },
+                {
+                  "title": "Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Algorithm.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Machine Learning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Machine Learning.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":30},\"to\":{\"line\":12,\"ch\":30}},\"scroll\":0.05925926102532281}"
+                },
+                {
+                  "title": "Data Science",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Data Science.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":30},\"to\":{\"line\":12,\"ch\":30}},\"scroll\":0.05925926102532281}"
+                },
+                {
+                  "title": "A.I. Subdisciplines",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/A.I. Subdisciplines.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45aca2b07448402d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 1,
-              "stack": [
-                {
-                  "title": "Categorical Attributes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Categorical Attributes.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Library",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Library.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "🧪Academic/Saved/Business Intelligence.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -111,7 +179,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "algorithm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "🧪Academic/Saved/Business Intelligence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,19 +236,17 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "🧪Academic/Saved/Business Intelligence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -223,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+                "file": "🧪Academic/Saved/Business Intelligence.md"
               }
             }
           }
@@ -264,17 +330,16 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "45aca2b07448402d",
+  "active": "9512598441a91ded",
   "lastOpenFiles": [
-    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "🗻Permanent/Categorical Attributes.md",
-    "Library.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
-    "🗻Permanent/Variables.md",
-    "🧪Academic/Saved/Dataset.md",
-    "README.md",
-    "📖Bookshelf/A World Without Heroes.md"
+    "🗻Permanent/Data Analysis.md",
+    "🗻Permanent/Data Science.md",
+    "🗻Permanent/Data Analytics.md",
+    "🧪Academic/Saved/Logistic Regression.md",
+    "🧪Academic/Saved/Linear Regression.md",
+    "🗻Permanent/K-Means Clustering.md",
+    "🧪Academic/Saved/Feature.md",
+    "🧪Academic/Saved/Pre-Train.md",
+    "🧪Academic/Saved/Weights.md"
   ]
 }

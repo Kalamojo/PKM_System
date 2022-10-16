@@ -10,14 +10,14 @@ Involves pre-selecting a number of clusters and then partitioning points into th
 ```
 
 ```ad-info
-> 1. Centroids are placed in random areas (though pre-selecting can produce better results).
-> 2. Repeat these steps until no changes occur:
-> 	 1. Points closest to a given centroid are assigned to that centroid
-> 	 2. Centroids are positioned to the center (average) of their assigned points
+1. Centroids are placed in random areas (though pre-selecting can produce better results).
+2. Repeat these steps until no changes occur:
+	1. Centroids are positioned to the center (average) of their assigned points
+	2. Points closest to a given centroid are assigned to that centroid
 ```
 
 ```ad-example
-![A complete guide to K-means clustering algorithm - KDnuggets](https://cdn-images-1.medium.com/max/1600/0*GePJBQORYP8sLKRE)
+![A complete guide to K-means clustering algorithm - KDnuggets|center](https://cdn-images-1.medium.com/max/1600/0*GePJBQORYP8sLKRE)
 ```
 
 ```ad-math

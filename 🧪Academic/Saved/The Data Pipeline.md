@@ -7,4 +7,4 @@ tags: academic
 
 1. [[Data Ingestion]]
 2. [[Data Manipulation]]
-3. [[Analysis]]
+3. [[Data Analysis]]

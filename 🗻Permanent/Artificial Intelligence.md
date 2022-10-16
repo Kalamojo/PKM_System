@@ -1,6 +1,6 @@
 ---
 alias: [AI]
-tags: [personal]
+tags: [personal, academic]
 ---
 # Artificial Intelligence
 
@@ -13,3 +13,7 @@ There are various ways to acomplish this task, including Machine Learning and va
 The two main elements of Artificial intelligence are:
 > 1. Prediction - predictive modeling (from [[🗻Permanent/Data Science]])
 > 2. Execution- autonomous responce (from engineering)
+
+## References
+1. [[🧪Academic/Processed/What is AI, ML, DS]]
+2. [[🧪Academic/Processed/Artificial Intelligence Wiki]]

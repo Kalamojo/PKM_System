@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Feature
 
 > [!summary] 
@@ -10,4 +9,4 @@ tags: academic
 
 ## References
 1. [[🧪Academic/Processed/Algorithms-Intuition]]
-2. [[🧪Academic/Saved/Algorithm]]
+2. [[Algorithm]]

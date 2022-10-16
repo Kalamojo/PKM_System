@@ -10,4 +10,4 @@ tags: academic
 ## References
 1. [[🧪Academic/Processed/Algorithms-Intuition]]
 2. [[Machine Learning Model]]
-3. [[🧪Academic/Saved/Algorithm]]
+3. [[Algorithm]]

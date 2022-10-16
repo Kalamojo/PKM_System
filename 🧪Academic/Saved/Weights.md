@@ -11,5 +11,5 @@ tags: academic
 
 ## References
 1. [[🧪Academic/Saved/Feature]]
-2. [[🧪Academic/Saved/Algorithm]]
+2. [[Algorithm]]
 3. [[🧪Academic/Processed/Algorithms-Intuition]]

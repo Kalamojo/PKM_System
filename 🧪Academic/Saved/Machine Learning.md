@@ -10,4 +10,4 @@ tags: academic
 
 ## References
 1. [[🧪Academic/Processed/What is AI, ML, DS]]
-2. [[🧪Academic/Saved/Artificial Intelligence]]
+2. [[Artificial Intelligence]]
