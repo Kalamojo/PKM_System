@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "ad40f9b032a86279",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7d3a76f1e44deb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9253999aef127165",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "352eddaf40c8076d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cf561b1eb3c5b8c7",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "72e8e5f66fb2fabc",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "3690467c577e64c1",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "a09ee8d0160089fc",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Algorithms",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "0b1c25e553f4fda2",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "35ec9f3b7fa2d303",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7ea9c19ae9f1068c",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "6454a8dc6c8205a8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+          }
+        }
+      },
+      {
+        "id": "480e9997b947e170",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "73e748ee10bb9885",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "9253999aef127165",
+  "lastOpenFiles": [
+    "💭Reflection/Quotes/Book Quotes.md",
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "📒Planner/⚓Applications.md",
+    "Library.md",
+    "README.md",
+    "⚜️Fleeting/ADA.md",
+    "📒Planner/💼 New Grad Software Engineer.md",
+    "💭Reflection/Quotes/Movie Quotes.md",
+    "💭Reflection/Quotes/Youtube Quotes.md",
+    "💭Reflection/Quotes/Website Quotes.md"
+  ]
+}
