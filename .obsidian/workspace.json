@@ -8,16 +8,37 @@
         "type": "tabs",
         "children": [
           {
+            "id": "10fd49ce023c326d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "45aca2b07448402d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 1,
               "stack": [
                 {
-                  "title": "@lotfollahi.etal_2020",
+                  "title": "Categorical Attributes",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Literature/@lotfollahi.etal_2020.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":0},\"to\":{\"line\":45,\"ch\":0}},\"scroll\":30.395398378372192}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Categorical Attributes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -39,29 +60,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "10fd49ce023c326d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -178,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -266,13 +268,13 @@
   "lastOpenFiles": [
     "🧪Academic/Literature/@lotfollahi.etal_2020.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "🗻Permanent/Categorical Attributes.md",
     "Library.md",
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
+    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "🗻Permanent/Variables.md",
+    "🧪Academic/Saved/Dataset.md",
     "README.md",
-    "📖Bookshelf/A World Without Heroes.md",
-    "📖Bookshelf/Adventurers Wanted.md",
-    "📖Bookshelf/I am Number 4.md",
-    "📖Bookshelf/Graceling.md",
-    "📖Bookshelf/Magnus Chase.md",
-    "📖Bookshelf/Nicholas Flamel Series.md"
+    "📖Bookshelf/A World Without Heroes.md"
   ]
 }

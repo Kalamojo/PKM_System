@@ -33,7 +33,18 @@ In the context of this paper, Variational Autoencoders are used for that first p
 
 ## Conditional Variational Autoencoder
 
-The Conditional Variational Autoencoder is a model that can transfer data from one domain to another
+The Conditional Variational Autoencoder is a model that can transfer data from one domain to another using a [[Categorical Attributes|conditional variable]]. 
+The inputs are your original data $X$ along with a condition $s$. Then, after the inputs have been encoded, another condition $s$ (or the same condition) is supplied with the encoding to be decoded into the transfered data $X^\prime$.
+
+During training stages, the same conditions are used for both input steps, and the model learns to reproduce inputs given identical conditions. During the testing/transfer stage, the model is supplied a different second condition. If all went well, the model should produce data that closely resembeles data from that second condition.
+
+This model is effective for OOD (out of distribution) generation because it doesn't require training on a distribution to produce examples of it. By training on
+- type one with class one, then 
+- type two with class one, and finally 
+- type one with class two,
+ you can produce data with type two and class two.
+
+## Transfer Variational Autoencoder
 
 ## References
 1. [[@lotfollahi.etal_2020]]
