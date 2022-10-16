@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Business Intelligence",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Business Intelligence.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Data Analysis",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Data Analysis.md\",\"mode\":\"source\",\"source\":false}}",
@@ -124,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Saved/Business Intelligence.md",
+                "file": "⚜️Fleeting/Push Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Saved/Business Intelligence.md",
+                "file": "⚜️Fleeting/Push Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Saved/Business Intelligence.md",
+                "file": "⚜️Fleeting/Push Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -289,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Saved/Business Intelligence.md"
+                "file": "⚜️Fleeting/Push Function.md"
               }
             }
           }
@@ -332,6 +338,7 @@
   },
   "active": "9512598441a91ded",
   "lastOpenFiles": [
+    "🧪Academic/Saved/Business Intelligence.md",
     "🗻Permanent/Data Analysis.md",
     "🗻Permanent/Data Science.md",
     "🗻Permanent/Data Analytics.md",
