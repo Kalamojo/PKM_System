@@ -31,5 +31,9 @@ Variational Autoencoders are also used to make minor modifications to data simpl
 
 In the context of this paper, Variational Autoencoders are used for that first purpose: to transfer the domain of data.
 
+## Conditional Variational Autoencoder
+
+The Conditional Variational Autoencoder is a model that can transfer data from one domain to another
+
 ## References
 1. [[@lotfollahi.etal_2020]]

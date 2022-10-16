@@ -71,6 +71,18 @@
       "title": "Options",
       "injectColor": true,
       "noTitle": false
+    },
+    "resource": {
+      "type": "resource",
+      "color": "171, 247, 190",
+      "icon": {
+        "type": "rpg",
+        "name": "gold-bar"
+      },
+      "command": false,
+      "title": "Resource",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": true,
