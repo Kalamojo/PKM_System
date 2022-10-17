@@ -11,37 +11,19 @@
             "id": "9ba7c26d68fbf7be",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 5,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "School_note",
+                  "title": "weekly_temp",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📦Templates/School_note.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📦Templates/weekly_temp.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
                 },
                 {
-                  "title": "Personal_note",
+                  "title": "2022 Week 43",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📦Templates/Personal_note.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Linked Lists",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Linked Lists.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "Q-Learning",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Q-Learning.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "README",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":1.6176470588235294}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -180,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -227,7 +210,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0ec7a6290a2259cb",
@@ -266,15 +250,15 @@
   },
   "active": "9ba7c26d68fbf7be",
   "lastOpenFiles": [
+    "💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md",
+    "📦Templates/weekly_temp.md",
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "README.md",
     "⚜️Fleeting/Q-Learning.md",
     "🗻Permanent/Linked Lists.md",
     "📦Templates/Personal_note.md",
     "📦Templates/School_note.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-    "⚜️Fleeting/Push Function.md",
-    "🧪Academic/Saved/Business Intelligence.md",
-    "🗻Permanent/Data Analysis.md"
+    "⚜️Fleeting/Push Function.md"
   ]
 }
