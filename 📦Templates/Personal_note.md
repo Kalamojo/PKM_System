@@ -6,6 +6,3 @@ tags: [personal]
 
 > [!note]
 > 
-
-## References
-1. 

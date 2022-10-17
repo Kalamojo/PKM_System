@@ -4,133 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "8509e245da3e69a2",
+        "id": "8b4bf0d28e9adbd9",
         "type": "tabs",
         "children": [
           {
-            "id": "9512598441a91ded",
+            "id": "9ba7c26d68fbf7be",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 5,
               "stack": [
+                {
+                  "title": "School_note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📦Templates/School_note.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Personal_note",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📦Templates/Personal_note.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
+                },
+                {
+                  "title": "Linked Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Linked Lists.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Q-Learning",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Q-Learning.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":1.6176470588235294}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
                 },
                 {
-                  "title": "Business Intelligence",
+                  "title": "@lotfollahi.etal_2020",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Business Intelligence.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Data Analysis",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Data Analysis.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                },
-                {
-                  "title": "Logistic Regression",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Logistic Regression.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}}}"
-                },
-                {
-                  "title": "Linear Regression",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Linear Regression.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "K-Means Clustering",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/K-Means Clustering.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0.8888888888888888}"
-                },
-                {
-                  "title": "Feature",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Feature.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":3},\"to\":{\"line\":3,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "Pre-Train",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Pre-Train.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0.35555555555555557}"
-                },
-                {
-                  "title": "Weights",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Weights.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":3},\"to\":{\"line\":13,\"ch\":3}},\"scroll\":0.5925925784640842}"
-                },
-                {
-                  "title": "Logistic Regression",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Logistic Regression.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "Pre-Train",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Pre-Train.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0.35555555555555557}"
-                },
-                {
-                  "title": "Feature",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Feature.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0.5925925784640842}"
-                },
-                {
-                  "title": "Linear Regression",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Linear Regression.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":3},\"to\":{\"line\":11,\"ch\":3}}}"
-                },
-                {
-                  "title": "Logistic Regression",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Logistic Regression.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":3},\"to\":{\"line\":10,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "Pre-Train",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Pre-Train.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":0},\"to\":{\"line\":8,\"ch\":0}},\"scroll\":0.35555555555555557}"
-                },
-                {
-                  "title": "Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Algorithm.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "Machine Learning",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Machine Learning.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":30},\"to\":{\"line\":12,\"ch\":30}},\"scroll\":0.05925926102532281}"
-                },
-                {
-                  "title": "Data Science",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Saved/Data Science.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":30},\"to\":{\"line\":12,\"ch\":30}},\"scroll\":0.05925926102532281}"
-                },
-                {
-                  "title": "A.I. Subdisciplines",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/A.I. Subdisciplines.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Literature/@lotfollahi.etal_2020.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":50.20862319734361}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md",
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
                 "mode": "source",
                 "source": false
               }
@@ -216,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md",
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md",
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -295,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚜️Fleeting/Push Function.md"
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
               }
             }
           }
@@ -336,17 +264,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9512598441a91ded",
+  "active": "9ba7c26d68fbf7be",
   "lastOpenFiles": [
+    "README.md",
+    "⚜️Fleeting/Q-Learning.md",
+    "🗻Permanent/Linked Lists.md",
+    "📦Templates/Personal_note.md",
+    "📦Templates/School_note.md",
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+    "⚜️Fleeting/Push Function.md",
     "🧪Academic/Saved/Business Intelligence.md",
-    "🗻Permanent/Data Analysis.md",
-    "🗻Permanent/Data Science.md",
-    "🗻Permanent/Data Analytics.md",
-    "🧪Academic/Saved/Logistic Regression.md",
-    "🧪Academic/Saved/Linear Regression.md",
-    "🗻Permanent/K-Means Clustering.md",
-    "🧪Academic/Saved/Feature.md",
-    "🧪Academic/Saved/Pre-Train.md",
-    "🧪Academic/Saved/Weights.md"
+    "🗻Permanent/Data Analysis.md"
   ]
 }

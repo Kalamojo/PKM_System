@@ -6,3 +6,10 @@ banner_x: 0.87448
 # Dashboard
 
 Greetings. My name is Kolade Alabi, and here is my Second Brain.
+
+> [!todo]
+>  - Binary Tree
+>  - AVL Tree
+>  - Trie
+>  - Radix Sort
+>  - [[Binary Search]]
