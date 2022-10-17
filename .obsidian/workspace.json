@@ -11,23 +11,23 @@
             "id": "9ba7c26d68fbf7be",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 1,
               "stack": [
                 {
-                  "title": "weekly_temp",
+                  "title": "💼 Technology Internship Program",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📦Templates/weekly_temp.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}}}"
-                },
-                {
-                  "title": "2022 Week 43",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":0},\"to\":{\"line\":21,\"ch\":0}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Technology Internship Program.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":27},\"to\":{\"line\":7,\"ch\":27}}}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Conditional Out of Distribution Generation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Processed/Conditional Out of Distribution Generation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "@lotfollahi.etal_2020",
@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "📒Planner/⚓Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "📒Planner/⚓Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "📒Planner/⚓Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -206,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+                "file": "📒Planner/⚓Applications.md"
               }
             }
           }
@@ -250,15 +249,15 @@
   },
   "active": "9ba7c26d68fbf7be",
   "lastOpenFiles": [
+    "📒Planner/💼 Technology Internship Program.md",
+    "📒Planner/⚓Applications.md",
+    "📒Planner/💼 Software Development Engineer.md",
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md",
     "📦Templates/weekly_temp.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "README.md",
     "⚜️Fleeting/Q-Learning.md",
     "🗻Permanent/Linked Lists.md",
-    "📦Templates/Personal_note.md",
-    "📦Templates/School_note.md",
-    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-    "⚜️Fleeting/Push Function.md"
+    "📦Templates/Personal_note.md"
   ]
 }
