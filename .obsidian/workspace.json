@@ -14,10 +14,10 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "💼 Technology Internship Program",
+                  "title": "💼 Software Engineer Intern (Unity)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Technology Internship Program.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":27},\"to\":{\"line\":7,\"ch\":27}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Software Engineer Intern (Unity).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":16}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -249,15 +249,15 @@
   },
   "active": "9ba7c26d68fbf7be",
   "lastOpenFiles": [
-    "📒Planner/💼 Technology Internship Program.md",
+    "📒Planner/💼 Software Engineer Intern (Unity).md",
     "📒Planner/⚓Applications.md",
+    "📒Planner/💼 Technology Internship Program.md",
     "📒Planner/💼 Software Development Engineer.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md",
     "📦Templates/weekly_temp.md",
     "README.md",
     "⚜️Fleeting/Q-Learning.md",
-    "🗻Permanent/Linked Lists.md",
-    "📦Templates/Personal_note.md"
+    "🗻Permanent/Linked Lists.md"
   ]
 }
