@@ -14,14 +14,20 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "💼 Software Engineer Intern (Unity)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Software Engineer Intern (Unity).md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":16},\"to\":{\"line\":6,\"ch\":16}},\"scroll\":0}"
+                  "title": "Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw",
+                  "icon": "excalidraw-icon",
+                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"📎Attachments/✏️Excalidraw/Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw.md\"}}",
+                  "eState": "{}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "⚓Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Conditional Out of Distribution Generation",
@@ -40,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Applications.md",
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Applications.md",
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Applications.md",
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Applications.md"
+                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
               }
             }
           }
@@ -249,15 +255,15 @@
   },
   "active": "9ba7c26d68fbf7be",
   "lastOpenFiles": [
-    "📒Planner/💼 Software Engineer Intern (Unity).md",
+    "🗻Permanent/Visualization.md",
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "📎Attachments/✏️Excalidraw/Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw.md",
     "📒Planner/⚓Applications.md",
+    "📒Planner/💼 Software Engineer Intern (Unity).md",
     "📒Planner/💼 Technology Internship Program.md",
     "📒Planner/💼 Software Development Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md",
     "📦Templates/weekly_temp.md",
-    "README.md",
-    "⚜️Fleeting/Q-Learning.md",
-    "🗻Permanent/Linked Lists.md"
+    "README.md"
   ]
 }

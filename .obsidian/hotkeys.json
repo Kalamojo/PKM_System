@@ -23,14 +23,7 @@
       "key": "Delete"
     }
   ],
-  "obsidian-mind-map:app:markmap-preview": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
+  "obsidian-mind-map:app:markmap-preview": [],
   "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current": [
     {
       "modifiers": [
