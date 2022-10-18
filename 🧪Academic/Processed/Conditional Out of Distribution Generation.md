@@ -34,7 +34,13 @@ In the context of this paper, Variational Autoencoders are used for that first p
 ## Conditional Variational Autoencoder
 
 The Conditional Variational Autoencoder (CVAE) is a model that can transfer data from one domain to another using a [[Categorical Attributes|conditional variable]]. 
-The inputs are your original data $X$ along with a condition $s$. Then, after the inputs have been encoded, another condition $s$ (or the same condition) is supplied with the encoding to be decoded into the transfered data $X^\prime$.
+The inputs are your original data $x$ along with a condition $s_1$. Then, after the inputs have been encoded, another condition $s_2$ (or the same condition) is supplied with the encoding to be decoded into the transfered data $\hat{x}$.
+
+> [!math]
+> $\hat{z} = f(x, s_1)$
+> $\hat{x} = g(\hat{z}, s_2)$
+> - $\hat{z}$ = encoded (input with condition 1)
+> - $\hat{x}$ = decoded (encoding with condition 2)
 
 During training stages, the same conditions are used for both input steps, and the model learns to reproduce inputs given identical conditions. During the testing/transfer stage, the model is supplied a different second condition. If all went well, the model should produce data that closely resembeles data from that second condition.
 
@@ -44,7 +50,7 @@ This model is adequate for OOD (out of distribution) generation because it doesn
 - type one with class two,
  you can produce data with type two and class two.
 
-## Transfer Variational Autoencoder
+## Limitations of CVAE
 
 While the conditional variational autoencoder can successfully transfer data from one class to another, it faces a couple of limitations.
 One is that he model could only train with two different classes at once. For example, for faces, you could have smiling and non-smiling classes. However, you couldn't have smiling, non-smiling, and winking classes.
@@ -57,7 +63,28 @@ There is another, more impactful limitation. The model suffers from innacuracy d
 Ignoring the class, this model will still perform "well" because its inputs resemble the outputs. In this dynamic where the model isn't forced to use the classes, it simply will not.
 The model isn't incentivised to use the classes to combine with the encodings and change the outputs. By extension, encodings aren't incentivised be affected by classes because the decoding stage can simply select the correct features from the encoding.
 
-> Then go on to say how the trVAE combats this
+## Transfer Variational Autoencoder
+
+To address the limitations of the CVAE, the Transfer Variational Autoencoder was developed. It's key contribution is the introduction of a maximum mean discrepancy (MMD) layer right before decoding.
+What this MMD layer does is essentially "mix" the encoding with the second class. This makes it extremely difficult for the model to ignore the class, forcing it to encode the input in a way that prepares it to be mixed with the class once more.
+
+> [!math]
+> $\hat{z} = f(x,s_1)$
+> $\hat{y} = g_1(\hat{z},s_2)$
+> $\hat{x} = g_2(\hat{y})$
+> - $\hat{z}$ = encoded (input with condition 1)
+> - $\hat{y}$ = mmd regularization of (encoding with condition 2)
+> - $\hat{x}$ = decoded mmd regularization
+
+This MMD layer is a sort of safeguard agains lazy activity by the model. In the CVAE model, the encoder and decoder can get away with ignoring the classes and still produce decodings similar to original inputs.
+In the trVAE model, however, the decoder is forced to consider both the encoding and the second class. This thereby forces the encoder to create a more reasonable encoding: namely one that is void of all class-related information.
+
+![[Pasted image 20221007091143.png]]
+
+The reason why this is such a huge improvement from the CVAE is because encodings become primed and ready to be considered with classes. Smiling faces, encoded with the class smiling, become neutral faces. Black dogs, encoded with the class black, become dogs with no color.
+WIth these internal representations, it becomes much easier for the encoding to then be "transfered" to a new domain given a class.
+
+The trVAE also allows for training with multiple classes, addressing the second issue of the CVAE. It enables more robust and accurate transferring in OOD settings, and is a useful tool for transfer learning.
 
 ## References
 1. [[@lotfollahi.etal_2020]]

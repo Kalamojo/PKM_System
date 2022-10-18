@@ -11,13 +11,19 @@
             "id": "9ba7c26d68fbf7be",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 2,
               "stack": [
                 {
-                  "title": "Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw",
-                  "icon": "excalidraw-icon",
-                  "state": "{\"type\":\"excalidraw\",\"state\":{\"file\":\"📎Attachments/✏️Excalidraw/Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw.md\"}}",
-                  "eState": "{}"
+                  "title": "Transfer Learning Visualizations",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Research/Transfer Learning Visualizations.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":21.635026057488528}"
+                },
+                {
+                  "title": "Variational Autoencoder Improvement",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Research/Variational Autoencoder Improvement.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
@@ -47,6 +53,27 @@
               "type": "markdown",
               "state": {
                 "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fbaa1e57a83c59fe",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Literature/@lotfollahi.etal_2020.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -255,15 +283,15 @@
   },
   "active": "9ba7c26d68fbf7be",
   "lastOpenFiles": [
-    "🗻Permanent/Visualization.md",
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
+    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "🗻Permanent/Visualization.md",
     "📎Attachments/✏️Excalidraw/Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw.md",
     "📒Planner/⚓Applications.md",
     "📒Planner/💼 Software Engineer Intern (Unity).md",
     "📒Planner/💼 Technology Internship Program.md",
-    "📒Planner/💼 Software Development Engineer.md",
-    "💭Reflection/7️⃣ Weekly Doist/2022 Week 43.md",
-    "📦Templates/weekly_temp.md",
-    "README.md"
+    "📒Planner/💼 Software Development Engineer.md"
   ]
 }
