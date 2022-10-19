@@ -4,62 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b4bf0d28e9adbd9",
+        "id": "39c3be965f550d04",
         "type": "tabs",
         "children": [
           {
-            "id": "9ba7c26d68fbf7be",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 2,
-              "stack": [
-                {
-                  "title": "Transfer Learning Visualizations",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Research/Transfer Learning Visualizations.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":21.635026057488528}"
-                },
-                {
-                  "title": "Variational Autoencoder Improvement",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Research/Variational Autoencoder Improvement.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "⚓Applications",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Applications.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Conditional Out of Distribution Generation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Processed/Conditional Out of Distribution Generation.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "@lotfollahi.etal_2020",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Literature/@lotfollahi.etal_2020.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":50.20862319734361}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbaa1e57a83c59fe",
+            "id": "69118c0dc2cb7177",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -67,13 +16,25 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "PDF",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/PDF.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Nothing Really Matters",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Nothing Really Matters.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+                "file": "⚜️Fleeting/Nothing Really Matters.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "⚜️Fleeting/Nothing Really Matters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "⚜️Fleeting/Nothing Really Matters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+                "file": "⚜️Fleeting/Nothing Really Matters.md"
               }
             }
           }
@@ -281,17 +242,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9ba7c26d68fbf7be",
+  "active": "69118c0dc2cb7177",
   "lastOpenFiles": [
+    "⚜️Fleeting/PDF.md",
+    "⚜️Fleeting/Nothing Really Matters.md",
+    "📎Attachments/🕸️WebApps/todoist.com.md",
     "🧪Academic/Literature/@lotfollahi.etal_2020.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
     "🗻Permanent/Visualization.md",
     "📎Attachments/✏️Excalidraw/Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw.md",
-    "📒Planner/⚓Applications.md",
-    "📒Planner/💼 Software Engineer Intern (Unity).md",
-    "📒Planner/💼 Technology Internship Program.md",
-    "📒Planner/💼 Software Development Engineer.md"
+    "📒Planner/⚓Applications.md"
   ]
 }
