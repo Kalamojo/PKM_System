@@ -54,30 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7ffd026a26a5ada2",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚽SWE Boards/fsdfsdf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -157,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚽SWE Boards/fsdfsdf.md",
+                "file": "⚽SWE Boards/KAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚽SWE Boards/fsdfsdf.md",
+                "file": "⚽SWE Boards/KAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚽SWE Boards/fsdfsdf.md"
+                "file": "⚽SWE Boards/KAN.md"
               }
             }
           }
@@ -278,8 +257,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7ffd026a26a5ada2",
+  "active": "f143b33dde2d07d9",
   "lastOpenFiles": [
+    "⚽SWE Boards/fsdfsdf.md",
     "⚽SWE Boards/KAN.md",
     "📒Planner/⚓Applications.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
@@ -288,7 +268,6 @@
     "⚜️Fleeting/Nothing Really Matters.md",
     "⚜️Fleeting/Matrix properties.md",
     "📒Planner/💸 Google CSSI.md",
-    "📒Planner/📝Essays/📝 Activism.md",
-    "📒Planner/📝Essays/📝 About You.md"
+    "📒Planner/📝Essays/📝 Activism.md"
   ]
 }
