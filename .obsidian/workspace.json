@@ -33,8 +33,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f143b33dde2d07d9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚽SWE Boards/KAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -114,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Applications.md",
+                "file": "⚽SWE Boards/KAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Applications.md",
+                "file": "⚽SWE Boards/KAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Applications.md"
+                "file": "⚽SWE Boards/KAN.md"
               }
             }
           }
@@ -235,8 +257,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "70f34fab1cbfdec8",
+  "active": "babab924f3735a89",
   "lastOpenFiles": [
+    "📒Planner/⚓Applications.md",
+    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "⚜️Fleeting/The Meaning of Life 2.md",
     "⚜️Fleeting/The Meaning of Life.md",
     "⚜️Fleeting/Nothing Really Matters.md",
@@ -244,8 +268,6 @@
     "📒Planner/💸 Google CSSI.md",
     "📒Planner/📝Essays/📝 Activism.md",
     "📒Planner/📝Essays/📝 About You.md",
-    "⚜️Fleeting/PDF.md",
-    "📎Attachments/🕸️WebApps/todoist.com.md",
-    "🧪Academic/Literature/@lotfollahi.etal_2020.md"
+    "⚜️Fleeting/PDF.md"
   ]
 }
