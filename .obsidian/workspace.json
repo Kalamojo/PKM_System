@@ -4,38 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "39c3be965f550d04",
+        "id": "f084f935a37b574d",
         "type": "tabs",
         "children": [
           {
-            "id": "70f34fab1cbfdec8",
+            "id": "42abc04bb18587e9",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
                 {
-                  "state": "{}",
+                  "title": "Bookaholics REST Canvas",
+                  "icon": "blocks",
+                  "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"⚽SWE Boards/Bookaholics REST Canvas.md\"}}",
                   "eState": "{}"
                 },
                 {
-                  "title": "The Meaning of Life 2",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/The Meaning of Life 2.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Applications.md",
+                "file": "⚽SWE Boards/Bookaholics User Stories.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f143b33dde2d07d9",
+            "id": "c99f8b4135373658",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -47,16 +47,13 @@
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "⚽SWE Boards/KAN.md",
-                "mode": "source",
-                "source": false
+                "file": "⚽SWE Boards/Bookaholics REST Canvas.md"
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -136,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚽SWE Boards/KAN.md",
+                "file": "⚽SWE Boards/Bookaholics User Stories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚽SWE Boards/KAN.md",
+                "file": "⚽SWE Boards/Bookaholics User Stories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚽SWE Boards/KAN.md"
+                "file": "⚽SWE Boards/Bookaholics User Stories.md"
               }
             }
           }
@@ -257,17 +254,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f143b33dde2d07d9",
+  "active": "42abc04bb18587e9",
   "lastOpenFiles": [
-    "⚽SWE Boards/fsdfsdf.md",
+    "⚽SWE Boards/Bookaholics REST Canvas.md",
+    "⚽SWE Boards/Bookaholics User Stories.md",
     "⚽SWE Boards/KAN.md",
+    "⚽SWE Boards/fsdfsdf.md",
     "📒Planner/⚓Applications.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "⚜️Fleeting/The Meaning of Life 2.md",
     "⚜️Fleeting/The Meaning of Life.md",
     "⚜️Fleeting/Nothing Really Matters.md",
-    "⚜️Fleeting/Matrix properties.md",
-    "📒Planner/💸 Google CSSI.md",
-    "📒Planner/📝Essays/📝 Activism.md"
+    "⚜️Fleeting/Matrix properties.md"
   ]
 }
