@@ -54,9 +54,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7ffd026a26a5ada2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚽SWE Boards/fsdfsdf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -136,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚽SWE Boards/KAN.md",
+                "file": "⚽SWE Boards/fsdfsdf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚽SWE Boards/KAN.md",
+                "file": "⚽SWE Boards/fsdfsdf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚽SWE Boards/KAN.md"
+                "file": "⚽SWE Boards/fsdfsdf.md"
               }
             }
           }
@@ -257,8 +278,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "babab924f3735a89",
+  "active": "7ffd026a26a5ada2",
   "lastOpenFiles": [
+    "⚽SWE Boards/KAN.md",
     "📒Planner/⚓Applications.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "⚜️Fleeting/The Meaning of Life 2.md",
@@ -267,7 +289,6 @@
     "⚜️Fleeting/Matrix properties.md",
     "📒Planner/💸 Google CSSI.md",
     "📒Planner/📝Essays/📝 Activism.md",
-    "📒Planner/📝Essays/📝 About You.md",
-    "⚜️Fleeting/PDF.md"
+    "📒Planner/📝Essays/📝 About You.md"
   ]
 }
