@@ -71,22 +71,6 @@
         }
       }
     },
-    "Spring 2023": {
-      "Spring 2023": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663612198903
-        }
-      }
-    },
-    "United States": {
-      "United States": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663613996297
-        }
-      }
-    },
     "Amazon": {
       "Amazon": {
         "frontMatter": {
@@ -103,75 +87,11 @@
         }
       }
     },
-    "Los Angeles": {
-      "Los Angeles": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663625026644
-        }
-      }
-    },
     "Variational Autoencoder Improvement": {
       "Variational Autoencoder Improvement": {
         "internalLink": {
           "count": 2,
           "lastUpdated": 1665150825760
-        }
-      }
-    },
-    "Horror": {
-      "Horror": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663680041875
-        }
-      }
-    },
-    "Anime": {
-      "Anime": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1663680048622
-        }
-      }
-    },
-    "Cartoon": {
-      "Cartoon": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663680051894
-        }
-      }
-    },
-    "hexadecimal": {
-      "hexadecimal": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663680839509
-        }
-      }
-    },
-    "Number Systems": {
-      "Number Systems": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663680846720
-        }
-      }
-    },
-    "powers": {
-      "powers": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663681761007
-        }
-      }
-    },
-    "Hexadecimal": {
-      "Hexadecimal": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663681772367
         }
       }
     },
@@ -730,8 +650,8 @@
     "himself": {
       "himself": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1666150529481
+          "count": 3,
+          "lastUpdated": 1666317033096
         }
       }
     },
@@ -748,6 +668,110 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1666150853471
+        }
+      }
+    },
+    "travelled": {
+      "travelled": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1666314318562
+        }
+      }
+    },
+    "Truth Table": {
+      "Truth Table": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1666314357668
+        }
+      }
+    },
+    "satisfied": {
+      "satisfied": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666314962714
+        }
+      }
+    },
+    "answer": {
+      "answer": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666315004786
+        }
+      }
+    },
+    "thought": {
+      "thought": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666315067191
+        }
+      }
+    },
+    "Meaning": {
+      "Meaning": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1666316511428
+        }
+      }
+    },
+    "relationship": {
+      "relationship": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666315986609
+        }
+      }
+    },
+    "meaning": {
+      "meaning": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1666317855189
+        }
+      }
+    },
+    "importance": {
+      "importance": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666316136723
+        }
+      }
+    },
+    "Encounter": {
+      "Encounter": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666316266858
+        }
+      }
+    },
+    "objects": {
+      "objects": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666316726970
+        }
+      }
+    },
+    "lesson": {
+      "lesson": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666317309874
+        }
+      }
+    },
+    "example": {
+      "example": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666317766752
         }
       }
     }

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69118c0dc2cb7177",
+            "id": "70f34fab1cbfdec8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,15 +18,9 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "PDF",
+                  "title": "The Meaning of Life 2",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/PDF.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Nothing Really Matters",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/Nothing Really Matters.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚜️Fleeting/The Meaning of Life 2.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
@@ -34,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚜️Fleeting/Nothing Really Matters.md",
+                "file": "📒Planner/⚓Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚜️Fleeting/Nothing Really Matters.md",
+                "file": "📒Planner/⚓Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚜️Fleeting/Nothing Really Matters.md",
+                "file": "📒Planner/⚓Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -200,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚜️Fleeting/Nothing Really Matters.md"
+                "file": "📒Planner/⚓Applications.md"
               }
             }
           }
@@ -242,17 +235,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "69118c0dc2cb7177",
+  "active": "70f34fab1cbfdec8",
   "lastOpenFiles": [
-    "⚜️Fleeting/PDF.md",
+    "⚜️Fleeting/The Meaning of Life 2.md",
+    "⚜️Fleeting/The Meaning of Life.md",
     "⚜️Fleeting/Nothing Really Matters.md",
+    "⚜️Fleeting/Matrix properties.md",
+    "📒Planner/💸 Google CSSI.md",
+    "📒Planner/📝Essays/📝 Activism.md",
+    "📒Planner/📝Essays/📝 About You.md",
+    "⚜️Fleeting/PDF.md",
     "📎Attachments/🕸️WebApps/todoist.com.md",
-    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
-    "🗻Permanent/Visualization.md",
-    "📎Attachments/✏️Excalidraw/Conditional Out of Distribution Generation 2022-10-17 18.12.15.excalidraw.md",
-    "📒Planner/⚓Applications.md"
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md"
   ]
 }
