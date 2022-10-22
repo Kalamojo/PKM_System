@@ -33,25 +33,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c99f8b4135373658",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "⚽SWE Boards/Bookaholics REST Canvas.md"
-              }
-            }
           }
         ],
         "stacked": true
@@ -169,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "f39251b1bab0de38",
