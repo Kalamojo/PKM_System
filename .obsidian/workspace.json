@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Bookaholics User Stories",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚽SWE Boards/Bookaholics User Stories.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "⚓Applications",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Applications.md\",\"mode\":\"source\",\"source\":false}}",
@@ -34,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚽SWE Boards/Bookaholics User Stories.md",
+                "file": "💭Reflection/Quotes/Youtube Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚽SWE Boards/Bookaholics User Stories.md",
+                "file": "💭Reflection/Quotes/Youtube Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚽SWE Boards/Bookaholics User Stories.md",
+                "file": "💭Reflection/Quotes/Youtube Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚽SWE Boards/Bookaholics User Stories.md"
+                "file": "💭Reflection/Quotes/Youtube Quotes.md"
               }
             }
           }
@@ -243,8 +249,8 @@
   },
   "active": "42abc04bb18587e9",
   "lastOpenFiles": [
-    "📒Planner/⚓Applications.md",
     "⚽SWE Boards/Bookaholics User Stories.md",
+    "📒Planner/⚓Applications.md",
     "⚽SWE Boards/Bookaholics REST Canvas.md",
     "⚽SWE Boards/KAN.md",
     "⚽SWE Boards/fsdfsdf.md",
