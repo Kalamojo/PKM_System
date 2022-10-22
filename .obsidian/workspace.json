@@ -8,7 +8,58 @@
         "type": "tabs",
         "children": [
           {
-            "id": "42abc04bb18587e9",
+            "id": "e223b3c241f4beb2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "⚗️ University of Toronto",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ University of Toronto.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":20},\"to\":{\"line\":18,\"ch\":20}}}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "⚗️ University of Toronto",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ University of Toronto.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":20},\"to\":{\"line\":16,\"ch\":20}}}"
+                },
+                {
+                  "title": "⚓Graduate Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Graduate Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "⚓Job Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":3},\"to\":{\"line\":0,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "⚓Graduate Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Graduate Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/⚓Graduate Applications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33e99b813f748a00",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,29 +69,17 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Bookaholics User Stories",
+                  "title": "⚗️ Cornell University",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚽SWE Boards/Bookaholics User Stories.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "⚓Applications",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Applications.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Bookaholics User Stories",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚽SWE Boards/Bookaholics User Stories.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ Cornell University.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":6},\"to\":{\"line\":12,\"ch\":6}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Youtube Quotes.md",
+                "file": "⚽SWE Boards/Bookaholics User Stories.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Quotes/Youtube Quotes.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Quotes/Youtube Quotes.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Quotes/Youtube Quotes.md"
+                "file": "📒Planner/⚓Graduate Applications.md"
               }
             }
           }
@@ -247,17 +286,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "42abc04bb18587e9",
+  "active": "e223b3c241f4beb2",
   "lastOpenFiles": [
     "⚽SWE Boards/Bookaholics User Stories.md",
-    "📒Planner/⚓Applications.md",
-    "⚽SWE Boards/Bookaholics REST Canvas.md",
-    "⚽SWE Boards/KAN.md",
-    "⚽SWE Boards/fsdfsdf.md",
-    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
-    "⚜️Fleeting/The Meaning of Life 2.md",
-    "⚜️Fleeting/The Meaning of Life.md",
-    "⚜️Fleeting/Nothing Really Matters.md",
-    "⚜️Fleeting/Matrix properties.md"
+    "📒Planner/⚗️ Cornell University.md",
+    "📒Planner/⚓Graduate Applications.md",
+    "📦Templates/💼 Job.md",
+    "📦Templates/⚗️ Masters.md",
+    "📒Planner/⚗️ University of Toronto.md",
+    "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Technology Internship Program.md",
+    "📦Templates/⚓Kanban.md",
+    "📒Planner/💼 Data Science Intern (LinkedIn).md"
   ]
 }

@@ -103,43 +103,11 @@
         }
       }
     },
-    "Adobe": {
-      "Adobe": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663736936741
-        }
-      }
-    },
     "New York": {
       "New York": {
         "frontMatter": {
-          "count": 6,
-          "lastUpdated": 1664405166213
-        }
-      }
-    },
-    "Washington": {
-      "Washington": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1663817861210
-        }
-      }
-    },
-    "Microsoft": {
-      "Microsoft": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1663817838102
-        }
-      }
-    },
-    "Redmond": {
-      "Redmond": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1663817859226
+          "count": 7,
+          "lastUpdated": 1666472013851
         }
       }
     },
@@ -772,6 +740,38 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1666317766752
+        }
+      }
+    },
+    "September 2023": {
+      "September 2023": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1666469665689
+        }
+      }
+    },
+    "application-started": {
+      "application-started": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666470266732
+        }
+      }
+    },
+    "Transcript": {
+      "Transcript": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666470839697
+        }
+      }
+    },
+    "2022-12-31": {
+      "2022-12-31": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1666471294251
         }
       }
     }
