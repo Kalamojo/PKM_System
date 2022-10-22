@@ -11,17 +11,23 @@
             "id": "42abc04bb18587e9",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Bookaholics REST Canvas",
-                  "icon": "blocks",
-                  "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"⚽SWE Boards/Bookaholics REST Canvas.md\"}}",
-                  "eState": "{}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "⚓Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Bookaholics User Stories",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"⚽SWE Boards/Bookaholics User Stories.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
@@ -150,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5,
-    "collapsed": true
+    "width": 286.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -238,11 +243,11 @@
   },
   "active": "42abc04bb18587e9",
   "lastOpenFiles": [
-    "⚽SWE Boards/Bookaholics REST Canvas.md",
+    "📒Planner/⚓Applications.md",
     "⚽SWE Boards/Bookaholics User Stories.md",
+    "⚽SWE Boards/Bookaholics REST Canvas.md",
     "⚽SWE Boards/KAN.md",
     "⚽SWE Boards/fsdfsdf.md",
-    "📒Planner/⚓Applications.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "⚜️Fleeting/The Meaning of Life 2.md",
     "⚜️Fleeting/The Meaning of Life.md",
