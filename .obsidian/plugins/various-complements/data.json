@@ -50,8 +50,8 @@
     "California": {
       "California": {
         "frontMatter": {
-          "count": 13,
-          "lastUpdated": 1664404037084
+          "count": 14,
+          "lastUpdated": 1666483898268
         }
       }
     },
@@ -788,6 +788,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1666479494024
+        }
+      }
+    },
+    "information": {
+      "information": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1666485210252
         }
       }
     }
