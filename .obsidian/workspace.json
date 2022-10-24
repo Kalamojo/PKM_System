@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2022 Week 44",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/7️⃣ Weekly Doist/2022 Week 44.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "⚗️ University of Toronto",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ University of Toronto.md\",\"mode\":\"source\",\"source\":false}}",
@@ -118,7 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 44.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -204,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 44.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 44.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +289,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 44.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -327,6 +333,7 @@
   },
   "active": "e223b3c241f4beb2",
   "lastOpenFiles": [
+    "💭Reflection/7️⃣ Weekly Doist/2022 Week 44.md",
     "📒Planner/⚗️ University of Toronto.md",
     "📒Planner/⚗️ Stanford University.md",
     "📒Planner/⚗️ Cornell University.md",
@@ -335,7 +342,6 @@
     "📒Planner/⚓Status.md",
     "📒Planner/💼 Computer Science Internship.md",
     "⚽SWE Boards/Bookaholics User Stories.md",
-    "📦Templates/💼 Job.md",
-    "📦Templates/⚗️ Masters.md"
+    "📦Templates/💼 Job.md"
   ]
 }
