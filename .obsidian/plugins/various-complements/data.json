@@ -63,14 +63,6 @@
         }
       }
     },
-    "Austin": {
-      "Austin": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1663908607814
-        }
-      }
-    },
     "Amazon": {
       "Amazon": {
         "frontMatter": {
@@ -95,14 +87,6 @@
         }
       }
     },
-    "San Jose": {
-      "San Jose": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1663962903521
-        }
-      }
-    },
     "New York": {
       "New York": {
         "frontMatter": {
@@ -116,14 +100,6 @@
         "frontMatter": {
           "count": 6,
           "lastUpdated": 1666033107532
-        }
-      }
-    },
-    "summary": {
-      "summary": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663960206014
         }
       }
     },
@@ -796,6 +772,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1666485210252
+        }
+      }
+    },
+    "interview": {
+      "interview": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1666727238411
+        }
+      }
+    },
+    "2022-09-30": {
+      "2022-09-30": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1666727241625
         }
       }
     }
