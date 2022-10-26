@@ -13,3 +13,7 @@ Greetings. My name is Kolade Alabi, and here is my Second Brain.
 >  - Trie
 >  - Radix Sort
 >  - [[Binary Search]]
+>  - Hash Table
+> 	 - Chained
+> 	 - Linear Probing
+> 	 - Quadratic Probing
