@@ -27,8 +27,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9a4b75847610d5f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -108,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Binary Trees.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Binary Trees.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Binary Trees.md"
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md"
               }
             }
           }
@@ -226,17 +248,17 @@
     "width": 292.5,
     "collapsed": true
   },
-  "active": "7bbecaf2b114139d",
+  "active": "c9a4b75847610d5f",
   "lastOpenFiles": [
+    "📒Planner/📝Essays/📝 Brain Dump.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+    "🗻Permanent/Binary Trees.md",
     "⚜️Fleeting/Q-Learning.md",
     "⚜️Fleeting/Python Snippet.md",
     "⚜️Fleeting/Push Function.md",
     "⚜️Fleeting/Project Ideas.md",
     "⚜️Fleeting/Programming in Unix~Linux Environment.md",
     "⚜️Fleeting/PDF.md",
-    "⚜️Fleeting/PCL Training Day 1.md",
-    "⚜️Fleeting/Organization of Programming Languages.md",
-    "⚜️Fleeting/Organization and Assembler Language.md",
-    "⚜️Fleeting/OOP in Python.md"
+    "⚜️Fleeting/PCL Training Day 1.md"
   ]
 }
