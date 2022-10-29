@@ -55,30 +55,6 @@
         }
       }
     },
-    "Texas": {
-      "Texas": {
-        "frontMatter": {
-          "count": 5,
-          "lastUpdated": 1664405802169
-        }
-      }
-    },
-    "Amazon": {
-      "Amazon": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1664405150800
-        }
-      }
-    },
-    "San Francisco": {
-      "San Francisco": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1664402328745
-        }
-      }
-    },
     "Variational Autoencoder Improvement": {
       "Variational Autoencoder Improvement": {
         "internalLink": {
@@ -103,51 +79,11 @@
         }
       }
     },
-    "X^\\prime": {
-      "X^\\prime": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664332373690
-        }
-      }
-    },
-    "\\hat{z}": {
-      "\\hat{z}": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1664333168090
-        }
-      }
-    },
-    "\\hat{y}": {
-      "\\hat{y}": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1664332558625
-        }
-      }
-    },
     "\\hat{x}": {
       "\\hat{x}": {
         "currentFile": {
           "count": 2,
           "lastUpdated": 1666062452168
-        }
-      }
-    },
-    "\\epsilon": {
-      "\\epsilon": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664333676953
-        }
-      }
-    },
-    "Cohere": {
-      "Cohere": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1664402926588
         }
       }
     },
@@ -754,8 +690,8 @@
     "Machine Learning": {
       "Machine Learning": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1666477759075
+          "count": 2,
+          "lastUpdated": 1667081542100
         }
       }
     },
