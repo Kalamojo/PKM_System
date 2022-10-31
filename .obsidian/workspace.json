@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "💼 Behavioral Prep",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Behavioral Prep.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":38},\"to\":{\"line\":11,\"ch\":38}},\"scroll\":0}"
+                },
+                {
+                  "title": "⚗️ Cornell University",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ Cornell University.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":28},\"to\":{\"line\":7,\"ch\":28}}}"
+                },
+                {
                   "title": "⚓Graduate Applications",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Graduate Applications.md\",\"mode\":\"source\",\"source\":false}}",
@@ -40,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚗️ Cornell University.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚗️ Cornell University.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚗️ Cornell University.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 200
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -205,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚗️ Cornell University.md"
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md"
               }
             }
           }
@@ -246,6 +258,8 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "📒Planner/💼 Behavioral Prep.md",
+    "📒Planner/⚗️ Cornell University.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/⚗️ Stanford University.md",
     "📒Planner/🏫 Carnegie Mellon.md",
@@ -253,8 +267,6 @@
     "📒Planner/⚓Job Applications.md",
     "📒Planner/💼 Labs Data Scientist Associate.md",
     "📒Planner/💼 Machine Learning Engineer University Graduate.md",
-    "📒Planner/💼 Software Engineer (Pinterest).md",
-    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
-    "📒Planner/📝Essays/📝 Brain Dump.md"
+    "📒Planner/💼 Software Engineer (Pinterest).md"
   ]
 }
