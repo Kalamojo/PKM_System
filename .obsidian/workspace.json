@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "⚓Graduate Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Graduate Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "💼 Behavioral Prep",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Behavioral Prep.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "2022 Week 45",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":15},\"to\":{\"line\":3,\"ch\":15}}}"
+                },
+                {
                   "title": "💼 Behavioral Prep",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Behavioral Prep.md\",\"mode\":\"source\",\"source\":false}}",
@@ -52,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -258,15 +276,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
-    "📒Planner/💼 Behavioral Prep.md",
-    "📒Planner/⚗️ Cornell University.md",
+    "📒Planner/💼 MIT-IBM Watson AI Summer Intern.md",
+    "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Data scientist Intern.md",
     "📒Planner/⚓Graduate Applications.md",
+    "📒Planner/💼 Behavioral Prep.md",
+    "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
+    "📒Planner/⚗️ Cornell University.md",
     "📒Planner/⚗️ Stanford University.md",
     "📒Planner/🏫 Carnegie Mellon.md",
-    "📒Planner/⚗️ University of Toronto.md",
-    "📒Planner/⚓Job Applications.md",
-    "📒Planner/💼 Labs Data Scientist Associate.md",
-    "📒Planner/💼 Machine Learning Engineer University Graduate.md",
-    "📒Planner/💼 Software Engineer (Pinterest).md"
+    "📒Planner/⚗️ University of Toronto.md"
   ]
 }
