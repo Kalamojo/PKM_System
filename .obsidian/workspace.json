@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "⚓Job Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "⚓Graduate Applications",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Graduate Applications.md\",\"mode\":\"source\",\"source\":false}}",
@@ -70,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "📒Planner/⚓Graduate Applications.md"
               }
             }
           }
@@ -276,8 +288,8 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
-    "📒Planner/💼 Software Engineer, Entry Level.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Software Engineer, Entry Level.md",
     "📒Planner/💼 MIT-IBM Watson AI Summer Intern.md",
     "📒Planner/💼 Data scientist Intern.md",
     "📒Planner/⚓Graduate Applications.md",
