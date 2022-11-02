@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "⚓Graduate Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Graduate Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Graph view",
                   "icon": "lucide-git-fork",
                   "state": "{\"type\":\"graph\",\"state\":{}}",
@@ -82,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/💼 Behavioral Prep.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/💼 Behavioral Prep.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/💼 Behavioral Prep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +253,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "📒Planner/💼 Behavioral Prep.md"
               }
             }
           }
@@ -288,11 +294,11 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "📒Planner/⚓Graduate Applications.md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/💼 Software Engineer, Entry Level.md",
     "📒Planner/💼 MIT-IBM Watson AI Summer Intern.md",
     "📒Planner/💼 Data scientist Intern.md",
-    "📒Planner/⚓Graduate Applications.md",
     "📒Planner/💼 Behavioral Prep.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
     "📒Planner/⚗️ Cornell University.md",
