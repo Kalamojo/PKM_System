@@ -11,8 +11,14 @@
             "id": "7bbecaf2b114139d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "💼 Software Engineering (JPMorgan Chase)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Software Engineering (JPMorgan Chase).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":22},\"to\":{\"line\":6,\"ch\":22}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -95,7 +101,7 @@
               "type": "markdown",
               "state": {
                 "file": "📒Planner/⚓Job Applications.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -300,15 +306,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
-    "📒Planner/💼 Software Engineer (Datadog).md",
+    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Software Development Engineer.md",
+    "📒Planner/💼 Technology Internship Program.md",
+    "📒Planner/💼 Software Engineer (Datadog).md",
     "📒Planner/💼 Behavioral Prep.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/💼 Software Engineer, Entry Level.md",
     "📒Planner/💼 MIT-IBM Watson AI Summer Intern.md",
-    "📒Planner/💼 Data scientist Intern.md",
-    "💭Reflection/7️⃣ Weekly Doist/2022 Week 45.md",
-    "📒Planner/⚗️ Cornell University.md",
-    "📒Planner/⚗️ Stanford University.md"
+    "📒Planner/💼 Data scientist Intern.md"
   ]
 }
