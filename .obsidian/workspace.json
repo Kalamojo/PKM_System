@@ -24,6 +24,18 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
+                  "title": "Other Quotes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/Quotes/Other Quotes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "⚓Job Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "💼 Behavioral Prep",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Behavioral Prep.md\",\"mode\":\"source\",\"source\":false}}",
@@ -100,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +277,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md"
+                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md"
               }
             }
           }
@@ -307,14 +319,14 @@
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 New Grad Software Engineer.md",
+    "💭Reflection/Quotes/Other Quotes.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/💼 Software Development Engineer.md",
     "📒Planner/💼 Technology Internship Program.md",
     "📒Planner/💼 Software Engineer (Datadog).md",
     "📒Planner/💼 Behavioral Prep.md",
     "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/💼 Software Engineer, Entry Level.md",
-    "📒Planner/💼 MIT-IBM Watson AI Summer Intern.md",
-    "📒Planner/💼 Data scientist Intern.md"
+    "📒Planner/💼 Software Engineer, Entry Level.md"
   ]
 }
