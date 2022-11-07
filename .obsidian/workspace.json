@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "💼 Software Engineering (JPMorgan Chase)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Software Engineering (JPMorgan Chase).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":3},\"to\":{\"line\":9,\"ch\":3}}}"
+                },
+                {
                   "title": "⚓Job Applications",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
@@ -112,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -198,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +230,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -277,7 +283,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/💼 Software Engineering (JPMorgan Chase).md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -318,10 +324,10 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/💼 New Grad Software Engineer.md",
     "💭Reflection/Quotes/Other Quotes.md",
-    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/💼 Software Development Engineer.md",
     "📒Planner/💼 Technology Internship Program.md",
     "📒Planner/💼 Software Engineer (Datadog).md",
