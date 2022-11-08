@@ -55,14 +55,6 @@
         }
       }
     },
-    "Variational Autoencoder Improvement": {
-      "Variational Autoencoder Improvement": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665150825760
-        }
-      }
-    },
     "New York": {
       "New York": {
         "frontMatter": {
@@ -92,22 +84,6 @@
         "currentFile": {
           "count": 4,
           "lastUpdated": 1666062006462
-        }
-      }
-    },
-    "Dataset": {
-      "Dataset": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665151452356
-        }
-      }
-    },
-    "Class": {
-      "Class": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665153206176
         }
       }
     },
@@ -732,6 +708,22 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1667585530120
+        }
+      }
+    },
+    "hwWRITTEN2": {
+      "hwWRITTEN2": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1667921821266
+        }
+      }
+    },
+    "Refrences": {
+      "Refrences": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1667922430349
         }
       }
     }

@@ -147,7 +147,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "💭Reflection/☀️Daily Notes/2022-May-30.md",
     "School/Data Science Intro/Discrete Variable.md",
     "🧠Cerebrum/Data.md",
     "🗻Permanent/Tautology.md",
@@ -197,7 +196,8 @@
     "📒Planner/💸 JCDA.md",
     "🗻Permanent/Natural Numbers.md",
     "README.md",
-    "🗻Permanent/Statistical Inference.md"
+    "🗻Permanent/Statistical Inference.md",
+    "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

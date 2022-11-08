@@ -11,11 +11,23 @@
             "id": "7bbecaf2b114139d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Python",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Python.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "⚓Job Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "💼 Software Engineering (JPMorgan Chase)",
@@ -118,7 +130,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
                 "mode": "source",
                 "source": false
               }
@@ -204,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -283,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md"
               }
             }
           }
@@ -324,15 +336,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
-    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
+    "excalibrain.md",
+    "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
+    "🗻Permanent/Python.md",
+    "🗻Permanent/Graph Theory.md",
+    "🗻Permanent/Undirected Graph.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/💼 New Grad Software Engineer.md",
     "💭Reflection/Quotes/Other Quotes.md",
-    "📒Planner/💼 Software Development Engineer.md",
-    "📒Planner/💼 Technology Internship Program.md",
-    "📒Planner/💼 Software Engineer (Datadog).md",
-    "📒Planner/💼 Behavioral Prep.md",
-    "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/💼 Software Engineer, Entry Level.md"
+    "📒Planner/💼 Software Development Engineer.md"
   ]
 }
