@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Conditional Out of Distribution Generation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🧪Academic/Processed/Conditional Out of Distribution Generation.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "⚓Job Applications",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
@@ -136,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -222,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,7 +254,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +307,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -342,6 +348,7 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "📒Planner/⚓Job Applications.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
     "excalibrain.md",
@@ -350,7 +357,6 @@
     "🗻Permanent/Undirected Graph.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/💼 New Grad Software Engineer.md",
-    "💭Reflection/Quotes/Other Quotes.md",
-    "📒Planner/💼 Software Development Engineer.md"
+    "💭Reflection/Quotes/Other Quotes.md"
   ]
 }
