@@ -11,8 +11,14 @@
             "id": "7bbecaf2b114139d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "💼 Software Development Engineer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Software Development Engineer.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":9},\"to\":{\"line\":6,\"ch\":9}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
@@ -348,15 +354,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "📒Planner/💼 Software Development Engineer.md",
     "📒Planner/⚓Job Applications.md",
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
     "excalibrain.md",
     "🗻Permanent/Python.md",
     "🗻Permanent/Graph Theory.md",
     "🗻Permanent/Undirected Graph.md",
     "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
-    "📒Planner/💼 New Grad Software Engineer.md",
-    "💭Reflection/Quotes/Other Quotes.md"
+    "📒Planner/💼 New Grad Software Engineer.md"
   ]
 }
