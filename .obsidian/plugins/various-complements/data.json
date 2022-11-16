@@ -66,8 +66,8 @@
     "rejected": {
       "rejected": {
         "frontMatter": {
-          "count": 10,
-          "lastUpdated": 1667489842379
+          "count": 11,
+          "lastUpdated": 1668612772800
         }
       }
     },
@@ -87,70 +87,6 @@
         }
       }
     },
-    "Cover": {
-      "Cover": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665339156574
-        }
-      }
-    },
-    "Linked List": {
-      "Linked List": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665522425523
-        }
-      }
-    },
-    "Linked Lists": {
-      "Linked Lists": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665521052644
-        }
-      }
-    },
-    "Lists": {
-      "Lists": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665521063579
-        }
-      }
-    },
-    "attribute": {
-      "attribute": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665521267789
-        }
-      }
-    },
-    "Concept": {
-      "Concept": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1665522012157
-        }
-      }
-    },
-    "Node": {
-      "Node": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665522523613
-        }
-      }
-    },
-    "whenever": {
-      "whenever": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665523077259
-        }
-      }
-    },
     "However": {
       "However": {
         "currentFile": {
@@ -159,195 +95,11 @@
         }
       }
     },
-    "reproduce": {
-      "reproduce": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665591901461
-        }
-      }
-    },
-    "Representation Learning": {
-      "Representation Learning": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665591949609
-        }
-      }
-    },
-    "representation": {
-      "representation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665591988033
-        }
-      }
-    },
-    "Distribution": {
-      "Distribution": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665592014548
-        }
-      }
-    },
-    "Autoencoders": {
-      "Autoencoders": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665592276285
-        }
-      }
-    },
-    "Data Source": {
-      "Data Source": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665592320758
-        }
-      }
-    },
-    "standalone": {
-      "standalone": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1665870920053
-        }
-      }
-    },
-    "series": {
-      "series": {
-        "frontMatter": {
-          "count": 6,
-          "lastUpdated": 1665871410796
-        }
-      }
-    },
-    "Twist": {
-      "Twist": {
-        "frontMatter": {
-          "count": 6,
-          "lastUpdated": 1665871065848
-        }
-      }
-    },
-    "Characters": {
-      "Characters": {
-        "frontMatter": {
-          "count": 5,
-          "lastUpdated": 1665870827050
-        }
-      }
-    },
-    "Powers": {
-      "Powers": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1665870429588
-        }
-      }
-    },
-    "World": {
-      "World": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1665871067920
-        }
-      }
-    },
-    "Villain": {
-      "Villain": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1665870489949
-        }
-      }
-    },
-    "Adventure": {
-      "Adventure": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1665871406379
-        }
-      }
-    },
-    "Library": {
-      "Library": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665889396488
-        }
-      }
-    },
-    "Variables": {
-      "Variables": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1665947314590
-        }
-      }
-    },
-    "supplied": {
-      "supplied": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665947847731
-        }
-      }
-    },
-    "second": {
-      "second": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665947884039
-        }
-      }
-    },
-    "distribution": {
-      "distribution": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665948084166
-        }
-      }
-    },
-    "academic": {
-      "academic": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1665948902338
-        }
-      }
-    },
-    "conditional": {
-      "conditional": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665966696434
-        }
-      }
-    },
-    "conditions": {
-      "conditions": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665967966979
-        }
-      }
-    },
     "Trees": {
       "Trees": {
         "internalLink": {
           "count": 2,
           "lastUpdated": 1666812788840
-        }
-      }
-    },
-    "Binary Search": {
-      "Binary Search": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665968189677
         }
       }
     },
