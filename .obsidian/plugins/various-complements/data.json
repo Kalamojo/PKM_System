@@ -66,24 +66,8 @@
     "rejected": {
       "rejected": {
         "frontMatter": {
-          "count": 11,
-          "lastUpdated": 1668612772800
-        }
-      }
-    },
-    "\\hat{x}": {
-      "\\hat{x}": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1666062452168
-        }
-      }
-    },
-    "Autoencoder": {
-      "Autoencoder": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1666062006462
+          "count": 12,
+          "lastUpdated": 1668690398726
         }
       }
     },
@@ -100,94 +84,6 @@
         "internalLink": {
           "count": 2,
           "lastUpdated": 1666812788840
-        }
-      }
-    },
-    "smiling": {
-      "smiling": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666047663717
-        }
-      }
-    },
-    "non-smiling": {
-      "non-smiling": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666047666446
-        }
-      }
-    },
-    "adequate": {
-      "adequate": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666047788123
-        }
-      }
-    },
-    "autoencoder": {
-      "autoencoder": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666047966818
-        }
-      }
-    },
-    "incentivised": {
-      "incentivised": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666048064179
-        }
-      }
-    },
-    "Visualization": {
-      "Visualization": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666049260469
-        }
-      }
-    },
-    "trVAE": {
-      "trVAE": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666049316993
-        }
-      }
-    },
-    "essentially": {
-      "essentially": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666062708077
-        }
-      }
-    },
-    "Activities": {
-      "Activities": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1666062845781
-        }
-      }
-    },
-    "reasonable": {
-      "reasonable": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666062974210
-        }
-      }
-    },
-    "regularization": {
-      "regularization": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1666063314583
         }
       }
     },

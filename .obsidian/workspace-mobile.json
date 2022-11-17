@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9253999aef127165",
+            "id": "8d5c62c7d4385929",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-                "mode": "source",
+                "file": "📒Planner/⚓Job Applications.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+            "file": "📒Planner/⚓Job Applications.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+            "file": "📒Planner/⚓Job Applications.md"
           }
         }
       },
@@ -128,7 +128,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+            "file": "📒Planner/⚓Job Applications.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -137,20 +137,17 @@
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "9253999aef127165",
+  "active": "8d5c62c7d4385929",
   "lastOpenFiles": [
-    "💭Reflection/Quotes/Book Quotes.md",
+    "📒Planner/💼 Associate Software Engineer.md",
+    "📒Planner/⚓Job Applications.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
+    "💭Reflection/Quotes/Book Quotes.md",
     "📒Planner/⚓Applications.md",
     "Library.md",
     "README.md",
     "⚜️Fleeting/ADA.md",
     "📒Planner/💼 New Grad Software Engineer.md",
-    "💭Reflection/Quotes/Movie Quotes.md",
-    "💭Reflection/Quotes/Youtube Quotes.md",
-    "💭Reflection/Quotes/Website Quotes.md"
+    "💭Reflection/Quotes/Movie Quotes.md"
   ]
 }
