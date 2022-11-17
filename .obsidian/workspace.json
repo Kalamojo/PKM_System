@@ -11,11 +11,23 @@
             "id": "7bbecaf2b114139d",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "💼 Data Science & Analytics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Data Science & Analytics.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":4},\"to\":{\"line\":4,\"ch\":4}},\"scroll\":0}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "💼 Behavioral Prep",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💼 Behavioral Prep.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "⚓Job Applications",
@@ -148,7 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/💼 Behavioral Prep.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/💼 Behavioral Prep.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -260,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/💼 Behavioral Prep.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -313,7 +325,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/💼 Behavioral Prep.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -354,15 +366,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "📒Planner/💼 Data Science & Analytics.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Behavioral Prep.md",
     "📒Planner/💼 Software Engineer Intern (EA).md",
     "📒Planner/💼 Software Development Engineer.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
     "excalibrain.md",
     "🗻Permanent/Python.md",
-    "🗻Permanent/Graph Theory.md",
-    "🗻Permanent/Undirected Graph.md",
-    "📒Planner/💼 Software Engineering (JPMorgan Chase).md"
+    "🗻Permanent/Graph Theory.md"
   ]
 }
