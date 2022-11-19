@@ -17,5 +17,3 @@ Greetings. My name is Kolade Alabi, and here is my Second Brain.
 > 	 - Chained
 > 	 - Linear Probing
 > 	 - Quadratic Probing
-
-Aight
