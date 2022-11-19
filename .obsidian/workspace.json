@@ -16,13 +16,25 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Library",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Library.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "⚗️ Stanford University",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ Stanford University.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":17},\"to\":{\"line\":17,\"ch\":17}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚗️ Stanford University.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,6 +58,15 @@
           {
             "id": "babab924f3735a89",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -81,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚗️ Stanford University.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚗️ Stanford University.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚗️ Stanford University.md"
+                "file": "README.md"
               }
             }
           }
@@ -165,6 +186,8 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "Library.md",
+    "📒Planner/⚗️ Stanford University.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/💼 Technology Internship Program.md",
@@ -172,8 +195,6 @@
     "📒Planner/💼 Behavioral Prep.md",
     "📒Planner/💼 Software Engineer Intern (EA).md",
     "📒Planner/💼 Software Development Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
-    "excalibrain.md"
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
   ]
 }
