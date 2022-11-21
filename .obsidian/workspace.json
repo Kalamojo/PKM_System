@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "README",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
+                },
+                {
                   "title": "⚗️ Stanford University",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚗️ Stanford University.md\",\"mode\":\"source\",\"source\":false}}",
@@ -172,7 +178,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
                 "mode": "source",
                 "source": false
               }
@@ -258,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +290,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -337,7 +343,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md"
               }
             }
           }
@@ -378,6 +384,7 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "README.md",
     "📒Planner/⚗️ Stanford University.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/⚓Job Applications.md",
@@ -386,7 +393,6 @@
     "📒Planner/💼 Behavioral Prep.md",
     "📒Planner/💼 Software Engineer Intern (EA).md",
     "📒Planner/💼 Software Development Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md"
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
   ]
 }
