@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "2022 Week 48",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "README",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"README.md\",\"mode\":\"source\",\"source\":false}}",
@@ -178,7 +184,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -264,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -290,7 +296,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -343,7 +349,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -384,6 +390,7 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
     "README.md",
     "📒Planner/⚗️ Stanford University.md",
     "📒Planner/⚓Graduate Applications.md",
@@ -392,7 +399,6 @@
     "📒Planner/💼 Data Science & Analytics.md",
     "📒Planner/💼 Behavioral Prep.md",
     "📒Planner/💼 Software Engineer Intern (EA).md",
-    "📒Planner/💼 Software Development Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+    "📒Planner/💼 Software Development Engineer.md"
   ]
 }
