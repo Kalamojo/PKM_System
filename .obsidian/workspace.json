@@ -18,6 +18,48 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Data and Distributions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Data and Distributions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                },
+                {
+                  "title": "Probability",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Probability.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "P-value",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/P-value.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Statistical Inference",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Statistical Inference.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.8089887640449438}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "⚓Job Applications",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Job Applications.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
                   "title": "2022 Week 48",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md\",\"mode\":\"source\",\"source\":false}}",
@@ -184,7 +226,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Neural Network.md",
                 "mode": "source",
                 "source": false
               }
@@ -270,7 +312,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Neural Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -296,7 +338,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Neural Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -349,7 +391,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "🗻Permanent/Neural Network.md"
               }
             }
           }
@@ -390,15 +432,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "🗻Permanent/Data and Distributions.md",
+    "🗻Permanent/Probability.md",
+    "🗻Permanent/P-value.md",
+    "🗻Permanent/Statistical Inference.md",
+    "🗻Permanent/False Positive.md",
+    "🗻Permanent/Bernoulli Mass Function.md",
+    "📒Planner/⚓Job Applications.md",
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
     "README.md",
-    "📒Planner/⚗️ Stanford University.md",
-    "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/⚓Job Applications.md",
-    "📒Planner/💼 Technology Internship Program.md",
-    "📒Planner/💼 Data Science & Analytics.md",
-    "📒Planner/💼 Behavioral Prep.md",
-    "📒Planner/💼 Software Engineer Intern (EA).md",
-    "📒Planner/💼 Software Development Engineer.md"
+    "📒Planner/⚗️ Stanford University.md"
   ]
 }
