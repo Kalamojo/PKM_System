@@ -24,6 +24,36 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Python",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Python.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":0},\"to\":{\"line\":14,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "R-Squared",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/R-Squared.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":1.4583333333333333}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Neural Network",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Neural Network.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{}}",
+                  "eState": "{}"
+                },
+                {
                   "title": "Data and Distributions",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🗻Permanent/Data and Distributions.md\",\"mode\":\"source\",\"source\":false}}",
@@ -226,7 +256,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Neural Network.md",
+                "file": "🗻Permanent/R-Squared.md",
                 "mode": "source",
                 "source": false
               }
@@ -312,7 +342,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Neural Network.md",
+                "file": "🗻Permanent/R-Squared.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -338,7 +368,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Neural Network.md",
+                "file": "🗻Permanent/R-Squared.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -391,7 +421,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Neural Network.md"
+                "file": "🗻Permanent/R-Squared.md"
               }
             }
           }
@@ -432,15 +462,15 @@
   },
   "active": "7bbecaf2b114139d",
   "lastOpenFiles": [
+    "🗻Permanent/Python.md",
+    "🗻Permanent/R-Squared.md",
+    "🗻Permanent/Neural Network.md",
     "🗻Permanent/Data and Distributions.md",
     "🗻Permanent/Probability.md",
     "🗻Permanent/P-value.md",
     "🗻Permanent/Statistical Inference.md",
     "🗻Permanent/False Positive.md",
     "🗻Permanent/Bernoulli Mass Function.md",
-    "📒Planner/⚓Job Applications.md",
-    "💭Reflection/7️⃣ Weekly Doist/2022 Week 48.md",
-    "README.md",
-    "📒Planner/⚗️ Stanford University.md"
+    "📒Planner/⚓Job Applications.md"
   ]
 }

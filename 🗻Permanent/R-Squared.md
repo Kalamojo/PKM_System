@@ -5,8 +5,6 @@ tags: [school]
 ---
 # R-Squared
 
-
-
 ```ad-note
 A measure of how well a Linear Regression Model performs. It is calculated using the performance on the mean of the testing values as well as the standard fit of the testing values.
 The Higher the $R^2$, the better
@@ -27,5 +25,5 @@ Is not very reliable with few datapoints. For example, a model fitted on a datas
 
 ## References
 1. [[🗻Permanent/Linear Regression]]
-2. [[Variance]]
-3. [[Residual Sum of Squares]]
+3. [[Variance]]
+4. [[Residual Sum of Squares]]
