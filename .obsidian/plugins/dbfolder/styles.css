@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-
+/*****************
+* Plugin variables
+******************/
+body {
+  --react-datepicker-navigation-height: 24px;
+  --react-datepicker-navigation-width: 24px;
+}
+/*****************
+*      Base
+******************/
 .database-plugin__html {
   box-sizing: border-box;
 }
@@ -85,13 +94,15 @@ div.database-plugin__td.data-input:hover {
   box-shadow: 0 0 1px 2px var(--text-accent-hover);
 }
 
+/******************************************************
+ *                  Inputs of cells
+ ******************************************************/
 .data-input {
   white-space: pre-wrap;
   border: none;
   padding: 0.5rem;
   color: var(--text-normal);
   font-size: 1rem;
-  border-radius: 4px;
   resize: none;
   box-sizing: border-box;
   flex: 1 1 auto;
@@ -99,6 +110,9 @@ div.database-plugin__td.data-input:hover {
   vertical-align: middle;
 }
 
+.database-plugin__td.data-input p {
+  margin: 6px 0px;
+}
 /** children of data-input fills parent div*/
 .data-input > * {
   border: none;
@@ -143,7 +157,7 @@ div.database-plugin__checkbox {
   color: currentColor;
   width: 1.15em;
   height: 1.15em;
-  border: 0.15em solid currentColor;
+  border: 0.05em solid currentColor;
   border-radius: 0.15em;
   transform: translateY(-0.075em);
 
@@ -177,12 +191,17 @@ div.database-plugin__checkbox {
   outline-offset: max(2px, 0.15em);
 }
 
+.database-plugin__checkbox input[type="checkbox"]:checked:after {
+  background-color: var(--form-background);
+}
+
 .database-plugin__md_cell {
   vertical-align: middle;
 }
 
 .database-plugin__md_cell p {
   display: inline;
+  margin: 3px 0;
 }
 
 .database-plugin__md_cell ul {
@@ -294,8 +313,8 @@ div.database-plugin__checkbox {
   align-items: center;
   cursor: pointer;
   z-index: 3;
-  position: fixed;
-  margin-top: 2.65rem;
+  position: sticky;
+  left: 0;
   bottom: 0;
   background-color: var(--background-primary);
 }
@@ -369,7 +388,7 @@ div.database-plugin__checkbox {
 }
 
 .database-plugin__cell_size_normal .database-plugin__td {
-  padding: 0.3rem;
+  padding: 0.1rem;
 }
 
 .database-plugin__cell_size_wide .database-plugin__td {
@@ -393,8 +412,7 @@ div.database-plugin__checkbox {
 
 .database-plugin__table {
   position: relative;
-  top: 2.65rem;
-  border-spacing: 0;
+  border-spacing: 2px;
   border-bottom: 1px solid var(--background-modifier-border);
   display: table;
   height: 1px; /** Hack to prevent collapsing of table cells */
@@ -427,6 +445,7 @@ div.database-plugin__checkbox {
 .database-plugin__sticky-level-2 {
   position: -webkit-sticky;
   position: sticky;
+  left: 0;
   top: 2.65rem;
   z-index: 3;
 }
@@ -438,8 +457,10 @@ div.database-plugin__checkbox {
 
 .database-plugin__navbar {
   width: 100%;
-  position: fixed;
+  position: sticky;
+  position: -webkit-sticky;
   left: 0;
+  top: 0;
   z-index: 2;
 }
 
@@ -545,6 +566,23 @@ div.database-plugin__checkbox {
 /**
 *  Database Styles
 */
+.dbfolder-table-container {
+  contain: content;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.database-plugin__scroll-horizontal {
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.database-plugin__scroll-container {
+  will-change: transform;
+}
+
 .dbfolder-table-container tr input {
   background: var(--background-modifier-box-shadow);
 }
@@ -650,9 +688,9 @@ div.database-plugin__checkbox {
   color: var(--text-on-accent);
 }
 
-/*
+/*************************
 *  React-datepicker styles
-*/
+**************************/
 .react-datepicker__year-read-view--down-arrow,
 .react-datepicker__month-read-view--down-arrow,
 .react-datepicker__month-year-read-view--down-arrow,
@@ -765,7 +803,6 @@ div.database-plugin__checkbox {
   font-size: 1rem;
   resize: none;
   box-sizing: border-box;
-  height: 100%;
   width: inherit;
   align-self: center;
   top: 0;
@@ -899,8 +936,8 @@ div.database-plugin__checkbox {
   padding: 0;
   border: none;
   z-index: 4;
-  height: 32px;
-  width: 32px;
+  height: var(--react-datepicker-navigation-height);
+  width: var(--react-datepicker-navigation-width);
   text-indent: -999em;
   overflow: hidden;
 }
@@ -1034,15 +1071,7 @@ div.database-plugin__checkbox {
   .react-datepicker-time__input-container
   .react-datepicker-time__input
   input[type="time"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
   margin: 0;
-}
-
-.react-datepicker__input-time-container
-  .react-datepicker-time__input-container
-  .react-datepicker-time__input
-  input[type="time"] {
-  -moz-appearance: textfield;
 }
 
 .react-datepicker__input-time-container
@@ -1373,8 +1402,8 @@ div.database-plugin__checkbox {
 }
 
 .react-datepicker__input-container {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -1507,17 +1536,13 @@ div.database-plugin__checkbox {
   border: 0;
   box-shadow: none;
   outline: 0;
-  padding: 0 6px 0 0;
-  position: absolute;
-  top: 0;
+  padding: 6px;
   right: 0;
-  display: table-cell;
-  vertical-align: middle;
+  align-self: center;
 }
 
 .react-datepicker__close-icon::after {
   cursor: pointer;
-  background-color: var(--text-accent);
   color: var(--text-primary);
   border-radius: 50%;
   text-align: center;
@@ -1534,38 +1559,4 @@ div.database-plugin__checkbox {
   font-weight: bold;
   padding: 5px 0;
   clear: left;
-}
-
-.react-datepicker__portal {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--background-primary);
-  left: 0;
-  top: 0;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  z-index: 4;
-}
-
-.react-datepicker__portal .react-datepicker__day-name,
-.react-datepicker__portal .react-datepicker__day,
-.react-datepicker__portal .react-datepicker__time-name {
-  width: 3rem;
-  line-height: 3rem;
-}
-
-@media (max-width: 400px), (max-height: 550px) {
-  .react-datepicker__portal .react-datepicker__day-name,
-  .react-datepicker__portal .react-datepicker__day,
-  .react-datepicker__portal .react-datepicker__time-name {
-    width: 2rem;
-    line-height: 2rem;
-  }
-}
-
-.react-datepicker__portal .react-datepicker__current-month,
-.react-datepicker__portal .react-datepicker-time__header {
-  font-size: 1.44rem;
 }

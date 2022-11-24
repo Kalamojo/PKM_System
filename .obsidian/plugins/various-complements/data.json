@@ -14,7 +14,7 @@
   "showComplementAutomatically": true,
   "showIndexingStatus": true,
   "descriptionOnSuggestion": "Short",
-  "selectSuggestionKeys": "Enter",
+  "selectSuggestionKeys": "Shift+Enter",
   "additionalCycleThroughSuggestionsKeys": "None",
   "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
   "openSourceFileKey": "None",
@@ -47,22 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "California": {
-      "California": {
-        "frontMatter": {
-          "count": 14,
-          "lastUpdated": 1666483898268
-        }
-      }
-    },
-    "New York": {
-      "New York": {
-        "frontMatter": {
-          "count": 7,
-          "lastUpdated": 1666472013851
-        }
-      }
-    },
     "rejected": {
       "rejected": {
         "frontMatter": {
@@ -79,59 +63,11 @@
         }
       }
     },
-    "September 2023": {
-      "September 2023": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1666469665689
-        }
-      }
-    },
-    "application-started": {
-      "application-started": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666470266732
-        }
-      }
-    },
-    "Transcript": {
-      "Transcript": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666470839697
-        }
-      }
-    },
-    "2022-12-31": {
-      "2022-12-31": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1666471294251
-        }
-      }
-    },
     "Machine Learning": {
       "Machine Learning": {
         "frontMatter": {
           "count": 2,
           "lastUpdated": 1667081542100
-        }
-      }
-    },
-    "Statement": {
-      "Statement": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666479494024
-        }
-      }
-    },
-    "information": {
-      "information": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1666485210252
         }
       }
     },
@@ -188,6 +124,94 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1669005493142
+        }
+      }
+    },
+    "Bottom-up clustering": {
+      "Agglomerative Clustering": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1669257589812
+        }
+      }
+    },
+    "Velvet": {
+      "Velvet": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1669257971791
+        }
+      }
+    },
+    "Bueller": {
+      "Bueller": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1669259302034
+        }
+      }
+    },
+    "Rocky": {
+      "Rocky": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1669257954621
+        }
+      }
+    },
+    "Clyde": {
+      "Clyde": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1669259350432
+        }
+      }
+    },
+    "Rankings": {
+      "Rankings": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1669257879511
+        }
+      }
+    },
+    "Fiction": {
+      "Fiction": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669257939783
+        }
+      }
+    },
+    "Bites": {
+      "Bites": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669257946965
+        }
+      }
+    },
+    "Bonnie": {
+      "Bonnie": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1669259347467
+        }
+      }
+    },
+    "Casablanca": {
+      "Casablanca": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669260185867
+        }
+      }
+    },
+    "Driver": {
+      "Driver": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1669260193423
         }
       }
     }

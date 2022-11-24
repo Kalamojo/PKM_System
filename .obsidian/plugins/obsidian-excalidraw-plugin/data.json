@@ -48981,5 +48981,7 @@
   "previousRelease": "1.6.33",
   "showReleaseNotes": false,
   "showNewVersionNotification": true,
-  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js"
+  "mathjaxSourceURL": "https://cdn.jsdelivr.net/npm/mathjax@3.2.1/es5/tex-svg.js",
+  "taskboneEnabled": false,
+  "taskboneAPIkey": ""
 }
