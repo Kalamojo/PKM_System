@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "67a53cd1de38483c",
+        "id": "8cc495d90c0fb8fe",
         "type": "tabs",
         "children": [
           {
-            "id": "0879ffbfc4a7aec3",
+            "id": "171078f03405e77d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/📝Essays/📝 Film Rankings.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -72,7 +68,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Film Rankings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +84,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Film Rankings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "📒Planner/📝Essays/📝 Film Rankings.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -154,17 +146,17 @@
     "width": 292.5,
     "collapsed": true
   },
-  "active": "0879ffbfc4a7aec3",
+  "active": "171078f03405e77d",
   "lastOpenFiles": [
-    "📒Planner/📝Essays/🌩 Brainstom.md",
+    "🗻Permanent/Gaussian Density Function.md",
     "📒Planner/📝Essays/📝 Film Rankings.md",
+    "📒Planner/📝Essays/📝 Major.md",
+    "🗻Permanent/Surprise.md",
+    "📒Planner/📝Essays/🌩 Brainstom.md",
     "📎Attachments/✏️Excalidraw/Drawing 2021-12-15 20.58.12.excalidraw.md",
     "🗻Permanent/R-Squared.md",
     "🗻Permanent/Python.md",
     "🗻Permanent/Neural Network.md",
-    "🗻Permanent/Data and Distributions.md",
-    "🗻Permanent/Probability.md",
-    "🗻Permanent/P-value.md",
-    "🗻Permanent/Statistical Inference.md"
+    "🗻Permanent/Data and Distributions.md"
   ]
 }

@@ -5,11 +5,10 @@ tags: [school]
 ---
 # Surprise
 
-```ad-note
-There is an inverse relationship between probability and surprise. The lower the probability of an event, the more surprising it is.
-```
+> [!note]
+>There is an inverse relationship between probability and surprise. The lower the probability of an event, the more surprising it is.
 
-```ad-note
+```ad-math
 $$S = \log_2(\frac{1}{\text{p(x)}})$$
 $p=\text{probability}$
 ```
