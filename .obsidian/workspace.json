@@ -11,8 +11,12 @@
             "id": "171078f03405e77d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/⚓Graduate Applications.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -68,6 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "📒Planner/⚓Graduate Applications.md"
+              }
             }
           }
         ],
@@ -148,6 +156,7 @@
   },
   "active": "171078f03405e77d",
   "lastOpenFiles": [
+    "📒Planner/⚓Status.md",
     "🗻Permanent/Gaussian Density Function.md",
     "📒Planner/📝Essays/📝 Film Rankings.md",
     "📒Planner/📝Essays/📝 Major.md",
@@ -156,7 +165,6 @@
     "📎Attachments/✏️Excalidraw/Drawing 2021-12-15 20.58.12.excalidraw.md",
     "🗻Permanent/R-Squared.md",
     "🗻Permanent/Python.md",
-    "🗻Permanent/Neural Network.md",
-    "🗻Permanent/Data and Distributions.md"
+    "🗻Permanent/Neural Network.md"
   ]
 }
