@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "Library.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "Library.md"
               }
             }
           }
@@ -156,15 +156,15 @@
   },
   "active": "f5e5feb1ab8c2421",
   "lastOpenFiles": [
-    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
+    "📖Bookshelf/Adventurers Wanted.md",
+    "📖Bookshelf/Graceling.md",
+    "📖Bookshelf/A World Without Heroes.md",
+    "📖Bookshelf/I am Number 4.md",
+    "💭Reflection/Quotes/Book Quotes.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/📝Essays/📝 Film Rankings.md",
     "⚽SWE Boards/Final Project Part 1 Issues.md",
-    "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/⚓Status.md",
-    "🗻Permanent/Gaussian Density Function.md",
-    "📒Planner/📝Essays/📝 Major.md",
-    "🗻Permanent/Surprise.md",
-    "📒Planner/📝Essays/🌩 Brainstom.md"
+    "📒Planner/⚓Graduate Applications.md"
   ]
 }
