@@ -50,8 +50,8 @@
     "rejected": {
       "rejected": {
         "frontMatter": {
-          "count": 15,
-          "lastUpdated": 1670688259026
+          "count": 14,
+          "lastUpdated": 1670599078116
         }
       }
     },
@@ -380,6 +380,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1670660967301
+        }
+      }
+    },
+    "opportunity": {
+      "opportunity": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670714538182
+        }
+      }
+    },
+    "license": {
+      "license": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1670715526057
         }
       }
     }
