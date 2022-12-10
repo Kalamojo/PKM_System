@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f5e5feb1ab8c2421",
+            "id": "48caacb0dceb564f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Literature/Bruh.md",
+                "file": "📒Planner/📝Essays/📝 Team Film Rankings.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Literature/Bruh.md",
+                "file": "📒Planner/📝Essays/📝 Team Film Rankings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Literature/Bruh.md",
+                "file": "📒Planner/📝Essays/📝 Team Film Rankings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,7 +99,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Literature/Bruh.md"
+                "file": "📒Planner/📝Essays/📝 Team Film Rankings.md"
               }
             }
           }
@@ -154,17 +155,17 @@
     "width": 292.5,
     "collapsed": true
   },
-  "active": "f5e5feb1ab8c2421",
+  "active": "48caacb0dceb564f",
   "lastOpenFiles": [
+    "📒Planner/📝Essays/📝 Film Rankings.md",
+    "📒Planner/📝Essays/📝 Team Film Rankings.md",
+    "📒Planner/📝Essays/📝 Controversial.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/📝Essays/📝 Why us.md",
+    "📒Planner/📝Essays/📝 Thank you Card.md",
+    "🗻Permanent/Uniform Random Variable.md",
+    "🧪Academic/Literature/Bruh.md",
     "📒Planner/💼 Software Development Engineer.md",
-    "📒Planner/🏫 Cornell.md",
-    "📒Planner/💼 Software Research _ Development.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "🧪Academic/Processed/Transfer learning of clinical outcomes.md",
-    "🧪Academic/Processed/What is Feature Engineering.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
-    "📒Planner/⚓Graduate Applications.md"
+    "📒Planner/🏫 Cornell.md"
   ]
 }
