@@ -402,8 +402,16 @@
     "closed-source": {
       "closed-source": {
         "currentFile": {
+          "count": 2,
+          "lastUpdated": 1670819094601
+        }
+      }
+    },
+    "copyright": {
+      "copyright": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1670725539274
+          "lastUpdated": 1670820080868
         }
       }
     }
