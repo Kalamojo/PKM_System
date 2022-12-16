@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "💭Reflection/Quotes/Other Quotes.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "3b4bc54dfe251197",
   "lastOpenFiles": [
-    "📒Planner/💼 Data Analyst.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 Data Analyst.md",
     "📒Planner/💼 Software Engineer (Fidelity Investments).md",
     "📒Planner/💼 Video Processing Algorithm Engineer.md",
     "💭Reflection/Books To read.md",
