@@ -17,3 +17,10 @@ Greetings. My name is Kolade Alabi, and here is my Second Brain.
 > 	 - Chained
 > 	 - Linear Probing
 > 	 - Quadratic Probing
+> - Min Heap
+> - Breadth First Search
+> - Dijkstra's Algorithm
+> - Bellman-Ford Algorithm
+> - Maximum Flow
+> 	- Edmonds-Karp Algorithm
+> - NP Completeness

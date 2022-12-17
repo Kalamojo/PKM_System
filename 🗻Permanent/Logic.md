@@ -12,9 +12,6 @@ tags: [school]
 4. [[AND]]
 5. [[NOT]]
 6. [[Truth Table]]
-7. Evaluating Operations Anki
-8. [[Conditional Statement]] (P -> Q) == P' or Q = P' ^ Q
-9. [[Logical Equivalence]]
 10. [[Tautology]]
 11. [[Contradiction]]
 12. [[Predicates]]

@@ -14,4 +14,3 @@ tags: [school]
 ## References
 1. [[High Level Language]]
 2. [[Machine Code]]
-3. [[Programming Languages]]

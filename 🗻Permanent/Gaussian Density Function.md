@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Gaussian Density Function
 
-
 ```ad-math
 $$f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}}$$
 - $f(x)=$ probability density function

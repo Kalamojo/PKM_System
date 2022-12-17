@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Classification
 
-
 ```ad-note
 The organization of labeled [[Data]]. Also defined as Machine Learning that predicts a discrete label given feature values.
 ```

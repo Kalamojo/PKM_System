@@ -1,6 +1,6 @@
 ---
 alias: []
-subject: 
+subject: Organization and Assembler Language
 tags: [school]
 ---
 # Pipelining

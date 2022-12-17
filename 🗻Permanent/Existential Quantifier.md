@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Existential Quantifier
 
-
 > [!note]
 > Represented as "there exists" or $\exists$.
 

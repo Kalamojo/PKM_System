@@ -12,8 +12,8 @@ tags: [school]
 > Python's flexibility actually makes it less reliable. Because data types don't need to be defined, you only find type errors once your program has been run.
 
 > [!example] 
-> Ada
+> Ada leverages reliability by separating variable definition, function definition, and the main section of a program, as well as clearly defined data types and error handling operations
 > 
 
 ## References
-1. [[Ada]]
+1. 
