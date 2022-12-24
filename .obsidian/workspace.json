@@ -11,11 +11,15 @@
             "id": "3ad74b219216a0d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "💭Reflection/Bucket List.md",
-                "mode": "source",
-                "source": false
+                "file": "💭Reflection/WDYWTDFR.canvas",
+                "viewState": {
+                  "x": -180.62416372633604,
+                  "y": 28.718643304257245,
+                  "zoom": -0.01999999999999977,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -72,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Bucket List.md",
+                "file": "💭Reflection/WDYWTDFR.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Bucket List.md",
+                "file": "💭Reflection/WDYWTDFR.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Bucket List.md"
+                "file": "💭Reflection/WDYWTDFR.canvas"
               }
             }
           }
@@ -154,8 +158,26 @@
     "width": 292.5,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-custom-frames:Open Detexify": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "periodic-notes:Open this week": false
+    }
+  },
   "active": "3ad74b219216a0d3",
   "lastOpenFiles": [
+    "💭Reflection/Bucket List.md",
     "🗻Permanent/Memory Stack.md",
     "excalibrain.md",
     "🗻Permanent/Graph Walk.md",
@@ -164,7 +186,6 @@
     "💭Reflection/Quotes/Movie Quotes.md",
     "📒Planner/💼 Summer Analyst.md",
     "🗻Permanent/Power-Law Density Function.md",
-    "📦Templates/Academic_note.md",
-    "🗻Permanent/Propositions.md"
+    "📦Templates/Academic_note.md"
   ]
 }
