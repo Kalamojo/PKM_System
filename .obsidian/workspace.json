@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "Library.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "Library.md"
               }
             }
           }
@@ -173,15 +173,15 @@
   },
   "active": "3ad74b219216a0d3",
   "lastOpenFiles": [
-    "📒Planner/💼 New Grad Software Engineer.md",
+    "📖Bookshelf/The Night Angel Trilogy.md",
+    "Library.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/💼 New Grad Software Engineer.md",
     "📒Planner/💼 Technology Internship Program.md",
     "💭Reflection/WDYWTDFR.canvas",
     "💭Reflection/Quotes/Movie Quotes.md",
     "💭Reflection/Bucket List.md",
     "🗻Permanent/Memory Stack.md",
-    "excalibrain.md",
-    "🗻Permanent/Graph Walk.md",
-    "📎Attachments/✏️Excalidraw/Drawing 2022-02-19 21.52.11.excalidraw.md"
+    "excalibrain.md"
   ]
 }
