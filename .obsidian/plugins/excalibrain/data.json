@@ -147,7 +147,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "📦Templates/ICEnote.md",
     "📒Planner/⚓Priority.md",
     "📝Essays/📝 Background.md",
     "🗻Permanent/Up-Sampling.md",
@@ -197,7 +196,8 @@
     "Graph-based data structure",
     "🗻Permanent/Computer Science 2.md",
     "🗻Permanent/Math Foundations of CS.md",
-    "🗻Permanent/Digital Systems Engineering.md"
+    "🗻Permanent/Digital Systems Engineering.md",
+    "🗻Permanent/Data and Distributions.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

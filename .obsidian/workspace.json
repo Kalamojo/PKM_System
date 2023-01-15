@@ -58,6 +58,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b33f3bd84d44a266",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       },
@@ -108,7 +119,6 @@
       {
         "id": "c9c48c4b9c799049",
         "type": "tabs",
-        "dimension": 36.99705593719333,
         "children": [
           {
             "id": "4da8221a4aae6856",
@@ -130,24 +140,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "0ec7a6290a2259cb",
-        "type": "tabs",
-        "dimension": 63.00294406280668,
-        "children": [
-          {
-            "id": "b33f3bd84d44a266",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -170,8 +162,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d7b1bbb1ab6f271a",
+  "active": "65fcc7e8f33343f4",
   "lastOpenFiles": [
+    "excalibrain.md",
+    "🗻Permanent/Data and Distributions.md",
     "🗻Permanent/Covariance.md",
     "🗻Permanent/For Loop.md",
     "🗻Permanent/While Loop.md",
@@ -179,8 +173,6 @@
     "🗻Permanent/Twos Complement.md",
     "🗻Permanent/RELU.md",
     "🗻Permanent/Neural Layer.md",
-    "🗻Permanent/Naive Bayesian.md",
-    "🗻Permanent/Merge Sort.md",
-    "🗻Permanent/Multivariate Gaussian.md"
+    "🗻Permanent/Naive Bayesian.md"
   ]
 }
