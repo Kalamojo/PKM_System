@@ -19,7 +19,6 @@ int main() {
 	  std::cout << "Dogs" << std::endl;
   }
 }
-
 ````
 
 ## References
