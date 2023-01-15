@@ -5,6 +5,4 @@ tags: [school]
 ---
 # Data Structures
 
-
-
 1. [[Array-based data structure]]

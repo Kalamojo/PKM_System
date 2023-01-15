@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Vertices
 
-
 > [!note]
 > Quite simply, an object or node used to construct a graph.
 

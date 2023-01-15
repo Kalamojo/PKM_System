@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Data and Distributions
 
-
 1. [[🗻Permanent/Data Science]]
 2. [[Variables]]
 3. [[Tabular Data]]

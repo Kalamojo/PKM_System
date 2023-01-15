@@ -4,9 +4,9 @@ subject: Math Foundations of CS
 tags: [school]
 ---
 # Subset
+
 > [!note]
 > $A$ is a subset of $B$, denoted $A \subseteq B$.
-
 
 > [!example] 
 > $\{1,2,3\}$ is a subset of $\{1,2,3\}$

@@ -147,7 +147,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "📒Planner/⚓Priority.md",
     "📝Essays/📝 Background.md",
     "🗻Permanent/Up-Sampling.md",
     "💭Reflection/☀️Daily Notes/2022-May-27.md",
@@ -197,7 +196,8 @@
     "🗻Permanent/Computer Science 2.md",
     "🗻Permanent/Math Foundations of CS.md",
     "🗻Permanent/Digital Systems Engineering.md",
-    "🗻Permanent/Data and Distributions.md"
+    "🗻Permanent/Data and Distributions.md",
+    "🗻Permanent/Subset.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

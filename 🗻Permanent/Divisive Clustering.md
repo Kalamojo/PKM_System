@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Divisive (Top-down) Clustering
 
-
 ```ad-info
 > 1. Starting with every data point in one large cluster, consider every possible way to divide the cluster into 2.
 > 2. Choose the best division strategy, and continue these divisions recursively on both sides.

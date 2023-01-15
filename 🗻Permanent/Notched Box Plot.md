@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Notched Box Plot
 
-
 ```ad-note
 Similar to conventional Box Plots except that the 95% confidence interval of the sample's mean is also represented.
 ```
