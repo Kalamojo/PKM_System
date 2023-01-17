@@ -8,8 +8,6 @@ banner_x: 0.87448
 Greetings. My name is Kolade Alabi, and here is my Second Brain.
 
 > [!todo]
->  - Radix Sort
->  - [[Binary Search]]
 >  - Hash Table
 > 	 - Chained
 > 	 - Linear Probing

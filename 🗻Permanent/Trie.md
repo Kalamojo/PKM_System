@@ -1,6 +1,6 @@
 ---
 alias: [Prefix Tree]
-subject: 🗻Permanent
+subject: Data Structures and Algorithms
 tags: [school]
 ---
 # Trie
@@ -25,4 +25,7 @@ tags: [school]
 > ![[Trie 2023-01-15 15.31.04.excalidraw|center|600]]
 
 ## References
-1. 
+1. [[Data Structures|Data Structure]]
+2. [[Search Algorithms]]
+3. [[String]]
+4. [[Vertices|Node]]
