@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "9db470f5474444fe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ce972d2f59d83c37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "6a22a41ca6514cec",
         "type": "tabs",
         "children": [
@@ -29,9 +11,31 @@
             "id": "888df1594ee4c85c",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
+                "viewState": {
+                  "x": -66.7637816452229,
+                  "y": -74.30478430843628,
+                  "zoom": -0.3333333333333332,
+                  "snapToGrid": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b126ffaa2f03d47c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58d794919f094b98",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Binary Search.md",
+                "file": "🗃Spring 2023/Database Design/Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Binary Search.md",
+                "file": "🗃Spring 2023/Database Design/Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Binary Search.md",
+                "file": "🗃Spring 2023/Database Design/Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Binary Search.md"
+                "file": "🗃Spring 2023/Database Design/Database.md"
               }
             }
           }
@@ -171,7 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Binary Search.md",
+                "file": "🗃Spring 2023/Database Design/Database.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,17 +228,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "888df1594ee4c85c",
+  "active": "58d794919f094b98",
   "lastOpenFiles": [
-    "README.md",
+    "🗃Spring 2023/Database Design/Database Design.canvas",
+    "🗃Spring 2023/Database Design/Database.md",
+    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+    "🗃Spring 2023/Deep Learning/Deep Learning.canvas",
+    "🗃Spring 2023/Data Mining/Data Mining.canvas",
+    "🗃Spring 2023/Automata/Automata.canvas",
+    "🗻Permanent/Database.md",
     "🗻Permanent/Binary Search.md",
-    "🗻Permanent/Search Algorithms.md",
-    "🗻Permanent/Algorithm.md",
-    "🗻Permanent/Linear Search.md",
-    "🗻Permanent/Radix Sort.md",
-    "🗻Permanent/Trie.md",
-    "🗻Permanent/Sort Algorithms.md",
-    "🗻Permanent/AVL Tree.md",
-    "🗻Permanent/String.md"
+    "README.md",
+    "🗻Permanent/Search Algorithms.md"
   ]
 }
