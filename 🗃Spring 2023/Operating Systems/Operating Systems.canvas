@@ -1,1 +1,23 @@
-{}
+{
+	"nodes":[
+		{"id":"1dcff9c643457f7f","x":-414,"y":-403,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/I-O Modules.md"},
+		{"id":"5a96e93212128b7d","x":-139,"y":-691,"width":250,"height":60,"color":"2","type":"text","text":"Computer Hardware"},
+		{"id":"f46b9bfca88b7a5b","x":31,"y":-403,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Main Memory.md"},
+		{"id":"6e2c5600affd3e0b","x":31,"y":75,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/System Bus.md"},
+		{"id":"7d5c9409f618fda1","x":-414,"y":75,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Processor.md"},
+		{"id":"e5c19f52e2ec7c97","x":589,"y":-403,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Operating System.md"},
+		{"id":"d4b7ba28167b39a3","x":664,"y":-691,"width":250,"height":60,"color":"4","type":"text","text":"Computer Software"},
+		{"id":"29a4ceae10a2bace","x":189,"y":-1260,"width":400,"height":400,"color":"1","type":"file","file":"🗻Permanent/Computer.md"},
+		{"id":"c7b523689acb03c0","x":-295,"y":708,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Interrupts.md"}
+	],
+	"edges":[
+		{"id":"a2b84ba69902a5b9","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"1dcff9c643457f7f","toSide":"top"},
+		{"id":"8916a4631136f2ee","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"f46b9bfca88b7a5b","toSide":"top"},
+		{"id":"52352d73b3b5e4d3","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"7d5c9409f618fda1","toSide":"top"},
+		{"id":"0ad3d73eba0bc73f","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"6e2c5600affd3e0b","toSide":"top"},
+		{"id":"c2f0e0f9c7ab52ce","fromNode":"c7b523689acb03c0","fromSide":"top","toNode":"7d5c9409f618fda1","toSide":"bottom"},
+		{"id":"a5d1e1700e71710c","fromNode":"29a4ceae10a2bace","fromSide":"bottom","toNode":"5a96e93212128b7d","toSide":"top","color":"1"},
+		{"id":"d05d3ab5982d527c","fromNode":"d4b7ba28167b39a3","fromSide":"bottom","toNode":"e5c19f52e2ec7c97","toSide":"top"},
+		{"id":"e77d3ac0ce7d4eee","fromNode":"29a4ceae10a2bace","fromSide":"bottom","toNode":"d4b7ba28167b39a3","toSide":"top","color":"1"}
+	]
+}

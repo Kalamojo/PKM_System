@@ -1,1 +1,7 @@
-{}
+{
+	"nodes":[
+		{"id":"14a1a39bfaa998fc","x":-265,"y":-506,"width":400,"height":400,"type":"file","file":"🗻Permanent/Deep Learning.md"},
+		{"id":"9a3c9f9f33cce1f9","x":-265,"y":-37,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Deep Learning/Learning.md"}
+	],
+	"edges":[]
+}
