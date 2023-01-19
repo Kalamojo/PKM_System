@@ -9,7 +9,7 @@ A [[Machine Learning]] method based on artificial [[Neural Network|Neural Networ
 ```
 
 > [!info]
-> With the use of [[Batch Gradient Descent|Gradient Descent]], Deep Neural Networks can improve over time. This process is made faster with [[Back Propogation]].
+> With the use of [[Batch Gradient Descent|Gradient Descent]], Deep Neural Networks can [[Learning|improve over time]]. This process is made faster with [[Back Propogation]].
 
 > [!example] 
 > Its procesees can be likened to a toddler that can't swim. Instead of showing the toddler many different techniques and/or demonstrations of swimming, a Deep Learning model might drop that toddler into the pool, forcing them to figure out how to achieve their main objective: swimming.

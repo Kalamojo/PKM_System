@@ -18,3 +18,4 @@ tags: [school]
 ## References
 1. [[🗻Permanent/Artificial Intelligence]]
 2. [[Machine Learning Applications]]
+3. [[Learning]]
