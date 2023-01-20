@@ -22,8 +22,21 @@
                 }
               }
             }
+          },
+          {
+            "id": "ec11285c0fdba5ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚜️Fleeting/Tins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
+                "file": "⚜️Fleeting/Tins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
+                "file": "⚜️Fleeting/Tins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Database Design.canvas"
+                "file": "⚜️Fleeting/Tins.md"
               }
             }
           }
@@ -156,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
+                "file": "⚜️Fleeting/Tins.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,8 +222,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "17864dfa4c696dd7",
+  "active": "ec11285c0fdba5ff",
   "lastOpenFiles": [
+    "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas",
     "🗃Spring 2023/Deep Learning/Learning.md",
     "⚜️Fleeting/Matrices.md",
@@ -218,7 +232,6 @@
     "🗻Permanent/Training.md",
     "🗻Permanent/Deep Learning.md",
     "🗻Permanent/Machine Learning.md",
-    "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
     "🗃Spring 2023/Operating Systems/I-O Modules.md"
   ]
