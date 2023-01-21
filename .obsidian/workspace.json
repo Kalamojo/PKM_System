@@ -8,35 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17864dfa4c696dd7",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "ec11285c0fdba5ff",
+            "id": "2f958efe3e55a4a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚜️Fleeting/Tins.md",
+                "file": "📒Planner/🎩Work/🖋️Ideas/Favorite Companies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚜️Fleeting/Tins.md",
+                "file": "📒Planner/🎩Work/🖋️Ideas/Favorite Companies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚜️Fleeting/Tins.md",
+                "file": "📒Planner/🎩Work/🖋️Ideas/Favorite Companies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚜️Fleeting/Tins.md"
+                "file": "📒Planner/🎩Work/🖋️Ideas/Favorite Companies.md"
               }
             }
           }
@@ -169,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "⚜️Fleeting/Tins.md",
+                "file": "📒Planner/🎩Work/🖋️Ideas/Favorite Companies.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,17 +205,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "ec11285c0fdba5ff",
+  "active": "2f958efe3e55a4a3",
   "lastOpenFiles": [
+    "📒Planner/⚓Job Applications.md",
+    "📒Planner/🎩Work/🖋️Ideas/Favorite Companies.md",
+    "📒Planner/⚓Graduate Applications.md",
     "🗃Spring 2023/Database Design/Database Design.canvas",
+    "⚜️Fleeting/Tins.md",
     "🗃Spring 2023/Automata/Automata.canvas",
     "🗃Spring 2023/Deep Learning/Learning.md",
     "⚜️Fleeting/Matrices.md",
     "⚜️Fleeting/Matrix properties.md",
-    "🗻Permanent/Training.md",
-    "🗻Permanent/Deep Learning.md",
-    "🗻Permanent/Machine Learning.md",
-    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
-    "🗃Spring 2023/Operating Systems/I-O Modules.md"
+    "🗻Permanent/Training.md"
   ]
 }
