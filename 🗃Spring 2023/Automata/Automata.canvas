@@ -1,7 +1,20 @@
 {
 	"nodes":[
-		{"id":"47c22b751b387405","x":-282,"y":-273,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Graph.md"},
-		{"id":"122d21f5fc2e4ce8","x":159,"y":-273,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/NP.md"}
+		{"id":"47c22b751b387405","x":-392,"y":-626,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Graph.md"},
+		{"id":"07a405913eeb4c48","x":-755,"y":-73,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Regular Graph.md"},
+		{"id":"112920f9c50bd15d","x":8,"y":-73,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Connected Graph.md"},
+		{"id":"d8793dd4cf87dd71","x":-241,"y":409,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Complete Graph.md"},
+		{"id":"02e8225d2b46bd5b","x":250,"y":409,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Tree.md"},
+		{"id":"6dd7db0c98c618b2","x":-392,"y":-1184,"width":400,"height":400,"color":"2","type":"file","file":"🗻Permanent/Graph Theory.md"},
+		{"id":"c72819d9b8cf40f7","x":-874,"y":409,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/Node Degree.md"},
+		{"id":"122d21f5fc2e4ce8","x":359,"y":-798,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Automata/NP.md"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"5b16ab5c3378772c","fromNode":"47c22b751b387405","fromSide":"bottom","toNode":"07a405913eeb4c48","toSide":"top"},
+		{"id":"f0705d274a28da1d","fromNode":"47c22b751b387405","fromSide":"bottom","toNode":"112920f9c50bd15d","toSide":"top"},
+		{"id":"fbe5a61cf520af5a","fromNode":"c72819d9b8cf40f7","fromSide":"top","toNode":"07a405913eeb4c48","toSide":"bottom"},
+		{"id":"79cfd3b204123803","fromNode":"112920f9c50bd15d","fromSide":"bottom","toNode":"d8793dd4cf87dd71","toSide":"top"},
+		{"id":"747b87e1b83975de","fromNode":"112920f9c50bd15d","fromSide":"bottom","toNode":"02e8225d2b46bd5b","toSide":"top"},
+		{"id":"c00247fab0c86481","fromNode":"6dd7db0c98c618b2","fromSide":"bottom","toNode":"47c22b751b387405","toSide":"top","color":"2"}
+	]
 }

@@ -24,14 +24,7 @@
     }
   ],
   "obsidian-mind-map:app:markmap-preview": [],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current": [],
   "pane-relief:go-next": [
     {
       "modifiers": [
@@ -113,6 +106,16 @@
         "Mod"
       ],
       "key": "M"
+    }
+  ],
+  "obsidian-advanced-slides:reload-advanced-slides-preview": [],
+  "obsidian-advanced-slides:open-advanced-slides-preview": [],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }

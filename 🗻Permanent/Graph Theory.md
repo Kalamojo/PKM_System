@@ -17,7 +17,7 @@ tags: [school]
 10. [[Graph Cycle|Cycle]]
 11. [[Subgraph]]
 12. Induced Subgraph
-13. [[Graph Connectivity]]
+13. [[Connected Graph]]
 14. K-vertex Connectivity
 15. K-edge Connectivity
 16. Chromatic Number|Graph Coloring
@@ -25,7 +25,7 @@ tags: [school]
 18. Graph Distance
 19. Graph Diameter
 20. Weigthed Graph
-21. [[Trees]]
+21. [[Tree]]
 22. [[Forests]]
 23. Spanning Tree
 24. Connected Components

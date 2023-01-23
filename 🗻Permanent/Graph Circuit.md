@@ -1,15 +1,18 @@
 ---
-alias: []
+alias: [Loop]
 subject: Math Foundations of CS
 tags: [school]
 ---
 # Circuit
 
+> [!note]
+> A walk that begins and ends on the same vertex.
 
-A walk that begins and ends on the same vertex.
-
-- Circuit: $b, d, e, f, c, d, \underline{b}$
-![[Drawing 2022-02-19 21.32.42.excalidraw|350]]
+> [!example]
+> - Circuit: 
+> - $b, d, e, f, c, d, \underline{b}$
+> 
+ ![[Drawing 2022-02-19 21.32.42.excalidraw|center|350]]
 
 ## References
 1. [[Graph Walk]]
