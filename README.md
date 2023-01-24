@@ -19,3 +19,4 @@ Greetings. My name is Kolade Alabi, and here is my Second Brain.
 > - Maximum Flow
 > 	- Edmonds-Karp Algorithm
 > - NP Completeness
+> - Concurrency

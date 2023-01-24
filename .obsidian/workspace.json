@@ -13,35 +13,59 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
                 "viewState": {
-                  "x": 648.8831819002281,
-                  "y": 364.46639229119774,
-                  "zoom": -1.3333333333333333,
+                  "x": 280.78410866888646,
+                  "y": 774.0317475363964,
+                  "zoom": -1,
                   "snapToGrid": false
                 }
               }
             }
           },
           {
-            "id": "6b0be65bb8b96315",
+            "id": "eb3e549fae633dc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Multithreading.md",
+                "file": "🗃Spring 2023/Database Design/Transactions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f639ff2ff6229a70",
+            "id": "6c6036a22f47bd4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Thread.md",
+                "file": "🗃Spring 2023/Database Design/Queries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53d8e0adb36bff1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🗃Spring 2023/Database Design/Data Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "999364b40c82c5c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🗃Spring 2023/Database Design/Database Management System.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗃Spring 2023/Database Design/Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗃Spring 2023/Database Design/Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas"
+                "file": "🗃Spring 2023/Database Design/Transactions.md"
               }
             }
           }
@@ -181,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗃Spring 2023/Database Design/Transactions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,15 +260,15 @@
   },
   "active": "683273caa3c048e5",
   "lastOpenFiles": [
-    "🗃Spring 2023/Operating Systems/Multithreading.md",
-    "🗃Spring 2023/Operating Systems/Thread.md",
+    "🗃Spring 2023/Database Design/Transactions.md",
+    "🗃Spring 2023/Database Design/Database Design.canvas",
+    "🗃Spring 2023/Database Design/Database Management System.md",
+    "🗃Spring 2023/Database Design/Queries.md",
+    "🗃Spring 2023/Database Design/Data Model.md",
+    "🗃Spring 2023/Database Design/Data Independence.md",
+    "🗃Spring 2023/Database Design/Database.md",
+    "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
-    "🗃Spring 2023/Operating Systems/Process.md",
-    "💭Reflection/Quotes/Other Quotes.md",
-    "🗃Spring 2023/Operating Systems/Uniprogramming.md",
-    "🗃Spring 2023/Operating Systems/Multiprogramming.md",
-    "🗃Spring 2023/Operating Systems/Kernel.md",
-    "🗻Permanent/K-means Clustering Terminology.md",
-    "🗃Spring 2023/Operating Systems/Moore's Law.md"
+    "README.md"
   ]
 }
