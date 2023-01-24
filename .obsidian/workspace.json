@@ -4,22 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e0b84604e72b340e",
+        "id": "504dce7fe9826281",
         "type": "tabs",
         "children": [
           {
-            "id": "53d8e0adb36bff1e",
+            "id": "0c8e3ba9a431a606",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
-                "viewState": {
-                  "x": 523,
-                  "y": 634,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
+                "file": "🗻Permanent/Euclidian Distance.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas",
+                "file": "🗻Permanent/Euclidian Distance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas",
+                "file": "🗻Permanent/Euclidian Distance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas"
+                "file": "🗻Permanent/Euclidian Distance.md"
               }
             }
           }
@@ -157,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas",
+                "file": "🗻Permanent/Euclidian Distance.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,7 +176,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5087618855792606,
+                  "scale": 0.5087618855792607,
                   "close": true
                 }
               }
@@ -190,8 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,17 +205,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "53d8e0adb36bff1e",
+  "active": "0c8e3ba9a431a606",
   "lastOpenFiles": [
-    "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗃Spring 2023/Database Design/Database Design.canvas",
-    "🗃Spring 2023/Data Mining/Data Mining.md",
-    "🗃Spring 2023/Database Design/Data Mining.md",
-    "🗃Spring 2023/Database Design/Data Model.md",
-    "🗃Spring 2023/Database Design/Database Management System.md",
-    "🧪Academic/Saved/The Data Pipeline.md",
-    "🧪Academic/Saved/Supervised Learning.md",
-    "🧪Academic/Saved/Feature Engineering.md",
-    "🧪Academic/Saved/Feature.md"
+    "📦Templates/📝 Essay.md",
+    "🗻Permanent/Data.md",
+    "🗃Spring 2023/Operating Systems/Process.md",
+    "🗃Spring 2023/Operating Systems/Processor.md",
+    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+    "🗻Permanent/Graph Theory.md",
+    "🗻Permanent/Descriptive Statistics.md",
+    "🗻Permanent/Truth Table.md",
+    "⚜️Fleeting/Push Function.md",
+    "🗻Permanent/Statistical Inference.md"
   ]
 }

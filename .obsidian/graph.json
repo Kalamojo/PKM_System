@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -29,23 +29,23 @@
       }
     },
     {
-      "query": "(path:📒Planner) OR (path:📝Essays)",
+      "query": "path:📒Planner",
       "color": {
         "a": 1,
         "rgb": 16766090
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -0.5,
+  "textFadeMultiplier": -1.2,
   "nodeSizeMultiplier": 1.60769230769231,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.520833333333333,
+  "centerStrength": 0.630208333333333,
   "repelStrength": 10,
-  "linkStrength": 1,
+  "linkStrength": 0.916666666666667,
   "linkDistance": 250,
-  "scale": 0.3635452588385762,
-  "close": true
+  "scale": 0.36354525883858296,
+  "close": false
 }

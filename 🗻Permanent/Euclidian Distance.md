@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Euclidian Distance
 
-
 ```ad-note
 A numerical calculation of the distance between two points. Can be calculated for any number of dimensions/attributes.
 ```

@@ -5,7 +5,8 @@
 		{"id":"29086acd0864b07c","x":193,"y":-54,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Data Model.md"},
 		{"id":"1dfa7e6faf12a040","x":-165,"y":977,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Queries.md"},
 		{"id":"7a89ce3f7e9314e7","x":-365,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Database Management System.md"},
-		{"id":"cafb54d55bd2ffef","x":-843,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Transactions.md"}
+		{"id":"cafb54d55bd2ffef","x":-843,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Transactions.md"},
+		{"id":"24d1508e1b210088","x":285,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Data Mining/Data Mining.canvas"}
 	],
 	"edges":[
 		{"id":"bea2c58a3e78dca3","fromNode":"246cf378c4fcd4f5","fromSide":"bottom","toNode":"125fb23be8280d70","toSide":"top","color":"6"},
@@ -13,6 +14,7 @@
 		{"id":"f89e3382ad92e1ff","fromNode":"246cf378c4fcd4f5","fromSide":"bottom","toNode":"29086acd0864b07c","toSide":"top"},
 		{"id":"8be3452b83c142bd","fromNode":"1dfa7e6faf12a040","fromSide":"top","toNode":"7a89ce3f7e9314e7","toSide":"bottom"},
 		{"id":"7a5418fc1ecb89bf","fromNode":"cafb54d55bd2ffef","fromSide":"right","toNode":"7a89ce3f7e9314e7","toSide":"bottom"},
-		{"id":"2acaa0c5ae88c1be","fromNode":"cafb54d55bd2ffef","fromSide":"top","toNode":"125fb23be8280d70","toSide":"bottom"}
+		{"id":"2acaa0c5ae88c1be","fromNode":"cafb54d55bd2ffef","fromSide":"top","toNode":"125fb23be8280d70","toSide":"bottom"},
+		{"id":"56a9c59f0d42bac8","fromNode":"29086acd0864b07c","fromSide":"bottom","toNode":"24d1508e1b210088","toSide":"top"}
 	]
 }
