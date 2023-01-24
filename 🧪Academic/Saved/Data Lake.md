@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Data Lake
 
 > [!summary] 
@@ -10,3 +9,4 @@ tags: academic
 
 ## References
 1. [[🧪Academic/Processed/What is AI, ML, DS]]
+2. [[Data]]

@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Data Science
 
 > [!summary] 
@@ -12,3 +11,4 @@ tags: academic
 1. [[🧪Academic/Processed/What is AI, ML, DS]]
 2. [[Artificial Intelligence]]
 3. [[🧪Academic/Saved/Machine Learning]]
+4. [[Data]]

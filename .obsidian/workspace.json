@@ -8,66 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "683273caa3c048e5",
+            "id": "53d8e0adb36bff1e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "🗃Spring 2023/Database Design/Database Design.canvas",
                 "viewState": {
-                  "x": 280.78410866888646,
-                  "y": 774.0317475363964,
-                  "zoom": -1,
+                  "x": 523,
+                  "y": 634,
+                  "zoom": 0,
                   "snapToGrid": false
                 }
-              }
-            }
-          },
-          {
-            "id": "eb3e549fae633dc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗃Spring 2023/Database Design/Transactions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c6036a22f47bd4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗃Spring 2023/Database Design/Queries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53d8e0adb36bff1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗃Spring 2023/Database Design/Data Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "999364b40c82c5c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗃Spring 2023/Database Design/Database Management System.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -134,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Transactions.md",
+                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Transactions.md",
+                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Transactions.md"
+                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas"
               }
             }
           }
@@ -205,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗃Spring 2023/Database Design/Transactions.md",
+                "file": "🗃Spring 2023/Data Mining/Data Mining.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,17 +210,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "683273caa3c048e5",
+  "active": "53d8e0adb36bff1e",
   "lastOpenFiles": [
-    "🗃Spring 2023/Database Design/Transactions.md",
-    "🗃Spring 2023/Database Design/Database Design.canvas",
-    "🗃Spring 2023/Database Design/Database Management System.md",
-    "🗃Spring 2023/Database Design/Queries.md",
-    "🗃Spring 2023/Database Design/Data Model.md",
-    "🗃Spring 2023/Database Design/Data Independence.md",
-    "🗃Spring 2023/Database Design/Database.md",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
-    "README.md"
+    "🗃Spring 2023/Database Design/Database Design.canvas",
+    "🗃Spring 2023/Data Mining/Data Mining.md",
+    "🗃Spring 2023/Database Design/Data Mining.md",
+    "🗃Spring 2023/Database Design/Data Model.md",
+    "🗃Spring 2023/Database Design/Database Management System.md",
+    "🧪Academic/Saved/The Data Pipeline.md",
+    "🧪Academic/Saved/Supervised Learning.md",
+    "🧪Academic/Saved/Feature Engineering.md",
+    "🧪Academic/Saved/Feature.md"
   ]
 }

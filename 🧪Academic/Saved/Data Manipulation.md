@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Data Manipulation
 
 > [!summary] 
@@ -12,3 +11,4 @@ tags: academic
 1. [[Feature Store]]
 2. [[🧪Academic/Saved/Feature Engineering]]
 3. [[Data Warehouse]]
+4. [[Data]]

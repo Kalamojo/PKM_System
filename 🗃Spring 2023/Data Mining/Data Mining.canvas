@@ -1,4 +1,9 @@
 {
-	"nodes":[],
-	"edges":[]
+	"nodes":[
+		{"id":"d2129895e8662798","x":-175,"y":-555,"width":400,"height":400,"type":"file","file":"🧪Academic/Saved/Data Warehouse.md"},
+		{"id":"2ffd3fc419f8486a","x":-175,"y":-40,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Data Mining/Data Mining.md"}
+	],
+	"edges":[
+		{"id":"d92ee141e54125aa","fromNode":"d2129895e8662798","fromSide":"bottom","toNode":"2ffd3fc419f8486a","toSide":"top"}
+	]
 }

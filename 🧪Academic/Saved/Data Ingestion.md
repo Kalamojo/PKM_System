@@ -2,7 +2,6 @@
 type: note
 tags: academic
 ---
-
 # Data Ingestion
 
 > [!summary] 
@@ -12,3 +11,4 @@ tags: academic
 1. [[Dataset]]
 2. [[Data Stream]]
 3. [[Data Lake]]
+4. [[Data]]
