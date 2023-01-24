@@ -1,23 +1,37 @@
 {
 	"nodes":[
-		{"id":"1dcff9c643457f7f","x":-414,"y":-403,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/I-O Modules.md"},
-		{"id":"5a96e93212128b7d","x":-139,"y":-691,"width":250,"height":60,"color":"2","type":"text","text":"Computer Hardware"},
-		{"id":"f46b9bfca88b7a5b","x":31,"y":-403,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Main Memory.md"},
-		{"id":"6e2c5600affd3e0b","x":31,"y":75,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/System Bus.md"},
-		{"id":"7d5c9409f618fda1","x":-414,"y":75,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Processor.md"},
-		{"id":"e5c19f52e2ec7c97","x":589,"y":-403,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Operating System.md"},
-		{"id":"d4b7ba28167b39a3","x":664,"y":-691,"width":250,"height":60,"color":"4","type":"text","text":"Computer Software"},
-		{"id":"29a4ceae10a2bace","x":189,"y":-1260,"width":400,"height":400,"color":"1","type":"file","file":"🗻Permanent/Computer.md"},
-		{"id":"c7b523689acb03c0","x":-295,"y":708,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Interrupts.md"}
+		{"id":"1dcff9c643457f7f","x":-743,"y":-661,"width":400,"height":400,"color":"2","type":"file","file":"🗃Spring 2023/Operating Systems/I-O Modules.md"},
+		{"id":"f46b9bfca88b7a5b","x":-743,"y":-203,"width":400,"height":400,"color":"2","type":"file","file":"🗃Spring 2023/Operating Systems/Main Memory.md"},
+		{"id":"5a96e93212128b7d","x":-187,"y":-691,"width":250,"height":60,"color":"2","type":"text","text":"Computer Hardware"},
+		{"id":"d4b7ba28167b39a3","x":789,"y":-891,"width":250,"height":60,"color":"4","type":"text","text":"Computer Software"},
+		{"id":"e5c19f52e2ec7c97","x":789,"y":-725,"width":400,"height":400,"color":"4","type":"file","file":"🗃Spring 2023/Operating Systems/Operating System.md"},
+		{"id":"29a4ceae10a2bace","x":264,"y":-1031,"width":400,"height":400,"color":"1","type":"file","file":"🗻Permanent/Computer.md"},
+		{"id":"7d5c9409f618fda1","x":264,"y":-525,"width":400,"height":400,"color":"2","type":"file","file":"🗃Spring 2023/Operating Systems/Processor.md"},
+		{"id":"239ce2eeca1a82f6","x":989,"y":-261,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Kernel.md"},
+		{"id":"c7b523689acb03c0","x":514,"y":-3,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Interrupts.md"},
+		{"id":"120390af6dad080e","x":114,"y":-3,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Process.md"},
+		{"id":"f251f9356bab1ac5","x":-262,"y":-461,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Moore's Law.md"},
+		{"id":"6e2c5600affd3e0b","x":-743,"y":245,"width":400,"height":400,"color":"2","type":"file","file":"🗃Spring 2023/Operating Systems/System Bus.md"},
+		{"id":"70b783ff19fa9aac","x":264,"y":459,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Thread.md"},
+		{"id":"a4396f92381f634a","x":264,"y":922,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Multithreading.md"},
+		{"id":"74dd5021737f7b7c","x":-286,"y":245,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Uniprogramming.md"},
+		{"id":"f60323ff9a092759","x":-286,"y":722,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Operating Systems/Multiprogramming.md"}
 	],
 	"edges":[
-		{"id":"a2b84ba69902a5b9","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"1dcff9c643457f7f","toSide":"top"},
-		{"id":"8916a4631136f2ee","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"f46b9bfca88b7a5b","toSide":"top"},
-		{"id":"52352d73b3b5e4d3","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"7d5c9409f618fda1","toSide":"top"},
-		{"id":"0ad3d73eba0bc73f","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"6e2c5600affd3e0b","toSide":"top"},
+		{"id":"a2b84ba69902a5b9","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"1dcff9c643457f7f","toSide":"top","color":"2"},
+		{"id":"8916a4631136f2ee","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"f46b9bfca88b7a5b","toSide":"top","color":"2"},
+		{"id":"52352d73b3b5e4d3","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"7d5c9409f618fda1","toSide":"top","color":"2"},
+		{"id":"0ad3d73eba0bc73f","fromNode":"5a96e93212128b7d","fromSide":"bottom","toNode":"6e2c5600affd3e0b","toSide":"top","color":"2"},
 		{"id":"c2f0e0f9c7ab52ce","fromNode":"c7b523689acb03c0","fromSide":"top","toNode":"7d5c9409f618fda1","toSide":"bottom"},
 		{"id":"a5d1e1700e71710c","fromNode":"29a4ceae10a2bace","fromSide":"bottom","toNode":"5a96e93212128b7d","toSide":"top","color":"1"},
-		{"id":"d05d3ab5982d527c","fromNode":"d4b7ba28167b39a3","fromSide":"bottom","toNode":"e5c19f52e2ec7c97","toSide":"top"},
-		{"id":"e77d3ac0ce7d4eee","fromNode":"29a4ceae10a2bace","fromSide":"bottom","toNode":"d4b7ba28167b39a3","toSide":"top","color":"1"}
+		{"id":"d05d3ab5982d527c","fromNode":"d4b7ba28167b39a3","fromSide":"bottom","toNode":"e5c19f52e2ec7c97","toSide":"top","color":"4"},
+		{"id":"e77d3ac0ce7d4eee","fromNode":"29a4ceae10a2bace","fromSide":"bottom","toNode":"d4b7ba28167b39a3","toSide":"top","color":"1"},
+		{"id":"88ed7185a59059ee","fromNode":"f251f9356bab1ac5","fromSide":"right","toNode":"7d5c9409f618fda1","toSide":"left"},
+		{"id":"71b5efd008a098b4","fromNode":"e5c19f52e2ec7c97","fromSide":"bottom","toNode":"239ce2eeca1a82f6","toSide":"top"},
+		{"id":"b056c3bc46ced5e6","fromNode":"7d5c9409f618fda1","fromSide":"bottom","toNode":"120390af6dad080e","toSide":"top"},
+		{"id":"d587e6e526ae7c1b","fromNode":"120390af6dad080e","fromSide":"bottom","toNode":"74dd5021737f7b7c","toSide":"top"},
+		{"id":"e9b2e0ff9c4e7c0f","fromNode":"74dd5021737f7b7c","fromSide":"bottom","toNode":"f60323ff9a092759","toSide":"top"},
+		{"id":"3f439a28687095d6","fromNode":"70b783ff19fa9aac","fromSide":"top","toNode":"120390af6dad080e","toSide":"bottom"},
+		{"id":"3320b4e2cd09ac32","fromNode":"70b783ff19fa9aac","fromSide":"bottom","toNode":"a4396f92381f634a","toSide":"top"}
 	]
 }

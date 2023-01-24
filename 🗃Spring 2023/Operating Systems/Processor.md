@@ -9,4 +9,5 @@ tags: [school]
 > Controlls the operation of the computer.
 
 ## References
-1. [[Computer]]
+1. [[Process]]
+2. [[Computer]]
