@@ -11,11 +11,15 @@
             "id": "0c8e3ba9a431a606",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "🗻Permanent/Euclidian Distance.md",
-                "mode": "source",
-                "source": false
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
+                "viewState": {
+                  "x": 374.7945945945944,
+                  "y": 1031.6956340956344,
+                  "zoom": -1.1254558959854046,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Euclidian Distance.md",
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Euclidian Distance.md",
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Euclidian Distance.md"
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas"
               }
             }
           }
@@ -153,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Euclidian Distance.md",
+                "file": "🗃Spring 2023/Database Design/Database Design.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,15 +211,15 @@
   },
   "active": "0c8e3ba9a431a606",
   "lastOpenFiles": [
-    "📦Templates/📝 Essay.md",
-    "🗻Permanent/Data.md",
-    "🗃Spring 2023/Operating Systems/Process.md",
-    "🗃Spring 2023/Operating Systems/Processor.md",
-    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
-    "🗻Permanent/Graph Theory.md",
-    "🗻Permanent/Descriptive Statistics.md",
-    "🗻Permanent/Truth Table.md",
-    "⚜️Fleeting/Push Function.md",
-    "🗻Permanent/Statistical Inference.md"
+    "🗃Spring 2023/Database Design/Entity.md",
+    "🗃Spring 2023/Database Design/Entity Set.md",
+    "🗃Spring 2023/Database Design/Relationship.md",
+    "🗃Spring 2023/Database Design/Database Design.canvas",
+    "🗃Spring 2023/Database Design/E-R Model.md",
+    "🗻Permanent/Assessing Variable Relationships.md",
+    "🗻Permanent/Similarity.md",
+    "🗻Permanent/Association.md",
+    "🗻Permanent/Object.md",
+    "📎Attachments/✏️Excalidraw/E-R Model 2023-01-26 11.43.52.excalidraw.md"
   ]
 }

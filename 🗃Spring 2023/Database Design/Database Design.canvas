@@ -3,18 +3,27 @@
 		{"id":"246cf378c4fcd4f5","x":-127,"y":-531,"width":400,"height":400,"color":"6","type":"file","file":"🗻Permanent/Data.md"},
 		{"id":"125fb23be8280d70","x":-409,"y":-54,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Database.md"},
 		{"id":"29086acd0864b07c","x":193,"y":-54,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Data Model.md"},
-		{"id":"1dfa7e6faf12a040","x":-165,"y":977,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Queries.md"},
 		{"id":"7a89ce3f7e9314e7","x":-365,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Database Management System.md"},
 		{"id":"cafb54d55bd2ffef","x":-843,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Transactions.md"},
-		{"id":"24d1508e1b210088","x":285,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Data Mining/Data Mining.canvas"}
+		{"id":"24d1508e1b210088","x":654,"y":-54,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Data Mining/Data Mining.canvas"},
+		{"id":"2ff6baba69066935","x":497,"y":434,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/E-R Model.md"},
+		{"id":"1dfa7e6faf12a040","x":-264,"y":981,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Queries.md"},
+		{"id":"cd6e6ed35de76281","x":254,"y":1488,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Entity.md"},
+		{"id":"9009d6b59dc4bd9c","x":297,"y":981,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Entity Set.md"},
+		{"id":"a877f199bab8dece","x":775,"y":981,"width":400,"height":400,"type":"file","file":"🗃Spring 2023/Database Design/Relationship.md"}
 	],
 	"edges":[
 		{"id":"bea2c58a3e78dca3","fromNode":"246cf378c4fcd4f5","fromSide":"bottom","toNode":"125fb23be8280d70","toSide":"top","color":"6"},
 		{"id":"2bbf665782133c49","fromNode":"125fb23be8280d70","fromSide":"bottom","toNode":"7a89ce3f7e9314e7","toSide":"top"},
-		{"id":"f89e3382ad92e1ff","fromNode":"246cf378c4fcd4f5","fromSide":"bottom","toNode":"29086acd0864b07c","toSide":"top"},
+		{"id":"f89e3382ad92e1ff","fromNode":"246cf378c4fcd4f5","fromSide":"bottom","toNode":"29086acd0864b07c","toSide":"top","color":"6"},
 		{"id":"8be3452b83c142bd","fromNode":"1dfa7e6faf12a040","fromSide":"top","toNode":"7a89ce3f7e9314e7","toSide":"bottom"},
 		{"id":"7a5418fc1ecb89bf","fromNode":"cafb54d55bd2ffef","fromSide":"right","toNode":"7a89ce3f7e9314e7","toSide":"bottom"},
 		{"id":"2acaa0c5ae88c1be","fromNode":"cafb54d55bd2ffef","fromSide":"top","toNode":"125fb23be8280d70","toSide":"bottom"},
-		{"id":"56a9c59f0d42bac8","fromNode":"29086acd0864b07c","fromSide":"bottom","toNode":"24d1508e1b210088","toSide":"top"}
+		{"id":"6e144219943536f4","fromNode":"24d1508e1b210088","fromSide":"left","toNode":"29086acd0864b07c","toSide":"right"},
+		{"id":"cb8ed820a22816be","fromNode":"29086acd0864b07c","fromSide":"bottom","toNode":"2ff6baba69066935","toSide":"top"},
+		{"id":"b786f5ac05cd42d1","fromNode":"9009d6b59dc4bd9c","fromSide":"top","toNode":"2ff6baba69066935","toSide":"bottom"},
+		{"id":"8174cb0ccd483971","fromNode":"cd6e6ed35de76281","fromSide":"top","toNode":"9009d6b59dc4bd9c","toSide":"bottom"},
+		{"id":"1bc2cc956dffa4b4","fromNode":"a877f199bab8dece","fromSide":"top","toNode":"2ff6baba69066935","toSide":"bottom"},
+		{"id":"182b6525abb60da8","fromNode":"cd6e6ed35de76281","fromSide":"top","toNode":"a877f199bab8dece","toSide":"bottom"}
 	]
 }
