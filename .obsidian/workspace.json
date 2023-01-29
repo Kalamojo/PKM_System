@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Computer.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Computer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "🗻Permanent/Computer.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Computer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,8 +207,8 @@
   },
   "active": "2d71cfd92be3e2e2",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Data Science Intern (Oracle).md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/🎩Work/💼 Data Science Intern (Oracle).md",
     "📒Planner/⚓Graduate Applications.md",
     "🗃Spring 2023/Automata/Automata.canvas",
     "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
