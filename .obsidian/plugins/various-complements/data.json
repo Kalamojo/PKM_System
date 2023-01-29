@@ -47,14 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "rejected": {
-      "rejected": {
-        "frontMatter": {
-          "count": 18,
-          "lastUpdated": 1672378454806
-        }
-      }
-    },
     "Data Structures and Algorithms": {
       "Data Structures and Algorithms": {
         "frontMatter": {
@@ -95,11 +87,11 @@
         }
       }
     },
-    "Sets": {
-      "Sets": {
-        "internalLink": {
+    "rejected": {
+      "rejected": {
+        "frontMatter": {
           "count": 1,
-          "lastUpdated": 1674759538742
+          "lastUpdated": 1675015682921
         }
       }
     }
