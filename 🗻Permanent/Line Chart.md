@@ -9,9 +9,8 @@ tags: [school]
 A precise (close) representation of the probability function. Similar to the histogram except bins are much smaller, small enough to the point where the bins form a smooth curve.
 ```
 
-```ad-example
-![[line_chart.gif]]
-```
+>[!example]
+![[line_chart.gif|center]]
 
 ## References
 1. [[Visualization]]

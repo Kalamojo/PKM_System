@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Continuous Variables
 
-
 > [!note] 
 > Values that are real numbers. Can have fraction or decimal places.
 

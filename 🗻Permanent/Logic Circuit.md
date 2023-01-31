@@ -9,9 +9,8 @@ tags: [school]
 Complex functions composed of basic gates and functions.
 ```
 
-```ad-example
-![[Pasted image 20220125101340.png]]
-```
+> [!example]
+> ![[Pasted image 20220125101340.png|center]]
 
 ## References
 1. [[AND]]

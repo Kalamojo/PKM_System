@@ -1,6 +1,6 @@
 {
   "baseFontSize": 17,
-  "cssTheme": "Minimal",
+  "cssTheme": "Wasp",
   "enabledCssSnippets": [
     "TabsObsidian",
     "latex_big",
@@ -8,5 +8,5 @@
     "centered"
   ],
   "translucency": false,
-  "accentColor": ""
+  "accentColor": "#f38b2b"
 }
