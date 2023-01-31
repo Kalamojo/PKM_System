@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Computer.md",
+                "file": "🗻Permanent/Entropy.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Computer.md",
+                "file": "🗻Permanent/Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Computer.md",
+                "file": "🗻Permanent/Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Computer.md"
+                "file": "🗻Permanent/Entropy.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Computer.md",
+                "file": "🗻Permanent/Entropy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,10 +191,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
-      "obsidian-custom-frames:Open Detexify": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "dbfolder:Create a new database table": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
@@ -202,20 +198,24 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-custom-frames:Open Detexify": false,
+      "omnisearch:Omnisearch": false,
+      "dbfolder:Create a new database table": false,
       "periodic-notes:Open this week": false
     }
   },
   "active": "2d71cfd92be3e2e2",
   "lastOpenFiles": [
-    "📒Planner/⚓Job Applications.md",
-    "📒Planner/🎩Work/💼 Data Science Intern (Oracle).md",
-    "📒Planner/⚓Graduate Applications.md",
-    "🗃Spring 2023/Automata/Automata.canvas",
-    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
-    "🗃Spring 2023/Deep Learning/Deep Learning.canvas",
-    "🗃Spring 2023/Database Design/Database Design.canvas",
-    "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗻Permanent/Graph Theory.md",
-    "🗃Spring 2023/Automata/Regular Graph.md"
+    "🗻Permanent/Uniform Distribution.md",
+    "🗻Permanent/Entropy.md",
+    "📒Planner/🎩Work/💼 Software Engineering Full Time.md",
+    "📦Templates/proj_main.md",
+    "📎Attachments/📷Images/Pasted image 20220222105308.png",
+    "📎Attachments/📷Images/Pasted image 20220131102509.png",
+    "📎Attachments/📷Images/Pasted image 20220127161556.png",
+    "📎Attachments/📷Images/Pasted image 20220125102505.png",
+    "📎Attachments/📷Images/Pasted image 20220120183605.png",
+    "📎Attachments/📷Images/Chloropleths.md"
   ]
 }

@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Entropy
 
-
 > [!note]
 > The expected surprise of an event. Is a sum of all probabilities multiplied by their respective surprise.
 
