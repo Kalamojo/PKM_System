@@ -1,5 +1,5 @@
 ---
-alias: []
+alias: [K-Fold Cross-Validation]
 subject: Data Science Intro
 tags: [school]
 ---

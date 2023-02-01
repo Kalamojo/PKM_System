@@ -11,8 +11,12 @@
             "id": "9b3c14f631856e91",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "🗻Permanent/Training.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -78,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🗻Permanent/Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🗻Permanent/Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🗻Permanent/Training.md"
+              }
             }
           }
         ],
@@ -144,6 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "🗻Permanent/Training.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -195,52 +204,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "floating": {
-    "id": "418d2687a65e8f92",
-    "type": "floating",
-    "children": [
-      {
-        "id": "035b4e5b6c726ea9",
-        "type": "window",
-        "children": [
-          {
-            "id": "992b7c07ffb76421",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d235f5d29251785b",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "excalibrain.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 341,
-        "y": 109,
-        "width": 1025,
-        "height": 801,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "9b3c14f631856e91",
   "lastOpenFiles": [
+    "🗃Spring 2023/Deep Learning/Learning.md",
+    "🗻Permanent/Training.md",
+    "excalibrain.md",
+    "🗻Permanent/Training Set.md",
+    "🗻Permanent/K-Fold Cross Validation.md",
+    "🗻Permanent/Leave-One-Out Validation.md",
+    "🗻Permanent/Supervised Learning.md",
     "🗻Permanent/Sample Covariance.md",
     "🗻Permanent/Probability.md",
-    "🗻Permanent/Entropy.md",
-    "🗻Permanent/Joint Entropy.md",
-    "excalibrain.md",
-    "🗻Permanent/Mutual Information.md",
-    "🗻Permanent/Shannon Entropy.md",
-    "🗻Permanent/Association.md",
-    "📎Attachments/✏️Excalidraw/Push Function 2022-10-15 14.34.07.excalidraw.md",
-    "📒Planner/🎒School/🏫 Cornell.md"
+    "🗻Permanent/Entropy.md"
   ]
 }

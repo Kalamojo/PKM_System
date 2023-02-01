@@ -1,5 +1,5 @@
 ---
-alias: []
+alias: [LOOCV, Leave-One-Out Cross Validation, Leave-One-Out Cross-Validation]
 subject: Data Science Intro
 tags: [school]
 ---

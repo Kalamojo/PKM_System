@@ -147,11 +147,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "📝Essays/📝 Background.md",
-    "🗻Permanent/Up-Sampling.md",
-    "💭Reflection/☀️Daily Notes/2022-May-27.md",
-    "🗻Permanent/Intersection.md",
-    "🗻Permanent/Cartesian Product.md",
     "Tuple",
     "🗻Permanent/Discrete Random Variable.md",
     "🗻Permanent/Pointer.md",
@@ -197,7 +192,12 @@
     "🗻Permanent/Math Foundations of CS.md",
     "🗻Permanent/Digital Systems Engineering.md",
     "🗻Permanent/Data and Distributions.md",
-    "🗻Permanent/Subset.md"
+    "🗻Permanent/Subset.md",
+    "🗻Permanent/Supervised Learning.md",
+    "🗻Permanent/Leave-One-Out Validation.md",
+    "🗻Permanent/K-Fold Cross Validation.md",
+    "🗻Permanent/Training Set.md",
+    "🗻Permanent/Training.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
