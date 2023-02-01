@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "acfebcc86eed1a86",
+        "id": "7b199a40064b4a72",
         "type": "tabs",
         "children": [
           {
-            "id": "aa7e4afcf80920a3",
+            "id": "9b3c14f631856e91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗻Permanent/Logic Circuit.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -82,7 +78,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Logic Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +94,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Logic Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🗻Permanent/Logic Circuit.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -152,7 +144,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Logic Circuit.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,17 +195,52 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "aa7e4afcf80920a3",
+  "floating": {
+    "id": "418d2687a65e8f92",
+    "type": "floating",
+    "children": [
+      {
+        "id": "035b4e5b6c726ea9",
+        "type": "window",
+        "children": [
+          {
+            "id": "992b7c07ffb76421",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d235f5d29251785b",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "excalibrain.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 341,
+        "y": 109,
+        "width": 1025,
+        "height": 801,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "9b3c14f631856e91",
   "lastOpenFiles": [
-    "🗃Spring 2023/Database Design/Database Design.canvas",
-    "🗻Permanent/Data.md",
-    "🗃Spring 2023/Database Design/Relationship.md",
-    "🗃Spring 2023/Database Design/Database Management System.md",
-    "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗃Spring 2023/Database Design/Database.md",
-    "🗻Permanent/Recursive Function.md",
-    "🗻Permanent/Line Chart.md",
-    "🗻Permanent/Ordinal.md",
-    "📦Templates/Academic_note.md"
+    "🗻Permanent/Sample Covariance.md",
+    "🗻Permanent/Probability.md",
+    "🗻Permanent/Entropy.md",
+    "🗻Permanent/Joint Entropy.md",
+    "excalibrain.md",
+    "🗻Permanent/Mutual Information.md",
+    "🗻Permanent/Shannon Entropy.md",
+    "🗻Permanent/Association.md",
+    "📎Attachments/✏️Excalidraw/Push Function 2022-10-15 14.34.07.excalidraw.md",
+    "📒Planner/🎒School/🏫 Cornell.md"
   ]
 }

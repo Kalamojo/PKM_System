@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Sample Covariance
 
-
 ```ad-note
 A measure of the association between two samples of attributes.
 ```

@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Analysis of Variance
 
-
 ```ad-note
 A single statistic that allows comparison of variance between groups with variance within groups.
 ```

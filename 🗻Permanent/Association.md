@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Association
 
-
 > [!note] 
 In terms of probability, association is the likelihood that $X$ causes $Y$. 
 
