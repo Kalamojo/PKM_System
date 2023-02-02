@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Logic
 
-
 1. [[Propositions]]
 2. [[OR]]
 3. [[XOR]]

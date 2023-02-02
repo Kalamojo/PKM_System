@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Training.md",
+                "file": "🗻Permanent/Logic.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Training.md",
+                "file": "🗻Permanent/Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Training.md",
+                "file": "🗻Permanent/Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Training.md"
+                "file": "🗻Permanent/Logic.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Training.md",
+                "file": "🗻Permanent/Logic.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,15 +206,15 @@
   },
   "active": "9b3c14f631856e91",
   "lastOpenFiles": [
-    "🗃Spring 2023/Deep Learning/Learning.md",
+    "🗻Permanent/Propositions.md",
+    "🗻Permanent/Logic.md",
+    "🗻Permanent/Truth Table.md",
     "🗻Permanent/Training.md",
+    "🗃Spring 2023/Deep Learning/Learning.md",
     "excalibrain.md",
     "🗻Permanent/Training Set.md",
     "🗻Permanent/K-Fold Cross Validation.md",
     "🗻Permanent/Leave-One-Out Validation.md",
-    "🗻Permanent/Supervised Learning.md",
-    "🗻Permanent/Sample Covariance.md",
-    "🗻Permanent/Probability.md",
-    "🗻Permanent/Entropy.md"
+    "🗻Permanent/Supervised Learning.md"
   ]
 }
