@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Visualization
 
-
 1. [[Histogram]]
 2. [[Line Chart]]
 3. [[Error Bar]]
