@@ -11,11 +11,15 @@
             "id": "9b3c14f631856e91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "🗻Permanent/Visualization.md",
-                "mode": "source",
-                "source": false
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "viewState": {
+                  "x": 396.63902984715725,
+                  "y": 170.70651594890742,
+                  "zoom": -1.4278960452041907,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Visualization.md",
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Visualization.md",
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Visualization.md"
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas"
               }
             }
           }
@@ -152,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Visualization.md",
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +210,7 @@
   },
   "active": "9b3c14f631856e91",
   "lastOpenFiles": [
+    "🗻Permanent/Visualization.md",
     "🗻Permanent/Logic.md",
     "🗻Permanent/Propositions.md",
     "🗻Permanent/Truth Table.md",
@@ -214,7 +219,6 @@
     "excalibrain.md",
     "🗻Permanent/Training Set.md",
     "🗻Permanent/K-Fold Cross Validation.md",
-    "🗻Permanent/Leave-One-Out Validation.md",
-    "🗻Permanent/Supervised Learning.md"
+    "🗻Permanent/Leave-One-Out Validation.md"
   ]
 }
