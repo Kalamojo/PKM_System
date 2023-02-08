@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf34a8ac6f1523bf",
+        "id": "7b199a40064b4a72",
         "type": "tabs",
         "children": [
           {
-            "id": "9a36b7e965b9aefe",
+            "id": "9b3c14f631856e91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🗻Permanent/Binomial Coefficient.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"subject: Math Foundations\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "40a639c6b4eba5a3",
@@ -82,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🗻Permanent/Binomial Coefficient.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🗻Permanent/Binomial Coefficient.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "🗻Permanent/Binomial Coefficient.md"
               }
             }
           }
@@ -152,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🗻Permanent/Binomial Coefficient.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,17 +206,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9a36b7e965b9aefe",
+  "active": "c124b0fa15013972",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ Caltech.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ UCLA.md",
-    "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ University of Waterloo.md",
-    "📒Planner/🥋Grad/⚗️ Berkeley.md",
-    "📒Planner/🥋Grad/⚗️ UT Austin.md",
-    "📒Planner/🥋Grad/⚗️ University of Washington.md",
-    "📒Planner/🥋Grad/⚗️ Cornell University.md",
-    "📒Planner/🥋Grad/⚗️ MIT.md"
+    "🗻Permanent/Balls-In-Bins.md",
+    "🗻Permanent/Binomial Coefficient.md",
+    "🗻Permanent/Logic.md",
+    "🗻Permanent/Propositions.md",
+    "🗻Permanent/Truth Table.md",
+    "🗻Permanent/Training.md",
+    "🗃Spring 2023/Deep Learning/Learning.md",
+    "excalibrain.md",
+    "🗻Permanent/Training Set.md",
+    "🗻Permanent/K-Fold Cross Validation.md"
   ]
 }
