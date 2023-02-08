@@ -1,12 +1,12 @@
 ---
 tags: ⚗️masters
-university: <% tp.file.cursor(1) %>
+university: <% tp.file.title %>
 research-area:
-application-started: <% tp.date.now() %>
 application-submitted:
-deadline: 2022-12-01
+deadline: TBD
 location: "Remote"
 attendance-type: full-time
-program-start: "September 2023"
+program-duration:
+program-start:
 ---
 <%*tp.file.rename("⚗️ " + tp.file.title)%>
