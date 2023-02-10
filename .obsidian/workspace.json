@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Binomial Coefficient.md",
+                "file": "🗻Permanent/Discretization.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"subject: Math Foundations\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "40a639c6b4eba5a3",
@@ -83,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Binomial Coefficient.md",
+                "file": "🗻Permanent/Discretization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Binomial Coefficient.md",
+                "file": "🗻Permanent/Discretization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Binomial Coefficient.md"
+                "file": "🗻Permanent/Discretization.md"
               }
             }
           }
@@ -153,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Binomial Coefficient.md",
+                "file": "🗻Permanent/Discretization.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,17 +204,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c124b0fa15013972",
+  "active": "9b3c14f631856e91",
   "lastOpenFiles": [
-    "🗻Permanent/Balls-In-Bins.md",
+    "🗻Permanent/Discrete Variable.md",
+    "🗻Permanent/Discretization.md",
+    "📒Planner/⚓Job Applications.md",
+    "📒Planner/🎩Work/💼 Software Engineer Intern (Lyft).md",
     "🗻Permanent/Binomial Coefficient.md",
+    "🗻Permanent/Balls-In-Bins.md",
     "🗻Permanent/Logic.md",
     "🗻Permanent/Propositions.md",
     "🗻Permanent/Truth Table.md",
-    "🗻Permanent/Training.md",
-    "🗃Spring 2023/Deep Learning/Learning.md",
-    "excalibrain.md",
-    "🗻Permanent/Training Set.md",
-    "🗻Permanent/K-Fold Cross Validation.md"
+    "🗻Permanent/Training.md"
   ]
 }
