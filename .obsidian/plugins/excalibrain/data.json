@@ -50,7 +50,7 @@
   "showAttachments": true,
   "showVirtualNodes": true,
   "showFolderNodes": false,
-  "showTagNodes": true,
+  "showTagNodes": false,
   "showPageNodes": true,
   "showNeighborCount": true,
   "showFullTagName": false,
@@ -147,12 +147,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "Tuple",
-    "🗻Permanent/Discrete Random Variable.md",
-    "🗻Permanent/Pointer.md",
-    "🧪Academic/Saved/Natural Language Processing.md",
-    "🗻Permanent/Theorem.md",
-    "🗻Permanent/Statistics.md",
     "Dashboard.md",
     "🗻Permanent/Weight.md",
     "🗻Permanent/Data Analysis.md",
@@ -197,7 +191,13 @@
     "🗻Permanent/Leave-One-Out Validation.md",
     "🗻Permanent/K-Fold Cross Validation.md",
     "🗻Permanent/Training Set.md",
-    "🗻Permanent/Training.md"
+    "🗻Permanent/Training.md",
+    "🗻Permanent/Entropy.md",
+    "🗻Permanent/Dissimilarity.md",
+    "🗻Permanent/Categorical Attributes.md",
+    "🗻Permanent/Nominal.md",
+    "🗻Permanent/Discrete Variable.md",
+    "🗻Permanent/Clustering.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

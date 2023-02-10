@@ -1,10 +1,9 @@
 ---
-alias: [dissimilar]
+alias: [Dissimilar]
 subject: Data Science Intro
 tags: [school]
 ---
 # Dissimilarity
-
 
 ```ad-note
 A numerical measure of how different two objects are.

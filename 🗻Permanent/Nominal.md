@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Nominal
 
-
 ```ad-note
 No symbol is better or worse than another, only different. Only equality is meaningful.
 ```
@@ -19,3 +18,4 @@ No symbol is better or worse than another, only different. Only equality is mean
 
 ## References
 1. [[Categorical Attributes]]
+2. [[Discrete Variable]]

@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Discrete Variable
 
-
 > [!note] 
 > Values that are discrete, including any integer.
 
