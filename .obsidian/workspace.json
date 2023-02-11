@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md"
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,7 @@
   },
   "active": "9b3c14f631856e91",
   "lastOpenFiles": [
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "🗻Permanent/Clustering.md",
     "excalibrain.md",
     "🗻Permanent/Discrete Variable.md",
@@ -214,7 +215,6 @@
     "🗻Permanent/Dissimilarity.md",
     "🗻Permanent/Entropy.md",
     "🗻Permanent/Random Variable.md",
-    "🗻Permanent/Surprise.md",
-    "🗻Permanent/Discretization.md"
+    "🗻Permanent/Surprise.md"
   ]
 }
