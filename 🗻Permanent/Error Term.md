@@ -4,7 +4,6 @@ tags: [personal]
 ---
 # Error Term
 
-
 ```ad-note
 A variable produced by a [[Statistics]] or mathematical model which is a measure of how poorly a model represents the relationship between independent and dependent variables.
 ```

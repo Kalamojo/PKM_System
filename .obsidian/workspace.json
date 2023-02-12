@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "🗻Permanent/Error Term.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "🗻Permanent/Error Term.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "🗻Permanent/Error Term.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md"
+                "file": "🗻Permanent/Error Term.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "🗻Permanent/Error Term.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,15 +206,15 @@
   },
   "active": "9b3c14f631856e91",
   "lastOpenFiles": [
-    "📒Planner/⚓Status.md",
+    "🗻Permanent/Residual Sum of Squares.md",
+    "🗻Permanent/Error Term.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+    "📒Planner/⚓Status.md",
     "📒Planner/🎒Undergrad/💸 Bold Turnaround Story.md",
     "📒Planner/🎒Undergrad/💸 Google CSSI.md",
     "📒Planner/🎒Undergrad/🏫 MIT.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "🗻Permanent/Clustering.md",
-    "excalibrain.md"
+    "🧪Academic/Research/Variational Autoencoder Improvement.md"
   ]
 }
