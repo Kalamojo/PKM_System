@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Data Storytelling.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Data Storytelling.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Data Storytelling.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Data Storytelling.md"
+                "file": "📒Planner/🥋Grad/Masters Programs.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Data Storytelling.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,15 +206,15 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/🎩Work/💼 Software Engineer, Snap Up Apprentice.md",
     "📒Planner/⚓Job Applications.md",
+    "🗻Permanent/Data Storytelling.md",
+    "📒Planner/🎩Work/💼 Software Engineer, Snap Up Apprentice.md",
     "📒Planner/🎩Work/💼 Software Development Engineer.md",
     "📒Planner/🎩Work/💼 Data Engineer (Cohere).md",
     "📒Planner/🎩Work/💼 Data Science _ Analytics.md",
     "📒Planner/🎩Work/💼 Data Analyst.md",
-    "📒Planner/🎩Work/💼 Associate Software Engineer.md",
-    "🗻Permanent/Error Term.md",
-    "🗻Permanent/Residual Sum of Squares.md"
+    "📒Planner/🎩Work/💼 Associate Software Engineer.md"
   ]
 }
