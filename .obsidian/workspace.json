@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md"
+                "file": "🗻Permanent/Supervised Learning Methods.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,7 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/⚓Job Applications.md",
@@ -214,7 +215,6 @@
     "📒Planner/🎩Work/💼 Software Development Engineer.md",
     "📒Planner/🎩Work/💼 Data Engineer (Cohere).md",
     "📒Planner/🎩Work/💼 Data Science _ Analytics.md",
-    "📒Planner/🎩Work/💼 Data Analyst.md",
-    "📒Planner/🎩Work/💼 Associate Software Engineer.md"
+    "📒Planner/🎩Work/💼 Data Analyst.md"
   ]
 }
