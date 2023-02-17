@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Podcast Quotes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Quotes/Podcast Quotes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Quotes/Podcast Quotes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Quotes/Podcast Quotes.md"
+                "file": "README.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/Quotes/Podcast Quotes.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,7 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
+    "💭Reflection/Quotes/Podcast Quotes.md",
     "📒Planner/🎩Work/💼 Associate Solutions Architect.md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/🎩Work/💼 Software Engineer, Full-Stack.md",
@@ -214,7 +215,6 @@
     "💭Reflection/Quotes/Other Quotes.md",
     "🗻Permanent/Supervised Learning Methods.md",
     "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ Stanford University.md",
-    "🗻Permanent/Data Storytelling.md"
+    "📒Planner/🥋Grad/⚗️ Stanford University.md"
   ]
 }
