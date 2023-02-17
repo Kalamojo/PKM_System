@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Hierarchical Clustering
 
-
 ```ad-note
 Given a distance (or similarity) matrix for one attribute of some datapoints, Hierarchical clustering produces a tree representing a family of clusters.
 The size of these clusters can then be decided by the user.
