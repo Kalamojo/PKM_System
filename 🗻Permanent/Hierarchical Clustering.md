@@ -11,7 +11,7 @@ The size of these clusters can then be decided by the user.
 ```
 
 ```ad-example
-![[Hierarchical Clustering 2022-03-24 21.43.15.excalidraw 1|600]]
+![[Hierarchical Clustering 2022-03-24 21.43.15.excalidraw 1| center | 600]]
 ```
 
 ## References

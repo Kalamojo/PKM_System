@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a36b7e965b9aefe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗻Permanent/Unsupervised Learning Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "94999a20921aee4d",
             "type": "leaf",
             "state": {
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "09f2acc6fa9c38d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "🗻Permanent/Hierarchical Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "🗻Permanent/Hierarchical Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md"
+                "file": "🗻Permanent/Hierarchical Clustering.md"
               }
             }
           }
@@ -177,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "🗻Permanent/Hierarchical Clustering.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,13 +204,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "09f2acc6fa9c38d5",
+  "active": "94999a20921aee4d",
   "lastOpenFiles": [
+    "🗻Permanent/K-Means Clustering.md",
     "🗻Permanent/Hierarchical Clustering.md",
     "🗻Permanent/Unsupervised Learning Methods.md",
     "🗻Permanent/Hierarchical Clustering Terminology.md",
     "🗻Permanent/Clustering.md",
-    "🗻Permanent/K-Means Clustering.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Caltech.md",
     "📒Planner/🥋Grad/Masters Programs.md",
