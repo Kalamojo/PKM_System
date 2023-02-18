@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Hierarchical Clustering.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Hierarchical Clustering.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Hierarchical Clustering.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Hierarchical Clustering.md"
+                "file": "README.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Hierarchical Clustering.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,8 +206,8 @@
   },
   "active": "94999a20921aee4d",
   "lastOpenFiles": [
-    "🗻Permanent/K-Means Clustering.md",
     "🗻Permanent/Hierarchical Clustering.md",
+    "🗻Permanent/K-Means Clustering.md",
     "🗻Permanent/Unsupervised Learning Methods.md",
     "🗻Permanent/Hierarchical Clustering Terminology.md",
     "🗻Permanent/Clustering.md",
