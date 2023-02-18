@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "💭Reflection/Quotes/Website Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "💭Reflection/Quotes/Website Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "💭Reflection/Quotes/Website Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md"
+                "file": "💭Reflection/Quotes/Website Quotes.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/K-Means Clustering.md",
+                "file": "💭Reflection/Quotes/Website Quotes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,15 +206,15 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
+    "📒Planner/⚓Status.md",
+    "📒Planner/🎒Undergrad/💸 Knights of Columbus Scholarship.md",
+    "🗻Permanent/K-Means Clustering.md",
     "🗻Permanent/Hierarchical Clustering.md",
     "🧪Academic/Saved/Linear Regression.md",
-    "🗻Permanent/K-Means Clustering.md",
     "🗻Permanent/Clustering.md",
     "Library.md",
     "📖Bookshelf/A World Without Heroes.md",
     "📖Bookshelf/The Rithmatist.md",
-    "📖Bookshelf/The Night Angel Trilogy.md",
-    "💭Reflection/Books To read.md",
-    "README.md"
+    "📖Bookshelf/The Night Angel Trilogy.md"
   ]
 }
