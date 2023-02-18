@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf34a8ac6f1523bf",
+        "id": "7b199a40064b4a72",
         "type": "tabs",
         "children": [
           {
-            "id": "94999a20921aee4d",
+            "id": "1cca7c9d1c044dd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "🗻Permanent/K-Means Clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "🗻Permanent/K-Means Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "🗻Permanent/K-Means Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "🗻Permanent/K-Means Clustering.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "🗻Permanent/K-Means Clustering.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,17 +204,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "94999a20921aee4d",
+  "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
     "🗻Permanent/Hierarchical Clustering.md",
+    "🧪Academic/Saved/Linear Regression.md",
     "🗻Permanent/K-Means Clustering.md",
-    "🗻Permanent/Unsupervised Learning Methods.md",
-    "🗻Permanent/Hierarchical Clustering Terminology.md",
     "🗻Permanent/Clustering.md",
-    "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ Caltech.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ UCLA.md",
-    "📒Planner/🥋Grad/⚗️ University of Waterloo.md"
+    "Library.md",
+    "📖Bookshelf/A World Without Heroes.md",
+    "📖Bookshelf/The Rithmatist.md",
+    "📖Bookshelf/The Night Angel Trilogy.md",
+    "💭Reflection/Books To read.md",
+    "README.md"
   ]
 }
