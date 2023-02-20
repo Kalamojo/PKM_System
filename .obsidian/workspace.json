@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Website Quotes.md",
+                "file": "🗻Permanent/Batch Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Quotes/Website Quotes.md",
+                "file": "🗻Permanent/Batch Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Quotes/Website Quotes.md",
+                "file": "🗻Permanent/Batch Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Quotes/Website Quotes.md"
+                "file": "🗻Permanent/Batch Gradient Descent.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/Quotes/Website Quotes.md",
+                "file": "🗻Permanent/Batch Gradient Descent.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,7 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
+    "💭Reflection/Quotes/Website Quotes.md",
     "📒Planner/⚓Status.md",
     "📒Planner/🎒Undergrad/💸 Knights of Columbus Scholarship.md",
     "🗻Permanent/K-Means Clustering.md",
@@ -214,7 +215,6 @@
     "🗻Permanent/Clustering.md",
     "Library.md",
     "📖Bookshelf/A World Without Heroes.md",
-    "📖Bookshelf/The Rithmatist.md",
-    "📖Bookshelf/The Night Angel Trilogy.md"
+    "📖Bookshelf/The Rithmatist.md"
   ]
 }
