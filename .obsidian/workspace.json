@@ -11,11 +11,15 @@
             "id": "1cca7c9d1c044dd8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "🗻Permanent/Batch Gradient Descent.md",
-                "mode": "source",
-                "source": false
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "viewState": {
+                  "x": 460.47500000000025,
+                  "y": 258.50645088747774,
+                  "zoom": -1.5749999999999997,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Batch Gradient Descent.md",
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Batch Gradient Descent.md",
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Batch Gradient Descent.md"
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas"
               }
             }
           }
@@ -152,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Batch Gradient Descent.md",
+                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,15 +210,15 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
-    "💭Reflection/Quotes/Website Quotes.md",
-    "📒Planner/⚓Status.md",
-    "📒Planner/🎒Undergrad/💸 Knights of Columbus Scholarship.md",
-    "🗻Permanent/K-Means Clustering.md",
-    "🗻Permanent/Hierarchical Clustering.md",
+    "🗻Permanent/Computer.md",
+    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+    "🗃Spring 2023/Deep Learning/Deep Learning.canvas",
+    "🗃Spring 2023/Database Design/Database Design.canvas",
+    "🗃Spring 2023/Data Mining/Data Mining.canvas",
+    "🗃Spring 2023/Automata/Automata.canvas",
+    "🗃Spring 2023/Automata/Complete Graph.md",
+    "🧪Academic/Processed/Algorithms-Intuition.md",
     "🧪Academic/Saved/Linear Regression.md",
-    "🗻Permanent/Clustering.md",
-    "Library.md",
-    "📖Bookshelf/A World Without Heroes.md",
-    "📖Bookshelf/The Rithmatist.md"
+    "🗻Permanent/Batch Gradient Descent.md"
   ]
 }

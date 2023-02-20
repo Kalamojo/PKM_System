@@ -47,46 +47,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Data Structures and Algorithms": {
-      "Data Structures and Algorithms": {
-        "frontMatter": {
-          "count": 3,
-          "lastUpdated": 1673978087902
-        }
-      }
-    },
-    "significant": {
-      "significant": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673977651524
-        }
-      }
-    },
-    "comparison-based": {
-      "comparison-based": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1673978010450
-        }
-      }
-    },
-    "Processor": {
-      "Processor": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1674155573302
-        }
-      }
-    },
-    "Robotics": {
-      "Robotics": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674270858699
-        }
-      }
-    },
     "rejected": {
       "rejected": {
         "frontMatter": {
@@ -244,6 +204,14 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1676526058936
+        }
+      }
+    },
+    "Data": {
+      "Data": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676933436200
         }
       }
     }
