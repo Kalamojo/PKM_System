@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Jaccard Index.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Jaccard Index.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Jaccard Index.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Jaccard Index.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Jaccard Index.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,8 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
+    "📒Planner/⚓Graduate Applications.md",
+    "🗻Permanent/Jaccard Index.md",
     "📎Attachments/✏️Excalidraw/Stack 2022-03-24 19.33.22.excalidraw.md",
     "🗻Permanent/Neurons.md",
     "🗻Permanent/Leave-One-Out Validation.md",
@@ -213,8 +215,6 @@
     "🗻Permanent/AIC for K-means.md",
     "🗻Permanent/Sample Weights.md",
     "🗃Spring 2023/Deep Learning/Deep Learning.canvas",
-    "🗃Spring 2023/Database Design/Database Design.canvas",
-    "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗃Spring 2023/Automata/Automata.canvas"
+    "🗃Spring 2023/Database Design/Database Design.canvas"
   ]
 }
