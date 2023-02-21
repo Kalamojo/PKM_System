@@ -11,15 +11,11 @@
             "id": "1cca7c9d1c044dd8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
-                "viewState": {
-                  "x": 460.47500000000025,
-                  "y": 258.50645088747774,
-                  "zoom": -1.5749999999999997,
-                  "snapToGrid": false
-                }
+                "file": "🗻Permanent/Jaccard Index.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗻Permanent/Jaccard Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗻Permanent/Jaccard Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas"
+                "file": "🗻Permanent/Jaccard Index.md"
               }
             }
           }
@@ -156,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+                "file": "🗻Permanent/Jaccard Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -210,15 +206,15 @@
   },
   "active": "1cca7c9d1c044dd8",
   "lastOpenFiles": [
-    "🗻Permanent/Computer.md",
-    "🗃Spring 2023/Operating Systems/Operating Systems.canvas",
+    "📎Attachments/✏️Excalidraw/Stack 2022-03-24 19.33.22.excalidraw.md",
+    "🗻Permanent/Neurons.md",
+    "🗻Permanent/Leave-One-Out Validation.md",
+    "🗻Permanent/Other Properties.md",
+    "🗻Permanent/AIC for K-means.md",
+    "🗻Permanent/Sample Weights.md",
     "🗃Spring 2023/Deep Learning/Deep Learning.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗃Spring 2023/Automata/Automata.canvas",
-    "🗃Spring 2023/Automata/Complete Graph.md",
-    "🧪Academic/Processed/Algorithms-Intuition.md",
-    "🧪Academic/Saved/Linear Regression.md",
-    "🗻Permanent/Batch Gradient Descent.md"
+    "🗃Spring 2023/Automata/Automata.canvas"
   ]
 }
