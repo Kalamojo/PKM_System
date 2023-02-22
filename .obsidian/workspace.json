@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "🗻Permanent/Supervised Learning Methods.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "🗻Permanent/Supervised Learning Methods.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,8 +206,8 @@
   },
   "active": "a38adb8cad53f91d",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Software Engineer (Adobe).md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/🎩Work/💼 Software Engineer (Adobe).md",
     "📒Planner/🎩Work/💼 Data Science _ Analytics.md",
     "📒Planner/🎩Work/💼 Computer Science Internship.md",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
