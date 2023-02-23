@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "README.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,9 @@
   },
   "active": "a38adb8cad53f91d",
   "lastOpenFiles": [
+    "Library.md",
+    "📒Planner/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
     "🗻Permanent/4 Variable K-map.md",
     "📒Planner/⚓Status.md",
     "🗻Permanent/Supervised Learning Methods.md",
@@ -222,7 +225,6 @@
     "🗻Permanent/Entropy.md",
     "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/🪣Bucket List.md",
-    "📒Planner/⚓Graduate Applications.md",
     "🗻Permanent/Jaccard Index.md",
     "📎Attachments/✏️Excalidraw/Stack 2022-03-24 19.33.22.excalidraw.md",
     "🗻Permanent/Neurons.md"
