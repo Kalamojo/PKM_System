@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Supervised Learning Methods.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Supervised Learning Methods.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Supervised Learning Methods.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Supervised Learning Methods.md"
+                "file": "📒Planner/⚓Graduate Applications.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Supervised Learning Methods.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,9 @@
   },
   "active": "a38adb8cad53f91d",
   "lastOpenFiles": [
+    "🗻Permanent/4 Variable K-map.md",
+    "📒Planner/⚓Status.md",
+    "🗻Permanent/Supervised Learning Methods.md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/🎩Work/💼 Software Engineer (Adobe).md",
     "📒Planner/🎩Work/💼 Data Science _ Analytics.md",
