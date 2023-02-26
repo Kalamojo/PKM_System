@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Axioms
 
-
 > [!note] 
 Basic assumptions, presented without proof.
 
