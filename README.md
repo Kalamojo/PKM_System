@@ -5,8 +5,6 @@ banner_x: 0.87448
 ---
 # Dashboard
 
-Greetings. My name is Kolade Alabi, and here is my Second Brain.
-
 > [!todo]
 >  - Hash Table
 > 	 - Chained
