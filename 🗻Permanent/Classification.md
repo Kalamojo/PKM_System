@@ -1,5 +1,5 @@
 ---
-alias: [Classify]
+alias: [Classify, Classifying]
 subject: Data Science Intro
 tags: [school]
 ---

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "122aa33e8214a758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Research/Texture Bias.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,14 +95,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🧪Academic/Research/Texture Bias.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -99,9 +112,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🧪Academic/Research/Texture Bias.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md"
+                "file": "🧪Academic/Research/Texture Bias.md"
               }
             }
           }
@@ -152,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "🧪Academic/Research/Texture Bias.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,8 +217,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9e0e178c5ba4f396",
+  "active": "122aa33e8214a758",
   "lastOpenFiles": [
+    "📎Attachments/📷Images/intro_figure.png",
+    "🗻Permanent/Classification.md",
+    "🧪Academic/Research/Texture Bias.md",
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
+    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "🧪Academic/Research/Train_test_split.md",
+    "🧪Academic/Research/Timepoints_split.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/🥋Grad/⚗️ Berkeley.md",
     "📒Planner/🎒Undergrad/💸 Google CSSI.md",
@@ -213,9 +234,6 @@
     "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Teamwork.md",
     "📒Planner/⚓Graduate Applications.md",
-    "🧪Academic/Research/Train_test_split.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "🧪Academic/Research/Timepoints_split.md",
     "export/Timepoints_split/plugin/chalkboard/img/whiteboard.png",
     "export/Timepoints_split/plugin/chalkboard/img/sponge.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-yellow.png",
@@ -241,17 +259,12 @@
     "export/Timepoints_split/plugin/customcontrols/README.md",
     "export/Timepoints_split/plugin/menu/CONTRIBUTING.md",
     "export/Timepoints_split/plugin/menu/README.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
     "🗻Permanent/Axioms.md",
     "README.md",
     "Library.md",
     "📒Planner/🥋Grad/⚗️ University of Toronto.md",
     "🗻Permanent/4 Variable K-map.md",
-    "📒Planner/⚓Status.md",
-    "🗻Permanent/Supervised Learning Methods.md",
-    "📒Planner/⚓Job Applications.md",
-    "📒Planner/🎩Work/💼 Software Engineer (Adobe).md",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"
