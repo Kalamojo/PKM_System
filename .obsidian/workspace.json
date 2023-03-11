@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "4db3003236581fdc",
+        "id": "24096125015c2eb8",
         "type": "tabs",
         "children": [
           {
-            "id": "9e0e178c5ba4f396",
+            "id": "8b37c75142576aaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "122aa33e8214a758",
+            "id": "465968735ddc8f94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Texture Bias.md",
+                "file": "📒Planner/🥋Grad/⚗️ Cornell University.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a3bf579d485c5c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Texture Bias.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Texture Bias.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Texture Bias.md"
+                "file": "📒Planner/🥋Grad/Masters Programs.md"
               }
             }
           }
@@ -165,7 +177,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Texture Bias.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,25 +229,27 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "122aa33e8214a758",
+  "active": "5a3bf579d485c5c7",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/⚗️ UIUC.md",
+    "🧪Academic/Research/Texture Bias.md",
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "📎Attachments/📷Images/example_stylization_imgs.png",
     "🗻Permanent/Generalization.md",
-    "🧪Academic/Research/Texture Bias.md",
     "📎Attachments/📷Images/intro_figure.png",
     "🗻Permanent/Classification.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
     "🧪Academic/Research/Train_test_split.md",
     "🧪Academic/Research/Timepoints_split.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/🥋Grad/⚗️ Berkeley.md",
     "📒Planner/🎒Undergrad/💸 Google CSSI.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Teamwork.md",
-    "📒Planner/⚓Graduate Applications.md",
     "export/Timepoints_split/plugin/chalkboard/img/whiteboard.png",
     "export/Timepoints_split/plugin/chalkboard/img/sponge.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-yellow.png",
@@ -244,7 +258,6 @@
     "export/Timepoints_split/plugin/chalkboard/img/chalk-orange.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-purple.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-green.png",
-    "export/Timepoints_split/plugin/chalkboard/img/chalk-blue.png",
     "export/Timepoints_split/plugin/chalkboard/_style.css",
     "export/Timepoints_split/plugin/chalkboard/style.css",
     "export/Timepoints_split/plugin/chalkboard/plugin (copy).js",
@@ -264,7 +277,6 @@
     "🗻Permanent/Axioms.md",
     "README.md",
     "Library.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"
