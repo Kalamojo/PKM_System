@@ -1,343 +1,340 @@
 {
-  "workspaces": {
-    "Todo": {
-      "main": {
-        "id": "38e2a91ac22b046b",
-        "type": "split",
-        "children": [
-          {
-            "id": "f2c47f3d5aa56b39",
-            "type": "split",
-            "children": [
-              {
-                "id": "187030fee5e54acc",
-                "type": "leaf",
+  "Todo": {
+    "main": {
+      "id": "38e2a91ac22b046b",
+      "type": "split",
+      "children": [
+        {
+          "id": "f2c47f3d5aa56b39",
+          "type": "split",
+          "children": [
+            {
+              "id": "187030fee5e54acc",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dashboard.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "187030fee5e54acc",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "leaf": "187030fee5e54acc",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/☀️Daily Notes/2022-May-31.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":20},\"to\":{\"line\":5,\"ch\":20}},\"scroll\":0.9779411764705882}"
-                    }
-                  ]
+                  "file": "Dashboard.md",
+                  "mode": "source",
+                  "source": false
                 }
               },
-              {
-                "id": "41054b386dac95dc",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-todoist",
-                  "state": {}
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "41054b386dac95dc",
-                      "group": null,
-                      "state": "{\"type\":\"custom-frames-todoist\",\"state\":{}}",
-                      "eState": "{}"
-                    }
-                  ]
-                }
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "leaf": "187030fee5e54acc",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{}"
+                  },
+                  {
+                    "leaf": "187030fee5e54acc",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"💭Reflection/☀️Daily Notes/2022-May-31.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":20},\"to\":{\"line\":5,\"ch\":20}},\"scroll\":0.9779411764705882}"
+                  }
+                ]
               }
-            ],
-            "direction": "vertical"
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "5bb573d09cd213c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "27d12b7500bf16e0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d13977457f542e61",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {}
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                }
+            },
+            {
+              "id": "41054b386dac95dc",
+              "type": "leaf",
+              "state": {
+                "type": "custom-frames-todoist",
+                "state": {}
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "leaf": "41054b386dac95dc",
+                    "group": null,
+                    "state": "{\"type\":\"custom-frames-todoist\",\"state\":{}}",
+                    "eState": "{}"
+                  }
+                ]
               }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 187
-      },
-      "right": {
-        "id": "afa4e1cdee034b84",
-        "type": "split",
-        "children": [
-          {
-            "id": "3110733c11545dfa",
-            "type": "tabs",
-            "dimension": 57.62376237623762,
-            "children": [
-              {
-                "id": "a51648f053791abf",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Dashboard.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                }
+            }
+          ],
+          "direction": "vertical"
+        }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "5bb573d09cd213c6",
+      "type": "split",
+      "children": [
+        {
+          "id": "27d12b7500bf16e0",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "d13977457f542e61",
+              "type": "leaf",
+              "state": {
+                "type": "file-explorer",
+                "state": {}
               },
-              {
-                "id": "1fbbdb5ed0bba683",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Dashboard.md"
-                  }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                }
-              },
-              {
-                "id": "42b48d9914a849fa",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dashboard.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Snipd/NLP.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Snipd/Shallow Learning.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":20},\"to\":{\"line\":2,\"ch\":20}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Portfolio.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":92},\"to\":{\"line\":0,\"ch\":92}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":89},\"to\":{\"line\":2,\"ch\":89}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Portfolio.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💸 Google CSSI.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"♾️Daily Notes/2022-May-17.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"♾️Daily Notes/2022-May-16.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Status.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Priority.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Status.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Priority.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📝Essays/📝 Activism.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":26.375}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💸 Google CSSI.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"scroll\":4.920127795527157}"
-                    },
-                    {
-                      "leaf": "42b48d9914a849fa",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"♾️Daily Notes/2022-May-17.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":12},\"to\":{\"line\":5,\"ch\":12}},\"scroll\":0}"
-                    }
-                  ]
-                }
-              },
-              {
-                "id": "ece0ed84e860e6c9",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {}
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                }
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
               }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "8f7b878a2911e40c",
-            "type": "tabs",
-            "dimension": 42.37623762376238,
-            "children": [
-              {
-                "id": "4f863f64d28629a3",
-                "type": "leaf",
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 187
+    },
+    "right": {
+      "id": "afa4e1cdee034b84",
+      "type": "split",
+      "children": [
+        {
+          "id": "3110733c11545dfa",
+          "type": "tabs",
+          "dimension": 57.62376237623762,
+          "children": [
+            {
+              "id": "a51648f053791abf",
+              "type": "leaf",
+              "state": {
+                "type": "backlink",
                 "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
+                  "file": "Dashboard.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
                 }
               },
-              {
-                "id": "2856be8a91debdce",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": false
-                  }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                }
-              },
-              {
-                "id": "b0c352ad4e947d60",
-                "type": "leaf",
-                "state": {
-                  "type": "custom-frames-google-keep",
-                  "state": {}
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": []
-                }
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
               }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 250.5
-      },
-      "active": "187030fee5e54acc"
-    }
-  },
-  "active": "Todo"
+            },
+            {
+              "id": "1fbbdb5ed0bba683",
+              "type": "leaf",
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "Dashboard.md"
+                }
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
+              }
+            },
+            {
+              "id": "42b48d9914a849fa",
+              "type": "leaf",
+              "state": {
+                "type": "markdown",
+                "state": {
+                  "file": "Dashboard.md",
+                  "mode": "source",
+                  "source": false
+                }
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Snipd/NLP.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Snipd/Shallow Learning.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":20},\"to\":{\"line\":2,\"ch\":20}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Portfolio.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":92},\"to\":{\"line\":0,\"ch\":92}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":89},\"to\":{\"line\":2,\"ch\":89}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Portfolio.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":3},\"to\":{\"line\":4,\"ch\":3}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💸 Google CSSI.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"♾️Daily Notes/2022-May-17.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"♾️Daily Notes/2022-May-16.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Status.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Priority.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Status.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/⚓Priority.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📝Essays/📝 Activism.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":26.375}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"📒Planner/💸 Google CSSI.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"scroll\":4.920127795527157}"
+                  },
+                  {
+                    "leaf": "42b48d9914a849fa",
+                    "group": null,
+                    "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"♾️Daily Notes/2022-May-17.md\",\"mode\":\"source\",\"source\":false}}",
+                    "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":12},\"to\":{\"line\":5,\"ch\":12}},\"scroll\":0}"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ece0ed84e860e6c9",
+              "type": "leaf",
+              "state": {
+                "type": "calendar",
+                "state": {}
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
+              }
+            }
+          ],
+          "currentTab": 3
+        },
+        {
+          "id": "8f7b878a2911e40c",
+          "type": "tabs",
+          "dimension": 42.37623762376238,
+          "children": [
+            {
+              "id": "4f863f64d28629a3",
+              "type": "leaf",
+              "state": {
+                "type": "advanced-tables-toolbar",
+                "state": {}
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
+              }
+            },
+            {
+              "id": "2856be8a91debdce",
+              "type": "leaf",
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "frequency",
+                  "useHierarchy": false
+                }
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
+              }
+            },
+            {
+              "id": "b0c352ad4e947d60",
+              "type": "leaf",
+              "state": {
+                "type": "custom-frames-google-keep",
+                "state": {}
+              },
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": []
+              }
+            }
+          ],
+          "currentTab": 1
+        }
+      ],
+      "direction": "horizontal",
+      "width": 250.5
+    },
+    "active": "187030fee5e54acc"
+  }
 }

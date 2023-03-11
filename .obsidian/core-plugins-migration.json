@@ -21,7 +21,7 @@
   "word-count": false,
   "slides": false,
   "audio-recorder": false,
-  "workspaces": true,
+  "workspaces": false,
   "file-recovery": true,
   "publish": false,
   "sync": false,
