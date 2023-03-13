@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5a3bf579d485c5c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/⚗️ Cornell University.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/⚗️ Cornell University.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md"
+                "file": "📒Planner/🥋Grad/⚗️ Cornell University.md"
               }
             }
           }
@@ -177,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/⚗️ Cornell University.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,7 +208,6 @@
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
-      "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open Detexify": false,
       "omnisearch:Omnisearch": false,
@@ -229,11 +216,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5a3bf579d485c5c7",
+  "active": "465968735ddc8f94",
   "lastOpenFiles": [
+    "📒Planner/⚓Job Applications.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
     "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ UIUC.md",
     "🧪Academic/Research/Texture Bias.md",
     "🧪Academic/Research/Variational Autoencoder Improvement.md",
@@ -276,7 +264,6 @@
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
     "🗻Permanent/Axioms.md",
     "README.md",
-    "Library.md",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"
