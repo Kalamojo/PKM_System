@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8b37c75142576aaa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "465968735ddc8f94",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,9 +206,10 @@
   "active": "465968735ddc8f94",
   "lastOpenFiles": [
     "📒Planner/⚓Job Applications.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/🎩Work/💼 Computer Science Internship.md",
     "📒Planner/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ UIUC.md",
     "🧪Academic/Research/Texture Bias.md",
     "🧪Academic/Research/Variational Autoencoder Improvement.md",
@@ -263,7 +251,6 @@
     "export/Timepoints_split/plugin/menu/README.md",
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
     "🗻Permanent/Axioms.md",
-    "README.md",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"
