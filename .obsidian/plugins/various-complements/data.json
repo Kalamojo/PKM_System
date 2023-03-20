@@ -68,158 +68,6 @@
         }
       }
     },
-    "TBD": {
-      "TBD": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1675809440695
-        }
-      }
-    },
-    "Illinois": {
-      "Illinois": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675810400903
-        }
-      }
-    },
-    "August 2024": {
-      "August 2024": {
-        "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1675815862532
-        }
-      }
-    },
-    "September 2024": {
-      "September 2024": {
-        "frontMatter": {
-          "count": 7,
-          "lastUpdated": 1675816748229
-        }
-      }
-    },
-    "Artificial Intelligence": {
-      "Artificial Intelligence": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1675812207886
-        }
-      }
-    },
-    "Machine Learning": {
-      "Machine Learning": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1675814673047
-        }
-      }
-    },
-    "Cambridge": {
-      "Cambridge": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675811980479
-        }
-      }
-    },
-    "Massachusetts": {
-      "Massachusetts": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675811982128
-        }
-      }
-    },
-    "Austin": {
-      "Austin": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675812028758
-        }
-      }
-    },
-    "Texas": {
-      "Texas": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675812030189
-        }
-      }
-    },
-    "Seattle": {
-      "Seattle": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675812253992
-        }
-      }
-    },
-    "Washington": {
-      "Washington": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675812257790
-        }
-      }
-    },
-    "Ontario": {
-      "Ontario": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675814925272
-        }
-      }
-    },
-    "California": {
-      "California": {
-        "frontMatter": {
-          "count": 4,
-          "lastUpdated": 1676305403240
-        }
-      }
-    },
-    "Los Angeles": {
-      "Los Angeles": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1676305401757
-        }
-      }
-    },
-    "Artificial Intelligence and Machine Learning": {
-      "Artificial Intelligence and Machine Learning": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1675816640223
-        }
-      }
-    },
-    "Five Rings": {
-      "Five Rings": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1676525420219
-        }
-      }
-    },
-    "New York": {
-      "New York": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1676525426182
-        }
-      }
-    },
-    "San Francisco": {
-      "San Francisco": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1676526058936
-        }
-      }
-    },
     "Data": {
       "Data": {
         "internalLink": {
@@ -257,6 +105,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1678382468970
+        }
+      }
+    },
+    "New York": {
+      "New York": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1679347776159
+        }
+      }
+    },
+    "Machine Learning": {
+      "Machine Learning": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1679347784054
+        }
+      }
+    },
+    "September 2024": {
+      "September 2024": {
+        "frontMatter": {
+          "count": 1,
+          "lastUpdated": 1679347919897
         }
       }
     }

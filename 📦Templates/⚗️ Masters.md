@@ -6,7 +6,7 @@ application-submitted:
 deadline: TBD
 location: "Remote"
 attendance-type: full-time
-program-duration:
 program-start:
+program-duration:
 ---
 <%*tp.file.rename("⚗️ " + tp.file.title)%>
