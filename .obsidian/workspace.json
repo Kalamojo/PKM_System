@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "24096125015c2eb8",
+        "id": "8c680e5aa45db572",
         "type": "tabs",
         "children": [
           {
-            "id": "465968735ddc8f94",
+            "id": "cb51337e0909590c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🧪Academic/Research/Cold Email/General Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,14 +82,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🧪Academic/Research/Cold Email/General Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -99,9 +99,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🧪Academic/Research/Cold Email/General Template.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "🧪Academic/Research/Cold Email/General Template.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "🧪Academic/Research/Cold Email/General Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,69 +190,66 @@
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open Detexify": false,
       "omnisearch:Omnisearch": false,
       "dbfolder:Create a new database table": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "465968735ddc8f94",
+  "active": "cb51337e0909590c",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ Columbia.md",
-    "📒Planner/⚓Graduate Applications.md",
-    "📒Planner/⚓Job Applications.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
-    "📦Templates/⚗️ Masters.md",
-    "📒Planner/🥋Grad/⚗️ Princeton.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ Caltech.md",
-    "📒Planner/⚓Status.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
-    "📒Planner/🥋Grad/⚗️ Cornell University.md",
-    "📒Planner/🎩Work/💼 Computer Science Internship.md",
-    "📒Planner/🥋Grad/⚗️ UIUC.md",
-    "🧪Academic/Research/Texture Bias.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "📎Attachments/📷Images/example_stylization_imgs.png",
-    "🗻Permanent/Generalization.md",
-    "📎Attachments/📷Images/intro_figure.png",
-    "🗻Permanent/Classification.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "🧪Academic/Research/Cold Email/General Template.md",
+    "🧪Academic/Research/Cold Email",
     "🧪Academic/Research/Train_test_split.md",
     "🧪Academic/Research/Timepoints_split.md",
-    "📒Planner/🥋Grad/⚗️ Stanford University.md",
-    "📒Planner/🥋Grad/⚗️ Berkeley.md",
-    "📒Planner/🎒Undergrad/💸 Google CSSI.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 Teamwork.md",
+    "🧪Academic/Research/Texture Bias.md",
+    "📒Planner/🥋Grad/⚗️ Columbia.md",
+    "📎Attachments/📷Images/intro_figure.png",
+    "📎Attachments/📷Images/example_stylization_imgs.png",
+    "💭Reflection/🪣Bucket List.md",
+    "💭Reflection/🔖Books To read.md",
+    "💭Reflection/🎬Favorite Movies.md",
+    "💭Reflection/✝️Lent Abstinance List.md",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Zero.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff",
+    "export/Timepoints_split/plugin/math/mathjax/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff",
     "export/Timepoints_split/plugin/chalkboard/img/whiteboard.png",
     "export/Timepoints_split/plugin/chalkboard/img/sponge.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-yellow.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-white.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-red.png",
-    "export/Timepoints_split/plugin/chalkboard/img/chalk-orange.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-purple.png",
+    "export/Timepoints_split/plugin/chalkboard/img/chalk-orange.png",
     "export/Timepoints_split/plugin/chalkboard/img/chalk-green.png",
-    "export/Timepoints_split/plugin/chalkboard/_style.css",
-    "export/Timepoints_split/plugin/chalkboard/style.css",
-    "export/Timepoints_split/plugin/chalkboard/plugin (copy).js",
-    "export/Timepoints_split/plugin/chalkboard/plugin.js",
-    "export/Timepoints_split/plugin/chalkboard/img",
-    "export/Timepoints_split/plugin/chalkboard",
-    "export/Timepoints_split/plugin/chart/plugin.js",
-    "export/Timepoints_split/plugin/chart/chart.min.js",
-    "export/Timepoints_split/plugin/chart",
-    "export/Timepoints_split/plugin/customcontrols/style.css",
-    "🗃Spring 2023/Data Mining/Data Mining.canvas",
-    "🗃Spring 2023/Database Design/Database Design.canvas",
-    "🗃Spring 2023/Automata/Automata.canvas"
+    "export/Timepoints_split/plugin/menu/README.md",
+    "export/Timepoints_split/plugin/menu/CONTRIBUTING.md",
+    "export/Timepoints_split/plugin/customcontrols/README.md",
+    "export/Timepoints_split/plugin/chart/README.md",
+    "export/Timepoints_split/plugin/chalkboard/README.md",
+    "🧪Academic/Research/Cold-Email/General Template.md",
+    "🗻Permanent/Encoder.md",
+    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 18.28.42.excalidraw.md",
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
+    "Library.md",
+    "README.md",
+    "🗻Permanent/Hierarchical Clustering.md",
+    "🗻Permanent/K-Means Clustering.md",
+    "🗻Permanent/Unsupervised Learning Methods.md"
   ]
 }
