@@ -60,22 +60,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "rejected": {
-      "rejected": {
-        "frontMatter": {
-          "count": 5,
-          "lastUpdated": 1677096458948
-        }
-      }
-    },
-    "Data": {
-      "Data": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1676933436200
-        }
-      }
-    },
     "Train": {
       "Train": {
         "currentFile": {
@@ -119,8 +103,8 @@
     "Machine Learning": {
       "Machine Learning": {
         "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1679347784054
+          "count": 2,
+          "lastUpdated": 1680390598982
         }
       }
     },
@@ -129,6 +113,14 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1679347919897
+        }
+      }
+    },
+    "Stanford University": {
+      "Stanford University": {
+        "frontMatter": {
+          "count": 2,
+          "lastUpdated": 1680390700007
         }
       }
     }
