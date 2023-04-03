@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "💭Reflection/Quotes/Other Quotes.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,8 +206,9 @@
   },
   "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
-    "📒Planner/⚓Cold Emails.md",
+    "💭Reflection/Quotes/Book Quotes.md",
     "📒Planner/⚓Graduate Applications.md",
+    "📒Planner/⚓Cold Emails.md",
     "📒Planner/🥋Grad/📧 Christopher Potts.md",
     "📒Planner/🥋Grad/⚗️ UT Austin.md",
     "📒Planner/🥋Grad/📧 Diyi Yang.md",
@@ -231,7 +232,6 @@
     "📒Planner/🎒Undergrad/📝Essays/📝 Brain Dump.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Background.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
     "table-export-001.csv",
     "🧪Academic/Research/Cold Email",
     "📎Attachments/📷Images/example_stylization_imgs.png",
