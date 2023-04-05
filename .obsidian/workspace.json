@@ -20,49 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "f3254c1ce4752b78",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "aece7dd85ef413ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/📧 Diyi Yang.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4ee394e6970710f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/📧 Chelsea Finn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c26e6e212f04073",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/📧 Regina Barzilay.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/📧 Regina Barzilay.md",
+                "file": "📒Planner/⚓Cold Emails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/📧 Regina Barzilay.md",
+                "file": "📒Planner/⚓Cold Emails.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -177,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/📧 Regina Barzilay.md"
+                "file": "📒Planner/⚓Cold Emails.md"
               }
             }
           }
@@ -195,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/📧 Regina Barzilay.md",
+                "file": "📒Planner/⚓Cold Emails.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,10 +204,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6c26e6e212f04073",
+  "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
+    "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
+    "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
     "📒Planner/🥋Grad/📧 Regina Barzilay.md",
+    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
     "📒Planner/🥋Grad/📧 Diyi Yang.md",
     "📒Planner/⚓Cold Emails.md",
     "💭Reflection/Quotes/Other Quotes.md",
@@ -274,8 +233,6 @@
     "📒Planner/🥋Grad/⚗️ UIUC.md",
     "📦Templates/🏫College.md",
     "📒Planner/🥋Grad/⚗️ UCLA.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
     "table-export-001.csv",
     "🧪Academic/Research/Cold Email",
     "📎Attachments/📷Images/example_stylization_imgs.png",
