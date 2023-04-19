@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "afeec7cc86960b96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💭Reflection/🔖Books To read.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a39b632c67bb552",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚗️ Princeton.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ef7601e3b5cdb62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/🔖Books To read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/🔖Books To read.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "💭Reflection/🔖Books To read.md"
               }
             }
           }
@@ -152,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "💭Reflection/🔖Books To read.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,10 +241,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "4ac28b13a3c59452",
+  "active": "afeec7cc86960b96",
   "lastOpenFiles": [
-    "📒Planner/⚓Status.md",
+    "📒Planner/🥋Grad/⚗️ UCLA.md",
     "📒Planner/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ Princeton.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/⚓Status.md",
     "💭Reflection/Quotes/Other Quotes.md",
     "📒Planner/⚓Cold Emails.md",
     "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
@@ -229,10 +270,6 @@
     "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/Quotes/Book Quotes.md",
     "📒Planner/🥋Grad/⚗️ UT Austin.md",
-    "📦Templates/⚗️ Masters.md",
-    "📒Planner/🥋Grad/⚗️ UIUC.md",
-    "📦Templates/🏫College.md",
-    "📒Planner/🥋Grad/⚗️ UCLA.md",
     "table-export-001.csv",
     "🧪Academic/Research/Cold Email",
     "📎Attachments/📷Images/example_stylization_imgs.png",
