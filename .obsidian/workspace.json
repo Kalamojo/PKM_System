@@ -25,7 +25,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/🔖Books To read.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81b4fbc0b3e64397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🎒Undergrad/🏫 UT Austin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7dfcf3a15f790b24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db9722acddee16dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🎒Undergrad/🏫 Carnegie Mellon.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/🔖Books To read.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/🔖Books To read.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -171,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/🔖Books To read.md"
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md"
               }
             }
           }
@@ -189,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/🔖Books To read.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,8 +258,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,8 +276,23 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "afeec7cc86960b96",
+  "active": "7dfcf3a15f790b24",
   "lastOpenFiles": [
+    "📒Planner/🎒Undergrad/🏫 UT Austin.md",
+    "📒Planner/🎒Undergrad/🏫 MIT.md",
+    "📒Planner/🎒Undergrad/🏫 Carnegie Mellon.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Scholarship Need.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Significant Activities.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Special Circumstances.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Why us.md",
+    "📒Planner/🎒Undergrad/🏫 U Chicago.md",
+    "📒Planner/🎒Undergrad/🏫 Rice.md",
+    "📒Planner/🎒Undergrad/🏫 Princeton.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Brain Dump.md",
+    "💭Reflection/🔖Books To read.md",
     "📒Planner/🥋Grad/⚗️ UCLA.md",
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Princeton.md",
@@ -254,22 +304,7 @@
     "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
     "📒Planner/🥋Grad/📧 Regina Barzilay.md",
-    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
-    "📒Planner/🥋Grad/📧 Diyi Yang.md",
-    "💭Reflection/Quotes/Podcast Quotes.md",
-    "📒Planner/🥋Grad/📧 Christopher Potts.md",
-    "📦Templates/📧 Cold Email.md",
-    "📒Planner/🥋Grad/📧 Tatsunori Hashimoto.md",
-    "📒Planner/🥋Grad/📧 Percy Liang.md",
-    "📒Planner/🥋Grad/📧 Noah Goodman.md",
-    "📒Planner/🥋Grad/📧 Dan Jurafsky.md",
     "💭Reflection/WDYWTDFR.canvas",
-    "💭Reflection/🪣Bucket List.md",
-    "💭Reflection/🔖Books To read.md",
-    "💭Reflection/✝️Lent Abstinance List.md",
-    "💭Reflection/🎬Favorite Movies.md",
-    "💭Reflection/Quotes/Book Quotes.md",
-    "📒Planner/🥋Grad/⚗️ UT Austin.md",
     "table-export-001.csv",
     "🧪Academic/Research/Cold Email",
     "📎Attachments/📷Images/example_stylization_imgs.png",
