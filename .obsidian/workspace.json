@@ -18,81 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "afeec7cc86960b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81b4fbc0b3e64397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🎒Undergrad/🏫 UT Austin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7dfcf3a15f790b24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db9722acddee16dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🎒Undergrad/🏫 Carnegie Mellon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a39b632c67bb552",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Princeton.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ef7601e3b5cdb62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -207,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md"
+                "file": "📒Planner/⚓Graduate Applications.md"
               }
             }
           }
@@ -225,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
+                "file": "📒Planner/⚓Graduate Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -276,13 +203,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7dfcf3a15f790b24",
+  "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
+    "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/🏫 UT Austin.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
     "📒Planner/🎒Undergrad/🏫 MIT.md",
     "📒Planner/🎒Undergrad/🏫 Carnegie Mellon.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Scholarship Need.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Significant Activities.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Special Circumstances.md",
@@ -303,7 +231,6 @@
     "📒Planner/⚓Cold Emails.md",
     "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
-    "📒Planner/🥋Grad/📧 Regina Barzilay.md",
     "💭Reflection/WDYWTDFR.canvas",
     "table-export-001.csv",
     "🧪Academic/Research/Cold Email",
