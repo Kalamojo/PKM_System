@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Graduate Applications.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,6 +205,7 @@
   },
   "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
+    "📒Planner/⚓Graduate Applications.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/🏫 UT Austin.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
@@ -222,7 +223,6 @@
     "📒Planner/🎒Undergrad/📝Essays/📝 Brain Dump.md",
     "💭Reflection/🔖Books To read.md",
     "📒Planner/🥋Grad/⚗️ UCLA.md",
-    "📒Planner/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Princeton.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
