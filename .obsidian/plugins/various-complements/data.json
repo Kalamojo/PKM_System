@@ -60,59 +60,11 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Train": {
-      "Train": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678140456683
-        }
-      }
-    },
-    "Train_test_split": {
-      "Train_test_split": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1678141548630
-        }
-      }
-    },
-    "features": {
-      "features": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678381947318
-        }
-      }
-    },
-    "Results": {
-      "Results": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1678382468970
-        }
-      }
-    },
-    "New York": {
-      "New York": {
-        "frontMatter": {
-          "count": 2,
-          "lastUpdated": 1679347776159
-        }
-      }
-    },
     "Machine Learning": {
       "Machine Learning": {
         "frontMatter": {
           "count": 4,
           "lastUpdated": 1680716204174
-        }
-      }
-    },
-    "September 2024": {
-      "September 2024": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1679347919897
         }
       }
     },
@@ -145,6 +97,70 @@
         "frontMatter": {
           "count": 1,
           "lastUpdated": 1680713829044
+        }
+      }
+    },
+    "Classification": {
+      "Classification": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1682909896979
+        }
+      }
+    },
+    "Anomaly Detection": {
+      "Anomaly Detection": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1682909927262
+        }
+      }
+    },
+    "time-series": {
+      "time-series": {
+        "currentFile": {
+          "count": 4,
+          "lastUpdated": 1682915253062
+        }
+      }
+    },
+    "Unsupervised Learning": {
+      "Unsupervised Learning": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1682910455756
+        }
+      }
+    },
+    "Hierarchical Clustering": {
+      "Hierarchical Clustering": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1682911291162
+        }
+      }
+    },
+    "sub-instances": {
+      "sub-instances": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682912009595
+        }
+      }
+    },
+    "sections": {
+      "sections": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682912110008
+        }
+      }
+    },
+    "Consistency": {
+      "Consistency": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1682913222652
         }
       }
     }
