@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md"
+                "file": "💭Reflection/Quotes/Other Quotes.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Variational Autoencoder Improvement.md",
+                "file": "💭Reflection/Quotes/Other Quotes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,6 +235,7 @@
   },
   "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
     "🧪Academic/Research/Texture Bias.md",
     "🧪Academic/Research/Time Series 2 Vec.md",
@@ -243,7 +244,6 @@
     "🧪Academic/Saved/Unsupervised Learning.md",
     "🗻Permanent/Anomaly Detection.md",
     "🗻Permanent/Classification.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "🧪Academic/Research/Cold Email/General Template.md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/⚓Graduate Applications.md",
