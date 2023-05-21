@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md"
+                "file": "💭Reflection/🔖Content to Consume.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -213,6 +213,9 @@
   },
   "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
+    "💭Reflection/🎬Favorite Movies.md",
+    "💭Reflection/🔖Content to Consume.md",
+    "💭Reflection/Quotes/Other Quotes.md",
     "💭Reflection/Quotes/Cinema Quotes.md",
     "💭Reflection/Quotes/Website Quotes.md",
     "🧪Academic/Research/Senior Project Report.md",
@@ -224,7 +227,6 @@
     "🧮Projects/K5Blessings Site.md",
     "🧮Projects/Brainstorming.md",
     "🧮Projects/DataScience Final.md",
-    "💭Reflection/Quotes/Other Quotes.md",
     "🧪Academic/Research/Time Series 2 Vec.md",
     "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
@@ -239,8 +241,6 @@
     "📒Planner/⚓Graduate Applications.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Activism.md",
     "📒Planner/🎒Undergrad/🏫 UT Austin.md",
-    "📒Planner/🎒Undergrad/📝Essays/📝 Challenge.md",
-    "📒Planner/🎒Undergrad/🏫 MIT.md",
     "💭Reflection/WDYWTDFR.canvas",
     "table-export-001.csv",
     "🧪Academic/Research/Cold Email",
