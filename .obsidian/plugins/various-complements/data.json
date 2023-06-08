@@ -60,70 +60,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Classification": {
-      "Classification": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1682909896979
-        }
-      }
-    },
-    "Anomaly Detection": {
-      "Anomaly Detection": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1682909927262
-        }
-      }
-    },
-    "time-series": {
-      "time-series": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1682915253062
-        }
-      }
-    },
-    "Unsupervised Learning": {
-      "Unsupervised Learning": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1682910455756
-        }
-      }
-    },
-    "Hierarchical Clustering": {
-      "Hierarchical Clustering": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1682911291162
-        }
-      }
-    },
-    "sub-instances": {
-      "sub-instances": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682912009595
-        }
-      }
-    },
-    "sections": {
-      "sections": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682912110008
-        }
-      }
-    },
-    "Consistency": {
-      "Consistency": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1682913222652
-        }
-      }
-    },
     "Transfer Learning Visualizations 2022-09-06 18.28.42.excalidraw": {
       "Transfer Learning Visualizations 2022-09-06 18.28.42.excalidraw": {
         "internalLink": {
@@ -169,6 +105,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1683869342578
+        }
+      }
+    },
+    "Learning": {
+      "Learning": {
+        "internalLink": {
+          "count": 2,
+          "lastUpdated": 1686239299417
         }
       }
     }
