@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
+                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
+                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
+                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md"
+                "file": "🧪Academic/Research/Transfer Learning Visualizations.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
+                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -213,16 +213,17 @@
   },
   "active": "4ac28b13a3c59452",
   "lastOpenFiles": [
-    "🧪Academic/Research/Opportunities/Cold Email Template.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 17.33.47.excalidraw.md",
+    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "🧪Academic/Research/Variational Autoencoder Improvement.md",
+    "🧪Academic/Research/Time Series 2 Vec.md",
     "🧪Academic/Research/Opportunities/Min Xu Projects.md",
+    "🧪Academic/Research/Opportunities/Cold Email Template.md",
     "🧪Academic/Research/LFF Report.md",
     "🧪Academic/Research/Senior Project Report.md",
-    "🧪Academic/Research/Time Series 2 Vec.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
     "🧪Academic/Research/Timepoints_split.md",
     "🧪Academic/Research/Train_test_split.md",
     "🧪Academic/Research/Texture Bias.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
     "💭Reflection/🔖Content to Consume.md",
     "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/Quotes/Other Quotes.md",
@@ -240,7 +241,6 @@
     "🧪Academic/Saved/Unsupervised Learning.md",
     "🗻Permanent/Anomaly Detection.md",
     "🗻Permanent/Classification.md",
-    "📒Planner/⚓Job Applications.md",
     "💭Reflection/WDYWTDFR.canvas",
     "table-export-001.csv",
     "🧪Academic/Research/Opportunities",
