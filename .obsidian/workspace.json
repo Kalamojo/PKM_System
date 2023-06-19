@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac9e67b01a489de",
+        "id": "e5e41628a4e825af",
         "type": "tabs",
         "children": [
           {
-            "id": "4ac28b13a3c59452",
+            "id": "7515ab20110e7bf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Status.md",
+                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Status.md",
+                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Status.md",
+                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Status.md"
+                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Status.md",
+                "file": "🧪Academic/Research/Opportunities/Min Xu Projects.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,8 +211,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "4ac28b13a3c59452",
+  "active": "7515ab20110e7bf0",
   "lastOpenFiles": [
+    "📒Planner/⚓Status.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
     "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 17.33.47.excalidraw.md",
     "🧪Academic/Research/Variational Autoencoder Improvement.md",
@@ -240,7 +241,6 @@
     "📎Attachments/📷Images/Pasted image 20230430222959.png",
     "🧪Academic/Saved/Unsupervised Learning.md",
     "🗻Permanent/Anomaly Detection.md",
-    "🗻Permanent/Classification.md",
     "💭Reflection/WDYWTDFR.canvas",
     "table-export-001.csv",
     "🧪Academic/Research/Opportunities",
