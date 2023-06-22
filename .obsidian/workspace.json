@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md"
+                "file": "📒Planner/⚓Job Applications.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "📒Planner/⚓Job Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -213,6 +213,9 @@
   },
   "active": "7515ab20110e7bf0",
   "lastOpenFiles": [
+    "📒Planner/🎩Work/💼 Software Development Engineer.md",
+    "📒Planner/⚓Job Applications.md",
+    "💭Reflection/🪣Bucket List.md",
     "💭Reflection/WDYWTDFR.canvas",
     "💭Reflection/Ideal Life.md",
     "🧪Academic/Research/Opportunities/Min Xu Projects.md",
@@ -237,8 +240,6 @@
     "🧮Projects/RPG Storyline.md",
     "🧮Projects/Genre Claassifier.md",
     "🧮Projects/K5Blessings Site.md",
-    "🧮Projects/Brainstorming.md",
-    "🧮Projects/DataScience Final.md",
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
     "📎Attachments/📷Images/Pasted image 20230430222959.png",
     "table-export-001.csv",
