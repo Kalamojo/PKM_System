@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md"
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/⚓Job Applications.md",
+                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -213,8 +213,11 @@
   },
   "active": "7515ab20110e7bf0",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Software Development Engineer.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Teamwork.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Thank you Card.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Why us.md",
     "📒Planner/⚓Job Applications.md",
+    "📒Planner/🎩Work/💼 Software Development Engineer.md",
     "💭Reflection/🪣Bucket List.md",
     "💭Reflection/WDYWTDFR.canvas",
     "💭Reflection/Ideal Life.md",
@@ -237,9 +240,6 @@
     "💭Reflection/Quotes/Website Quotes.md",
     "🧮Projects/RPG Enemies.md",
     "🧮Projects/Machine Learning RPG.md",
-    "🧮Projects/RPG Storyline.md",
-    "🧮Projects/Genre Claassifier.md",
-    "🧮Projects/K5Blessings Site.md",
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
     "📎Attachments/📷Images/Pasted image 20230430222959.png",
     "table-export-001.csv",
