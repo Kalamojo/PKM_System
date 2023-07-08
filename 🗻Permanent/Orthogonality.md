@@ -3,7 +3,7 @@ alias: []
 subject: Organization of Programming Languages
 tags: [school]
 ---
-# Orthonogality
+# Orthogonality
 
 >[!note]
 > The flexibility/robustness of a language.

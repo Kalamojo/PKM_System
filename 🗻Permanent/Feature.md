@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Feature
 
-
 ```ad-note
 A measurable property or characteristic. In Machine Learning, it is an independent variables or input variables that influence your prediction of your Label.
 ```
