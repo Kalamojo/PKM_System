@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "📒Planner/🎩Work/💼 Software Engineering (JPMorgan Chase).md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "64c1140e71f14c24",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
               }
             }
           },
@@ -102,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "📒Planner/🎩Work/💼 Software Engineering (JPMorgan Chase).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "📒Planner/🎩Work/💼 Software Engineering (JPMorgan Chase).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md"
+                "file": "📒Planner/🎩Work/💼 Software Engineering (JPMorgan Chase).md"
               }
             }
           }
@@ -172,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+                "file": "📒Planner/🎩Work/💼 Software Engineering (JPMorgan Chase).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -225,8 +235,11 @@
   },
   "active": "557743d1c1a8e52d",
   "lastOpenFiles": [
-    "📒Planner/🎒Undergrad/📝Essays/📝 Special Circumstances.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Statement of Purpose M1.md",
+    "🧪Academic/Research/Texture Bias.md",
+    "💭Reflection/Quotes/Cinema Quotes.md",
+    "💭Reflection/Quotes/Podcast Quotes.md",
+    "📒Planner/🎒Undergrad/📝Essays/📝 Special Circumstances.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Significant Activities.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Scholarship Need.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Major.md",
@@ -238,7 +251,6 @@
     "📒Planner/🎒Undergrad/📝Essays/📝 About You.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Why us.md",
     "📒Planner/🎒Undergrad/📝Essays/📝 Brain Dump.md",
-    "💭Reflection/Quotes/Podcast Quotes.md",
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
     "📒Planner/🎩Work/💼 Data Aalyst.md",
     "📒Planner/🎩Work/💼 Data Analyst.md",
@@ -249,8 +261,6 @@
     "📒Planner/🎩Work/💼 Data Science Intern (LinkedIn).md",
     "📒Planner/🎩Work/💼 Data Science Intern (Microsoft).md",
     "📒Planner/🎩Work/💼 Data Science Intern (Oracle).md",
-    "📒Planner/🎩Work/💼 Data Science Intern (Samsung).md",
-    "📒Planner/🎩Work/💼 Data Science Intern (Triangle Recruiting).md",
     "💭Reflection/WDYWTDFR.canvas",
     "📎Attachments/📷Images/228112212-f1ed62f5-5c7d-4c34-8614-37ee4f58f045.png",
     "Untitled.canvas",
