@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "642f870a276ab863",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f4f2e23c1c61845",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -90,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -160,7 +170,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,10 +221,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "79046cd732abe1b9",
+  "active": "7f4f2e23c1c61845",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineering (JPMorgan Chase).md",
+    "📒Planner/🎩Work/💼 Jobs/Untitled.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineering (JPMorgan Chase).md",
     "📒Planner/🎩Work/⚓2022 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Snap Up Apprentice.md",
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
@@ -224,7 +235,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Video Processing Algorithm Engineer.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Technology Internship Program.md",
     "📒Planner/🎩Work/💼 2023",
     "📒Planner/🎩Work/💼 Jobs",
@@ -246,7 +256,6 @@
     "📒Planner/🥋Grad/⚗️ Berkeley.md",
     "📒Planner/🥋Grad/⚗️ Columbia.md",
     "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
