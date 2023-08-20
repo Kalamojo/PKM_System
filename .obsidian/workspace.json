@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d61b1dc78d48470f",
+        "id": "e8627d1b8a7763a1",
         "type": "tabs",
         "children": [
           {
-            "id": "79046cd732abe1b9",
+            "id": "f64d7645bf1a77c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
+                "file": "📒Planner/🎩Work/💼 Jobs/💼 Data Aalyst.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,15 +22,19 @@
         ]
       },
       {
-        "id": "642f870a276ab863",
+        "id": "ffd792bf41090a14",
         "type": "tabs",
         "children": [
           {
-            "id": "7f4f2e23c1c61845",
+            "id": "f40a80a94d9251c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "💭Reflection/🎞️Movies to Watch.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -104,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "💭Reflection/🎞️Movies to Watch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "💭Reflection/🎞️Movies to Watch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "💭Reflection/🎞️Movies to Watch.md"
+              }
             }
           }
         ],
@@ -170,6 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "💭Reflection/🎞️Movies to Watch.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -221,9 +230,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7f4f2e23c1c61845",
+  "active": "f40a80a94d9251c2",
   "lastOpenFiles": [
     "📒Planner/🎩Work/💼 Jobs/Untitled.md",
+    "💭Reflection/🎞️Movies to Watch.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Aalyst.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineering (JPMorgan Chase).md",
@@ -232,8 +245,6 @@
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
     "📒Planner/🎩Work/Favorite Companies.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Science _ Analytics.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Video Processing Algorithm Engineer.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Technology Internship Program.md",
     "📒Planner/🎩Work/💼 2023",
@@ -254,8 +265,6 @@
     "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/🥋Grad/⚗️ UIUC.md",
     "📒Planner/🥋Grad/⚗️ Berkeley.md",
-    "📒Planner/🥋Grad/⚗️ Columbia.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
