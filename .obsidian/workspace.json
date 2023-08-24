@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "e8627d1b8a7763a1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f64d7645bf1a77c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🎩Work/💼 Jobs/💼 Data Aalyst.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "ffd792bf41090a14",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/🎞️Movies to Watch.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/🎞️Movies to Watch.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/🎞️Movies to Watch.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/🎞️Movies to Watch.md"
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md"
               }
             }
           }
@@ -178,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/🎞️Movies to Watch.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -232,8 +214,11 @@
   },
   "active": "f40a80a94d9251c2",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/Untitled.md",
+    "📒Planner/🥋Grad/⚗️ Berkeley.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "💭Reflection/🎞️Movies to Watch.md",
+    "📒Planner/🎩Work/💼 Jobs/Untitled.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Aalyst.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
@@ -260,11 +245,8 @@
     "🧪Academic/Literature/@beplerTopazDenoiseGeneralDeep2019.md",
     "🧪Academic/Research/Opportunities/Min Xu Projects.md",
     "🧪Academic/Research/Opportunities/beplerTopazDenoiseGeneralDeep2019.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚗️ UPenn.md",
-    "📒Planner/🥋Grad/⚗️ UIUC.md",
-    "📒Planner/🥋Grad/⚗️ Berkeley.md",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
