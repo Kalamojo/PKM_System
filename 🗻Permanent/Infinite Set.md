@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Infinite Set
 
-
 ```ad-info
 Denoted via ellipses. (...)
 ```

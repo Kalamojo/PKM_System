@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Int
 
-
 > [!note]
 > Used for integer data types. 
 

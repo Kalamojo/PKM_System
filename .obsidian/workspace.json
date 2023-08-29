@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🗻Permanent/Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🗻Permanent/Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🗻Permanent/Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md"
+                "file": "🗻Permanent/Data.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🗻Permanent/Data.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,11 +214,19 @@
   },
   "active": "f40a80a94d9251c2",
   "lastOpenFiles": [
+    "🗻Permanent/~syncthing~Data.md.tmp",
+    "💭Reflection/🎞️Movies to Watch.md",
+    "💭Reflection/~syncthing~🎞️Movies to Watch.md.tmp",
+    "💭Reflection/🎬Favorite Movies.md",
+    "💭Reflection/~syncthing~🎬Favorite Movies.md.tmp",
+    "🗻Permanent/Infinite Set.md",
+    "🗻Permanent/~syncthing~Infinite Set.md.tmp",
+    "🗻Permanent/Int.md",
+    "🗻Permanent/~syncthing~Int.md.tmp",
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚗️ Berkeley.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
-    "💭Reflection/🎞️Movies to Watch.md",
     "📒Planner/🎩Work/💼 Jobs/Untitled.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Aalyst.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
@@ -243,10 +251,6 @@
     "📎Attachments/📷Images/Pasted image 20230811221744.png",
     "📎Attachments/📷Images/Pasted image 20230811220022.png",
     "📎Attachments/📷Images/Pasted image 20230811215956.png",
-    "🧪Academic/Literature/@beplerTopazDenoiseGeneralDeep2019.md",
-    "🧪Academic/Research/Opportunities/Min Xu Projects.md",
-    "🧪Academic/Research/Opportunities/beplerTopazDenoiseGeneralDeep2019.md",
-    "📒Planner/🥋Grad/⚗️ UPenn.md",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
@@ -258,10 +262,6 @@
     "export/Timepoints_split/plugin/chalkboard/img/whiteboard.png",
     "export/Timepoints_split/plugin/chalkboard/_style.css",
     "export/Timepoints_split/plugin/chalkboard/style.css",
-    "export/Timepoints_split/plugin/chalkboard/plugin (copy).js",
-    "export/Timepoints_split/plugin/chalkboard/plugin.js",
-    "export/Timepoints_split/plugin/chalkboard/img",
-    "export/Timepoints_split/plugin/chalkboard",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"

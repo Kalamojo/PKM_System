@@ -60,54 +60,6 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "Overview": {
-      "Overview": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689374957438
-        }
-      }
-    },
-    "Methods": {
-      "Methods": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689375982476
-        }
-      }
-    },
-    "subtomogram": {
-      "subtomogram": {
-        "currentFile": {
-          "count": 4,
-          "lastUpdated": 1689377722451
-        }
-      }
-    },
-    "macromolecules": {
-      "macromolecules": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1689377806891
-        }
-      }
-    },
-    "backpropagation": {
-      "backpropagation": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689377677639
-        }
-      }
-    },
-    "tomogram": {
-      "tomogram": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1689377737908
-        }
-      }
-    },
     "Pennsylvania": {
       "Pennsylvania": {
         "frontMatter": {
@@ -173,6 +125,14 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1691866284415
+        }
+      }
+    },
+    "Tyrone": {
+      "Tyrone": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1693265149155
         }
       }
     }
