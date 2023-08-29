@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Data.md",
+                "file": "💭Reflection/🪣Bucket List.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🗻Permanent/Data.md",
+                "file": "💭Reflection/🪣Bucket List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🗻Permanent/Data.md",
+                "file": "💭Reflection/🪣Bucket List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗻Permanent/Data.md"
+                "file": "💭Reflection/🪣Bucket List.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🗻Permanent/Data.md",
+                "file": "💭Reflection/🪣Bucket List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,6 +214,8 @@
   },
   "active": "f40a80a94d9251c2",
   "lastOpenFiles": [
+    "💭Reflection/~syncthing~🪣Bucket List.md.tmp",
+    "🗻Permanent/Data.md",
     "🗻Permanent/~syncthing~Data.md.tmp",
     "💭Reflection/🎞️Movies to Watch.md",
     "💭Reflection/~syncthing~🎞️Movies to Watch.md.tmp",
@@ -246,7 +248,6 @@
     "🧪Academic/Research/Opportunities/Cryoelectron Subtomogram Clustering.md",
     "📎Attachments/📷Images/228112212-f1ed62f5-5c7d-4c34-8614-37ee4f58f045.png",
     "🧪Academic/Research/Opportunities/Topaz-Denoise.md",
-    "🧪Academic/Research/Opportunities/Topaz-Denoise Annotations.md",
     "📎Attachments/📷Images/Pasted image 20230811222611.png",
     "📎Attachments/📷Images/Pasted image 20230811221744.png",
     "📎Attachments/📷Images/Pasted image 20230811220022.png",
@@ -261,7 +262,6 @@
     "📎Attachments/📷Images/intro_figure.png",
     "export/Timepoints_split/plugin/chalkboard/img/whiteboard.png",
     "export/Timepoints_split/plugin/chalkboard/_style.css",
-    "export/Timepoints_split/plugin/chalkboard/style.css",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🗻Permanent/Data.md",
+                "file": "💭Reflection/🪣Bucket List.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "🗻Permanent/Data.md",
+            "file": "💭Reflection/🪣Bucket List.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "🗻Permanent/Data.md"
+            "file": "💭Reflection/🪣Bucket List.md"
           }
         }
       },
@@ -136,7 +136,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "🗻Permanent/Data.md",
+            "file": "💭Reflection/🪣Bucket List.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -161,6 +161,7 @@
   },
   "active": "0c04fedcf8f41e88",
   "lastOpenFiles": [
+    "🗻Permanent/Data.md",
     "💭Reflection/✝️Lent Abstinance List.md",
     "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/🎞️Movies to Watch.md",
@@ -185,7 +186,6 @@
     "📒Planner/⚓Job Applications.md",
     "📒Planner/💼 Associate Software Engineer.md",
     "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "💭Reflection/Quotes/Book Quotes.md",
-    "📒Planner/⚓Applications.md"
+    "💭Reflection/Quotes/Book Quotes.md"
   ]
 }
