@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "ffd792bf41090a14",
+        "id": "6b0bc786d991796b",
         "type": "tabs",
         "children": [
           {
-            "id": "f40a80a94d9251c2",
+            "id": "45309fde636c9887",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "de0b3ca0536fccf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a75a714b3dffcdc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md"
+                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md"
               }
             }
           }
@@ -160,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,50 +222,54 @@
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "periodic-notes:Open this week": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open Detexify": false,
       "omnisearch:Omnisearch": false,
-      "dbfolder:Create a new database table": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "periodic-notes:Open this week": false
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "f40a80a94d9251c2",
+  "active": "45309fde636c9887",
   "lastOpenFiles": [
+    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+    "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
+    "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
+    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "📎Attachments/📷Images/Pasted image 20230829220034.png",
+    "📎Attachments/📷Images/Pasted image 20230829214850.png",
+    "📎Attachments/📷Images/_109993058_pets1.jpeg",
+    "📎Attachments/✏️Excalidraw/PU CNNs for Particle Picking in CryoEM 2023-08-29 21.38.02.excalidraw.md",
+    "🧪Academic/Research/Xu Lab/Untitled.md",
+    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
+    "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
+    "🧪Academic/Research/LFF Report.md",
+    "🧪Academic/Research/Xu Lab/Cold Email Template.md",
+    "🧪Academic/Literature/@tinawi_.md",
+    "🧪Academic/Literature/Bruh.md",
+    "🧪Academic/Literature/Artificial Intelligence Wiki.md",
+    "🧪Academic/Literature/@beplerTopazDenoiseGeneralDeep2019.md",
+    "🧪Academic/Literature/@axelkowald.etal_2022.md",
+    "🧪Academic/Research/Opportunities/Topaz-Denoise Annotations.md",
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+    "🧪Academic/Processed/Algorithms-Intuition.md",
+    "🧪Academic/Processed/Artificial Intelligence Wiki.md",
+    "🧪Academic/Literature/What is Feature Engineering.md",
+    "🧪Academic/Literature/What is AI, ML, DS.md",
+    "🧪Academic/Literature/Algorithms-Intuition.md",
+    "🧪Academic/Literature/@wang.etal_2020.md",
+    "💭Reflection/🪣Bucket List.md",
     "💭Reflection/~syncthing~🪣Bucket List.md.tmp",
     "🗻Permanent/Data.md",
     "🗻Permanent/~syncthing~Data.md.tmp",
     "💭Reflection/🎞️Movies to Watch.md",
     "💭Reflection/~syncthing~🎞️Movies to Watch.md.tmp",
-    "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/~syncthing~🎬Favorite Movies.md.tmp",
-    "🗻Permanent/Infinite Set.md",
     "🗻Permanent/~syncthing~Infinite Set.md.tmp",
-    "🗻Permanent/Int.md",
     "🗻Permanent/~syncthing~Int.md.tmp",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
-    "📒Planner/🥋Grad/⚗️ Berkeley.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/Untitled.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Aalyst.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineering (JPMorgan Chase).md",
-    "📒Planner/🎩Work/⚓2022 Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Snap Up Apprentice.md",
-    "📒Planner/🎩Work/💼 Behavioral Prep.md",
-    "📒Planner/🎩Work/Favorite Companies.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Science _ Analytics.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Video Processing Algorithm Engineer.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Technology Internship Program.md",
     "📒Planner/🎩Work/💼 2023",
     "📒Planner/🎩Work/💼 Jobs",
-    "🧪Academic/Research/Opportunities/Cryoelectron Subtomogram Clustering.md",
     "📎Attachments/📷Images/228112212-f1ed62f5-5c7d-4c34-8614-37ee4f58f045.png",
-    "🧪Academic/Research/Opportunities/Topaz-Denoise.md",
     "📎Attachments/📷Images/Pasted image 20230811222611.png",
     "📎Attachments/📷Images/Pasted image 20230811221744.png",
     "📎Attachments/📷Images/Pasted image 20230811220022.png",
@@ -257,11 +279,6 @@
     "📎Attachments/📷Images/Pasted image 20230430232929.png",
     "📎Attachments/📷Images/Pasted image 20230430222959.png",
     "table-export-001.csv",
-    "🧪Academic/Research/Opportunities",
-    "📎Attachments/📷Images/example_stylization_imgs.png",
-    "📎Attachments/📷Images/intro_figure.png",
-    "export/Timepoints_split/plugin/chalkboard/img/whiteboard.png",
-    "export/Timepoints_split/plugin/chalkboard/_style.css",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",
     "🗃Spring 2023/Automata/Automata.canvas"

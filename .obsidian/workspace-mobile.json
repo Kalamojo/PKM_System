@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/🪣Bucket List.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "💭Reflection/🪣Bucket List.md",
+            "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "💭Reflection/🪣Bucket List.md"
+            "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md"
           }
         }
       },
@@ -136,7 +136,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "💭Reflection/🪣Bucket List.md",
+            "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -161,11 +161,12 @@
   },
   "active": "0c04fedcf8f41e88",
   "lastOpenFiles": [
+    "🧪Academic/Research/LFF Report.md",
+    "💭Reflection/🪣Bucket List.md",
     "🗻Permanent/Data.md",
     "💭Reflection/✝️Lent Abstinance List.md",
     "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/🎞️Movies to Watch.md",
-    "💭Reflection/🪣Bucket List.md",
     "💭Reflection/🔖Content to Consume.md",
     "🗃Spring 2023/Automata/Complete Graph.md",
     "📎Attachments/✏️Excalidraw/Connected Graph 2023-01-23 11.15.41.excalidraw.md",
@@ -185,7 +186,6 @@
     "📒Planner/💼 Data Aalyst.md",
     "📒Planner/⚓Job Applications.md",
     "📒Planner/💼 Associate Software Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md",
-    "💭Reflection/Quotes/Book Quotes.md"
+    "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
   ]
 }

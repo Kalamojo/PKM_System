@@ -10,6 +10,7 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
@@ -30,6 +31,10 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var __publicField = (obj, key, value) => {
+  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
+  return value;
+};
 
 // node_modules/prettify-pinyin/index.js
 var require_prettify_pinyin = __commonJS({
@@ -436,13 +441,247 @@ function max(collection, emptyValue) {
   return collection.reduce(select, emptyValue);
 }
 
+// src/util/diacritics-map.ts
+var defaultDiacriticsRemovalMap = [
+  {
+    base: "A",
+    letters: "A\u24B6\uFF21\xC0\xC1\xC2\u1EA6\u1EA4\u1EAA\u1EA8\xC3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\xC4\u01DE\u1EA2\xC5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F"
+  },
+  { base: "AA", letters: "\uA732" },
+  { base: "AE", letters: "\xC6\u01FC\u01E2" },
+  { base: "AO", letters: "\uA734" },
+  { base: "AU", letters: "\uA736" },
+  { base: "AV", letters: "\uA738\uA73A" },
+  { base: "AY", letters: "\uA73C" },
+  {
+    base: "B",
+    letters: "B\u24B7\uFF22\u1E02\u1E04\u1E06\u0243\u0182\u0181"
+  },
+  {
+    base: "C",
+    letters: "C\u24B8\uFF23\u0106\u0108\u010A\u010C\xC7\u1E08\u0187\u023B\uA73E"
+  },
+  {
+    base: "D",
+    letters: "D\u24B9\uFF24\u1E0A\u010E\u1E0C\u1E10\u1E12\u1E0E\u0110\u018B\u018A\u0189\uA779\xD0"
+  },
+  { base: "DZ", letters: "\u01F1\u01C4" },
+  { base: "Dz", letters: "\u01F2\u01C5" },
+  {
+    base: "E",
+    letters: "E\u24BA\uFF25\xC8\xC9\xCA\u1EC0\u1EBE\u1EC4\u1EC2\u1EBC\u0112\u1E14\u1E16\u0114\u0116\xCB\u1EBA\u011A\u0204\u0206\u1EB8\u1EC6\u0228\u1E1C\u0118\u1E18\u1E1A\u0190\u018E"
+  },
+  { base: "F", letters: "F\u24BB\uFF26\u1E1E\u0191\uA77B" },
+  {
+    base: "G",
+    letters: "G\u24BC\uFF27\u01F4\u011C\u1E20\u011E\u0120\u01E6\u0122\u01E4\u0193\uA7A0\uA77D\uA77E"
+  },
+  {
+    base: "H",
+    letters: "H\u24BD\uFF28\u0124\u1E22\u1E26\u021E\u1E24\u1E28\u1E2A\u0126\u2C67\u2C75\uA78D"
+  },
+  {
+    base: "I",
+    letters: "I\u24BE\uFF29\xCC\xCD\xCE\u0128\u012A\u012C\u0130\xCF\u1E2E\u1EC8\u01CF\u0208\u020A\u1ECA\u012E\u1E2C\u0197"
+  },
+  { base: "J", letters: "J\u24BF\uFF2A\u0134\u0248" },
+  {
+    base: "K",
+    letters: "K\u24C0\uFF2B\u1E30\u01E8\u1E32\u0136\u1E34\u0198\u2C69\uA740\uA742\uA744\uA7A2"
+  },
+  {
+    base: "L",
+    letters: "L\u24C1\uFF2C\u013F\u0139\u013D\u1E36\u1E38\u013B\u1E3C\u1E3A\u0141\u023D\u2C62\u2C60\uA748\uA746\uA780"
+  },
+  { base: "LJ", letters: "\u01C7" },
+  { base: "Lj", letters: "\u01C8" },
+  { base: "M", letters: "M\u24C2\uFF2D\u1E3E\u1E40\u1E42\u2C6E\u019C" },
+  {
+    base: "N",
+    letters: "N\u24C3\uFF2E\u01F8\u0143\xD1\u1E44\u0147\u1E46\u0145\u1E4A\u1E48\u0220\u019D\uA790\uA7A4"
+  },
+  { base: "NJ", letters: "\u01CA" },
+  { base: "Nj", letters: "\u01CB" },
+  {
+    base: "O",
+    letters: "O\u24C4\uFF2F\xD2\xD3\xD4\u1ED2\u1ED0\u1ED6\u1ED4\xD5\u1E4C\u022C\u1E4E\u014C\u1E50\u1E52\u014E\u022E\u0230\xD6\u022A\u1ECE\u0150\u01D1\u020C\u020E\u01A0\u1EDC\u1EDA\u1EE0\u1EDE\u1EE2\u1ECC\u1ED8\u01EA\u01EC\xD8\u01FE\u0186\u019F\uA74A\uA74C"
+  },
+  { base: "OI", letters: "\u01A2" },
+  { base: "OO", letters: "\uA74E" },
+  { base: "OU", letters: "\u0222" },
+  { base: "OE", letters: "\x8C\u0152" },
+  { base: "oe", letters: "\x9C\u0153" },
+  {
+    base: "P",
+    letters: "P\u24C5\uFF30\u1E54\u1E56\u01A4\u2C63\uA750\uA752\uA754"
+  },
+  { base: "Q", letters: "Q\u24C6\uFF31\uA756\uA758\u024A" },
+  {
+    base: "R",
+    letters: "R\u24C7\uFF32\u0154\u1E58\u0158\u0210\u0212\u1E5A\u1E5C\u0156\u1E5E\u024C\u2C64\uA75A\uA7A6\uA782"
+  },
+  {
+    base: "S",
+    letters: "S\u24C8\uFF33\u1E9E\u015A\u1E64\u015C\u1E60\u0160\u1E66\u1E62\u1E68\u0218\u015E\u2C7E\uA7A8\uA784"
+  },
+  {
+    base: "T",
+    letters: "T\u24C9\uFF34\u1E6A\u0164\u1E6C\u021A\u0162\u1E70\u1E6E\u0166\u01AC\u01AE\u023E\uA786"
+  },
+  { base: "TZ", letters: "\uA728" },
+  {
+    base: "U",
+    letters: "U\u24CA\uFF35\xD9\xDA\xDB\u0168\u1E78\u016A\u1E7A\u016C\xDC\u01DB\u01D7\u01D5\u01D9\u1EE6\u016E\u0170\u01D3\u0214\u0216\u01AF\u1EEA\u1EE8\u1EEE\u1EEC\u1EF0\u1EE4\u1E72\u0172\u1E76\u1E74\u0244"
+  },
+  { base: "V", letters: "V\u24CB\uFF36\u1E7C\u1E7E\u01B2\uA75E\u0245" },
+  { base: "VY", letters: "\uA760" },
+  {
+    base: "W",
+    letters: "W\u24CC\uFF37\u1E80\u1E82\u0174\u1E86\u1E84\u1E88\u2C72"
+  },
+  { base: "X", letters: "X\u24CD\uFF38\u1E8A\u1E8C" },
+  {
+    base: "Y",
+    letters: "Y\u24CE\uFF39\u1EF2\xDD\u0176\u1EF8\u0232\u1E8E\u0178\u1EF6\u1EF4\u01B3\u024E\u1EFE"
+  },
+  {
+    base: "Z",
+    letters: "Z\u24CF\uFF3A\u0179\u1E90\u017B\u017D\u1E92\u1E94\u01B5\u0224\u2C7F\u2C6B\uA762"
+  },
+  {
+    base: "a",
+    letters: "a\u24D0\uFF41\u1E9A\xE0\xE1\xE2\u1EA7\u1EA5\u1EAB\u1EA9\xE3\u0101\u0103\u1EB1\u1EAF\u1EB5\u1EB3\u0227\u01E1\xE4\u01DF\u1EA3\xE5\u01FB\u01CE\u0201\u0203\u1EA1\u1EAD\u1EB7\u1E01\u0105\u2C65\u0250"
+  },
+  { base: "aa", letters: "\uA733" },
+  { base: "ae", letters: "\xE6\u01FD\u01E3" },
+  { base: "ao", letters: "\uA735" },
+  { base: "au", letters: "\uA737" },
+  { base: "av", letters: "\uA739\uA73B" },
+  { base: "ay", letters: "\uA73D" },
+  {
+    base: "b",
+    letters: "b\u24D1\uFF42\u1E03\u1E05\u1E07\u0180\u0183\u0253"
+  },
+  {
+    base: "c",
+    letters: "c\u24D2\uFF43\u0107\u0109\u010B\u010D\xE7\u1E09\u0188\u023C\uA73F\u2184"
+  },
+  {
+    base: "d",
+    letters: "d\u24D3\uFF44\u1E0B\u010F\u1E0D\u1E11\u1E13\u1E0F\u0111\u018C\u0256\u0257\uA77A"
+  },
+  { base: "dz", letters: "\u01F3\u01C6" },
+  {
+    base: "e",
+    letters: "e\u24D4\uFF45\xE8\xE9\xEA\u1EC1\u1EBF\u1EC5\u1EC3\u1EBD\u0113\u1E15\u1E17\u0115\u0117\xEB\u1EBB\u011B\u0205\u0207\u1EB9\u1EC7\u0229\u1E1D\u0119\u1E19\u1E1B\u0247\u025B\u01DD"
+  },
+  { base: "f", letters: "f\u24D5\uFF46\u1E1F\u0192\uA77C" },
+  {
+    base: "g",
+    letters: "g\u24D6\uFF47\u01F5\u011D\u1E21\u011F\u0121\u01E7\u0123\u01E5\u0260\uA7A1\u1D79\uA77F"
+  },
+  {
+    base: "h",
+    letters: "h\u24D7\uFF48\u0125\u1E23\u1E27\u021F\u1E25\u1E29\u1E2B\u1E96\u0127\u2C68\u2C76\u0265"
+  },
+  { base: "hv", letters: "\u0195" },
+  {
+    base: "i",
+    letters: "i\u24D8\uFF49\xEC\xED\xEE\u0129\u012B\u012D\xEF\u1E2F\u1EC9\u01D0\u0209\u020B\u1ECB\u012F\u1E2D\u0268\u0131"
+  },
+  { base: "j", letters: "j\u24D9\uFF4A\u0135\u01F0\u0249" },
+  {
+    base: "k",
+    letters: "k\u24DA\uFF4B\u1E31\u01E9\u1E33\u0137\u1E35\u0199\u2C6A\uA741\uA743\uA745\uA7A3"
+  },
+  {
+    base: "l",
+    letters: "l\u24DB\uFF4C\u0140\u013A\u013E\u1E37\u1E39\u013C\u1E3D\u1E3B\u017F\u0142\u019A\u026B\u2C61\uA749\uA781\uA747"
+  },
+  { base: "lj", letters: "\u01C9" },
+  { base: "m", letters: "m\u24DC\uFF4D\u1E3F\u1E41\u1E43\u0271\u026F" },
+  {
+    base: "n",
+    letters: "n\u24DD\uFF4E\u01F9\u0144\xF1\u1E45\u0148\u1E47\u0146\u1E4B\u1E49\u019E\u0272\u0149\uA791\uA7A5"
+  },
+  { base: "nj", letters: "\u01CC" },
+  {
+    base: "o",
+    letters: "o\u24DE\uFF4F\xF2\xF3\xF4\u1ED3\u1ED1\u1ED7\u1ED5\xF5\u1E4D\u022D\u1E4F\u014D\u1E51\u1E53\u014F\u022F\u0231\xF6\u022B\u1ECF\u0151\u01D2\u020D\u020F\u01A1\u1EDD\u1EDB\u1EE1\u1EDF\u1EE3\u1ECD\u1ED9\u01EB\u01ED\xF8\u01FF\u0254\uA74B\uA74D\u0275"
+  },
+  { base: "oi", letters: "\u01A3" },
+  { base: "ou", letters: "\u0223" },
+  { base: "oo", letters: "\uA74F" },
+  {
+    base: "p",
+    letters: "p\u24DF\uFF50\u1E55\u1E57\u01A5\u1D7D\uA751\uA753\uA755"
+  },
+  { base: "q", letters: "q\u24E0\uFF51\u024B\uA757\uA759" },
+  {
+    base: "r",
+    letters: "r\u24E1\uFF52\u0155\u1E59\u0159\u0211\u0213\u1E5B\u1E5D\u0157\u1E5F\u024D\u027D\uA75B\uA7A7\uA783"
+  },
+  {
+    base: "s",
+    letters: "s\u24E2\uFF53\xDF\u015B\u1E65\u015D\u1E61\u0161\u1E67\u1E63\u1E69\u0219\u015F\u023F\uA7A9\uA785\u1E9B"
+  },
+  {
+    base: "t",
+    letters: "t\u24E3\uFF54\u1E6B\u1E97\u0165\u1E6D\u021B\u0163\u1E71\u1E6F\u0167\u01AD\u0288\u2C66\uA787"
+  },
+  { base: "tz", letters: "\uA729" },
+  {
+    base: "u",
+    letters: "u\u24E4\uFF55\xF9\xFA\xFB\u0169\u1E79\u016B\u1E7B\u016D\xFC\u01DC\u01D8\u01D6\u01DA\u1EE7\u016F\u0171\u01D4\u0215\u0217\u01B0\u1EEB\u1EE9\u1EEF\u1EED\u1EF1\u1EE5\u1E73\u0173\u1E77\u1E75\u0289"
+  },
+  { base: "v", letters: "v\u24E5\uFF56\u1E7D\u1E7F\u028B\uA75F\u028C" },
+  { base: "vy", letters: "\uA761" },
+  {
+    base: "w",
+    letters: "w\u24E6\uFF57\u1E81\u1E83\u0175\u1E87\u1E85\u1E98\u1E89\u2C73"
+  },
+  { base: "x", letters: "x\u24E7\uFF58\u1E8B\u1E8D" },
+  {
+    base: "y",
+    letters: "y\u24E8\uFF59\u1EF3\xFD\u0177\u1EF9\u0233\u1E8F\xFF\u1EF7\u1E99\u1EF5\u01B4\u024F\u1EFF"
+  },
+  {
+    base: "z",
+    letters: "z\u24E9\uFF5A\u017A\u1E91\u017C\u017E\u1E93\u1E95\u01B6\u0225\u0240\u2C6C\uA763"
+  },
+  {
+    base: "2",
+    letters: "\xB2"
+  },
+  {
+    base: "3",
+    letters: "\xB3"
+  }
+];
+var diacriticsMap = {};
+for (let i = 0; i < defaultDiacriticsRemovalMap.length; i++) {
+  const letters = defaultDiacriticsRemovalMap[i].letters;
+  for (let j = 0; j < letters.length; j++) {
+    diacriticsMap[letters[j]] = defaultDiacriticsRemovalMap[i].base;
+  }
+}
+var diacritics_map_default = diacriticsMap;
+
+// node_modules/emoji-regex/index.mjs
+var emoji_regex_default = () => {
+  return /[#*0-9]\uFE0F?\u20E3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23ED-\u23EF\u23F1\u23F2\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u267F\u2692\u2694-\u2697\u2699\u269B\u269C\u26A0\u26A7\u26AA\u26B0\u26B1\u26BD\u26BE\u26C4\u26C8\u26CF\u26D1\u26D3\u26E9\u26F0-\u26F5\u26F7\u26F8\u26FA\u2702\u2708\u2709\u270F\u2712\u2714\u2716\u271D\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u27A1\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B55\u3030\u303D\u3297\u3299]\uFE0F?|[\u261D\u270C\u270D](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\u270A\u270B](?:\uD83C[\uDFFB-\uDFFF])?|[\u23E9-\u23EC\u23F0\u23F3\u25FD\u2693\u26A1\u26AB\u26C5\u26CE\u26D4\u26EA\u26FD\u2705\u2728\u274C\u274E\u2753-\u2755\u2795-\u2797\u27B0\u27BF\u2B50]|\u26F9(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\u2764\uFE0F?(?:\u200D(?:\uD83D\uDD25|\uD83E\uDE79))?|\uD83C(?:[\uDC04\uDD70\uDD71\uDD7E\uDD7F\uDE02\uDE37\uDF21\uDF24-\uDF2C\uDF36\uDF7D\uDF96\uDF97\uDF99-\uDF9B\uDF9E\uDF9F\uDFCD\uDFCE\uDFD4-\uDFDF\uDFF5\uDFF7]\uFE0F?|[\uDF85\uDFC2\uDFC7](?:\uD83C[\uDFFB-\uDFFF])?|[\uDFC3\uDFC4\uDFCA](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDFCB\uDFCC](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDCCF\uDD8E\uDD91-\uDD9A\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF7C\uDF7E-\uDF84\uDF86-\uDF93\uDFA0-\uDFC1\uDFC5\uDFC6\uDFC8\uDFC9\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF8-\uDFFF]|\uDDE6\uD83C[\uDDE8-\uDDEC\uDDEE\uDDF1\uDDF2\uDDF4\uDDF6-\uDDFA\uDDFC\uDDFD\uDDFF]|\uDDE7\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEF\uDDF1-\uDDF4\uDDF6-\uDDF9\uDDFB\uDDFC\uDDFE\uDDFF]|\uDDE8\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDEE\uDDF0-\uDDF5\uDDF7\uDDFA-\uDDFF]|\uDDE9\uD83C[\uDDEA\uDDEC\uDDEF\uDDF0\uDDF2\uDDF4\uDDFF]|\uDDEA\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDED\uDDF7-\uDDFA]|\uDDEB\uD83C[\uDDEE-\uDDF0\uDDF2\uDDF4\uDDF7]|\uDDEC\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEE\uDDF1-\uDDF3\uDDF5-\uDDFA\uDDFC\uDDFE]|\uDDED\uD83C[\uDDF0\uDDF2\uDDF3\uDDF7\uDDF9\uDDFA]|\uDDEE\uD83C[\uDDE8-\uDDEA\uDDF1-\uDDF4\uDDF6-\uDDF9]|\uDDEF\uD83C[\uDDEA\uDDF2\uDDF4\uDDF5]|\uDDF0\uD83C[\uDDEA\uDDEC-\uDDEE\uDDF2\uDDF3\uDDF5\uDDF7\uDDFC\uDDFE\uDDFF]|\uDDF1\uD83C[\uDDE6-\uDDE8\uDDEE\uDDF0\uDDF7-\uDDFB\uDDFE]|\uDDF2\uD83C[\uDDE6\uDDE8-\uDDED\uDDF0-\uDDFF]|\uDDF3\uD83C[\uDDE6\uDDE8\uDDEA-\uDDEC\uDDEE\uDDF1\uDDF4\uDDF5\uDDF7\uDDFA\uDDFF]|\uDDF4\uD83C\uDDF2|\uDDF5\uD83C[\uDDE6\uDDEA-\uDDED\uDDF0-\uDDF3\uDDF7-\uDDF9\uDDFC\uDDFE]|\uDDF6\uD83C\uDDE6|\uDDF7\uD83C[\uDDEA\uDDF4\uDDF8\uDDFA\uDDFC]|\uDDF8\uD83C[\uDDE6-\uDDEA\uDDEC-\uDDF4\uDDF7-\uDDF9\uDDFB\uDDFD-\uDDFF]|\uDDF9\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDED\uDDEF-\uDDF4\uDDF7\uDDF9\uDDFB\uDDFC\uDDFF]|\uDDFA\uD83C[\uDDE6\uDDEC\uDDF2\uDDF3\uDDF8\uDDFE\uDDFF]|\uDDFB\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDEE\uDDF3\uDDFA]|\uDDFC\uD83C[\uDDEB\uDDF8]|\uDDFD\uD83C\uDDF0|\uDDFE\uD83C[\uDDEA\uDDF9]|\uDDFF\uD83C[\uDDE6\uDDF2\uDDFC]|\uDFF3\uFE0F?(?:\u200D(?:\u26A7\uFE0F?|\uD83C\uDF08))?|\uDFF4(?:\u200D\u2620\uFE0F?|\uDB40\uDC67\uDB40\uDC62\uDB40(?:\uDC65\uDB40\uDC6E\uDB40\uDC67|\uDC73\uDB40\uDC63\uDB40\uDC74|\uDC77\uDB40\uDC6C\uDB40\uDC73)\uDB40\uDC7F)?)|\uD83D(?:[\uDC08\uDC26](?:\u200D\u2B1B)?|[\uDC3F\uDCFD\uDD49\uDD4A\uDD6F\uDD70\uDD73\uDD76-\uDD79\uDD87\uDD8A-\uDD8D\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA\uDECB\uDECD-\uDECF\uDEE0-\uDEE5\uDEE9\uDEF0\uDEF3]\uFE0F?|[\uDC42\uDC43\uDC46-\uDC50\uDC66\uDC67\uDC6B-\uDC6D\uDC72\uDC74-\uDC76\uDC78\uDC7C\uDC83\uDC85\uDC8F\uDC91\uDCAA\uDD7A\uDD95\uDD96\uDE4C\uDE4F\uDEC0\uDECC](?:\uD83C[\uDFFB-\uDFFF])?|[\uDC6E\uDC70\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4-\uDEB6](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD74\uDD90](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\uDC00-\uDC07\uDC09-\uDC14\uDC16-\uDC25\uDC27-\uDC3A\uDC3C-\uDC3E\uDC40\uDC44\uDC45\uDC51-\uDC65\uDC6A\uDC79-\uDC7B\uDC7D-\uDC80\uDC84\uDC88-\uDC8E\uDC90\uDC92-\uDCA9\uDCAB-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDDA4\uDDFB-\uDE2D\uDE2F-\uDE34\uDE37-\uDE44\uDE48-\uDE4A\uDE80-\uDEA2\uDEA4-\uDEB3\uDEB7-\uDEBF\uDEC1-\uDEC5\uDED0-\uDED2\uDED5-\uDED7\uDEDC-\uDEDF\uDEEB\uDEEC\uDEF4-\uDEFC\uDFE0-\uDFEB\uDFF0]|\uDC15(?:\u200D\uD83E\uDDBA)?|\uDC3B(?:\u200D\u2744\uFE0F?)?|\uDC41\uFE0F?(?:\u200D\uD83D\uDDE8\uFE0F?)?|\uDC68(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDC68\uDC69]\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|\uD83E[\uDDAF-\uDDB3\uDDBC\uDDBD])|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFE])))?))?|\uDC69(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?[\uDC68\uDC69]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?|\uDC69\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?))|\uD83E[\uDDAF-\uDDB3\uDDBC\uDDBD])|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFE])))?))?|\uDC6F(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDD75(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDE2E(?:\u200D\uD83D\uDCA8)?|\uDE35(?:\u200D\uD83D\uDCAB)?|\uDE36(?:\u200D\uD83C\uDF2B\uFE0F?)?)|\uD83E(?:[\uDD0C\uDD0F\uDD18-\uDD1F\uDD30-\uDD34\uDD36\uDD77\uDDB5\uDDB6\uDDBB\uDDD2\uDDD3\uDDD5\uDEC3-\uDEC5\uDEF0\uDEF2-\uDEF8](?:\uD83C[\uDFFB-\uDFFF])?|[\uDD26\uDD35\uDD37-\uDD39\uDD3D\uDD3E\uDDB8\uDDB9\uDDCD-\uDDCF\uDDD4\uDDD6-\uDDDD](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDDDE\uDDDF](?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD0D\uDD0E\uDD10-\uDD17\uDD20-\uDD25\uDD27-\uDD2F\uDD3A\uDD3F-\uDD45\uDD47-\uDD76\uDD78-\uDDB4\uDDB7\uDDBA\uDDBC-\uDDCC\uDDD0\uDDE0-\uDDFF\uDE70-\uDE7C\uDE80-\uDE88\uDE90-\uDEBD\uDEBF-\uDEC2\uDECE-\uDEDB\uDEE0-\uDEE8]|\uDD3C(?:\u200D[\u2640\u2642]\uFE0F?|\uD83C[\uDFFB-\uDFFF])?|\uDDD1(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFC-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFD-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFD\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFE]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF-\uDDB3\uDDBC\uDDBD]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?))?|\uDEF1(?:\uD83C(?:\uDFFB(?:\u200D\uD83E\uDEF2\uD83C[\uDFFC-\uDFFF])?|\uDFFC(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFD-\uDFFF])?|\uDFFD(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])?|\uDFFE(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFD\uDFFF])?|\uDFFF(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFE])?))?)/g;
+};
+
 // src/util/strings.ts
-var regEmoji = new RegExp(
-  /[\u2700-\u27BF]|[\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2011-\u26FF]|\uD83E[\uDD10-\uDDFF]|[\uFE0E-\uFE0F]/,
-  "g"
-);
+var regEmoji = new RegExp(` *(${emoji_regex_default().source}) *`, "g");
+function equalsAsLiterals(one, another) {
+  return one.replace(/[ \t]/g, "") === another.replace(/[ \t]/g, "");
+}
+function allNumbersOrFewSymbols(text2) {
+  return Boolean(text2.match(/^[0-9_\-.]+$/));
+}
 function allAlphabets(text2) {
-  return Boolean(text2.match(/^[a-zA-Z0-9_-]+$/));
+  return Boolean(text2.match(/^[a-zA-Z0-9_\-]+$/));
 }
 function excludeEmoji(text2) {
   return text2.replace(regEmoji, "");
@@ -450,11 +689,30 @@ function excludeEmoji(text2) {
 function encodeSpace(text2) {
   return text2.replace(/ /g, "%20");
 }
+function normalizeAccentsDiacritics(text2) {
+  return text2.replace(/[^\u0000-\u007E]/g, (x) => {
+    var _a;
+    return (_a = diacritics_map_default[x]) != null ? _a : x;
+  });
+}
+function synonymAliases(value, option) {
+  let synonym = value;
+  if (option.emoji) {
+    synonym = excludeEmoji(synonym);
+  }
+  if (option.accentsDiacritics) {
+    synonym = normalizeAccentsDiacritics(synonym);
+  }
+  return synonym === value ? [] : [synonym];
+}
 function lowerIncludes(one, other) {
   return one.toLowerCase().includes(other.toLowerCase());
 }
 function lowerStartsWith(a, b) {
   return a.toLowerCase().startsWith(b.toLowerCase());
+}
+function wrapFuzzy(func) {
+  return (...xs) => func(...xs) ? { type: "concrete_match" } : { type: "none" };
 }
 function lowerFuzzy(a, b) {
   return microFuzzy(a.toLowerCase(), b.toLowerCase());
@@ -462,7 +720,7 @@ function lowerFuzzy(a, b) {
 function lowerFuzzyStarsWith(a, b) {
   const aLower = a.toLowerCase();
   const bLower = b.toLowerCase();
-  return aLower[0] !== bLower[0] ? false : microFuzzy(aLower, bLower);
+  return aLower[0] === bLower[0] ? microFuzzy(aLower, bLower) : { type: "none" };
 }
 function capitalizeFirstLetter(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -502,31 +760,62 @@ function microFuzzy(value, query) {
   let i = 0;
   let lastMatchIndex = null;
   let isFuzzy = false;
+  let scoreSeed = 0;
+  let combo = 0;
   for (let j = 0; j < value.length; j++) {
     if (value[j] === query[i]) {
       if (lastMatchIndex != null && j - lastMatchIndex > 1) {
         isFuzzy = true;
       }
       lastMatchIndex = j;
+      combo++;
       i++;
+    } else {
+      if (combo > 0) {
+        scoreSeed += 2 ** combo;
+        combo = 0;
+      }
     }
     if (i === query.length) {
-      return isFuzzy ? "fuzzy" : true;
+      if (combo > 0) {
+        scoreSeed += 2 ** combo;
+      }
+      return isFuzzy ? { type: "fuzzy_match", score: scoreSeed / value.length } : { type: "concrete_match" };
     }
   }
-  return false;
+  return { type: "none" };
+}
+function joinNumberWithSymbol(tokens) {
+  if (tokens.length === 0) {
+    return [];
+  }
+  let stock = tokens.shift();
+  const ret = [];
+  for (const token of tokens) {
+    if (allNumbersOrFewSymbols(token) && allNumbersOrFewSymbols(stock)) {
+      stock += token;
+    } else {
+      if (stock) {
+        ret.push(stock);
+      }
+      stock = token;
+    }
+  }
+  ret.push(stock);
+  return ret;
 }
 
 // src/tokenizer/tokenizers/DefaultTokenizer.ts
 function pickTokens(content, trimPattern) {
   return content.split(trimPattern).filter((x) => x !== "");
 }
-var TRIM_CHAR_PATTERN = /[\n\t\[\]$/:?!=()<>"'.,|;*~ `]/g;
+var TRIM_CHAR_PATTERN = /[\n\t\[\]$/:?!=()<>"',|;*~ `_]/g;
 var DefaultTokenizer = class {
   tokenize(content, raw) {
-    return raw ? Array.from(splitRaw(content, this.getTrimPattern())).filter(
+    const tokens = raw ? Array.from(splitRaw(content, this.getTrimPattern())).filter(
       (x) => x !== " "
     ) : pickTokens(content, this.getTrimPattern());
+    return tokens.map((x) => x.replace(/\.+$/g, ""));
   }
   recursiveTokenize(content) {
     const trimIndexes = Array.from(content.matchAll(this.getTrimPattern())).sort((a, b) => a.index - b.index).map((x) => x.index);
@@ -2049,19 +2338,23 @@ var tiny_segmenter_default = TinySegmenter;
 // src/tokenizer/tokenizers/JapaneseTokenizer.ts
 var segmenter = new tiny_segmenter_default();
 function pickTokensAsJapanese(content, trimPattern) {
-  return content.split(trimPattern).filter((x) => x !== "").flatMap((x) => segmenter.segment(x));
+  return joinNumberWithSymbol(
+    content.split(trimPattern).filter((x) => x !== "").flatMap((x) => segmenter.segment(x))
+  );
 }
 var JapaneseTokenizer = class {
   tokenize(content, raw) {
     return pickTokensAsJapanese(content, raw ? / /g : this.getTrimPattern());
   }
   recursiveTokenize(content) {
-    const tokens = segmenter.segment(content).flatMap(
-      (x) => x === " " ? x : x.split(" ").map((t) => t === "" ? " " : t)
+    const tokens = joinNumberWithSymbol(
+      segmenter.segment(content).flatMap(
+        (x) => x === " " ? x : x.split(" ").map((t) => t === "" ? " " : t)
+      )
     );
     const ret = [];
     for (let i = 0; i < tokens.length; i++) {
-      if (i === 0 || tokens[i].length !== 1 || !Boolean(tokens[i].match(this.getTrimPattern()))) {
+      if (i === 0 || tokens[i].length !== 1 || tokens[i] !== " ") {
         ret.push({
           word: tokens.slice(i).join(""),
           offset: tokens.slice(0, i).join("").length
@@ -2215,7 +2508,22 @@ var AppHelper = class {
   constructor(app2) {
     this.unsafeApp = app2;
   }
-  equalsAsEditorPostion(one, other) {
+  async exists(path) {
+    return await this.unsafeApp.vault.adapter.exists(path);
+  }
+  async loadFile(path) {
+    if (!await this.exists(path)) {
+      throw Error(`The file is not found: ${path}`);
+    }
+    return this.unsafeApp.vault.adapter.read(path);
+  }
+  async loadJson(path) {
+    return JSON.parse(await this.loadFile(path));
+  }
+  async saveJson(path, data) {
+    await this.unsafeApp.vault.adapter.write(path, JSON.stringify(data));
+  }
+  equalsAsEditorPosition(one, other) {
     return one.line === other.line && one.ch === other.ch;
   }
   getAliases(file) {
@@ -2245,6 +2553,12 @@ var AppHelper = class {
       aliases,
       alias: aliases
     };
+  }
+  getBoolFrontMatter(file, key) {
+    var _a, _b;
+    return Boolean(
+      (_b = (_a = this.unsafeApp.metadataCache.getFileCache(file)) == null ? void 0 : _a.frontmatter) == null ? void 0 : _b[key]
+    );
   }
   getMarkdownViewInActiveLeaf() {
     if (!this.unsafeApp.workspace.getActiveViewOfType(import_obsidian.MarkdownView)) {
@@ -2397,6 +2711,9 @@ var AppHelper = class {
     }
     return !!((_c = (_b = cm5or6 == null ? void 0 : cm5or6.display) == null ? void 0 : _b.input) == null ? void 0 : _c.composing);
   }
+  isMobile() {
+    return this.unsafeApp.isMobile;
+  }
   async writeLog(log) {
     await this.unsafeApp.vault.adapter.append((0, import_obsidian.normalizePath)("log.md"), log);
   }
@@ -2408,9 +2725,6 @@ var AppHelper = class {
     return (_a = this.unsafeApp.vault.config.newLinkFormat) != null ? _a : "shortest";
   }
 };
-
-// src/provider/CustomDictionaryWordProvider.ts
-var import_obsidian2 = require("obsidian");
 
 // src/model/Word.ts
 var _WordTypeMeta = class {
@@ -2477,8 +2791,8 @@ function pushWord(wordsByFirstLetter, key, word) {
   }
   wordsByFirstLetter[key].push(word);
 }
-function judge(word, query, queryStartWithUpper, fuzzy) {
-  var _a;
+function judge(word, query, queryStartWithUpper, options) {
+  var _a, _b, _c;
   if (query === "") {
     return {
       word: {
@@ -2489,9 +2803,9 @@ function judge(word, query, queryStartWithUpper, fuzzy) {
       alias: false
     };
   }
-  const matcher = fuzzy ? lowerFuzzy : lowerStartsWith;
+  const matcher = (options == null ? void 0 : options.fuzzy) ? lowerFuzzy : wrapFuzzy(lowerStartsWith);
   const matched = matcher(word.value, query);
-  if (matched) {
+  if (matched.type === "concrete_match" || matched.type === "fuzzy_match" && matched.score > ((_a = options == null ? void 0 : options.fuzzy) == null ? void 0 : _a.minMatchScore)) {
     if (queryStartWithUpper && word.type !== "internalLink" && word.type !== "frontMatter") {
       const c = capitalizeFirstLetter(word.value);
       return {
@@ -2499,7 +2813,7 @@ function judge(word, query, queryStartWithUpper, fuzzy) {
           ...word,
           value: c,
           hit: c,
-          fuzzy: matched === "fuzzy"
+          fuzzy: matched.type === "fuzzy_match"
         },
         value: c,
         alias: false
@@ -2509,20 +2823,22 @@ function judge(word, query, queryStartWithUpper, fuzzy) {
         word: {
           ...word,
           hit: word.value,
-          fuzzy: matched === "fuzzy"
+          fuzzy: matched.type === "fuzzy_match"
         },
         value: word.value,
         alias: false
       };
     }
   }
-  const matchedAlias = (_a = word.aliases) == null ? void 0 : _a.map((a) => ({ aliases: a, matched: matcher(a, query) })).find((x) => x.matched);
-  if (matchedAlias == null ? void 0 : matchedAlias.matched) {
+  const matchedAlias = (_b = word.aliases) == null ? void 0 : _b.map((a) => ({ aliases: a, matched: matcher(a, query) })).sort(
+    (a, b) => a.matched.type === "concrete_match" && b.matched.type !== "concrete_match" ? -1 : 0
+  ).find((x) => x.matched.type !== "none");
+  if (matchedAlias && (matchedAlias.matched.type === "concrete_match" || matchedAlias.matched.type === "fuzzy_match" && matchedAlias.matched.score > ((_c = options == null ? void 0 : options.fuzzy) == null ? void 0 : _c.minMatchScore))) {
     return {
       word: {
         ...word,
         hit: matchedAlias.aliases,
-        fuzzy: matchedAlias.matched === "fuzzy"
+        fuzzy: matchedAlias.matched.type === "fuzzy_match"
       },
       value: matchedAlias.aliases,
       alias: true
@@ -2534,10 +2850,9 @@ function judge(word, query, queryStartWithUpper, fuzzy) {
   };
 }
 function suggestWords(indexedWords, query, maxNum, option = {}) {
-  var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p, _q;
+  var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p;
   const { frontMatter, selectionHistoryStorage } = option;
   const queryStartWithUpper = capitalizeFirstLetter(query) === query;
-  const fuzzy = (_a = option.fuzzy) != null ? _a : false;
   const flattenFrontMatterWords = () => {
     var _a2, _b2;
     if (frontMatter === "alias" || frontMatter === "aliases") {
@@ -2549,25 +2864,25 @@ function suggestWords(indexedWords, query, maxNum, option = {}) {
     return [];
   };
   const words = queryStartWithUpper ? frontMatter ? flattenFrontMatterWords() : [
-    ...(_b = indexedWords.currentFile[query.charAt(0)]) != null ? _b : [],
-    ...(_c = indexedWords.currentFile[query.charAt(0).toLowerCase()]) != null ? _c : [],
-    ...(_d = indexedWords.currentVault[query.charAt(0)]) != null ? _d : [],
-    ...(_e = indexedWords.currentVault[query.charAt(0).toLowerCase()]) != null ? _e : [],
-    ...(_f = indexedWords.customDictionary[query.charAt(0)]) != null ? _f : [],
-    ...(_g = indexedWords.customDictionary[query.charAt(0).toLowerCase()]) != null ? _g : [],
-    ...(_h = indexedWords.internalLink[query.charAt(0)]) != null ? _h : [],
-    ...(_i = indexedWords.internalLink[query.charAt(0).toLowerCase()]) != null ? _i : []
+    ...(_a = indexedWords.currentFile[query.charAt(0)]) != null ? _a : [],
+    ...(_b = indexedWords.currentFile[query.charAt(0).toLowerCase()]) != null ? _b : [],
+    ...(_c = indexedWords.currentVault[query.charAt(0)]) != null ? _c : [],
+    ...(_d = indexedWords.currentVault[query.charAt(0).toLowerCase()]) != null ? _d : [],
+    ...(_e = indexedWords.customDictionary[query.charAt(0)]) != null ? _e : [],
+    ...(_f = indexedWords.customDictionary[query.charAt(0).toLowerCase()]) != null ? _f : [],
+    ...(_g = indexedWords.internalLink[query.charAt(0)]) != null ? _g : [],
+    ...(_h = indexedWords.internalLink[query.charAt(0).toLowerCase()]) != null ? _h : []
   ] : frontMatter ? flattenFrontMatterWords() : [
-    ...(_j = indexedWords.currentFile[query.charAt(0)]) != null ? _j : [],
-    ...(_k = indexedWords.currentFile[query.charAt(0).toUpperCase()]) != null ? _k : [],
-    ...(_l = indexedWords.currentVault[query.charAt(0)]) != null ? _l : [],
-    ...(_m = indexedWords.currentVault[query.charAt(0).toUpperCase()]) != null ? _m : [],
-    ...(_n = indexedWords.customDictionary[query.charAt(0)]) != null ? _n : [],
-    ...(_o = indexedWords.customDictionary[query.charAt(0).toUpperCase()]) != null ? _o : [],
-    ...(_p = indexedWords.internalLink[query.charAt(0)]) != null ? _p : [],
-    ...(_q = indexedWords.internalLink[query.charAt(0).toUpperCase()]) != null ? _q : []
+    ...(_i = indexedWords.currentFile[query.charAt(0)]) != null ? _i : [],
+    ...(_j = indexedWords.currentFile[query.charAt(0).toUpperCase()]) != null ? _j : [],
+    ...(_k = indexedWords.currentVault[query.charAt(0)]) != null ? _k : [],
+    ...(_l = indexedWords.currentVault[query.charAt(0).toUpperCase()]) != null ? _l : [],
+    ...(_m = indexedWords.customDictionary[query.charAt(0)]) != null ? _m : [],
+    ...(_n = indexedWords.customDictionary[query.charAt(0).toUpperCase()]) != null ? _n : [],
+    ...(_o = indexedWords.internalLink[query.charAt(0)]) != null ? _o : [],
+    ...(_p = indexedWords.internalLink[query.charAt(0).toUpperCase()]) != null ? _p : []
   ];
-  const filteredJudgement = Array.from(words).map((x) => judge(x, query, queryStartWithUpper, fuzzy)).filter((x) => x.value !== void 0);
+  const filteredJudgement = Array.from(words).map((x) => judge(x, query, queryStartWithUpper, option)).filter((x) => x.value !== void 0);
   const latestUpdated = max(
     filteredJudgement.map(
       (x) => {
@@ -2610,8 +2925,8 @@ function suggestWords(indexedWords, query, maxNum, option = {}) {
   }).map((x) => x.word).slice(0, maxNum);
   return uniqWith(candidate, suggestionUniqPredicate);
 }
-function judgeByPartialMatch(word, query, queryStartWithUpper, fuzzy) {
-  var _a, _b;
+function judgeByPartialMatch(word, query, queryStartWithUpper, options) {
+  var _a, _b, _c, _d, _e, _f;
   if (query === "") {
     return {
       word: { ...word, hit: word.value },
@@ -2619,10 +2934,10 @@ function judgeByPartialMatch(word, query, queryStartWithUpper, fuzzy) {
       alias: false
     };
   }
-  const startsWithMatcher = fuzzy ? lowerFuzzyStarsWith : lowerStartsWith;
-  const includesMatcher = fuzzy ? lowerFuzzy : lowerIncludes;
+  const startsWithMatcher = (options == null ? void 0 : options.fuzzy) ? lowerFuzzyStarsWith : wrapFuzzy(lowerStartsWith);
+  const includesMatcher = (options == null ? void 0 : options.fuzzy) ? lowerFuzzy : wrapFuzzy(lowerIncludes);
   const startsWithMatched = startsWithMatcher(word.value, query);
-  if (startsWithMatched) {
+  if (startsWithMatched.type === "concrete_match" || startsWithMatched.type === "fuzzy_match" && startsWithMatched.score > ((_a = options == null ? void 0 : options.fuzzy) == null ? void 0 : _a.minMatchScore)) {
     if (queryStartWithUpper && word.type !== "internalLink" && word.type !== "frontMatter") {
       const c = capitalizeFirstLetter(word.value);
       return {
@@ -2630,7 +2945,7 @@ function judgeByPartialMatch(word, query, queryStartWithUpper, fuzzy) {
           ...word,
           value: c,
           hit: c,
-          fuzzy: startsWithMatched === "fuzzy"
+          fuzzy: startsWithMatched.type === "fuzzy_match"
         },
         value: c,
         alias: false
@@ -2640,40 +2955,48 @@ function judgeByPartialMatch(word, query, queryStartWithUpper, fuzzy) {
         word: {
           ...word,
           hit: word.value,
-          fuzzy: startsWithMatched === "fuzzy"
+          fuzzy: startsWithMatched.type === "fuzzy_match"
         },
         value: word.value,
         alias: false
       };
     }
   }
-  const startsWithAliasMatched = (_a = word.aliases) == null ? void 0 : _a.map((a) => ({ aliases: a, matched: startsWithMatcher(a, query) })).find((x) => x.matched);
-  if (startsWithAliasMatched) {
+  const startsWithAliasMatched = (_b = word.aliases) == null ? void 0 : _b.map((a) => ({ aliases: a, matched: startsWithMatcher(a, query) })).sort(
+    (a, b) => a.matched.type === "concrete_match" && b.matched.type !== "concrete_match" ? -1 : 0
+  ).find((x) => x.matched.type !== "none");
+  if (startsWithAliasMatched && (startsWithAliasMatched.matched.type === "concrete_match" || startsWithAliasMatched.matched.type === "fuzzy_match" && startsWithAliasMatched.matched.score > ((_c = options == null ? void 0 : options.fuzzy) == null ? void 0 : _c.minMatchScore))) {
     return {
       word: {
         ...word,
         hit: startsWithAliasMatched.aliases,
-        fuzzy: startsWithAliasMatched.matched === "fuzzy"
+        fuzzy: startsWithAliasMatched.matched.type === "fuzzy_match"
       },
       value: startsWithAliasMatched.aliases,
       alias: true
     };
   }
   const includesMatched = includesMatcher(word.value, query);
-  if (includesMatched) {
+  if (includesMatched && (includesMatched.type === "concrete_match" || includesMatched.type === "fuzzy_match" && includesMatched.score > ((_d = options == null ? void 0 : options.fuzzy) == null ? void 0 : _d.minMatchScore))) {
     return {
-      word: { ...word, hit: word.value, fuzzy: includesMatched === "fuzzy" },
+      word: {
+        ...word,
+        hit: word.value,
+        fuzzy: includesMatched.type === "fuzzy_match"
+      },
       value: word.value,
       alias: false
     };
   }
-  const matchedAliasIncluded = (_b = word.aliases) == null ? void 0 : _b.map((a) => ({ aliases: a, matched: includesMatcher(a, query) })).find((x) => x.matched);
-  if (matchedAliasIncluded) {
+  const matchedAliasIncluded = (_e = word.aliases) == null ? void 0 : _e.map((a) => ({ aliases: a, matched: includesMatcher(a, query) })).sort(
+    (a, b) => a.matched.type === "concrete_match" && b.matched.type !== "concrete_match" ? -1 : 0
+  ).find((x) => x.matched.type !== "none");
+  if (matchedAliasIncluded && (matchedAliasIncluded.matched.type === "concrete_match" || matchedAliasIncluded.matched.type === "fuzzy_match" && matchedAliasIncluded.matched.score > ((_f = options == null ? void 0 : options.fuzzy) == null ? void 0 : _f.minMatchScore))) {
     return {
       word: {
         ...word,
         hit: matchedAliasIncluded.aliases,
-        fuzzy: matchedAliasIncluded.matched === "fuzzy"
+        fuzzy: matchedAliasIncluded.matched.type === "fuzzy_match"
       },
       value: matchedAliasIncluded.aliases,
       alias: true
@@ -2682,17 +3005,15 @@ function judgeByPartialMatch(word, query, queryStartWithUpper, fuzzy) {
   return { word, alias: false };
 }
 function suggestWordsByPartialMatch(indexedWords, query, maxNum, option = {}) {
-  var _a;
   const { frontMatter, selectionHistoryStorage } = option;
   const queryStartWithUpper = capitalizeFirstLetter(query) === query;
-  const fuzzy = (_a = option.fuzzy) != null ? _a : false;
   const flatObjectValues = (object) => Object.values(object).flat();
   const flattenFrontMatterWords = () => {
-    var _a2, _b;
+    var _a, _b;
     if (frontMatter === "alias" || frontMatter === "aliases") {
       return [];
     }
-    if (frontMatter && ((_a2 = indexedWords.frontMatter) == null ? void 0 : _a2[frontMatter])) {
+    if (frontMatter && ((_a = indexedWords.frontMatter) == null ? void 0 : _a[frontMatter])) {
       return Object.values((_b = indexedWords.frontMatter) == null ? void 0 : _b[frontMatter]).flat();
     }
     return [];
@@ -2703,12 +3024,12 @@ function suggestWordsByPartialMatch(indexedWords, query, maxNum, option = {}) {
     ...flatObjectValues(indexedWords.customDictionary),
     ...flatObjectValues(indexedWords.internalLink)
   ];
-  const filteredJudgement = Array.from(words).map((x) => judgeByPartialMatch(x, query, queryStartWithUpper, fuzzy)).filter((x) => x.value !== void 0);
+  const filteredJudgement = Array.from(words).map((x) => judgeByPartialMatch(x, query, queryStartWithUpper, option)).filter((x) => x.value !== void 0);
   const latestUpdated = max(
     filteredJudgement.map(
       (x) => {
-        var _a2, _b;
-        return (_b = (_a2 = selectionHistoryStorage == null ? void 0 : selectionHistoryStorage.getSelectionHistory(x.word)) == null ? void 0 : _a2.lastUpdated) != null ? _b : 0;
+        var _a, _b;
+        return (_b = (_a = selectionHistoryStorage == null ? void 0 : selectionHistoryStorage.getSelectionHistory(x.word)) == null ? void 0 : _a.lastUpdated) != null ? _b : 0;
       }
     ),
     0
@@ -2752,6 +3073,9 @@ function suggestWordsByPartialMatch(indexedWords, query, maxNum, option = {}) {
   return uniqWith(candidate, suggestionUniqPredicate);
 }
 
+// src/provider/CustomDictionaryWordProvider.ts
+var import_obsidian2 = require("obsidian");
+
 // src/util/path.ts
 function basename(path, ext) {
   var _a, _b;
@@ -2765,6 +3089,7 @@ function dirname(path) {
 function isURL(path) {
   return Boolean(path.match(new RegExp("^https?://")));
 }
+var DEFAULT_HISTORIES_PATH = ".obsidian/plugins/various-complements/histories.json";
 
 // src/provider/CustomDictionaryWordProvider.ts
 function escape(value) {
@@ -2823,10 +3148,6 @@ function wordToLine(word, delimiter, dividerForDisplay) {
     delimiter.value
   );
 }
-function synonymAliases(name) {
-  const lessEmojiValue = excludeEmoji(name);
-  return name === lessEmojiValue ? [] : [lessEmojiValue];
-}
 var CustomDictionaryWordProvider = class {
   constructor(app2, appHelper) {
     this.words = [];
@@ -2859,7 +3180,12 @@ var CustomDictionaryWordProvider = class {
     for (const path of this.paths) {
       try {
         const words = await this.loadWords(path, option);
-        words.forEach((x) => this.addWord(x));
+        words.forEach(
+          (x) => this.addWord(x, {
+            emoji: option.makeSynonymAboutEmoji,
+            accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+          })
+        );
       } catch (e) {
         new import_obsidian2.Notice(
           `\u26A0 Fail to load ${path} -- Various Complements Plugin -- 
@@ -2869,19 +3195,22 @@ var CustomDictionaryWordProvider = class {
       }
     }
   }
-  async addWordWithDictionary(word, dictionaryPath) {
-    this.addWord(word);
+  async addWordWithDictionary(word, dictionaryPath, synonymOption) {
+    this.addWord(word, synonymOption);
     await this.fileSystemAdapter.append(
       dictionaryPath,
       "\n" + wordToLine(word, this.delimiter, this.dividerForDisplay)
     );
   }
-  addWord(word) {
+  addWord(word, synonymOption) {
     var _a, _b;
     this.words.push(word);
     const wordWithSynonym = {
       ...word,
-      aliases: [...(_a = word.aliases) != null ? _a : [], ...synonymAliases(word.value)]
+      aliases: [
+        ...(_a = word.aliases) != null ? _a : [],
+        ...synonymAliases(word.value, synonymOption)
+      ]
     };
     this.wordByValue[wordWithSynonym.value] = wordWithSynonym;
     pushWord(
@@ -2916,7 +3245,7 @@ var CurrentFileWordProvider = class {
     this.wordsByFirstLetter = {};
     this.words = [];
   }
-  async refreshWords(onlyEnglish, minNumberOfCharacters) {
+  async refreshWords(option) {
     this.clearWords();
     const editor = this.appHelper.getCurrentEditor();
     if (!editor) {
@@ -2931,18 +3260,22 @@ var CurrentFileWordProvider = class {
     ).last();
     const content = await this.app.vault.cachedRead(file);
     const tokens = this.tokenizer.tokenize(content).filter((x) => {
-      if (x.length < minNumberOfCharacters) {
+      if (x.length < option.minNumberOfCharacters) {
         return false;
       }
       if (this.tokenizer.shouldIgnoreOnCurrent(x)) {
         return false;
       }
-      return onlyEnglish ? allAlphabets(x) : true;
+      return option.onlyEnglish ? allAlphabets(x) : true;
     }).map((x) => startsSmallLetterOnlyFirst(x) ? x.toLowerCase() : x);
     this.words = uniq(tokens).filter((x) => x !== currentToken).map((x) => ({
       value: x,
       type: "currentFile",
-      createdPath: file.path
+      createdPath: file.path,
+      aliases: synonymAliases(x, {
+        emoji: option.makeSynonymAboutEmoji,
+        accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+      })
     }));
     this.wordsByFirstLetter = groupBy(this.words, (x) => x.value.charAt(0));
   }
@@ -2966,31 +3299,42 @@ var InternalLinkWordProvider = class {
     this.words = [];
     this.wordsByFirstLetter = {};
   }
-  refreshWords(wordAsInternalLinkAlias, excludePathPrefixPatterns) {
+  refreshWords(option) {
     var _a;
     this.clearWords();
-    const synonymAliases3 = (name) => {
-      const lessEmojiValue = excludeEmoji(name);
-      return name === lessEmojiValue ? [] : [lessEmojiValue];
-    };
-    const resolvedInternalLinkWords = this.app.vault.getMarkdownFiles().filter(
-      (f) => excludePathPrefixPatterns.every((x) => !f.path.startsWith(x))
-    ).flatMap((x) => {
+    const resolvedInternalLinkWords = this.app.vault.getMarkdownFiles().filter((f) => {
+      if (option.excludePathPrefixPatterns.some((x) => f.path.startsWith(x))) {
+        return false;
+      }
+      if (!option.frontMatterKeyForExclusion) {
+        return true;
+      }
+      return !this.appHelper.getBoolFrontMatter(
+        f,
+        option.frontMatterKeyForExclusion
+      );
+    }).flatMap((x) => {
       const aliases = this.appHelper.getAliases(x);
-      if (wordAsInternalLinkAlias) {
+      if (option.wordAsInternalLinkAlias) {
         return [
           {
             value: x.basename,
             type: "internalLink",
             createdPath: x.path,
-            aliases: synonymAliases3(x.basename),
+            aliases: synonymAliases(x.basename, {
+              emoji: option.makeSynonymAboutEmoji,
+              accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+            }),
             description: x.path
           },
           ...aliases.map((a) => ({
             value: a,
             type: "internalLink",
             createdPath: x.path,
-            aliases: synonymAliases3(a),
+            aliases: synonymAliases(a, {
+              emoji: option.makeSynonymAboutEmoji,
+              accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+            }),
             description: x.path,
             aliasMeta: {
               origin: x.path
@@ -3004,9 +3348,17 @@ var InternalLinkWordProvider = class {
             type: "internalLink",
             createdPath: x.path,
             aliases: [
-              ...synonymAliases3(x.basename),
+              ...synonymAliases(x.basename, {
+                emoji: option.makeSynonymAboutEmoji,
+                accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+              }),
               ...aliases,
-              ...aliases.flatMap(synonymAliases3)
+              ...aliases.flatMap(
+                (al) => synonymAliases(al, {
+                  emoji: option.makeSynonymAboutEmoji,
+                  accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+                })
+              )
             ],
             description: x.path
           }
@@ -3018,7 +3370,10 @@ var InternalLinkWordProvider = class {
         value: link,
         type: "internalLink",
         createdPath: path,
-        aliases: synonymAliases3(link),
+        aliases: synonymAliases(link, {
+          emoji: option.makeSynonymAboutEmoji,
+          accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+        }),
         description: `Appeared in -> ${path}`,
         phantom: true
       };
@@ -3181,7 +3536,7 @@ var CurrentVaultWordProvider = class {
     this.wordsByFirstLetter = {};
     this.words = [];
   }
-  async refreshWords(minNumberOfCharacters) {
+  async refreshWords(option) {
     this.clearWords();
     const currentDirname = this.appHelper.getCurrentDirname();
     const markdownFilePaths = this.app.vault.getMarkdownFiles().map((x) => x.path).filter((p) => this.includePrefixPatterns.every((x) => p.startsWith(x))).filter((p) => this.excludePrefixPatterns.every((x) => !p.startsWith(x))).filter(
@@ -3191,14 +3546,18 @@ var CurrentVaultWordProvider = class {
     for (const path of markdownFilePaths) {
       const content = await this.app.vault.adapter.read(path);
       const tokens = this.tokenizer.tokenize(content).filter(
-        (x) => x.length >= minNumberOfCharacters && !this.tokenizer.shouldIgnoreOnCurrent(x)
+        (x) => x.length >= option.minNumberOfCharacters && !this.tokenizer.shouldIgnoreOnCurrent(x)
       ).map((x) => startsSmallLetterOnlyFirst(x) ? x.toLowerCase() : x);
       for (const token of tokens) {
         wordByValue[token] = {
           value: token,
           type: "currentVault",
           createdPath: path,
-          description: path
+          description: path,
+          aliases: synonymAliases(token, {
+            emoji: option.makeSynonymAboutEmoji,
+            accentsDiacritics: option.makeSynonymAboutAccentsDiacritics
+          })
         };
       }
     }
@@ -3415,20 +3774,20 @@ function calcScore(history, latestUpdated) {
 var SelectionHistoryStorage = class {
   constructor(data = {}, maxDaysToKeepHistory, maxNumberOfHistoryToKeep) {
     this.data = data;
-    const now = Date.now();
-    this.version = now;
-    this.persistedVersion = now;
+    const now2 = Date.now();
+    this.version = now2;
+    this.persistedVersion = now2;
     this.maxDaysToKeepHistory = maxDaysToKeepHistory;
     this.maxNumberOfHistoryToKeep = maxNumberOfHistoryToKeep;
   }
   purge() {
     var _a;
-    const now = Date.now();
+    const now2 = Date.now();
     const times = [];
     for (const hit of Object.keys(this.data)) {
       for (const value of Object.keys(this.data[hit])) {
         for (const kind of Object.keys(this.data[hit][value])) {
-          if (this.maxDaysToKeepHistory && now - this.data[hit][value][kind].lastUpdated > this.maxDaysToKeepHistory * DAY) {
+          if (this.maxDaysToKeepHistory && now2 - this.data[hit][value][kind].lastUpdated > this.maxDaysToKeepHistory * DAY) {
             delete this.data[hit][value][kind];
           } else {
             times.push(this.data[hit][value][kind].lastUpdated);
@@ -3508,6 +3867,8 @@ function buildLogMessage(message, msec) {
 var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
   constructor(app2, statusBar) {
     super(app2);
+    this.selectionLock = false;
+    this.pastCurrentTokenSeparatedWhiteSpace = "";
     this.previousCurrentLine = "";
     this.previousLinksCacheInActiveFile = /* @__PURE__ */ new Set();
     this.keymapEventHandler = [];
@@ -3526,7 +3887,20 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
   hideCompletion() {
     this.close();
   }
-  static async new(app2, settings, statusBar, onPersistSelectionHistory) {
+  async unsafeLoadHistoryData() {
+    const historyPath = (0, import_obsidian3.normalizePath)(
+      this.settings.intelligentSuggestionPrioritization.historyFilePath || DEFAULT_HISTORIES_PATH
+    );
+    if (await this.appHelper.exists(historyPath)) {
+      this.settings.selectionHistoryTree = {};
+      return this.appHelper.loadJson(historyPath);
+    }
+    if (Object.keys(this.settings.selectionHistoryTree).length > 0) {
+      return this.settings.selectionHistoryTree;
+    }
+    return {};
+  }
+  static async new(app2, manifest, settings, statusBar, onPersistSelectionHistory) {
     const ins = new AutoCompleteSuggest(app2, statusBar);
     ins.currentFileWordProvider = new CurrentFileWordProvider(
       ins.app,
@@ -3548,18 +3922,17 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       ins.app,
       ins.appHelper
     );
+    await ins.updateSettings(settings);
     ins.selectionHistoryStorage = new SelectionHistoryStorage(
-      settings.selectionHistoryTree,
+      await ins.unsafeLoadHistoryData(),
       settings.intelligentSuggestionPrioritization.maxDaysToKeepHistory,
       settings.intelligentSuggestionPrioritization.maxNumberOfHistoryToKeep
     );
     ins.selectionHistoryStorage.purge();
-    await ins.updateSettings(settings);
     ins.modifyEventRef = app2.vault.on("modify", async (_) => {
       var _a;
       await ins.refreshCurrentFileTokens();
       if ((_a = ins.selectionHistoryStorage) == null ? void 0 : _a.shouldPersist) {
-        ins.settings.selectionHistoryTree = ins.selectionHistoryStorage.data;
         ins.selectionHistoryStorage.syncPersistVersion();
         onPersistSelectionHistory();
       }
@@ -3712,10 +4085,12 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
             {
               frontMatter: parsedQuery.currentFrontMatter,
               selectionHistoryStorage: this.selectionHistoryStorage,
-              fuzzy: this.settings.fuzzyMatch
+              fuzzy: this.settings.fuzzyMatch ? {
+                minMatchScore: this.settings.minFuzzyMatchScore
+              } : void 0
             }
           ).map((word) => ({ ...word, offset: q.offset }));
-        }).flat();
+        }).flat().sort((a, b) => Number(a.fuzzy) - Number(b.fuzzy));
         cb(
           uniqWith(words, suggestionUniqPredicate).slice(
             0,
@@ -3748,6 +4123,8 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
     this.scope.unregister(this.scope.keys.find((x) => x.key === "Enter"));
     this.scope.unregister(this.scope.keys.find((x) => x.key === "ArrowUp"));
     this.scope.unregister(this.scope.keys.find((x) => x.key === "ArrowDown"));
+    this.scope.unregister(this.scope.keys.find((x) => x.key === "Home"));
+    this.scope.unregister(this.scope.keys.find((x) => x.key === "End"));
     const selectSuggestionKey = SelectSuggestionKey.fromName(
       this.settings.selectSuggestionKeys
     );
@@ -3768,9 +4145,16 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
         this.scope.register(
           selectSuggestionKey.keyBind.modifiers,
           selectSuggestionKey.keyBind.key,
-          () => {
-            this.suggestions.useSelectedItem({});
-            return false;
+          (evt, ctx) => {
+            if (!evt.isComposing) {
+              if (this.selectionLock) {
+                this.close();
+                return true;
+              } else {
+                this.suggestions.useSelectedItem({});
+                return false;
+              }
+            }
           }
         )
       );
@@ -3780,11 +4164,25 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       return this.settings.propagateEsc;
     };
     const selectNext = (evt) => {
-      this.suggestions.setSelectedItem(this.suggestions.selectedItem + 1, evt);
+      if (this.settings.noAutoFocusUntilCycle && this.selectionLock) {
+        this.setSelectionLock(false);
+      } else {
+        this.suggestions.setSelectedItem(
+          this.suggestions.selectedItem + 1,
+          evt
+        );
+      }
       return false;
     };
     const selectPrevious = (evt) => {
-      this.suggestions.setSelectedItem(this.suggestions.selectedItem - 1, evt);
+      if (this.settings.noAutoFocusUntilCycle && this.selectionLock) {
+        this.setSelectionLock(false);
+      } else {
+        this.suggestions.setSelectedItem(
+          this.suggestions.selectedItem - 1,
+          evt
+        );
+      }
       return false;
     };
     const cycleThroughSuggestionsKeys = CycleThroughSuggestionsKeys.fromName(
@@ -3908,10 +4306,12 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       );
       return;
     }
-    await this.currentFileWordProvider.refreshWords(
-      this.settings.onlyComplementEnglishOnCurrentFileComplement,
-      this.currentFileMinNumberOfCharacters
-    );
+    await this.currentFileWordProvider.refreshWords({
+      onlyEnglish: this.settings.onlyComplementEnglishOnCurrentFileComplement,
+      minNumberOfCharacters: this.currentFileMinNumberOfCharacters,
+      makeSynonymAboutEmoji: this.settings.matchingWithoutEmoji,
+      makeSynonymAboutAccentsDiacritics: this.settings.treatAccentDiacriticsAsAlphabeticCharacters
+    });
     this.statusBar.setCurrentFileIndexed(
       this.currentFileWordProvider.wordCount
     );
@@ -3933,9 +4333,11 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       );
       return;
     }
-    await this.currentVaultWordProvider.refreshWords(
-      this.currentVaultMinNumberOfCharacters
-    );
+    await this.currentVaultWordProvider.refreshWords({
+      minNumberOfCharacters: this.currentVaultMinNumberOfCharacters,
+      makeSynonymAboutEmoji: this.settings.matchingWithoutEmoji,
+      makeSynonymAboutAccentsDiacritics: this.settings.treatAccentDiacriticsAsAlphabeticCharacters
+    });
     this.statusBar.setCurrentVaultIndexed(
       this.currentVaultWordProvider.wordCount
     );
@@ -3961,7 +4363,9 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       regexp: this.settings.customDictionaryWordRegexPattern,
       delimiterForHide: this.settings.delimiterToHideSuggestion || void 0,
       delimiterForDisplay: this.settings.delimiterToDivideSuggestionsForDisplayFromInsertion || void 0,
-      caretSymbol: this.settings.caretLocationSymbolAfterComplement || void 0
+      caretSymbol: this.settings.caretLocationSymbolAfterComplement || void 0,
+      makeSynonymAboutEmoji: this.settings.matchingWithoutEmoji,
+      makeSynonymAboutAccentsDiacritics: this.settings.treatAccentDiacriticsAsAlphabeticCharacters
     });
     this.statusBar.setCustomDictionaryIndexed(
       this.customDictionaryWordProvider.wordCount
@@ -3987,10 +4391,13 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       );
       return;
     }
-    this.internalLinkWordProvider.refreshWords(
-      this.settings.suggestInternalLinkWithAlias,
-      this.excludeInternalLinkPrefixPathPatterns
-    );
+    this.internalLinkWordProvider.refreshWords({
+      wordAsInternalLinkAlias: this.settings.suggestInternalLinkWithAlias,
+      excludePathPrefixPatterns: this.excludeInternalLinkPrefixPathPatterns,
+      makeSynonymAboutEmoji: this.settings.matchingWithoutEmoji,
+      makeSynonymAboutAccentsDiacritics: this.settings.treatAccentDiacriticsAsAlphabeticCharacters,
+      frontMatterKeyForExclusion: this.settings.frontMatterKeyForExclusionInternalLink
+    });
     this.statusBar.setInternalLinkIndexed(
       this.internalLinkWordProvider.wordCount
     );
@@ -4058,7 +4465,7 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       () => buildLogMessage("Update front matter token", performance.now() - start)
     );
   }
-  onTrigger(cursor, editor, file) {
+  onTrigger(cursor, editor) {
     var _a, _b, _c, _d, _e, _f;
     const start = performance.now();
     const showDebugLog = (message) => {
@@ -4077,8 +4484,10 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       onReturnNull("Don't show suggestions for IME");
       return null;
     }
+    const currentFrontMatter = this.settings.enableFrontMatterComplement ? this.appHelper.getCurrentFrontMatter() : void 0;
+    showDebugLog(`Current front matter is ${currentFrontMatter}`);
     const cl = this.appHelper.getCurrentLine(editor);
-    if (this.previousCurrentLine === cl && !this.runManually) {
+    if (equalsAsLiterals(this.previousCurrentLine, cl) && !this.runManually && !currentFrontMatter) {
       this.previousCurrentLine = cl;
       onReturnNull("Don't show suggestions because there are no changes");
       return null;
@@ -4114,6 +4523,13 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       return null;
     }
     const currentTokenSeparatedWhiteSpace = (_b = currentLineUntilCursor.split(" ").last()) != null ? _b : "";
+    if (currentTokenSeparatedWhiteSpace === this.pastCurrentTokenSeparatedWhiteSpace && !this.runManually) {
+      onReturnNull(
+        `Don't show suggestions because currentTokenSeparatedWhiteSpace doesn't change`
+      );
+      return null;
+    }
+    this.pastCurrentTokenSeparatedWhiteSpace = currentTokenSeparatedWhiteSpace;
     if (new RegExp(`^[${this.settings.firstCharactersDisableSuggestions}]`).test(
       currentTokenSeparatedWhiteSpace
     )) {
@@ -4128,13 +4544,16 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       );
       return null;
     }
-    const currentFrontMatter = this.settings.enableFrontMatterComplement ? this.appHelper.getCurrentFrontMatter() : void 0;
-    showDebugLog(`Current front matter is ${currentFrontMatter}`);
     if (!this.runManually && !currentFrontMatter && currentToken.length < this.minNumberTriggered) {
       onReturnNull(
         "Don't show suggestions because currentToken is less than minNumberTriggered option"
       );
       return null;
+    }
+    if (this.runManually) {
+      this.setSelectionLock(false);
+    } else {
+      this.setSelectionLock(this.settings.noAutoFocusUntilCycle);
     }
     showDebugLog(buildLogMessage("onTrigger", performance.now() - start));
     this.runManually = false;
@@ -4273,7 +4692,10 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
         )
       );
     }
-    if (this.appHelper.equalsAsEditorPostion(this.context.start, this.context.end)) {
+    if (this.appHelper.equalsAsEditorPosition(
+      this.context.start,
+      this.context.end
+    )) {
       editor.setCursor(
         editor.offsetToPos(
           editor.posToOffset(editor.getCursor()) + insertedText.length
@@ -4291,6 +4713,16 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
   showDebugLog(toMessage) {
     if (this.settings.showLogAboutPerformanceInConsole) {
       console.log(toMessage());
+    }
+  }
+  setSelectionLock(lock) {
+    this.selectionLock = lock;
+    const lockClass = "various-complements__selection-lock";
+    const body = document.querySelector("body");
+    if (lock) {
+      body.addClass(lockClass);
+    } else {
+      body.removeClass(lockClass);
     }
   }
 };
@@ -4322,6 +4754,9 @@ var DEFAULT_SETTINGS = {
   cedictPath: "./cedict_ts.u8",
   matchStrategy: "prefix",
   fuzzyMatch: true,
+  minFuzzyMatchScore: 0.5,
+  matchingWithoutEmoji: true,
+  treatAccentDiacriticsAsAlphabeticCharacters: false,
   maxNumberOfSuggestions: 5,
   maxNumberOfWordsAsPhrase: 3,
   minNumberOfCharactersTriggered: 0,
@@ -4333,6 +4768,7 @@ var DEFAULT_SETTINGS = {
   firstCharactersDisableSuggestions: ":/^",
   useCommonPrefixCompletionOfSuggestion: false,
   patternsToSuppressTrigger: ["^~~~.*", "^```.*"],
+  noAutoFocusUntilCycle: false,
   showMatchStrategy: true,
   showComplementAutomatically: true,
   showIndexingStatus: true,
@@ -4367,13 +4803,16 @@ var DEFAULT_SETTINGS = {
     beforeRegExp: "",
     after: ""
   },
+  frontMatterKeyForExclusionInternalLink: "",
   enableFrontMatterComplement: true,
   frontMatterComplementMatchStrategy: "inherit",
   insertCommaAfterFrontMatterCompletion: false,
   intelligentSuggestionPrioritization: {
+    historyFilePath: "",
     maxDaysToKeepHistory: 30,
     maxNumberOfHistoryToKeep: 0
   },
+  disableOnMobile: false,
   showLogAboutPerformanceInConsole: false,
   selectionHistoryTree: {}
 };
@@ -4395,6 +4834,7 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
     this.addInternalLinkComplementSettings(containerEl);
     this.addFrontMatterComplementSettings(containerEl);
     this.addIntelligentSuggestionPrioritizationSettings(containerEl);
+    this.addMobileSettings(containerEl);
     this.addDebugSettings(containerEl);
   }
   async addMainSettings(containerEl) {
@@ -4458,6 +4898,40 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
         this.plugin.settings.fuzzyMatch = value;
         await this.plugin.saveSettings();
       });
+    });
+    new import_obsidian4.Setting(containerEl).setName("Min fuzzy match score").setDesc(
+      "It only shows suggestions whose fuzzy matched score is more than the specific value."
+    ).addSlider(
+      (sc) => sc.setLimits(0, 5, 0.1).setValue(this.plugin.settings.minFuzzyMatchScore).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.minFuzzyMatchScore = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian4.Setting(containerEl).setName("Treat accent diacritics as alphabetic characters.").setDesc("Ex: If enabled, 'aaa' matches with '\xE1\xE4\u0101'").addToggle((tc) => {
+      tc.setValue(
+        this.plugin.settings.treatAccentDiacriticsAsAlphabeticCharacters
+      ).onChange(async (value) => {
+        this.plugin.settings.treatAccentDiacriticsAsAlphabeticCharacters = value;
+        await this.plugin.saveSettings({
+          internalLink: true,
+          customDictionary: true,
+          currentVault: true,
+          currentFile: true
+        });
+      });
+    });
+    new import_obsidian4.Setting(containerEl).setName("Matching without emoji").setDesc("Ex: If enabled, 'aaa' matches with '\u{1F600}aaa'").addToggle((tc) => {
+      tc.setValue(this.plugin.settings.matchingWithoutEmoji).onChange(
+        async (value) => {
+          this.plugin.settings.matchingWithoutEmoji = value;
+          await this.plugin.saveSettings({
+            internalLink: true,
+            customDictionary: true,
+            currentVault: true,
+            currentFile: true
+          });
+        }
+      );
     });
     new import_obsidian4.Setting(containerEl).setName("Max number of suggestions").addSlider(
       (sc) => sc.setLimits(1, 255, 1).setValue(this.plugin.settings.maxNumberOfSuggestions).setDynamicTooltip().onChange(async (value) => {
@@ -4537,6 +5011,14 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
         await this.plugin.saveSettings();
       })
     );
+    new import_obsidian4.Setting(containerEl).setName("No auto-focus until the cycle").setDesc("No focus on the suggestions until the cycle key is pressed.").addToggle((tc) => {
+      tc.setValue(this.plugin.settings.noAutoFocusUntilCycle).onChange(
+        async (value) => {
+          this.plugin.settings.noAutoFocusUntilCycle = value;
+          await this.plugin.saveSettings();
+        }
+      );
+    });
   }
   addAppearanceSettings(containerEl) {
     containerEl.createEl("h3", { text: "Appearance" });
@@ -4855,6 +5337,16 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
         el.inputEl.className = "various-complements__settings__text-area-path";
         return el;
       });
+      new import_obsidian4.Setting(containerEl).setName("Front matter key for exclusion").setDesc(
+        "Exclude internal links from the suggestions if whose front matters have the key whose name is same as this setting, and the value is 'true'"
+      ).addText((cb) => {
+        TextComponentEvent.onChange(cb, async (value) => {
+          this.plugin.settings.frontMatterKeyForExclusionInternalLink = value;
+          await this.plugin.saveSettings({ internalLink: true });
+        }).setValue(
+          this.plugin.settings.frontMatterKeyForExclusionInternalLink
+        );
+      });
     }
   }
   addFrontMatterComplementSettings(containerEl) {
@@ -4895,6 +5387,14 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
       text: "Intelligent suggestion prioritization",
       cls: "various-complements__settings__header various-complements__settings__header__intelligent-suggestion-prioritization"
     });
+    new import_obsidian4.Setting(containerEl).setName("history file path").setDesc(`Default: ${DEFAULT_HISTORIES_PATH}`).addText((cb) => {
+      TextComponentEvent.onChange(cb, async (value) => {
+        this.plugin.settings.intelligentSuggestionPrioritization.historyFilePath = value;
+        await this.plugin.saveSettings();
+      }).setValue(
+        this.plugin.settings.intelligentSuggestionPrioritization.historyFilePath
+      );
+    });
     new import_obsidian4.Setting(containerEl).setName("Max days to keep history").setDesc("If set 0, it will never remove").addSlider(
       (sc) => sc.setLimits(0, 365, 1).setValue(
         this.plugin.settings.intelligentSuggestionPrioritization.maxDaysToKeepHistory
@@ -4911,6 +5411,17 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
         await this.plugin.saveSettings();
       })
     );
+  }
+  addMobileSettings(containerEl) {
+    containerEl.createEl("h3", { text: "Mobile" });
+    new import_obsidian4.Setting(containerEl).setName("Disable on mobile").addToggle((tc) => {
+      tc.setValue(this.plugin.settings.disableOnMobile).onChange(
+        async (value) => {
+          this.plugin.settings.disableOnMobile = value;
+          await this.plugin.saveSettings();
+        }
+      );
+    });
   }
   addDebugSettings(containerEl) {
     containerEl.createEl("h3", { text: "Debug" });
@@ -4956,7 +5467,7 @@ var VariousComplementsSettingTab = class extends import_obsidian4.PluginSettingT
       {
         version: this.plugin.manifest.version,
         mobile: this.app.isMobile,
-        settings: { ...this.plugin.settings, selectionHistoryTree: null }
+        settings: this.plugin.settings
       },
       null,
       4
@@ -5095,7 +5606,7 @@ var ProviderStatusBar = class {
 // src/ui/CustomDictionaryWordAddModal.ts
 var import_obsidian5 = require("obsidian");
 
-// node_modules/svelte/internal/index.mjs
+// node_modules/svelte/src/runtime/internal/utils.js
 function noop() {
 }
 function assign(tar, src) {
@@ -5116,7 +5627,7 @@ function is_function(thing) {
   return typeof thing === "function";
 }
 function safe_not_equal(a, b) {
-  return a != a ? b == b : a !== b || (a && typeof a === "object" || typeof a === "function");
+  return a != a ? b == b : a !== b || a && typeof a === "object" || typeof a === "function";
 }
 function is_empty(obj) {
   return Object.keys(obj).length === 0;
@@ -5183,6 +5694,40 @@ function compute_rest_props(props, keys) {
 function null_to_empty(value) {
   return value == null ? "" : value;
 }
+
+// node_modules/svelte/src/runtime/internal/globals.js
+var globals = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : global;
+
+// node_modules/svelte/src/runtime/internal/ResizeObserverSingleton.js
+var ResizeObserverSingleton = class {
+  constructor(options) {
+    __publicField(this, "_listeners", "WeakMap" in globals ? /* @__PURE__ */ new WeakMap() : void 0);
+    __publicField(this, "_observer");
+    __publicField(this, "options");
+    this.options = options;
+  }
+  observe(element2, listener) {
+    this._listeners.set(element2, listener);
+    this._getObserver().observe(element2, this.options);
+    return () => {
+      this._listeners.delete(element2);
+      this._observer.unobserve(element2);
+    };
+  }
+  _getObserver() {
+    var _a;
+    return (_a = this._observer) != null ? _a : this._observer = new ResizeObserver((entries) => {
+      var _a2;
+      for (const entry of entries) {
+        ResizeObserverSingleton.entries.set(entry.target, entry);
+        (_a2 = this._listeners.get(entry.target)) == null ? void 0 : _a2(entry);
+      }
+    });
+  }
+};
+ResizeObserverSingleton.entries = "WeakMap" in globals ? /* @__PURE__ */ new WeakMap() : void 0;
+
+// node_modules/svelte/src/runtime/internal/dom.js
 var is_hydrating = false;
 function start_hydrating() {
   is_hydrating = true;
@@ -5213,12 +5758,15 @@ function get_root_for_style(node) {
 }
 function append_stylesheet(node, style) {
   append(node.head || node, style);
+  return style.sheet;
 }
 function insert(target, node, anchor) {
   target.insertBefore(node, anchor || null);
 }
 function detach(node) {
-  node.parentNode.removeChild(node);
+  if (node.parentNode) {
+    node.parentNode.removeChild(node);
+  }
 }
 function destroy_each(iterations, detaching) {
   for (let i = 0; i < iterations.length; i += 1) {
@@ -5258,20 +5806,21 @@ function children(element2) {
 }
 function set_data(text2, data) {
   data = "" + data;
-  if (text2.wholeText !== data)
-    text2.data = data;
+  if (text2.data === data)
+    return;
+  text2.data = data;
 }
 function set_input_value(input, value) {
   input.value = value == null ? "" : value;
 }
 function set_style(node, key, value, important) {
-  if (value === null) {
+  if (value == null) {
     node.style.removeProperty(key);
   } else {
     node.style.setProperty(key, value, important ? "important" : "");
   }
 }
-function select_option(select, value) {
+function select_option(select, value, mounting) {
   for (let i = 0; i < select.options.length; i += 1) {
     const option = select.options[i];
     if (option.__value === value) {
@@ -5279,20 +5828,31 @@ function select_option(select, value) {
       return;
     }
   }
-  select.selectedIndex = -1;
+  if (!mounting || value !== void 0) {
+    select.selectedIndex = -1;
+  }
 }
 function select_value(select) {
-  const selected_option = select.querySelector(":checked") || select.options[0];
+  const selected_option = select.querySelector(":checked");
   return selected_option && selected_option.__value;
 }
 function toggle_class(element2, name, toggle) {
-  element2.classList[toggle ? "add" : "remove"](name);
+  element2.classList.toggle(name, !!toggle);
 }
 function custom_event(type, detail, { bubbles = false, cancelable = false } = {}) {
-  const e = document.createEvent("CustomEvent");
-  e.initCustomEvent(type, bubbles, cancelable, detail);
-  return e;
+  return new CustomEvent(type, { detail, bubbles, cancelable });
 }
+function get_custom_elements_slots(element2) {
+  const result = {};
+  element2.childNodes.forEach(
+    (node) => {
+      result[node.slot || "default"] = true;
+    }
+  );
+  return result;
+}
+
+// node_modules/svelte/src/runtime/internal/lifecycle.js
 var current_component;
 function set_current_component(component) {
   current_component = component;
@@ -5319,11 +5879,13 @@ function createEventDispatcher() {
     return true;
   };
 }
+
+// node_modules/svelte/src/runtime/internal/scheduler.js
 var dirty_components = [];
 var binding_callbacks = [];
 var render_callbacks = [];
 var flush_callbacks = [];
-var resolved_promise = Promise.resolve();
+var resolved_promise = /* @__PURE__ */ Promise.resolve();
 var update_scheduled = false;
 function schedule_update() {
   if (!update_scheduled) {
@@ -5337,13 +5899,22 @@ function add_render_callback(fn) {
 var seen_callbacks = /* @__PURE__ */ new Set();
 var flushidx = 0;
 function flush() {
+  if (flushidx !== 0) {
+    return;
+  }
   const saved_component = current_component;
   do {
-    while (flushidx < dirty_components.length) {
-      const component = dirty_components[flushidx];
-      flushidx++;
-      set_current_component(component);
-      update(component.$$);
+    try {
+      while (flushidx < dirty_components.length) {
+        const component = dirty_components[flushidx];
+        flushidx++;
+        set_current_component(component);
+        update(component.$$);
+      }
+    } catch (e) {
+      dirty_components.length = 0;
+      flushidx = 0;
+      throw e;
     }
     set_current_component(null);
     dirty_components.length = 0;
@@ -5376,6 +5947,15 @@ function update($$) {
     $$.after_update.forEach(add_render_callback);
   }
 }
+function flush_render_callbacks(fns) {
+  const filtered = [];
+  const targets = [];
+  render_callbacks.forEach((c) => fns.indexOf(c) === -1 ? filtered.push(c) : targets.push(c));
+  targets.forEach((c) => c());
+  render_callbacks = filtered;
+}
+
+// node_modules/svelte/src/runtime/internal/transitions.js
 var outroing = /* @__PURE__ */ new Set();
 var outros;
 function transition_in(block, local) {
@@ -5402,7 +5982,13 @@ function transition_out(block, local, detach2, callback) {
     callback();
   }
 }
-var globals = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : global;
+
+// node_modules/svelte/src/runtime/internal/each.js
+function ensure_array_like(array_like_or_iterator) {
+  return (array_like_or_iterator == null ? void 0 : array_like_or_iterator.length) !== void 0 ? array_like_or_iterator : Array.from(array_like_or_iterator);
+}
+
+// node_modules/svelte/src/runtime/internal/spread.js
 function get_spread_update(levels, updates) {
   const update2 = {};
   const to_null_out = {};
@@ -5435,28 +6021,59 @@ function get_spread_update(levels, updates) {
   }
   return update2;
 }
+
+// node_modules/svelte/src/shared/boolean_attributes.js
+var _boolean_attributes = [
+  "allowfullscreen",
+  "allowpaymentrequest",
+  "async",
+  "autofocus",
+  "autoplay",
+  "checked",
+  "controls",
+  "default",
+  "defer",
+  "disabled",
+  "formnovalidate",
+  "hidden",
+  "inert",
+  "ismap",
+  "loop",
+  "multiple",
+  "muted",
+  "nomodule",
+  "novalidate",
+  "open",
+  "playsinline",
+  "readonly",
+  "required",
+  "reversed",
+  "selected"
+];
+var boolean_attributes = /* @__PURE__ */ new Set([..._boolean_attributes]);
+
+// node_modules/svelte/src/runtime/internal/Component.js
 function create_component(block) {
   block && block.c();
 }
-function mount_component(component, target, anchor, customElement) {
-  const { fragment, on_mount, on_destroy, after_update } = component.$$;
+function mount_component(component, target, anchor) {
+  const { fragment, after_update } = component.$$;
   fragment && fragment.m(target, anchor);
-  if (!customElement) {
-    add_render_callback(() => {
-      const new_on_destroy = on_mount.map(run).filter(is_function);
-      if (on_destroy) {
-        on_destroy.push(...new_on_destroy);
-      } else {
-        run_all(new_on_destroy);
-      }
-      component.$$.on_mount = [];
-    });
-  }
+  add_render_callback(() => {
+    const new_on_destroy = component.$$.on_mount.map(run).filter(is_function);
+    if (component.$$.on_destroy) {
+      component.$$.on_destroy.push(...new_on_destroy);
+    } else {
+      run_all(new_on_destroy);
+    }
+    component.$$.on_mount = [];
+  });
   after_update.forEach(add_render_callback);
 }
 function destroy_component(component, detaching) {
   const $$ = component.$$;
   if ($$.fragment !== null) {
+    flush_render_callbacks($$.after_update);
     run_all($$.on_destroy);
     $$.fragment && $$.fragment.d(detaching);
     $$.on_destroy = $$.fragment = null;
@@ -5476,7 +6093,7 @@ function init(component, options, instance5, create_fragment5, not_equal, props,
   set_current_component(component);
   const $$ = component.$$ = {
     fragment: null,
-    ctx: null,
+    ctx: [],
     props,
     update: noop,
     not_equal,
@@ -5519,7 +6136,7 @@ function init(component, options, instance5, create_fragment5, not_equal, props,
     }
     if (options.intro)
       transition_in(component.$$.fragment);
-    mount_component(component, options.target, options.anchor, options.customElement);
+    mount_component(component, options.target, options.anchor);
     end_hydrating();
     flush();
   }
@@ -5528,51 +6145,194 @@ function init(component, options, instance5, create_fragment5, not_equal, props,
 var SvelteElement;
 if (typeof HTMLElement === "function") {
   SvelteElement = class extends HTMLElement {
-    constructor() {
+    constructor($$componentCtor, $$slots, use_shadow_dom) {
       super();
-      this.attachShadow({ mode: "open" });
+      __publicField(this, "$$ctor");
+      __publicField(this, "$$s");
+      __publicField(this, "$$c");
+      __publicField(this, "$$cn", false);
+      __publicField(this, "$$d", {});
+      __publicField(this, "$$r", false);
+      __publicField(this, "$$p_d", {});
+      __publicField(this, "$$l", {});
+      __publicField(this, "$$l_u", /* @__PURE__ */ new Map());
+      this.$$ctor = $$componentCtor;
+      this.$$s = $$slots;
+      if (use_shadow_dom) {
+        this.attachShadow({ mode: "open" });
+      }
     }
-    connectedCallback() {
-      const { on_mount } = this.$$;
-      this.$$.on_disconnect = on_mount.map(run).filter(is_function);
-      for (const key in this.$$.slotted) {
-        this.appendChild(this.$$.slotted[key]);
+    addEventListener(type, listener, options) {
+      this.$$l[type] = this.$$l[type] || [];
+      this.$$l[type].push(listener);
+      if (this.$$c) {
+        const unsub = this.$$c.$on(type, listener);
+        this.$$l_u.set(listener, unsub);
+      }
+      super.addEventListener(type, listener, options);
+    }
+    removeEventListener(type, listener, options) {
+      super.removeEventListener(type, listener, options);
+      if (this.$$c) {
+        const unsub = this.$$l_u.get(listener);
+        if (unsub) {
+          unsub();
+          this.$$l_u.delete(listener);
+        }
+      }
+    }
+    async connectedCallback() {
+      this.$$cn = true;
+      if (!this.$$c) {
+        let create_slot2 = function(name) {
+          return () => {
+            let node;
+            const obj = {
+              c: function create() {
+                node = element("slot");
+                if (name !== "default") {
+                  attr(node, "name", name);
+                }
+              },
+              m: function mount(target, anchor) {
+                insert(target, node, anchor);
+              },
+              d: function destroy(detaching) {
+                if (detaching) {
+                  detach(node);
+                }
+              }
+            };
+            return obj;
+          };
+        };
+        await Promise.resolve();
+        if (!this.$$cn) {
+          return;
+        }
+        const $$slots = {};
+        const existing_slots = get_custom_elements_slots(this);
+        for (const name of this.$$s) {
+          if (name in existing_slots) {
+            $$slots[name] = [create_slot2(name)];
+          }
+        }
+        for (const attribute of this.attributes) {
+          const name = this.$$g_p(attribute.name);
+          if (!(name in this.$$d)) {
+            this.$$d[name] = get_custom_element_value(name, attribute.value, this.$$p_d, "toProp");
+          }
+        }
+        this.$$c = new this.$$ctor({
+          target: this.shadowRoot || this,
+          props: {
+            ...this.$$d,
+            $$slots,
+            $$scope: {
+              ctx: []
+            }
+          }
+        });
+        const reflect_attributes = () => {
+          this.$$r = true;
+          for (const key in this.$$p_d) {
+            this.$$d[key] = this.$$c.$$.ctx[this.$$c.$$.props[key]];
+            if (this.$$p_d[key].reflect) {
+              const attribute_value = get_custom_element_value(
+                key,
+                this.$$d[key],
+                this.$$p_d,
+                "toAttribute"
+              );
+              if (attribute_value == null) {
+                this.removeAttribute(key);
+              } else {
+                this.setAttribute(this.$$p_d[key].attribute || key, attribute_value);
+              }
+            }
+          }
+          this.$$r = false;
+        };
+        this.$$c.$$.after_update.push(reflect_attributes);
+        reflect_attributes();
+        for (const type in this.$$l) {
+          for (const listener of this.$$l[type]) {
+            const unsub = this.$$c.$on(type, listener);
+            this.$$l_u.set(listener, unsub);
+          }
+        }
+        this.$$l = {};
       }
     }
     attributeChangedCallback(attr2, _oldValue, newValue) {
-      this[attr2] = newValue;
+      var _a;
+      if (this.$$r)
+        return;
+      attr2 = this.$$g_p(attr2);
+      this.$$d[attr2] = get_custom_element_value(attr2, newValue, this.$$p_d, "toProp");
+      (_a = this.$$c) == null ? void 0 : _a.$set({ [attr2]: this.$$d[attr2] });
     }
     disconnectedCallback() {
-      run_all(this.$$.on_disconnect);
+      this.$$cn = false;
+      Promise.resolve().then(() => {
+        if (!this.$$cn) {
+          this.$$c.$destroy();
+          this.$$c = void 0;
+        }
+      });
     }
-    $destroy() {
-      destroy_component(this, 1);
-      this.$destroy = noop;
-    }
-    $on(type, callback) {
-      const callbacks = this.$$.callbacks[type] || (this.$$.callbacks[type] = []);
-      callbacks.push(callback);
-      return () => {
-        const index = callbacks.indexOf(callback);
-        if (index !== -1)
-          callbacks.splice(index, 1);
-      };
-    }
-    $set($$props) {
-      if (this.$$set && !is_empty($$props)) {
-        this.$$.skip_bound = true;
-        this.$$set($$props);
-        this.$$.skip_bound = false;
-      }
+    $$g_p(attribute_name) {
+      return Object.keys(this.$$p_d).find(
+        (key) => this.$$p_d[key].attribute === attribute_name || !this.$$p_d[key].attribute && key.toLowerCase() === attribute_name
+      ) || attribute_name;
     }
   };
 }
+function get_custom_element_value(prop, value, props_definition, transform) {
+  var _a;
+  const type = (_a = props_definition[prop]) == null ? void 0 : _a.type;
+  value = type === "Boolean" && typeof value !== "boolean" ? value != null : value;
+  if (!transform || !props_definition[prop]) {
+    return value;
+  } else if (transform === "toAttribute") {
+    switch (type) {
+      case "Object":
+      case "Array":
+        return value == null ? null : JSON.stringify(value);
+      case "Boolean":
+        return value ? "" : null;
+      case "Number":
+        return value == null ? null : value;
+      default:
+        return value;
+    }
+  } else {
+    switch (type) {
+      case "Object":
+      case "Array":
+        return value && JSON.parse(value);
+      case "Boolean":
+        return value;
+      case "Number":
+        return value != null ? +value : value;
+      default:
+        return value;
+    }
+  }
+}
 var SvelteComponent = class {
+  constructor() {
+    __publicField(this, "$$");
+    __publicField(this, "$$set");
+  }
   $destroy() {
     destroy_component(this, 1);
     this.$destroy = noop;
   }
   $on(type, callback) {
+    if (!is_function(callback)) {
+      return noop;
+    }
     const callbacks = this.$$.callbacks[type] || (this.$$.callbacks[type] = []);
     callbacks.push(callback);
     return () => {
@@ -5581,14 +6341,21 @@ var SvelteComponent = class {
         callbacks.splice(index, 1);
     };
   }
-  $set($$props) {
-    if (this.$$set && !is_empty($$props)) {
+  $set(props) {
+    if (this.$$set && !is_empty(props)) {
       this.$$.skip_bound = true;
-      this.$$set($$props);
+      this.$$set(props);
       this.$$.skip_bound = false;
     }
   }
 };
+
+// node_modules/svelte/src/shared/version.js
+var PUBLIC_VERSION = "4";
+
+// node_modules/svelte/src/runtime/internal/disclose-version/index.js
+if (typeof window !== "undefined")
+  (window.__svelte || (window.__svelte = { v: /* @__PURE__ */ new Set() })).v.add(PUBLIC_VERSION);
 
 // src/ui/component/ObsidianButton.svelte
 function create_fragment(ctx) {
@@ -5637,7 +6404,7 @@ function create_fragment(ctx) {
       if (!current || dirty & 2) {
         button.disabled = ctx2[1];
       }
-      if (dirty & 2) {
+      if (!current || dirty & 2) {
         toggle_class(button, "mod-cta", !ctx2[1]);
       }
     },
@@ -5652,8 +6419,9 @@ function create_fragment(ctx) {
       current = false;
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(button);
+      }
       if (default_slot)
         default_slot.d(detaching);
       mounted = false;
@@ -5663,7 +6431,7 @@ function create_fragment(ctx) {
 }
 function instance($$self, $$props, $$invalidate) {
   let { $$slots: slots = {}, $$scope } = $$props;
-  let { popup } = $$props;
+  let { popup = "" } = $$props;
   let { disabled = false } = $$props;
   const dispatcher = createEventDispatcher();
   const handleClick = () => {
@@ -5768,8 +6536,9 @@ function create_fragment2(ctx) {
       current = false;
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(svg);
+      }
       if (default_slot)
         default_slot.d(detaching);
     }
@@ -5870,8 +6639,9 @@ function create_fragment3(ctx) {
       current = false;
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(div);
+      }
       if (default_slot)
         default_slot.d(detaching);
       mounted = false;
@@ -5925,7 +6695,7 @@ function create_each_block(ctx) {
       t0 = text(t0_value);
       t1 = space();
       option.__value = option_value_value = ctx[26];
-      option.value = option.__value;
+      set_input_value(option, option.__value);
     },
     m(target, anchor) {
       insert(target, option, anchor);
@@ -5937,12 +6707,13 @@ function create_each_block(ctx) {
         set_data(t0, t0_value);
       if (dirty & 32 && option_value_value !== (option_value_value = ctx2[26])) {
         option.__value = option_value_value;
-        option.value = option.__value;
+        set_input_value(option, option.__value);
       }
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(option);
+      }
     }
   };
 }
@@ -6002,8 +6773,9 @@ function create_if_block_1(ctx) {
       }
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(label);
+      }
       mounted = false;
       dispose();
     }
@@ -6041,12 +6813,11 @@ function create_if_block(ctx) {
       }
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(h3);
-      if (detaching)
         detach(t1);
-      if (detaching)
         detach(textarea);
+      }
       ctx[23](null);
       mounted = false;
       dispose();
@@ -6063,8 +6834,9 @@ function create_default_slot(ctx) {
       insert(target, t, anchor);
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(t);
+      }
     }
   };
 }
@@ -6099,7 +6871,7 @@ function create_fragment4(ctx) {
   let current;
   let mounted;
   let dispose;
-  let each_value = ctx[5];
+  let each_value = ensure_array_like(ctx[5]);
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
     each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
@@ -6186,9 +6958,11 @@ function create_fragment4(ctx) {
       append(div2, div0);
       append(div0, select);
       for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].m(select, null);
+        if (each_blocks[i]) {
+          each_blocks[i].m(select, null);
+        }
       }
-      select_option(select, ctx[2]);
+      select_option(select, ctx[2], true);
       append(div0, t4);
       mount_component(obsidianiconbutton, div0, null);
       append(div2, t5);
@@ -6230,7 +7004,7 @@ function create_fragment4(ctx) {
     },
     p(ctx2, [dirty]) {
       if (dirty & 32) {
-        each_value = ctx2[5];
+        each_value = ensure_array_like(ctx2[5]);
         let i;
         for (i = 0; i < each_value.length; i += 1) {
           const child_ctx = get_each_context(ctx2, each_value, i);
@@ -6311,8 +7085,9 @@ function create_fragment4(ctx) {
       current = false;
     },
     d(detaching) {
-      if (detaching)
+      if (detaching) {
         detach(div2);
+      }
       destroy_each(each_blocks, detaching);
       destroy_component(obsidianiconbutton);
       ctx[20](null);
@@ -6354,7 +7129,10 @@ function instance4($$self, $$props, $$invalidate) {
     });
   };
   onMount(() => {
-    setTimeout(() => wordRef.focus(), 50);
+    setTimeout(
+      () => wordRef === null || wordRef === void 0 ? void 0 : wordRef.focus(),
+      50
+    );
   });
   function select_change_handler() {
     selectedDictionary = select_value(this);
@@ -6527,6 +7305,12 @@ var VariousComponents = class extends import_obsidian6.Plugin {
   }
   async onload() {
     this.appHelper = new AppHelper(this.app);
+    await this.loadSettings();
+    this.settingTab = new VariousComplementsSettingTab(this.app, this);
+    this.addSettingTab(this.settingTab);
+    if (this.appHelper.isMobile() && this.settings.disableOnMobile) {
+      return;
+    }
     this.registerEvent(
       this.app.workspace.on("editor-menu", (menu) => {
         if (!this.appHelper.getSelection()) {
@@ -6539,9 +7323,6 @@ var VariousComponents = class extends import_obsidian6.Plugin {
         );
       })
     );
-    await this.loadSettings();
-    this.settingTab = new VariousComplementsSettingTab(this.app, this);
-    this.addSettingTab(this.settingTab);
     this.statusBar = ProviderStatusBar.new(
       this.addStatusBarItem(),
       this.settings.showMatchStrategy,
@@ -6555,10 +7336,17 @@ var VariousComponents = class extends import_obsidian6.Plugin {
       await this.settingTab.toggleComplementAutomatically();
     });
     const debouncedSaveData = (0, import_obsidian6.debounce)(async () => {
-      await this.saveData(this.settings);
+      var _a, _b;
+      await this.appHelper.saveJson(
+        (0, import_obsidian6.normalizePath)(
+          this.settings.intelligentSuggestionPrioritization.historyFilePath || DEFAULT_HISTORIES_PATH
+        ),
+        (_b = (_a = this.suggester.selectionHistoryStorage) == null ? void 0 : _a.data) != null ? _b : {}
+      );
     }, 5e3);
     this.suggester = await AutoCompleteSuggest.new(
       this.app,
+      this.manifest,
       this.settings,
       this.statusBar,
       debouncedSaveData
@@ -6674,7 +7462,10 @@ var VariousComponents = class extends import_obsidian6.Plugin {
           new import_obsidian6.Notice(`\u26A0 ${word.value} already exists`, 0);
           return;
         }
-        await provider.addWordWithDictionary(word, dictionaryPath);
+        await provider.addWordWithDictionary(word, dictionaryPath, {
+          emoji: this.settings.matchingWithoutEmoji,
+          accentsDiacritics: this.settings.treatAccentDiacriticsAsAlphabeticCharacters
+        });
         new import_obsidian6.Notice(`Added ${word.value}`);
         modal.close();
       }
