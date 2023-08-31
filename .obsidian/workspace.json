@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md"
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md"
               }
             }
           }
@@ -178,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,19 +223,21 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "periodic-notes:Open this week": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open Detexify": false,
       "omnisearch:Omnisearch": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "45309fde636c9887",
+  "active": "a75a714b3dffcdc3",
   "lastOpenFiles": [
-    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
-    "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
     "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
+    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
     "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "📎Attachments/📷Images/Pasted image 20230830223140.png",
+    "📎Attachments/📷Images/Pasted image 20230830223117.png",
+    "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
     "📎Attachments/📷Images/Pasted image 20230829220034.png",
     "📎Attachments/📷Images/Pasted image 20230829214850.png",
     "📎Attachments/📷Images/_109993058_pets1.jpeg",
@@ -276,8 +278,6 @@
     "📎Attachments/📷Images/Pasted image 20230811215956.png",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
-    "📎Attachments/📷Images/Pasted image 20230430232929.png",
-    "📎Attachments/📷Images/Pasted image 20230430222959.png",
     "table-export-001.csv",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
     "🗃Spring 2023/Database Design/Database Design.canvas",

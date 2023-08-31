@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6733910f9fd7f5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -161,6 +173,9 @@
   },
   "active": "0c04fedcf8f41e88",
   "lastOpenFiles": [
+    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
     "🧪Academic/Research/LFF Report.md",
     "💭Reflection/🪣Bucket List.md",
     "🗻Permanent/Data.md",
@@ -183,9 +198,6 @@
     "🗻Permanent/Barcode Chart.md",
     "🗻Permanent/4 Variable K-map.md",
     "excalibrain.md",
-    "📒Planner/💼 Data Aalyst.md",
-    "📒Planner/⚓Job Applications.md",
-    "📒Planner/💼 Associate Software Engineer.md",
-    "🧪Academic/Processed/Conditional Out of Distribution Generation.md"
+    "📒Planner/💼 Data Aalyst.md"
   ]
 }
