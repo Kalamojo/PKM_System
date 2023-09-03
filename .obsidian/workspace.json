@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "💭Reflection/Quotes/Podcast Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "💭Reflection/Quotes/Podcast Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "💭Reflection/Quotes/Podcast Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
+                "file": "💭Reflection/Quotes/Podcast Quotes.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "💭Reflection/Quotes/Podcast Quotes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,11 +212,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "babab924f3735a89",
+  "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/⚓2022 Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/⚓2022 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Research _ Development.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Machine Learning Infrastructure (Boston Dynamics).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer, Framework - SPG (Apple).md",
@@ -239,7 +240,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist (Pinterest).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Voice & Video Infrastructure (Discord).md",
     "📒Planner/🎩Work/💼 Jobs/💼 ML Performance Engineer (Waymo).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Products (Discord).md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",

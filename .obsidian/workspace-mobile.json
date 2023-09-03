@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "💭Reflection/Quotes/Podcast Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+            "file": "💭Reflection/Quotes/Podcast Quotes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md"
+            "file": "💭Reflection/Quotes/Podcast Quotes.md"
           }
         }
       },
@@ -148,7 +148,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+            "file": "💭Reflection/Quotes/Podcast Quotes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -173,8 +173,10 @@
   },
   "active": "0c04fedcf8f41e88",
   "lastOpenFiles": [
-    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
     "🧪Academic/Research/LFF Report.md",
     "💭Reflection/🪣Bucket List.md",
@@ -196,8 +198,6 @@
     "🗻Permanent/Undirected Graph.md",
     "🗻Permanent/Continous Random Variable.md",
     "🗻Permanent/Barcode Chart.md",
-    "🗻Permanent/4 Variable K-map.md",
-    "excalibrain.md",
-    "📒Planner/💼 Data Aalyst.md"
+    "🗻Permanent/4 Variable K-map.md"
   ]
 }
