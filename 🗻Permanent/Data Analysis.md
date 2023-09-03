@@ -13,5 +13,5 @@ tags: academic
 ## References
 1. [[🧪Academic/Saved/Data Analytics]]
 2. [[Business Intelligence]]
-3. [[Machine Learning Engineer]]
+3. [[🧪Academic/Saved/Machine Learning Engineer]]
 4. [[Data Scientist]]

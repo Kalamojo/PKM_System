@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6b0bc786d991796b",
+        "id": "0008f7f3dab9f586",
         "type": "tabs",
         "children": [
           {
-            "id": "45309fde636c9887",
+            "id": "4bfbdfcdb725de20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "de0b3ca0536fccf8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a75a714b3dffcdc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md"
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
               }
             }
           }
@@ -178,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,41 +212,42 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a75a714b3dffcdc3",
+  "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
-    "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
-    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
-    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "📒Planner/🎩Work/⚓2022 Applications.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
+    "📒Planner/🎩Work/💼 Software Engineer - Machine Learning Infrastructure (Boston Dynamics).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer, Framework - SPG (Apple).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer (Dropbox).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Quantitative Researcher (Two Sigma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Quantitative Software Engineer (Two Sigma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software QA Automation Engineer (Apple).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Atlas Search Web (MongoDB).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Atlas Migrations (MongoDB).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Platform (MongoDB).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Growth (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Product (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Science, Early Career (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - FigJam (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Editor (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Strategic Finance (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Google Cloud Security and Privacy.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist (Pinterest).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Voice & Video Infrastructure (Discord).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 ML Performance Engineer (Waymo).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Products (Discord).md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
     "📎Attachments/📷Images/Pasted image 20230829220034.png",
     "📎Attachments/📷Images/Pasted image 20230829214850.png",
     "📎Attachments/📷Images/_109993058_pets1.jpeg",
-    "📎Attachments/✏️Excalidraw/PU CNNs for Particle Picking in CryoEM 2023-08-29 21.38.02.excalidraw.md",
-    "🧪Academic/Research/Xu Lab/Untitled.md",
-    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
-    "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
-    "🧪Academic/Research/LFF Report.md",
-    "🧪Academic/Research/Xu Lab/Cold Email Template.md",
-    "🧪Academic/Literature/@tinawi_.md",
-    "🧪Academic/Literature/Bruh.md",
-    "🧪Academic/Literature/Artificial Intelligence Wiki.md",
-    "🧪Academic/Literature/@beplerTopazDenoiseGeneralDeep2019.md",
-    "🧪Academic/Literature/@axelkowald.etal_2022.md",
-    "🧪Academic/Research/Opportunities/Topaz-Denoise Annotations.md",
-    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-    "🧪Academic/Processed/Algorithms-Intuition.md",
-    "🧪Academic/Processed/Artificial Intelligence Wiki.md",
-    "🧪Academic/Literature/What is Feature Engineering.md",
-    "🧪Academic/Literature/What is AI, ML, DS.md",
-    "🧪Academic/Literature/Algorithms-Intuition.md",
-    "🧪Academic/Literature/@wang.etal_2020.md",
-    "💭Reflection/🪣Bucket List.md",
     "💭Reflection/~syncthing~🪣Bucket List.md.tmp",
-    "🗻Permanent/Data.md",
     "🗻Permanent/~syncthing~Data.md.tmp",
-    "💭Reflection/🎞️Movies to Watch.md",
     "💭Reflection/~syncthing~🎞️Movies to Watch.md.tmp",
     "💭Reflection/~syncthing~🎬Favorite Movies.md.tmp",
     "🗻Permanent/~syncthing~Infinite Set.md.tmp",
