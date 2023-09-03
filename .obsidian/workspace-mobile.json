@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Podcast Quotes.md",
-                "mode": "source",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -113,7 +113,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "💭Reflection/Quotes/Podcast Quotes.md",
+            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "💭Reflection/Quotes/Podcast Quotes.md"
+            "file": "📒Planner/🎩Work/⚓2023 Applications.md"
           }
         }
       },
@@ -148,7 +148,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "💭Reflection/Quotes/Podcast Quotes.md",
+            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -173,8 +173,11 @@
   },
   "active": "0c04fedcf8f41e88",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer (Dropbox).md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
+    "💭Reflection/Quotes/Podcast Quotes.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
     "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
@@ -195,9 +198,6 @@
     "🗻Permanent/Common Point Imputation.md",
     "🗻Permanent/BIC for K-means.md",
     "🗻Permanent/Big Data.md",
-    "🗻Permanent/Undirected Graph.md",
-    "🗻Permanent/Continous Random Variable.md",
-    "🗻Permanent/Barcode Chart.md",
-    "🗻Permanent/4 Variable K-map.md"
+    "🗻Permanent/Undirected Graph.md"
   ]
 }
