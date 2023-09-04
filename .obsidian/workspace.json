@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,32 +214,32 @@
   },
   "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
-    "💭Reflection/Quotes/Podcast Quotes.md",
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
+    "📒Planner/🥋Grad/⚗️ UPenn.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🥋Grad/⚗️ UT Austin.md",
+    "📒Planner/🥋Grad/⚗️ University of Waterloo.md",
+    "📒Planner/🥋Grad/⚗️ University of Washington.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ UIUC.md",
+    "📒Planner/🥋Grad/⚗️ UCLA.md",
+    "📒Planner/🥋Grad/⚗️ Stanford University.md",
+    "📒Planner/🥋Grad/⚗️ Princeton.md",
+    "📒Planner/🥋Grad/⚗️ Northwestern.md",
+    "📒Planner/🥋Grad/⚗️ MIT.md",
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/🥋Grad/⚗️ Caltech.md",
+    "📒Planner/🥋Grad/⚗️ Columbia.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
+    "📒Planner/🥋Grad/⚗️ Berkeley.md",
+    "📒Planner/🎒Undergrad/⚓Status.md",
+    "📦Templates/⚗️ Masters.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+    "💭Reflection/Quotes/Podcast Quotes.md",
     "📒Planner/🎩Work/⚓2022 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Research _ Development.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Machine Learning Infrastructure (Boston Dynamics).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer, Framework - SPG (Apple).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer (Dropbox).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Quantitative Researcher (Two Sigma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Quantitative Software Engineer (Two Sigma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software QA Automation Engineer (Apple).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Atlas Search Web (MongoDB).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Atlas Migrations (MongoDB).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Platform (MongoDB).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Growth (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Product (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Science, Early Career (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - FigJam (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Editor (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Strategic Finance (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Google Cloud Security and Privacy.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist (Pinterest).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Voice & Video Infrastructure (Discord).md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
