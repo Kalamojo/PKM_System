@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
               }
             }
           }
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,10 +214,13 @@
   },
   "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/⚗️ UPenn.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🥋Grad/⚗️ UT Austin.md",
     "📒Planner/🥋Grad/⚗️ University of Waterloo.md",
     "📒Planner/🥋Grad/⚗️ University of Washington.md",
@@ -237,9 +240,6 @@
     "📦Templates/⚗️ Masters.md",
     "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "💭Reflection/Quotes/Podcast Quotes.md",
-    "📒Planner/🎩Work/⚓2022 Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Research _ Development.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
