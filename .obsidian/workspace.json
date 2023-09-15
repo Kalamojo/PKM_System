@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md"
+                "file": "README.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/Quotes/Other Quotes.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,10 +224,16 @@
   },
   "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/⚓2023 Applications.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
+    "📎Attachments/📷Images/Haxorus_Drip.png",
+    "README.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "💭Reflection/Quotes/Historical Quotes.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "💭Reflection/Quotes/Other Quotes.md",
+    "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
@@ -245,11 +251,6 @@
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
     "📒Planner/🥋Grad/⚗️ Caltech.md",
     "📒Planner/🥋Grad/⚗️ Columbia.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
-    "📒Planner/🥋Grad/⚗️ Berkeley.md",
-    "📒Planner/🎒Undergrad/⚓Status.md",
-    "📦Templates/⚗️ Masters.md",
-    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",

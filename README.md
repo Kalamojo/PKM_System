@@ -1,6 +1,6 @@
 ---
 banner: "![[Haxorus_Drip.png]]"
-banner_y: 0.234
+banner_y: 0.2
 banner_x: 0.87448
 ---
 # Dashboard
@@ -18,3 +18,7 @@ banner_x: 0.87448
 > 	- Edmonds-Karp Algorithm
 > - NP Completeness
 > - Concurrency
+
+```dataview
+CALENDAR file.cday
+```
