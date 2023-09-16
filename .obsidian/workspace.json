@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "💭Reflection/🔖Content to Consume.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "💭Reflection/🔖Content to Consume.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,8 +224,11 @@
   },
   "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
-    "📎Attachments/📷Images/Haxorus_Drip.png",
+    "💭Reflection/🎬Favorite Movies.md",
+    "💭Reflection/🎞️Movies to Watch.md",
+    "💭Reflection/🔖Content to Consume.md",
     "README.md",
+    "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
@@ -249,8 +252,6 @@
     "📒Planner/🥋Grad/⚗️ Northwestern.md",
     "📒Planner/🥋Grad/⚗️ MIT.md",
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
-    "📒Planner/🥋Grad/⚗️ Caltech.md",
-    "📒Planner/🥋Grad/⚗️ Columbia.md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
@@ -269,7 +270,6 @@
     "📎Attachments/📷Images/Pasted image 20230811222611.png",
     "📎Attachments/📷Images/Pasted image 20230811221744.png",
     "📎Attachments/📷Images/Pasted image 20230811220022.png",
-    "📎Attachments/📷Images/Pasted image 20230811215956.png",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",
