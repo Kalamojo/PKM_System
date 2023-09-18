@@ -1,6 +1,6 @@
 {
   "baseFontSize": 17,
-  "cssTheme": "Wasp",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "TabsObsidian",
     "latex_big",

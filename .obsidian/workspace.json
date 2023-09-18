@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/🔖Content to Consume.md",
+                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💭Reflection/🔖Content to Consume.md",
+                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💭Reflection/🔖Content to Consume.md",
+                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 271.5
   },
   "right": {
     "id": "f39251b1bab0de38",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💭Reflection/🔖Content to Consume.md"
+                "file": "📒Planner/🥋Grad/⚓Cold Emails.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "💭Reflection/🔖Content to Consume.md",
+                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,34 +224,34 @@
   },
   "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/Untitled.md",
+    "📒Planner/🥋Grad/Vincent Etter.md",
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
+    "📒Planner/🥋Grad/⚗️ Columbia.md",
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
+    "📒Planner/🥋Grad/📧 Christopher Potts.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/📧 Tatsunori Hashimoto.md",
+    "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
+    "🗻Permanent/Data.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 C++ Engineer, AdTech (Spotify).md",
+    "README.md",
+    "💭Reflection/Quotes/Other Quotes.md",
+    "💭Reflection/🔖Content to Consume.md",
     "💭Reflection/🎬Favorite Movies.md",
     "💭Reflection/🎞️Movies to Watch.md",
-    "💭Reflection/🔖Content to Consume.md",
-    "README.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
     "💭Reflection/Quotes/Historical Quotes.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
-    "💭Reflection/Quotes/Other Quotes.md",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
-    "📒Planner/🥋Grad/⚗️ UPenn.md",
-    "📒Planner/🥋Grad/⚗️ UT Austin.md",
-    "📒Planner/🥋Grad/⚗️ University of Waterloo.md",
-    "📒Planner/🥋Grad/⚗️ University of Washington.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
-    "📒Planner/🥋Grad/⚗️ UIUC.md",
-    "📒Planner/🥋Grad/⚗️ UCLA.md",
-    "📒Planner/🥋Grad/⚗️ Stanford University.md",
-    "📒Planner/🥋Grad/⚗️ Princeton.md",
-    "📒Planner/🥋Grad/⚗️ Northwestern.md",
-    "📒Planner/🥋Grad/⚗️ MIT.md",
-    "📒Planner/🥋Grad/⚗️ Cornell University.md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
