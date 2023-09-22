@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c7d3a76f1e44deb9",
+        "id": "636c01a5a1ba9b49",
         "type": "tabs",
         "children": [
           {
-            "id": "0c04fedcf8f41e88",
+            "id": "91152b6c993f426b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "📒Planner/🎩Work/⚓2023 Applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6733910f9fd7f5b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,10 +159,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0c04fedcf8f41e88",
+  "active": "cf561b1eb3c5b8c7",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📦Templates/⚗️ Masters.md",
+    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Machine Learning Infrastructure (Boston Dynamics).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
     "💭Reflection/Quotes/Historical Quotes.md",
@@ -189,15 +181,11 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer (Dropbox).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
-    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
     "🧪Academic/Research/LFF Report.md",
     "💭Reflection/🪣Bucket List.md",
     "🗻Permanent/Data.md",
     "💭Reflection/✝️Lent Abstinance List.md",
-    "💭Reflection/🎬Favorite Movies.md",
-    "💭Reflection/🎞️Movies to Watch.md",
-    "💭Reflection/🔖Content to Consume.md",
-    "🗃Spring 2023/Automata/Complete Graph.md"
+    "💭Reflection/🎬Favorite Movies.md"
   ]
 }

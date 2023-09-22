@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md"
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,9 +224,12 @@
   },
   "active": "4bfbdfcdb725de20",
   "lastOpenFiles": [
+    "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
+    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/Untitled.md",
     "📒Planner/🥋Grad/Vincent Etter.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/⚗️ Columbia.md",
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
     "📒Planner/🥋Grad/📧 Chelsea Finn.md",
@@ -248,10 +251,7 @@
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
-    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
-    "💭Reflection/Quotes/Historical Quotes.md",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
     "📎Attachments/📷Images/Pasted image 20230830223117.png",
     "🧪Academic/Research/Xu Lab/~syncthing~PU CNNs for Particle Picking in CryoEM.md.tmp",
