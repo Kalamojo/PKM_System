@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0008f7f3dab9f586",
+        "id": "cb04bc29760b3103",
         "type": "tabs",
         "children": [
           {
-            "id": "cf454118d3c8bd44",
+            "id": "7a0151a54fc6647e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,34 +222,34 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cf454118d3c8bd44",
+  "active": "7a0151a54fc6647e",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - FigJam (Figma).md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Editor (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Product (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Science, Early Career (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Strategic Finance (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Growth (Figma).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Science Intern - Matrix.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer Graduate (TikTok).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Cloud Support Associate.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
+    "📒Planner/🎩Work/💼 Behavioral Prep.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Engineer (Cohere).md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/⚗️ UTRGV.md",
     "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚗️ Caltech.md",
     "📒Planner/🥋Grad/⚗️ MIT.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
     "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
-    "📒Planner/🥋Grad/Vincent Etter.md",
-    "📒Planner/🥋Grad/⚗️ Columbia.md",
-    "📒Planner/🥋Grad/⚗️ Cornell University.md",
-    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
-    "📒Planner/🥋Grad/📧 Christopher Potts.md",
-    "📒Planner/🥋Grad/📧 Tatsunori Hashimoto.md",
-    "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
-    "🗻Permanent/Data.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 C++ Engineer, AdTech (Spotify).md",
-    "README.md",
-    "💭Reflection/Quotes/Other Quotes.md",
-    "💭Reflection/🔖Content to Consume.md",
-    "💭Reflection/🎬Favorite Movies.md",
-    "💭Reflection/🎞️Movies to Watch.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
