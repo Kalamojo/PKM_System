@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4bfbdfcdb725de20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/⚗️ UTRGV.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cf454118d3c8bd44",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,16 +224,16 @@
   },
   "active": "cf454118d3c8bd44",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚓Cold Emails.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ UTRGV.md",
     "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚗️ Caltech.md",
-    "📒Planner/🥋Grad/⚗️ UTRGV.md",
     "📒Planner/🥋Grad/⚗️ MIT.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
     "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/Vincent Etter.md",
     "📒Planner/🥋Grad/⚗️ Columbia.md",
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
