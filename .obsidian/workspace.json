@@ -8,12 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a0151a54fc6647e",
+            "id": "739a86bbf6a89a2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a09326ccaa002f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a6694de3669e05dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4668daab8f729d01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚗️ UIUC.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
+                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md"
               }
             }
           },
@@ -170,7 +201,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,10 +253,19 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7a0151a54fc6647e",
+  "active": "7a09326ccaa002f6",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - FigJam (Figma).md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ UPenn.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/⚗️ Stanford University.md",
+    "📒Planner/🥋Grad/⚗️ UCLA.md",
+    "📒Planner/🥋Grad/⚗️ UIUC.md",
+    "📦Templates/⚗️ Masters.md",
+    "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - FigJam (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Editor (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Product (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Science, Early Career (Figma).md",
@@ -241,15 +281,6 @@
     "📒Planner/🎩Work/💼 Behavioral Prep.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Engineer (Cohere).md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md",
-    "📒Planner/🥋Grad/⚗️ UTRGV.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ Caltech.md",
-    "📒Planner/🥋Grad/⚗️ MIT.md",
-    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
-    "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
-    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",

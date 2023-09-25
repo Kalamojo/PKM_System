@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "must-apply": "checkbox"
+    "must-apply": "checkbox",
+    "deadline": "date"
   }
 }
