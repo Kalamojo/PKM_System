@@ -8,43 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "739a86bbf6a89a2d",
+            "id": "549751716843d108",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a09326ccaa002f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "a6694de3669e05dc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4668daab8f729d01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/⚗️ UIUC.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md"
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
               }
             }
           },
@@ -201,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Stanford University.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,14 +222,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7a09326ccaa002f6",
+  "active": "549751716843d108",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ UPenn.md",
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
     "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ UIUC.md",
+    "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/🥋Grad/⚗️ UCLA.md",
-    "📒Planner/🥋Grad/⚗️ UIUC.md",
     "📦Templates/⚗️ Masters.md",
     "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
@@ -278,9 +250,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
-    "📒Planner/🎩Work/💼 Behavioral Prep.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Engineer (Cohere).md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
