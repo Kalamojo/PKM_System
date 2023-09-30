@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e20b89dc8b2bae23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md"
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
               }
             }
           },
@@ -170,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,25 +235,27 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "549751716843d108",
+  "active": "e20b89dc8b2bae23",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ Cornell University.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon.md",
     "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
     "📒Planner/🥋Grad/⚗️ UIUC.md",
-    "📒Planner/🥋Grad/⚗️ UPenn.md",
+    "📒Planner/🥋Grad/⚗️ Berkeley.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Data Science, Early Career (Figma).md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ Cornell University.md",
+    "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/🥋Grad/⚗️ UCLA.md",
     "📦Templates/⚗️ Masters.md",
     "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - FigJam (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Editor (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Product (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Data Science, Early Career (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Scientist - Strategic Finance (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Growth (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Data Science Intern - Matrix.md",
@@ -248,8 +263,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Associate Software Engineer.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Cloud Support Associate.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Computer Science Internship.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
