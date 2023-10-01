@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "362fc2d6b66c6162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+            "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📒Planner/🎩Work/⚓2023 Applications.md"
+            "file": "📒Planner/🥋Grad/⚗️ UPenn.md"
           }
         }
       },
@@ -136,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+            "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -159,11 +172,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cf561b1eb3c5b8c7",
+  "active": "362fc2d6b66c6162",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📦Templates/⚗️ Masters.md",
     "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
