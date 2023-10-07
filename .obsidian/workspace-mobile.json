@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
-                "mode": "source",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -114,7 +114,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
+            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📒Planner/🥋Grad/⚗️ UPenn.md"
+            "file": "📒Planner/🎩Work/⚓2023 Applications.md"
           }
         }
       },
@@ -149,7 +149,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
+            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -174,8 +174,11 @@
   },
   "active": "362fc2d6b66c6162",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Products (Discord).md",
+    "📒Planner/🥋Grad/⚗️ UPenn.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
     "📦Templates/⚗️ Masters.md",
     "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
@@ -196,9 +199,6 @@
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
     "🧪Academic/Research/LFF Report.md",
-    "💭Reflection/🪣Bucket List.md",
-    "🗻Permanent/Data.md",
-    "💭Reflection/✝️Lent Abstinance List.md",
-    "💭Reflection/🎬Favorite Movies.md"
+    "💭Reflection/🪣Bucket List.md"
   ]
 }
