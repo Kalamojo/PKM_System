@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "must-apply": "checkbox",
-    "deadline": "date"
+    "deadline": "date",
+    "oa": "date"
   }
 }
