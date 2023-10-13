@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md"
               }
             }
           },
@@ -186,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
+                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,6 +240,9 @@
   },
   "active": "a0c034cca295ad3b",
   "lastOpenFiles": [
+    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer Graduate (TikTok).md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ University of Toronto.md",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
@@ -247,10 +250,7 @@
     "📒Planner/🥋Grad/⚗️ UIUC.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Growth (Figma).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer Graduate (TikTok).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Compute Platform.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer, Framework - SPG (Apple).md",
     "📒Planner/🎩Work/⚓2022 Applications.md",
