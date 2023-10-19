@@ -100,6 +100,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "718726e9349616cc",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -174,8 +184,9 @@
   },
   "active": "362fc2d6b66c6162",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
+    "📒Planner/🎩Work/💼 Jobs/💼 C++ Engineer, AdTech (Spotify).md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Products (Discord).md",
     "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
@@ -198,7 +209,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
     "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
-    "🧪Academic/Research/LFF Report.md",
-    "💭Reflection/🪣Bucket List.md"
+    "🧪Academic/Research/LFF Report.md"
   ]
 }
