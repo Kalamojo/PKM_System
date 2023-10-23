@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🎩Work/⚓2023 Applications.md",
-                "mode": "preview",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -124,7 +124,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+            "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📒Planner/🎩Work/⚓2023 Applications.md"
+            "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md"
           }
         }
       },
@@ -159,7 +159,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📒Planner/🎩Work/⚓2023 Applications.md",
+            "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -182,10 +182,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "362fc2d6b66c6162",
+  "active": "cf561b1eb3c5b8c7",
   "lastOpenFiles": [
-    "📒Planner/🎩Work/💼 Jobs/💼 C++ Engineer, AdTech (Spotify).md",
+    "💭Reflection/Quotes/Podcast Quotes.md",
+    "💭Reflection/Quotes/Other Quotes.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 C++ Engineer, AdTech (Spotify).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Products (Discord).md",
     "📒Planner/🥋Grad/⚗️ UPenn.md",
@@ -198,8 +201,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
     "💭Reflection/Quotes/Historical Quotes.md",
     "💭Reflection/Quotes/Website Quotes.md",
-    "💭Reflection/Quotes/Podcast Quotes.md",
-    "💭Reflection/Quotes/Other Quotes.md",
     "💭Reflection/Quotes/Cinema Quotes.md",
     "💭Reflection/Quotes/Book Quotes.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Platform (MongoDB).md",
@@ -208,7 +209,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer (Dropbox).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Backend Product Software Engineer (Dropbox).md",
     "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
-    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
-    "🧪Academic/Research/LFF Report.md"
+    "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md"
   ]
 }
