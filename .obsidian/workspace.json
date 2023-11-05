@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Transfer Learning Visualizations.md"
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Transfer Learning Visualizations.md",
+                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,8 +224,10 @@
   },
   "active": "c3254f0014730af7",
   "lastOpenFiles": [
-    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 14.08.06.excalidraw.md",
+    "💭Reflection/🔖Content to Consume.md",
+    "💭Reflection/🎬Favorite Movies.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 14.08.06.excalidraw.md",
     "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 15.06.12.excalidraw.md",
     "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 17.33.47.excalidraw.md",
     "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 18.28.42.excalidraw.md",
@@ -249,8 +251,6 @@
     "📒Planner/🎩Work/⚓2022 Applications.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Labs Data Scientist Associate.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Entry Level.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineering (Microsoft).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineering Full Time.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
