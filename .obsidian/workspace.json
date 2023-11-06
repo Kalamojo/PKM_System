@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md"
+                "file": "README.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,6 +224,10 @@
   },
   "active": "c3254f0014730af7",
   "lastOpenFiles": [
+    "📒Planner/🎩Work/💼 Jobs/💼 Associate Solutions Architect.md",
+    "📒Planner/🎩Work/⚓2022 Applications.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
     "💭Reflection/🔖Content to Consume.md",
     "💭Reflection/🎬Favorite Movies.md",
     "🧪Academic/Research/Transfer Learning Visualizations.md",
@@ -234,7 +238,6 @@
     "🧪Academic/Literature/@lotfollahi.etal_2020.md",
     "🧪Academic/Research/Train_test_split.md",
     "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
@@ -248,9 +251,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Growth (Figma).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Compute Platform.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer, Framework - SPG (Apple).md",
-    "📒Planner/🎩Work/⚓2022 Applications.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Labs Data Scientist Associate.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Entry Level.md",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
     "📎Attachments/📷Images/Pasted image 20230830223140.png",
