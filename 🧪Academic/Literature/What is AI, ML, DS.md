@@ -2,8 +2,6 @@
 type: podcast
 tags: academic
 ---
-
-
 # What is AI, ML, DS
 
 - AI means the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making and translation between languages. So basically AI is automated intelligence automation of things that normally require human intelligence.

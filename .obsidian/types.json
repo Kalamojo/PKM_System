@@ -5,6 +5,8 @@
     "tags": "tags",
     "must-apply": "checkbox",
     "deadline": "date",
-    "oa": "date"
+    "oa": "date",
+    "year": "number",
+    "type": "multitext"
   }
 }

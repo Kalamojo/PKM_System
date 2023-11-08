@@ -2,7 +2,6 @@
 type: podcast
 tags: academic
 ---
-
 # Algorithms-Intuition
 
 - Machine Learning is broken down into three steps: Infer/Predict, Error/Loss function, Train/Learn.
