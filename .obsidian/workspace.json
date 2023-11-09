@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "05399f138c7de514",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "355d6879ae3fcd57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "cdc345c82d801831",
         "type": "tabs",
         "children": [
@@ -31,26 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d264d05e05b97769",
+            "id": "eaaedff2804c7d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Literature/@liTransferLearningBasedClassification2022.md",
+                "file": "🗻Permanent/Dimensionality.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad97029ff5ba6c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧪Academic/Saved/Pre-Train.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,25 +246,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "355d6879ae3fcd57",
+  "active": "c3254f0014730af7",
   "lastOpenFiles": [
-    "🧪Academic/Literature/@liTransferLearningBasedClassification2022.md",
-    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+    "🗻Permanent/Dimensionality.md",
     "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
-    "🧪Academic/Research/Xu Lab/Topaz-Denoise.md",
-    "🧪Academic/Literature/@beplerTopazDenoiseGeneralDeep2019.md",
-    "🧪Academic/Research/Xu Lab/Min Xu Projects.md",
-    "🧪Academic/Research/Variational Autoencoder Improvement.md",
-    "🧪Academic/Research/Transfer Learning Visualizations.md",
-    "🧪Academic/Literature/@axelkowald.etal_2022.md",
-    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
-    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
-    "🧪Academic/Literature/@tinawi_.md",
-    "🧪Academic/Literature/@wang.etal_2020.md",
-    "🧪Academic/Literature/Algorithms-Intuition.md",
-    "🧪Academic/Literature/What is AI, ML, DS.md",
-    "🧪Academic/Literature/What is Feature Engineering.md",
-    "🧪Academic/Literature/Artificial Intelligence Wiki.md",
+    "🧪Academic/Saved/Pre-Train.md",
+    "🗻Permanent/Separation.md",
+    "📎Attachments/📷Images/Pasted image 20231108220635.png",
+    "📎Attachments/📷Images/imagenet_banner.jpeg",
+    "🧪Academic/Research/Xu Lab/~syncthing~Transfer Learning cryo-EM Particle Classifier.md.tmp",
+    "🧪Academic/Literature/@liTransferLearningBasedClassification2022.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📒Planner/🥋Grad/⚗️ Cornell University.md",
@@ -281,6 +265,18 @@
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/🥋Grad/⚗️ UT Austin.md",
     "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "README.md",
+    "🧪Academic/Research/Xu Lab/PU CNNs for Particle Picking in CryoEM.md",
+    "💭Reflection/🔖Content to Consume.md",
+    "💭Reflection/🎬Favorite Movies.md",
+    "🧪Academic/Research/Transfer Learning Visualizations.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 14.08.06.excalidraw.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 15.06.12.excalidraw.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 17.33.47.excalidraw.md",
+    "📎Attachments/✏️Excalidraw/Transfer Learning Visualizations 2022-09-06 18.28.42.excalidraw.md",
+    "🧪Academic/Literature/@lotfollahi.etal_2020.md",
+    "🧪Academic/Research/Train_test_split.md",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
     "📎Attachments/📷Images/Haxorus_Drip.png",
     "📒Planner/🎩Work/💼 Jobs/~syncthing~💼 Software Engineer - Data Infrastructure and Observability (Plaid).md.tmp",
@@ -297,11 +293,8 @@
     "🗻Permanent/~syncthing~Infinite Set.md.tmp",
     "🗻Permanent/~syncthing~Int.md.tmp",
     "📒Planner/🎩Work/💼 2023",
-    "📒Planner/🎩Work/💼 Jobs",
     "📎Attachments/📷Images/228112212-f1ed62f5-5c7d-4c34-8614-37ee4f58f045.png",
     "📎Attachments/📷Images/Pasted image 20230811222611.png",
-    "📎Attachments/📷Images/Pasted image 20230811221744.png",
-    "📎Attachments/📷Images/Pasted image 20230811220022.png",
     "💭Reflection/WDYWTDFR.canvas",
     "Untitled.canvas",
     "🗃Spring 2023/Data Mining/Data Mining.canvas",

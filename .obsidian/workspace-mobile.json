@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
-                "mode": "preview",
+                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -136,7 +136,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+            "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md"
+            "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md"
           }
         }
       },
@@ -171,7 +171,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+            "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -196,11 +196,18 @@
   },
   "active": "11d6797d0eb43a3a",
   "lastOpenFiles": [
+    "🗻Permanent/Loss Function.md",
+    "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+    "🧪Academic/Saved/Machine Learning Model.md",
+    "🗻Permanent/Classification.md",
+    "🧪Academic/Saved/Dataset.md",
+    "🧪Academic/Processed/What is AI, ML, DS.md",
+    "🧪Academic/Literature/@liTransferLearningBasedClassification2022.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "📒Planner/🥋Grad/Letters of Recommendation.md",
     "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
     "💭Reflection/Quotes/Podcast Quotes.md",
     "💭Reflection/Quotes/Other Quotes.md",
@@ -214,13 +221,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Machine Learning Infrastructure (Boston Dynamics).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
-    "💭Reflection/Quotes/Historical Quotes.md",
-    "💭Reflection/Quotes/Website Quotes.md",
-    "💭Reflection/Quotes/Cinema Quotes.md",
-    "💭Reflection/Quotes/Book Quotes.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Platform (MongoDB).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Research Scientist - Atlas Perception (Boston Dynamics).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 ML Performance Engineer (Waymo).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Machine Learning Engineer (Dropbox).md"
+    "💭Reflection/Quotes/Historical Quotes.md"
   ]
 }

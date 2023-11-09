@@ -1,6 +1,10 @@
 ---
-type: note
-tags: academic
+type:
+  - note
+tags:
+  - academic
+aliases:
+  - Pre-Training
 ---
 # Pre-Train
 
