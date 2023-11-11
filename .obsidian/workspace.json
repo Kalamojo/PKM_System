@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cdc345c82d801831",
+        "id": "cdeb75c33df9b618",
         "type": "tabs",
         "children": [
           {
-            "id": "c3254f0014730af7",
+            "id": "7b0777ee9a9f5d55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eaaedff2804c7d92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🗻Permanent/Dimensionality.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad97029ff5ba6c73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧪Academic/Saved/Pre-Train.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md"
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md"
               }
             }
           },
@@ -194,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,11 +222,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c3254f0014730af7",
+  "active": "7b0777ee9a9f5d55",
   "lastOpenFiles": [
+    "🧪Academic/Saved/Pre-Train.md",
     "🗻Permanent/Dimensionality.md",
     "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
-    "🧪Academic/Saved/Pre-Train.md",
     "🗻Permanent/Separation.md",
     "📎Attachments/📷Images/Pasted image 20231108220635.png",
     "📎Attachments/📷Images/imagenet_banner.jpeg",
