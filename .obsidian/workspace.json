@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+                "file": "📒Planner/🥋Grad/📧 Chelsea Finn.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,38 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
+      },
+      {
+        "id": "8e5f57a342c7dfc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4a9e07a6f0d672d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d5e26ad5f5cd618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/📧 Chelsea Finn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/📧 Chelsea Finn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md"
+                "file": "📒Planner/🥋Grad/📧 Chelsea Finn.md"
               }
             }
           },
@@ -219,7 +250,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/📧 Chelsea Finn.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -271,14 +302,18 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0c97940176a2a05a",
+  "active": "aa0c3f49b85e48b6",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ Stanford University.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/📧 Tom Mitchell.md",
+    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
+    "Untitled.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/🥋Grad/📧 Mina Konakovic Lukovic.md",
     "📒Planner/🥋Grad/📧 Sameer Khurana.md",
     "📒Planner/🥋Grad/📧 Daniela Rus.md",
@@ -294,11 +329,7 @@
     "📒Planner/🥋Grad/📧 Regina Barzilay.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
     "📒Planner/🥋Grad/📧 Diyi Yang.md",
-    "📒Planner/🥋Grad/📧 Chelsea Finn.md",
     "📒Planner/🥋Grad/📧 Tommi Jaakkola.md",
-    "📒Planner/🥋Grad/📧 Wei Fang.md",
-    "📒Planner/🥋Grad/📧 Jim Glass.md",
-    "📒Planner/🥋Grad/📧 Guangyu Robert Yang.md",
     "📎Attachments/📷Images/imagenet_banner.jpeg",
     "📎Attachments/📷Images/Pasted image 20231108220635.png",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
