@@ -8,18 +8,73 @@
         "type": "tabs",
         "children": [
           {
-            "id": "355d6879ae3fcd57",
+            "id": "f3c80780a52b1b6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "📒Planner/📝Essays/📝 SOP P3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "13d55c7df6d64d94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "355d6879ae3fcd57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/📧 Katerina Fragkiadaki.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4afd27bc7af5bbe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/📝Essays/📝 SOP P2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7de64401ea08bf2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/📧 Ruslan Salakhutdinov.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae987a4df9b30ad1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/📧 Min Xu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "📒Planner/📝Essays/📝 SOP P3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "📒Planner/📝Essays/📝 SOP P3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md"
+                "file": "📒Planner/📝Essays/📝 SOP P3.md"
               }
             }
           },
@@ -170,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚓Cold Emails.md",
+                "file": "📒Planner/📝Essays/📝 SOP P3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,20 +277,27 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "355d6879ae3fcd57",
+  "active": "f3c80780a52b1b6f",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+    "export/Timepoints_split/plugin/chalkboard/README.md",
+    "export/Timepoints_split/plugin/menu/CONTRIBUTING.md",
+    "📒Planner/📝Essays/📝 SOP P3.md",
+    "📒Planner/📝Essays/📝 SOP P2.md",
+    "📒Planner/🥋Grad/📧 Katerina Fragkiadaki.md",
+    "📒Planner/📝Essays/📝 SOP P1.md",
+    "📒Planner/📝Essays/📝 Significant Activities.md",
+    "📒Planner/🥋Grad/📧 Ruslan Salakhutdinov.md",
+    "📒Planner/📝Essays/📝 Film Rankings.md",
+    "📒Planner/🥋Grad/📧 Min Xu.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
     "📒Planner/🥋Grad/📧 Conrad Tucker.md",
-    "📒Planner/🥋Grad/📧 Min Xu.md",
     "📒Planner/🥋Grad/📧 Nancy Pollard.md",
     "📒Planner/🥋Grad/📧 Martial Hebert.md",
     "📒Planner/🥋Grad/📧 Leila Wehbe.md",
-    "📒Planner/🥋Grad/📧 Ruslan Salakhutdinov.md",
     "📒Planner/🥋Grad/📧 Katia Sycara.md",
     "📒Planner/🥋Grad/📧 Christopher Atkeson.md",
-    "📒Planner/🥋Grad/📧 Katerina Fragkiadaki.md",
     "📒Planner/🥋Grad/📧 Deva Ramanan.md",
     "📒Planner/🥋Grad/📧 Bryan Wilder.md",
     "📒Planner/🥋Grad/📧 Hoda Heidari.md",
@@ -243,13 +305,6 @@
     "📒Planner/🥋Grad/📧 Ameet Talwalkar.md",
     "📒Planner/🥋Grad/📧 Abhinav Gupta.md",
     "📒Planner/🥋Grad/📧 Yung-Sung Chuang.md",
-    "📒Planner/🥋Grad/📧 Henny Admoni.md",
-    "📦Templates/📧 Cold Email.md",
-    "📒Planner/🥋Grad/📧 Tom Mitchell.md",
-    "📒Planner/🥋Grad/📧 Noah Goodman.md",
-    "📒Planner/🥋Grad/📧 Percy Liang.md",
-    "⚜️Fleeting/UPenn Personal Statement Outline (Truth).md",
-    "📒Planner/🥋Grad/📧 Yoon Kim.md",
     "📎Attachments/📷Images/imagenet_banner.jpeg",
     "📎Attachments/📷Images/Pasted image 20231108220635.png",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
