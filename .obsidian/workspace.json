@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md"
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,8 +240,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "06c78b063ace4612",
+  "active": "c4a715a0091f0819",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
     "📒Planner/📝Essays/📝 SOP P5.md",
@@ -264,7 +265,6 @@
     "📒Planner/🥋Grad/📧 Ruslan Salakhutdinov.md",
     "📒Planner/📝Essays/📝 Film Rankings.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
     "📒Planner/🥋Grad/📧 Conrad Tucker.md",
     "📒Planner/🥋Grad/📧 Nancy Pollard.md",
