@@ -18,8 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b40f1a26a5f4c16e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/📝Essays/📝 SOP P2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8065c85b713d6156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/📝Essays/📝 SOP P3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37b698323b3bf16b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/📝Essays/📝 SOP P4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bca145b8f8d75b7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/📝Essays/📝 SOP P5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "0165bfa6c6f9a20c",
@@ -31,19 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b40f1a26a5f4c16e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/📝Essays/📝 SOP P5.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose M1 CSRMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/📝Essays/📝 SOP P1.md",
+                "file": "📒Planner/📝Essays/📝 SOP P4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/📝Essays/📝 SOP P1.md",
+                "file": "📒Planner/📝Essays/📝 SOP P4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -172,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/📝Essays/📝 SOP P1.md"
+                "file": "📒Planner/📝Essays/📝 SOP P4.md"
               }
             }
           },
@@ -200,7 +237,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/📝Essays/📝 SOP P1.md",
+                "file": "📒Planner/📝Essays/📝 SOP P4.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -252,14 +289,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "82577c6416d16dac",
+  "active": "37b698323b3bf16b",
   "lastOpenFiles": [
-    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
-    "📒Planner/📝Essays/📝 SOP P1.md",
+    "📒Planner/📝Essays/📝 SOP P3.md",
     "📒Planner/📝Essays/📝 SOP P5.md",
     "📒Planner/📝Essays/📝 SOP P4.md",
-    "📒Planner/📝Essays/📝 SOP P3.md",
     "📒Planner/📝Essays/📝 SOP P2.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose M1 CSRMP.md",
+    "📒Planner/📝Essays/📝 SOP P1.md",
     "📒Planner/📝Essays/📝 Special Circumstances.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "📒Planner/🥋Grad/Masters Programs.md",
