@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "189eb7e6f62ce891",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c4a715a0091f0819",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "6aaa1a27539a99b1",
         "type": "tabs",
         "children": [
@@ -108,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md"
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md"
               }
             }
           },
@@ -188,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,11 +222,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c4a715a0091f0819",
+  "active": "06c78b063ace4612",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
-    "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
+    "📦Templates/💸 Scholarship-Essay.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
     "📒Planner/📝Essays/📝 SOP P5.md",
     "📒Planner/📝Essays/📝 SOP P4.md",
     "📒Planner/📝Essays/📝 SOP P3.md",
@@ -252,9 +238,7 @@
     "📒Planner/📝Essays/📝 SOP P1.md",
     "📒Planner/📝Essays/📝 Special Circumstances.md",
     "📒Planner/🥋Grad/⚗️ Stanford University.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚗️ University of Toronto.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/Letters of Recommendation.md",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
     "📒Planner/🥋Grad/📧 Min Xu.md",
@@ -267,8 +251,6 @@
     "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
     "📒Planner/🥋Grad/📧 Conrad Tucker.md",
-    "📒Planner/🥋Grad/📧 Nancy Pollard.md",
-    "📒Planner/🥋Grad/📧 Martial Hebert.md",
     "📎Attachments/📷Images/imagenet_banner.jpeg",
     "📎Attachments/📷Images/Pasted image 20231108220635.png",
     "📎Attachments/📷Images/Haxorus_Drip.png",
