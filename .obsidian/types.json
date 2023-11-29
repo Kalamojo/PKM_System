@@ -8,6 +8,7 @@
     "oa": "date",
     "year": "number",
     "type": "multitext",
-    "research-area": "multitext"
+    "research-area": "multitext",
+    "application-submitted": "date"
   }
 }
