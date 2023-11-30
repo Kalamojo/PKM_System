@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8e5f57a342c7dfc4",
@@ -157,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -209,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md"
+                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md"
               }
             }
           },
@@ -237,7 +238,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -289,10 +290,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "aa0c3f49b85e48b6",
+  "active": "c8c23a8953bd96aa",
   "lastOpenFiles": [
-    "📒Planner/🎒Undergrad/🏫 MIT.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+    "📒Planner/🎒Undergrad/🏫 MIT.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
@@ -315,8 +318,6 @@
     "📒Planner/🥋Grad/📧 Ameet Talwalkar.md",
     "📒Planner/🥋Grad/📧 Abhinav Gupta.md",
     "📒Planner/📝Essays/📝 SOP P3.md",
-    "📒Planner/📝Essays/📝 SOP P2.md",
-    "📒Planner/📝Essays/📝 SOP P1.md",
     "📎Attachments/📷Images/imagenet_banner.jpeg",
     "📎Attachments/📷Images/Pasted image 20231108220635.png",
     "📒Planner/🥋Grad/Grad Landcape.canvas",
