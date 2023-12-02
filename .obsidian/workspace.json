@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md"
+                "file": "📒Planner/🥋Grad/Masters Programs.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -271,11 +271,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "92115cea660f6dc1",
+  "active": "129b97564c1a58e0",
   "lastOpenFiles": [
-    "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
     "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
     "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
     "📒Planner/🥋Grad/⚗️ University of Toronto.md",
