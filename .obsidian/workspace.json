@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5031c7ec4e61c98a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
                 "mode": "source",
                 "source": false
@@ -38,6 +50,18 @@
               "type": "markdown",
               "state": {
                 "file": "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "129b97564c1a58e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📒Planner/🥋Grad/Masters Programs.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md"
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md"
               }
             }
           },
@@ -195,7 +219,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+                "file": "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,13 +273,14 @@
   },
   "active": "92115cea660f6dc1",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
-    "📦Templates/💸 Scholarship-Essay.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
+    "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
+    "📦Templates/💸 Scholarship-Essay.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
     "📒Planner/📝Essays/📝 SOP P5.md",
     "📒Planner/📝Essays/📝 SOP P4.md",
@@ -275,7 +300,6 @@
     "📒Planner/📝Essays/📝 Film Rankings.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
     "📒Planner/🥋Grad/📧 Sanmi Koyejo.md",
-    "📒Planner/🥋Grad/📧 Conrad Tucker.md",
     "📎Attachments/📷Images/imagenet_banner.jpeg",
     "📎Attachments/📷Images/Pasted image 20231108220635.png",
     "📎Attachments/📷Images/Haxorus_Drip.png",
