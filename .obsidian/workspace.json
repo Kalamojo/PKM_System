@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -191,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md"
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md"
               }
             }
           },
@@ -219,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📒Planner/🥋Grad/Masters Programs.md",
+                "file": "📒Planner/🥋Grad/⚓Graduate Applications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -271,14 +270,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "129b97564c1a58e0",
+  "active": "06c78b063ace4612",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/📝Essays/📝 Statement of Purpose UofT.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CMU MSCS.md",
     "📒Planner/📝Essays/📝 Statement of Purpose CSRMP.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSCS.md",
     "📦Templates/💸 Scholarship-Essay.md",
     "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
