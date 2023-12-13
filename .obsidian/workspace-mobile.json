@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
-                "mode": "source",
+                "file": "💭Reflection/Quotes/Book Quotes.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -136,7 +136,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+            "file": "💭Reflection/Quotes/Book Quotes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md"
+            "file": "💭Reflection/Quotes/Book Quotes.md"
           }
         }
       },
@@ -171,7 +171,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+            "file": "💭Reflection/Quotes/Book Quotes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -196,8 +196,17 @@
   },
   "active": "11d6797d0eb43a3a",
   "lastOpenFiles": [
-    "🗻Permanent/Loss Function.md",
+    "💭Reflection/Quotes/Cinema Quotes.md",
+    "📒Planner/🎩Work/⚓2023 Applications.md",
+    "💭Reflection/Quotes/Other Quotes.md",
+    "💭Reflection/Quotes/Website Quotes.md",
+    "📒Planner/🥋Grad/Masters Programs.md",
+    "📒Planner/🥋Grad/⚓Graduate Applications.md",
+    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
+    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
+    "📒Planner/🥋Grad/⚗️ Stanford University.md",
     "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
+    "🗻Permanent/Loss Function.md",
     "🧪Academic/Saved/Machine Learning Model.md",
     "🗻Permanent/Classification.md",
     "🧪Academic/Saved/Dataset.md",
@@ -205,22 +214,13 @@
     "🧪Academic/Literature/@liTransferLearningBasedClassification2022.md",
     "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
     "📒Planner/🥋Grad/Letters of Recommendation.md",
-    "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/🥋Grad/⚓Cold Emails.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
     "💭Reflection/Quotes/Podcast Quotes.md",
-    "💭Reflection/Quotes/Other Quotes.md",
     "📒Planner/🎩Work/💼 Jobs/💼 C++ Engineer, AdTech (Spotify).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Stripe Data Pipeline (Stripe).md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer, Data Products (Discord).md",
     "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer Data Infrastructure (Grammarly).md",
-    "📦Templates/⚗️ Masters.md",
-    "🧪Academic/Literature/@beplerPositiveunlabeledConvolutionalNeural2019.md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Data Infrastructure and Observability (Plaid).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Machine Learning Infrastructure (Boston Dynamics).md",
-    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Agent (Datadog).md",
-    "💭Reflection/Quotes/Historical Quotes.md"
+    "📦Templates/⚗️ Masters.md"
   ]
 }
