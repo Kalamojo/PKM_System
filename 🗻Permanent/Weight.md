@@ -4,9 +4,9 @@ tags: [personal]
 ---
 # Weight
 
-```ad-note
-Thses are real numbers expressing the importance of inputs to the output. 
-```
+> [!note]
+> These are real numbers expressing the importance of inputs to the output. 
+
 ```ad-example
 There may be a situation in which a person wants to decide whether they will apply for a scholarhip. There are 3 different factors:
 1. Is it more than $500
@@ -17,4 +17,5 @@ While each of these inputs matter in determining if the person should apply for 
 
 ![[Drawing 2021-12-15 20.58.12.excalidraw|700]]
 ```
+
 As you can see, this example is just like a [[Perceptron]]
