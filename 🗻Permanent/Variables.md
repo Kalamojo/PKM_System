@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Variables
 
-
 1. [[Discrete Variable]]
 2. [[Continuous Variables]]
 3. [[Numeric Attributes]]

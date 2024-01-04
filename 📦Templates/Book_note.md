@@ -1,10 +1,11 @@
 ---
-Alias:
+aliases: 
 Author: ""
 Description: ""
-Tier:
-Cover:
-Class:
-- 
-Type:
+Tier: 
+Cover: 
+Class: 
+Type: 
+tags:
+  - 📖book
 ---
