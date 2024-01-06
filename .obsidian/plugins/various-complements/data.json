@@ -3,6 +3,9 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
+  "minFuzzyMatchScore": 0.5,
+  "matchingWithoutEmoji": true,
+  "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 3,
   "minNumberOfCharactersTriggered": 0,
@@ -17,6 +20,7 @@
     "^~~~.*",
     "^```.*"
   ],
+  "noAutoFocusUntilCycle": false,
   "showMatchStrategy": true,
   "showComplementAutomatically": true,
   "showIndexingStatus": true,
@@ -51,114 +55,16 @@
     "beforeRegExp": "",
     "after": ""
   },
+  "frontMatterKeyForExclusionInternalLink": "",
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
   "intelligentSuggestionPrioritization": {
+    "historyFilePath": "",
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
+  "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {
-    "Pennsylvania": {
-      "Pennsylvania": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1691454757963
-        }
-      }
-    },
-    "August 2024": {
-      "August 2024": {
-        "frontMatter": {
-          "count": 1,
-          "lastUpdated": 1691454864707
-        }
-      }
-    },
-    "Topaz-Denoise": {
-      "Topaz-Denoise": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1691807746775
-        },
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1691810356736
-        }
-      }
-    },
-    "introduced": {
-      "introduced": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1691807780357
-        }
-      }
-    },
-    "Noise2Noise": {
-      "Noise2Noise": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1691807783561
-        }
-      }
-    },
-    "temperature": {
-      "temperature": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1691809368123
-        }
-      }
-    },
-    "cryoEM": {
-      "cryoEM": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1691809696101
-        }
-      }
-    },
-    "Research_paper": {
-      "Research_paper": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1691866284415
-        }
-      }
-    },
-    "Tyrone": {
-      "Tyrone": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1693265149155
-        }
-      }
-    },
-    "PU CNNs for Particle Picking in CryoEM": {
-      "PU CNNs for Particle Picking in CryoEM": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1693359027057
-        }
-      }
-    },
-    "CryoEM": {
-      "CryoEM": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1693359404942
-        }
-      }
-    },
-    "Positive-unlabeled": {
-      "Positive-unlabeled": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1693362424061
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {}
 }
