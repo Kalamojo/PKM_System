@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Quotes/Book Quotes.md",
-                "mode": "preview",
+                "file": "📒Planner/📝Essays/📝 Rales Fellowship Application.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -136,7 +136,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "💭Reflection/Quotes/Book Quotes.md",
+            "file": "📒Planner/📝Essays/📝 Rales Fellowship Application.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "💭Reflection/Quotes/Book Quotes.md"
+            "file": "📒Planner/📝Essays/📝 Rales Fellowship Application.md"
           }
         }
       },
@@ -171,7 +171,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "💭Reflection/Quotes/Book Quotes.md",
+            "file": "📒Planner/📝Essays/📝 Rales Fellowship Application.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -196,8 +196,8 @@
   },
   "active": "11d6797d0eb43a3a",
   "lastOpenFiles": [
-    "Library.md",
     "💭Reflection/Quotes/Book Quotes.md",
+    "Library.md",
     "💭Reflection/Quotes/Cinema Quotes.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
     "💭Reflection/Quotes/Other Quotes.md",
