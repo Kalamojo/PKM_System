@@ -5,9 +5,11 @@
   "indexedFileTypes": [],
   "PDFIndexing": false,
   "imagesIndexing": false,
+  "excalidrawIndexing": true,
   "unsupportedFilesIndexing": "no",
   "splitCamelCase": false,
   "openInNewPane": false,
+  "vimLikeNavigationShortcut": false,
   "ribbonIcon": true,
   "showExcerpt": true,
   "renderLineReturnInExcerpts": true,
@@ -22,6 +24,9 @@
   "weightH2": 1.3,
   "weightH3": 1.1,
   "weightUnmarkedTags": 1.1,
+  "httpApiEnabled": false,
+  "httpApiPort": "51361",
+  "httpApiNotice": true,
   "welcomeMessage": "1.10.1",
   "verboseLogging": false
 }
