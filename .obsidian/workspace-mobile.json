@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
+            "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📒Planner/🥋Grad/⚗️ UPenn.md"
+            "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md"
           }
         }
       },
@@ -158,7 +159,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
+            "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -181,12 +182,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cf561b1eb3c5b8c7",
+  "active": "11d6797d0eb43a3a",
   "lastOpenFiles": [
+    "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🥋Grad/Masters Programs.md",
     "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
-    "📒Planner/🥋Grad/⚗️ UPenn.md",
     "📒Planner/📝Essays/📝 Why us.md",
     "📒Planner/📝Essays/Personal Statement UPenn.md",
     "📒Planner/📝Essays/📝 Rales Fellowship Application.md",
