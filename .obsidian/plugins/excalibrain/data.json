@@ -147,6 +147,9 @@
   },
   "tagNodeStyles": {},
   "tagStyleList": [],
+  "primaryTagField": "Note type",
+  "primaryTagFieldLowerCase": "note-type",
+  "displayAllStylePrefixes": true,
   "baseLinkStyle": {
     "strokeColor": "#696969FF",
     "strokeWidth": 1,
@@ -184,7 +187,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "🗻Permanent/Variance.md",
     "🗻Permanent/Central Limit Theorem.md",
     "Programming in Unix~Linux Environment/$cal.md",
     "🧪Academic/Saved/Dataset.md",
@@ -203,7 +205,6 @@
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
     "🗻Permanent/Existential Quantifier.md",
     "🗻Permanent/Propositions.md",
-    "🗻Permanent/Universal Quantifier.md",
     "🗻Permanent/Counterexample.md",
     "🗻Permanent/While Loop.md",
     "🗻Permanent/C++ Iterator Statements.md",
@@ -233,7 +234,9 @@
     "🗻Permanent/Theorem.md",
     "🗻Permanent/Logic.md",
     "🗻Permanent/NOT.md",
-    "🗻Permanent/Tautology.md"
+    "🗻Permanent/Tautology.md",
+    "🗻Permanent/Contradiction.md",
+    "🗻Permanent/Universal Quantifier.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",

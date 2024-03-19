@@ -5,7 +5,6 @@ tags: [school]
 ---
 # Ordinal
 
-
 ```ad-note
 There is an ordering of symbols with some being "higher" than others. Both equality (are two values the same?) and inequality (is one value less than another?) are meaninful.
 ```
