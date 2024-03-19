@@ -3462,7 +3462,7 @@
             "containerId": null,
             "originalText": "｡◕‿◕｡",
             "lineHeight": 1.43959866423089,
-            "baseline": 14
+            "baseline": 16
           }
         ],
         "created": 1659863321820,
@@ -3774,7 +3774,7 @@
             "containerId": null,
             "originalText": "ಠ_ಠ",
             "lineHeight": 1.4166666666666656,
-            "baseline": 17
+            "baseline": 20
           }
         ],
         "created": 1659863319427,
@@ -8907,7 +8907,7 @@
             "containerId": null,
             "originalText": "0 .. 1",
             "lineHeight": 1.25,
-            "baseline": 14
+            "baseline": 16
           }
         ],
         "id": "GZRe7xFE8x0VIfcU0lv5s",
@@ -8953,7 +8953,7 @@
             "containerId": null,
             "originalText": "1 .. n",
             "lineHeight": 1.25,
-            "baseline": 14
+            "baseline": 16
           }
         ],
         "id": "j-f8YdQ--FiyV5vNbOCJh",
@@ -8999,7 +8999,7 @@
             "containerId": null,
             "originalText": "n .. m",
             "lineHeight": 1.25,
-            "baseline": 14
+            "baseline": 16
           }
         ],
         "id": "fX71hHYBojSgdEvP9wkRq",
@@ -9751,7 +9751,7 @@
             "containerId": null,
             "originalText": "Bar",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -10157,7 +10157,7 @@
             "containerId": null,
             "originalText": "Stacked bar",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -10904,7 +10904,7 @@
             "containerId": null,
             "originalText": "100% stacked bar",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -11651,7 +11651,7 @@
             "containerId": null,
             "originalText": "Grouped bar",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -12050,7 +12050,7 @@
             "containerId": null,
             "originalText": "Column",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -12698,7 +12698,7 @@
             "containerId": null,
             "originalText": "Stacked Column",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -13379,7 +13379,7 @@
             "containerId": null,
             "originalText": "100% Stacked Column",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -13965,7 +13965,7 @@
             "containerId": null,
             "originalText": "Grouped Column",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -14633,7 +14633,7 @@
             "containerId": null,
             "originalText": "Line",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -15101,7 +15101,7 @@
             "containerId": null,
             "originalText": "Line",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "ellipse",
@@ -15775,7 +15775,7 @@
             "containerId": null,
             "originalText": "Area",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -16155,7 +16155,7 @@
             "containerId": null,
             "originalText": "Stacked area",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -16612,7 +16612,7 @@
             "containerId": null,
             "originalText": "100 %Stacked area",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -17186,7 +17186,7 @@
             "containerId": null,
             "originalText": "ThemeRiver",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -17784,7 +17784,7 @@
             "containerId": null,
             "originalText": "Scatter",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "ellipse",
@@ -19006,7 +19006,7 @@
             "containerId": null,
             "originalText": "Bubble",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           }
         ],
         "id": "Pp49Fig-i4zqX66zhnkjq",
@@ -19098,7 +19098,7 @@
             "containerId": null,
             "originalText": "Cartiesan heatmap",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -31056,7 +31056,7 @@
             "containerId": null,
             "originalText": "Calendar heatmap",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -37777,7 +37777,7 @@
             "containerId": null,
             "originalText": "Tree Map",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           }
         ],
         "id": "f-qGNbW7xmg8ZfgYcCLeu",
@@ -37973,7 +37973,7 @@
             "containerId": null,
             "originalText": "Waterfall",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -38370,7 +38370,7 @@
             "containerId": null,
             "originalText": "item 1",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -38409,7 +38409,7 @@
             "containerId": null,
             "originalText": "item 2",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -38448,7 +38448,7 @@
             "containerId": null,
             "originalText": "item 3",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -38516,7 +38516,7 @@
             "containerId": null,
             "originalText": "item 4",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           }
         ],
         "id": "_KibiChHYcXEjQ7WBXogj",
@@ -38654,7 +38654,7 @@
             "containerId": null,
             "originalText": "Dot\\strip plot",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "ellipse",
@@ -39140,7 +39140,7 @@
             "containerId": null,
             "originalText": "Dot (multi-strip) plot",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "ellipse",
@@ -40264,7 +40264,7 @@
             "containerId": null,
             "originalText": "Dot (multi-strip with jitter) plot",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "ellipse",
@@ -43969,7 +43969,7 @@
             "containerId": null,
             "originalText": "Column Histogram",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -44455,7 +44455,7 @@
             "containerId": null,
             "originalText": "Population pyrimid",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "rectangle",
@@ -45360,7 +45360,7 @@
             "containerId": null,
             "originalText": "Density plot",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -45580,7 +45580,7 @@
             "containerId": null,
             "originalText": "Box & Whisker",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -46690,7 +46690,7 @@
             "containerId": null,
             "originalText": "Violin",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           }
         ],
         "id": "HZUyhoo-EdNOkFb3Sg58r",
@@ -47020,7 +47020,7 @@
             "containerId": null,
             "originalText": "Pie",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           }
         ],
         "id": "gJVacNC5P0sDWbpf1PBgJ",
@@ -47066,7 +47066,7 @@
             "containerId": null,
             "originalText": "Donut",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -47564,7 +47564,7 @@
             "containerId": null,
             "originalText": "Polar - Area\\Coxcomb (The Florence Nightinglae chart)",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "line",
@@ -48602,7 +48602,7 @@
             "containerId": null,
             "originalText": "Jan",
             "lineHeight": 1.5947368421052623,
-            "baseline": 15
+            "baseline": 17
           },
           {
             "type": "text",
@@ -48641,7 +48641,7 @@
             "containerId": null,
             "originalText": "Feb",
             "lineHeight": 1.5947368421052623,
-            "baseline": 15
+            "baseline": 17
           },
           {
             "type": "text",
@@ -48680,7 +48680,7 @@
             "containerId": null,
             "originalText": "Mar",
             "lineHeight": 1.5947368421052623,
-            "baseline": 15
+            "baseline": 17
           },
           {
             "type": "text",
@@ -48719,7 +48719,7 @@
             "containerId": null,
             "originalText": "Apr",
             "lineHeight": 1.5947368421052623,
-            "baseline": 15
+            "baseline": 17
           },
           {
             "type": "text",
@@ -48758,7 +48758,7 @@
             "containerId": null,
             "originalText": "May",
             "lineHeight": 1.5947368421052623,
-            "baseline": 15
+            "baseline": 17
           }
         ],
         "id": "JCFbV0-t2SO6wIPqgZ644",
@@ -50771,7 +50771,7 @@
             "containerId": null,
             "originalText": "label 2",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -50810,7 +50810,7 @@
             "containerId": null,
             "originalText": "label 3",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -50849,7 +50849,7 @@
             "containerId": null,
             "originalText": "label 4",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -50888,7 +50888,7 @@
             "containerId": null,
             "originalText": "label 5",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -50927,7 +50927,7 @@
             "containerId": null,
             "originalText": "label 6",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -50966,7 +50966,7 @@
             "containerId": null,
             "originalText": "label 1",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           },
           {
             "type": "text",
@@ -51005,7 +51005,7 @@
             "containerId": null,
             "originalText": "Radar (spider)",
             "lineHeight": 1.6,
-            "baseline": 21
+            "baseline": 24
           }
         ],
         "id": "zy8ouYQc73AUzQrscIXoM",

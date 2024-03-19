@@ -187,13 +187,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "🗻Permanent/Central Limit Theorem.md",
-    "Programming in Unix~Linux Environment/$cal.md",
-    "🧪Academic/Saved/Dataset.md",
-    "🗻Permanent/Columns.md",
-    "🧪Academic/Saved/Pre-Train.md",
-    "🗻Permanent/Karnaugh Maps.md",
-    "🧪Academic/Literature/@axelkowald.etal_2022.md",
     "🗻Permanent/Standard Normal Distribution.md",
     "🧪Academic/Literature/@lotfollahi.etal_2020.md",
     "🧪Academic/Processed/Prediction of epidemic trends with logistic model and ML.md",
@@ -205,6 +198,7 @@
     "💭Reflection/7️⃣ Weekly Doist/2022 Week 46.md",
     "🗻Permanent/Existential Quantifier.md",
     "🗻Permanent/Propositions.md",
+    "🗻Permanent/Universal Quantifier.md",
     "🗻Permanent/Counterexample.md",
     "🗻Permanent/While Loop.md",
     "🗻Permanent/C++ Iterator Statements.md",
@@ -235,8 +229,14 @@
     "🗻Permanent/Logic.md",
     "🗻Permanent/NOT.md",
     "🗻Permanent/Tautology.md",
-    "🗻Permanent/Contradiction.md",
-    "🗻Permanent/Universal Quantifier.md"
+    "🗻Permanent/Graph Theory.md",
+    "🗻Permanent/Roster Notation.md",
+    "🗻Permanent/Cartesian Product.md",
+    "🗻Permanent/Superset.md",
+    "🗻Permanent/Set Theory.md",
+    "🗻Permanent/Combinations.md",
+    "🗻Permanent/Counting.md",
+    "🗻Permanent/Data Theory.md"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
