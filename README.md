@@ -1,10 +1,7 @@
 ---
-banner: "![[Haxorus_Drip.png]]"
----
----
-banner: "![[Haxorus_Drip.png]]"
-banner_y: 0.2
-banner_x: 0.87448
+banner: "[[Haxorus_Drip.png]]"
+banner_y: 0.175
+banner_x: 0.5
 ---
 # Dashboard
 
