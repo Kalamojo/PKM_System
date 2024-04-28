@@ -187,7 +187,6 @@
     "j": {}
   },
   "navigationHistory": [
-    "🗻Permanent/Standard Normal Distribution.md",
     "🧪Academic/Literature/@lotfollahi.etal_2020.md",
     "🧪Academic/Processed/Prediction of epidemic trends with logistic model and ML.md",
     "🗻Permanent/Bool.md",
@@ -236,7 +235,8 @@
     "🗻Permanent/Set Theory.md",
     "🗻Permanent/Combinations.md",
     "🗻Permanent/Counting.md",
-    "🗻Permanent/Data Theory.md"
+    "🗻Permanent/Data Theory.md",
+    "💭Reflection/WDYWTDFR Mach 1.canvas"
   ],
   "allowOntologySuggester": true,
   "ontologySuggesterParentTrigger": "::p",
