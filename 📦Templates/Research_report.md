@@ -1,7 +1,9 @@
 ---
-alias: []
-tags: [academic]
-type: article
+aliases: 
+tags:
+  - academic
+type:
+  - report
 ---
 # <% tp.file.title %>
 

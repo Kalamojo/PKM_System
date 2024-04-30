@@ -83,11 +83,23 @@
       "title": "Resource",
       "injectColor": true,
       "noTitle": false
+    },
+    "data": {
+      "type": "data",
+      "color": "238, 255, 0",
+      "icon": {
+        "type": "octicons",
+        "name": "database"
+      },
+      "command": false,
+      "title": "Data",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": true,
   "copyButton": false,
-  "version": "10.1.1",
+  "version": "10.2.0",
   "autoCollapse": true,
   "defaultCollapseType": "open",
   "injectColor": true,
