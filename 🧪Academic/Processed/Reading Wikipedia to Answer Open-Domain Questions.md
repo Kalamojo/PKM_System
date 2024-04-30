@@ -14,7 +14,6 @@ type:
 
 Given infinite time, resources, and a perfect Document Reader, this step would be unnecessary to identify highly accurate subsets of Wikipedia articles to answer any given question. Furthermore, the Document Retriever can even limit the entire system at times. 
 
-
 > [!data]
 > 
 | Dataset      | Retriever (plain) | Retriever (+bigrams) |
@@ -27,7 +26,7 @@ Given infinite time, resources, and a perfect Document Reader, this step would b
 
 If the retriever mistakenly filters out articles that actually contained information relevant to the question, then the Document Reader immediately has no hope of answering a user's question.
 
-With that being said, the Document Retriever is practically essential for reducing the workload of the Document Reader. Rather than combing through the nearly 7 million articles (as of April 2024), looking at every single paragraph and every token, a low-computation
+With that being said, the Document Retriever is practically essential for reducing the workload of the Document Reader. Rather than combing through the nearly 7 million articles (as of April 2024), looking at every single paragraph and every token, a single low-computation calculation can be performed to rank documents by relevance, and then filter to the needs of the system.
 
 ## References
 1. [[@danqichenReadingWikipediaAnswer2017]]
