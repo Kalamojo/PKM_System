@@ -83,6 +83,18 @@
       "title": "Resource",
       "injectColor": true,
       "noTitle": false
+    },
+    "data": {
+      "type": "data",
+      "color": "238, 255, 0",
+      "icon": {
+        "type": "octicons",
+        "name": "database"
+      },
+      "command": false,
+      "title": "Data",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": true,

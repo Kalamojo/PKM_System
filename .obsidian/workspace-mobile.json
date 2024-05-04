@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/⚗️ UPenn.md",
+                "file": "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +123,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
+            "file": "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -141,7 +140,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md"
+            "file": "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md"
           }
         }
       },
@@ -159,7 +158,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
+            "file": "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -182,33 +181,37 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "11d6797d0eb43a3a",
+  "active": "91152b6c993f426b",
   "lastOpenFiles": [
-    "📒Planner/🥋Grad/⚗️ UPenn.md",
-    "📒Planner/🎩Work/⚓2023 Applications.md",
     "📒Planner/🥋Grad/Masters Programs.md",
-    "📒Planner/📝Essays/📝 Personal Statement UPenn.md",
-    "📒Planner/📝Essays/📝 Why us.md",
-    "📒Planner/📝Essays/Personal Statement UPenn.md",
-    "📒Planner/📝Essays/📝 Rales Fellowship Application.md",
-    "💭Reflection/Quotes/Book Quotes.md",
-    "Library.md",
-    "💭Reflection/Quotes/Cinema Quotes.md",
-    "💭Reflection/Quotes/Other Quotes.md",
-    "💭Reflection/Quotes/Website Quotes.md",
-    "📒Planner/🥋Grad/⚓Graduate Applications.md",
-    "📒Planner/🥋Grad/⚗️ Carnegie Mellon MSML.md",
-    "📒Planner/🥋Grad/⚗️ University of Toronto.md",
-    "📒Planner/🥋Grad/⚗️ Stanford University.md",
-    "🧪Academic/Research/Xu Lab/Transfer Learning cryo-EM Particle Classifier.md",
-    "🗻Permanent/Loss Function.md",
-    "🧪Academic/Saved/Machine Learning Model.md",
-    "🗻Permanent/Classification.md",
-    "🧪Academic/Saved/Dataset.md",
-    "🧪Academic/Processed/What is AI, ML, DS.md",
-    "🧪Academic/Literature/@liTransferLearningBasedClassification2022.md",
-    "📒Planner/📝Essays/📝 Statement of Purpose M1.md",
-    "📒Planner/🥋Grad/Letters of Recommendation.md",
-    "📒Planner/🥋Grad/⚓Cold Emails.md"
+    "📦Templates/Research_report.md",
+    "🧮Projects/🧮Project Ideas.md",
+    "💭Reflection/📜Title Ideas.md",
+    "⚜️Fleeting/Research Conferences.md",
+    "💭Reflection/Entertainment/Bookshelf/Magnus Chase.md",
+    "🧪Academic/Research/TrVAE/Transfer Learning Visualizations.md",
+    "💭Reflection/Entertainment/Bookshelf/Graceling.md",
+    "💭Reflection/Entertainment/Bookshelf/Adventurers Wanted.md",
+    "💭Reflection/Entertainment/Bookshelf/A World Without Heroes.md",
+    "🧪Academic/Research/School/LFF Report.md",
+    "💭Reflection/Entertainment/Bookshelf/Restart.md",
+    "💭Reflection/Entertainment/Bookshelf/The Night Angel Trilogy.md",
+    "🧪Academic/Research/TrVAE/Timepoints_split.md",
+    "💭Reflection/Entertainment/Bookshelf/Scythe.md",
+    "💭Reflection/Entertainment/Bookshelf/The Rithmatist.md",
+    "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md",
+    "🧪Academic/Research/TrVAE/Train_test_split.md",
+    "💭Reflection/Entertainment/Bookshelf/Nicholas Flamel Series.md",
+    "🧪Academic/Research/School/Senior Project Report.md",
+    "💭Reflection/🍲Restaurant Recommendations.md",
+    "🧪Academic/Research/School/Time Series 2 Vec.md",
+    "🧪Academic/Research/TrVAE/Variational Autoencoder Improvement.md",
+    "💭Reflection/Entertainment/Bookshelf/The Inheritance Cycle.md",
+    "🧪Academic/Research/School/Texture Bias.md",
+    "💭Reflection/Entertainment/🔖Content to Consume.md",
+    "🧪Academic/Research/TrVAE",
+    "🧪Academic/Research/School",
+    "💭Reflection/Entertainment/Bookshelf",
+    "💭Reflection/Entertainment"
   ]
 }

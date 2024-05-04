@@ -26,7 +26,17 @@ Given infinite time, resources, and a perfect Document Reader, this step would b
 
 If the retriever mistakenly filters out articles that actually contained information relevant to the question, then the Document Reader immediately has no hope of answering a user's question.
 
-With that being said, the Document Retriever is practically essential for reducing the workload of the Document Reader. Rather than combing through the nearly 7 million articles (as of April 2024), looking at every single paragraph and every token, a single low-computation calculation can be performed to rank documents by relevance, and then filter to the needs of the system.
+With that being said, the Document Retriever is practically essential for reducing the workload of the Document Reader. Rather than combing through the nearly 7 million articles (as of April 2024), looking at every single paragraph and every token, a single low-computation calculation can be performed to rank documents by relevance, and then filter to the needs of the system. This way, the document reader only needs to consider a couple of articles and can afford to use highly effective but less efficient methods of extracting answers.
+
+Here is how the Retriver works at a high level:
+1. Turn all articles into vectors/lists of numbers
+2. Turn the given question into a vector
+3. Compare the question vector to the article vectors and rank the articles by how similar their vectors are
+Furthermore, step 1 only needs to be performed one time assuming the articles do not change.
+
+To actually obtain these vectors for a given article or question, the authors opted for TF-IDF.
+
+Term Frequency Inverse Document Frequency
 
 ## References
 1. [[@danqichenReadingWikipediaAnswer2017]]

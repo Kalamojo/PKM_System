@@ -1,7 +1,6 @@
 [
   "obsidian-outliner",
   "templater-obsidian",
-  "table-editor-obsidian",
   "dataview",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-charts",
@@ -29,9 +28,10 @@
   "obsidian-mind-map",
   "obsidian-advanced-slides",
   "various-complements",
-  "obsidian-table-to-csv-exporter",
   "quickadd",
   "obsidian-kanban",
   "text-extractor",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "obsidian42-brat",
+  "obsidian-banners"
 ]
