@@ -28,15 +28,16 @@ If the retriever mistakenly filters out articles that actually contained informa
 
 With that being said, the Document Retriever is practically essential for reducing the workload of the Document Reader. Rather than combing through the nearly 7 million articles (as of April 2024), looking at every single paragraph and every token, a single low-computation calculation can be performed to rank documents by relevance, and then filter to the needs of the system. This way, the document reader only needs to consider a couple of articles and can afford to use highly effective but less efficient methods of extracting answers.
 
-Here is how the Retriver works at a high level:
+Here is how the Retriever works at a high level:
+
 1. Turn all articles into vectors/lists of numbers
 2. Turn the given question into a vector
 3. Compare the question vector to the article vectors and rank the articles by how similar their vectors are
-Furthermore, step 1 only needs to be performed one time assuming the articles do not change.
 
-To actually obtain these vectors for a given article or question, the authors opted for TF-IDF.
+Furthermore, step 1 only needs to be performed one time assuming the articles do not change. To actually obtain these vectors for a given article or question, the authors opted for TF-IDF. To summarize, Term Frequency Inverse Document Frequency (TF-IDF) is simply a count of words in a document that takes into account how often that word appears in all documents as well.
 
-Term Frequency Inverse Document Frequency
+> [!example] 
+> ![[Reading Wikipedia to Answer Open-Domain Questions 2024-05-04 22.00.09.excalidraw|center|700]]
 
 ## References
 1. [[@danqichenReadingWikipediaAnswer2017]]
