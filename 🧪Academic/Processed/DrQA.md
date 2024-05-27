@@ -39,5 +39,18 @@ Furthermore, step 1 only needs to be performed one time assuming the articles do
 > [!example] 
 > ![[Reading Wikipedia to Answer Open-Domain Questions 2024-05-04 22.00.09.excalidraw|center|700]]
 
+## Document Reader
+
+### Paragraphs
+
+For each token $p_i$ in a given paragraph $p$, obtain the values of each of these 4 types of features:
+
+- Word embeddings
+- Exact match
+- Token features
+- Aligned question embedding
+
+
+
 ## References
 1. [[@danqichenReadingWikipediaAnswer2017]]
