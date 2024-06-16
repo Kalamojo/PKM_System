@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💭Reflection/Entertainment/🔖Content to Consume.md",
+                "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "💭Reflection/Entertainment/🔖Content to Consume.md",
+            "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "💭Reflection/Entertainment/🔖Content to Consume.md"
+            "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md"
           }
         }
       },
@@ -158,7 +158,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "💭Reflection/Entertainment/🔖Content to Consume.md",
+            "file": "🧪Academic/Research/Xu Lab/Cryoelectron Subtomogram Clustering.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -183,6 +183,10 @@
   },
   "active": "91152b6c993f426b",
   "lastOpenFiles": [
+    "📒Planner/🎩Work/⚓2024 Applications.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Distributed Systems Engineer - Content Engineering.md",
+    "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Consumer ML Models.md",
+    "💭Reflection/Entertainment/🔖Content to Consume.md",
     "📎Attachments/✏️Excalidraw/Reading Wikipedia to Answer Open-Domain Questions 2024-05-04 22.00.09.excalidraw.md",
     "🧪Academic/Processed/DrQA.md",
     "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md",
@@ -205,10 +209,6 @@
     "🧪Academic/Research/TrVAE/Train_test_split.md",
     "💭Reflection/Entertainment/Bookshelf/Nicholas Flamel Series.md",
     "🧪Academic/Research/School/Senior Project Report.md",
-    "💭Reflection/🍲Restaurant Recommendations.md",
-    "🧪Academic/Research/School/Time Series 2 Vec.md",
-    "🧪Academic/Research/TrVAE/Variational Autoencoder Improvement.md",
-    "💭Reflection/Entertainment/Bookshelf/The Inheritance Cycle.md",
     "🧪Academic/Research/TrVAE",
     "🧪Academic/Research/School",
     "💭Reflection/Entertainment/Bookshelf",
