@@ -50,6 +50,14 @@ For each token $p_i$ in a given paragraph $p$, obtain the values of each of thes
 - Token features
 - Aligned question embedding
 
+#### Word Embeddings
+
+[[Machine Learning Model|Machine Learning models]], at the end of the day, are mathematical algorithms that work on mathematical data. Text is no exception, so multiple methods have been developed to transform words and sentences into numerical representations. TF-IDF, which is described above, is one such method. However, word counts fall short of encoding the meaning of the words present in a document.
+
+Word embeddings are an attempt encoding the meaning of words into vectors. At a high level, they are obtained by training models to predict the next word in a given document, or by associating vectors of words that commonly appear next to each other. For our purposes, we will make use of Glove, a [[Pre-Train|pre-trained]] word embeddings model.
+
+#### Exact match
+
 
 
 ## References
