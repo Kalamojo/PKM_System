@@ -39,9 +39,11 @@ Furthermore, step 1 only needs to be performed one time assuming the articles do
 > [!example] 
 > ![[Reading Wikipedia to Answer Open-Domain Questions 2024-05-04 22.00.09.excalidraw|center|700]]
 
+Scikit-Learn offers a useful [package](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) for TF-IDF vectorization.
+
 ## Document Reader
 
-### Paragraphs
+### Feature Extraction
 
 For each token $p_i$ in a given paragraph $p$, obtain the values of each of these 4 types of features:
 
@@ -50,15 +52,47 @@ For each token $p_i$ in a given paragraph $p$, obtain the values of each of thes
 - Token features
 - Aligned question embedding
 
+We'll talk about how to obtain the first 3 here.
+
 #### Word Embeddings
 
 [[Machine Learning Model|Machine Learning models]], at the end of the day, are mathematical algorithms that work on mathematical data. Text is no exception, so multiple methods have been developed to transform words and sentences into numerical representations. TF-IDF, which is described above, is one such method. However, word counts fall short of encoding the meaning of the words present in a document.
 
-Word embeddings are an attempt encoding the meaning of words into vectors. At a high level, they are obtained by training models to predict the next word in a given document, or by associating vectors of words that commonly appear next to each other. For our purposes, we will make use of Glove, a [[Pre-Train|pre-trained]] word embeddings model.
+Word embeddings are an attempt encoding the meaning of words into vectors. At a high level, they are obtained by training models to predict the next word in a given document, or by associating vectors of words that commonly appear next to each other. For our purposes, we will make use of [Glove](https://nlp.stanford.edu/projects/glove/), a [[Pre-Train|pre-trained]] word embeddings model.
+
+> [!example] 
+>![[DrQA 2024-07-27 10.28.36.excalidraw|center|700]]
+
+The result is fairly-accurate meaning representations of words that have quantifiable distances between them.
 
 #### Exact match
 
+For the exact match features, each paragraph word is compared to each word in the question to determine whether there are any original, lowercase, or lemma form matches. If there is a match for the given form, the match vector value is 1. Otherwise, the value is 0.
 
+- Original match: two words must be exactly the same
+- Lowercase match: two words must be the same while ignoring case
+- Lemma match: two words, when reduced to their base form, must be the same. for example:
+	- lemma(changing) = change
+	- lemma(changes) = change
+	- lemma(change) = change
+
+There are some python libraries offer lemmatization, such as [NLTK](https://www.nltk.org/api/nltk.stem.wordnet.html) and [Spacy](https://spacy.io/usage/linguistic-features#lemmatization) to name a few.
+
+#### Token features
+
+For the next set of features, a few other NLP techniques were applied.
+
+- Part of Speech (POS) tagging
+- Named Entity Recognition (NER)
+- Term Frequency (TF)
+
+POS tagging is the process of labeling the part of speech a given word is attributed to in a sentence. For example, in the sentence "I pushed my git changes to GitHub", 'pushed' would be labelled as a verb and 'GitHub' as a noun.
+
+Named Entity Recognition is a more specific tagging in the subset of nouns from Parts of Speech. Using the previous example of "I pushed my git changes to GitHub", 'GitHub' might be labelled as an Organization. Other labels are Dates, Locations, and People, depending on the tagging system.
+
+For the purposes of preparing vectors for the Reader model, each [POS](https://spacy.io/usage/linguistic-features#pos-tagging) and [NER](https://spacy.io/usage/linguistic-features#named-entities) is mapped to the index of the options Spacy provides. All three features are then normalized according to their minimum and maximum values.
+
+### ML Models
 
 ## References
 1. [[@danqichenReadingWikipediaAnswer2017]]
