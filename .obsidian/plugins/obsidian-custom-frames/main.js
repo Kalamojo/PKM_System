@@ -70,7 +70,8 @@ var presets = {
     openInCenter: true,
     zoomLevel: 1,
     forceIframe: false,
-    customCss: ""
+    customCss: "",
+    customJs: ""
   },
   "detexify": {
     url: "https://detexify.kirelabs.org/classify.html",
@@ -85,7 +86,8 @@ var presets = {
 #classify--info-area,
 .adsbygoogle {
 	display: none !important
-}`
+}`,
+    customJs: ""
   },
   "calendar": {
     url: "https://calendar.google.com/calendar",
@@ -96,12 +98,15 @@ var presets = {
     openInCenter: true,
     zoomLevel: 1,
     forceIframe: false,
-    customCss: `/* hide the menu bar, "Keep" text, and logo */
-html > body > div:nth-child(2) > div:nth-child(2) > div:first-child[class*=" "],
-html > body > div:first-child > header:first-child > div > div:first-child > div > div:first-child,
-html > body > div:nth-child(2) > div:nth-child(2) > div:first-child > div:first-child {
-display: none !important;
-}`
+    customCss: `/* hide the menu bar "Calendar" text and remove minimum width */
+div[style*="min-width: 238px"] {
+    min-width: 0 !important;
+    padding-right: 0 !important;
+}
+div[style*="min-width: 238px"] span[role*="heading"] {
+    display: none !important;
+}`,
+    customJs: ""
   },
   "keep": {
     url: "https://keep.google.com",
@@ -112,11 +117,17 @@ display: none !important;
     openInCenter: false,
     zoomLevel: 1,
     forceIframe: false,
-    customCss: `/* hide the menu bar and the "Keep" text */
+    customCss: `/* hide the menu bar, the "Keep" text and the Google Apps button */
 html > body > div:nth-child(2) > div:nth-child(2) > div:first-child,
-html > body > div:first-child > header:first-child > div > div:first-child > div > div:first-child > a:first-child > span {
+html > body > div:first-child > header:first-child > div > div:first-child > div > div:first-child > a:first-child > span,
+html > body > div:first-child > header:first-child > div:nth-child(2) > div:first-child > div:first-child,
+html > body > div:first-child > header:first-child > div:nth-child(2) > div:nth-child(3) > div:first-child > div:first-child > div:first-child {
 	display: none !important;
-}`
+}
+html > body > div:first-child > header:first-child > div > div:first-child > div > div:first-child > a:first-child {
+	cursor: default;
+}`,
+    customJs: ""
   },
   "todoist": {
     url: "https://todoist.com",
@@ -143,7 +154,8 @@ html > body > div:first-child > header:first-child > div > div:first-child > div
 
 .undo_toast {
 	width: 95%;
-}`
+}`,
+    customJs: ""
   },
   "notion": {
     url: "https://www.notion.so/",
@@ -154,7 +166,8 @@ html > body > div:first-child > header:first-child > div > div:first-child > div
     openInCenter: true,
     zoomLevel: 1,
     forceIframe: false,
-    customCss: ""
+    customCss: "",
+    customJs: ""
   },
   "twitter": {
     url: "https://twitter.com",
@@ -165,7 +178,8 @@ html > body > div:first-child > header:first-child > div > div:first-child > div
     openInCenter: false,
     zoomLevel: 1,
     forceIframe: false,
-    customCss: ""
+    customCss: "",
+    customJs: ""
   },
   "tasks": {
     url: "https://tasks.google.com/embed/?origin=https://calendar.google.com&fullWidth=1",
@@ -176,7 +190,8 @@ html > body > div:first-child > header:first-child > div > div:first-child > div
     openInCenter: false,
     zoomLevel: 1,
     forceIframe: false,
-    customCss: ""
+    customCss: "",
+    customJs: ""
   }
 };
 function getIcon(settings) {
@@ -204,6 +219,7 @@ var CustomFrame = class {
       this.frame.addEventListener("dom-ready", () => {
         this.frame.setZoomFactor(this.data.zoomLevel);
         this.frame.insertCSS(this.data.customCss);
+        this.frame.executeJavaScript(this.data.customJs);
       });
       this.frame.addEventListener("destroyed", () => {
         if (frameDoc != parent.doc) {
@@ -214,7 +230,7 @@ var CustomFrame = class {
     } else {
       this.frame = parent.doc.createElement("iframe");
       parent.appendChild(this.frame);
-      this.frame.setAttribute("sandbox", "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation");
+      this.frame.setAttribute("sandbox", "allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads");
       this.frame.setAttribute("allow", "encrypted-media; fullscreen; oversized-images; picture-in-picture; sync-xhr; geolocation;");
       style += `transform: scale(${this.data.zoomLevel}); transform-origin: 0 0;`;
     }
@@ -288,7 +304,10 @@ var CustomFramesSettingTab = class extends import_obsidian2.PluginSettingTab {
   display() {
     this.containerEl.empty();
     this.containerEl.createEl("h2", { text: "Custom Frames Settings" });
-    this.containerEl.createEl("p", { text: "Please note that Obsidian has to be restarted or reloaded for most of these settings to take effect.", cls: "mod-warning" });
+    this.containerEl.createEl("p", {
+      text: "Please note that Obsidian has to be restarted or reloaded for most of these settings to take effect.",
+      cls: "mod-warning"
+    });
     new import_obsidian2.Setting(this.containerEl).setName("Frame Padding").setDesc("The padding that should be left around the inside of custom frame panes, in pixels.").addText((t) => {
       t.inputEl.type = "number";
       t.setValue(String(this.plugin.settings.padding));
@@ -384,6 +403,19 @@ var CustomFramesSettingTab = class extends import_obsidian2.PluginSettingTab {
           yield this.plugin.saveSettings();
         }));
       });
+      new import_obsidian2.Setting(content).setName("Additional JavaScript").setDesc(createFragment((f) => {
+        f.createSpan({ text: "A snippet of additional JavaScript that should be applied to this frame." });
+        f.createEl("br");
+        f.createEl("em", { text: "Note that this is only applied on Desktop." });
+      })).addTextArea((t) => {
+        t.inputEl.rows = 5;
+        t.inputEl.cols = 50;
+        t.setValue(frame.customJs);
+        t.onChange((v) => __async(this, null, function* () {
+          frame.customJs = v;
+          yield this.plugin.saveSettings();
+        }));
+      });
       new import_obsidian2.ButtonComponent(content).setButtonText("Remove Frame").onClick(() => __async(this, null, function* () {
         this.plugin.settings.frames.remove(frame);
         yield this.plugin.saveSettings();
@@ -409,7 +441,8 @@ var CustomFramesSettingTab = class extends import_obsidian2.PluginSettingTab {
           openInCenter: false,
           zoomLevel: 1,
           forceIframe: false,
-          customCss: ""
+          customCss: "",
+          customJs: ""
         });
       } else {
         this.plugin.settings.frames.push(presets[option]);
@@ -417,13 +450,20 @@ var CustomFramesSettingTab = class extends import_obsidian2.PluginSettingTab {
       yield this.plugin.saveSettings();
       this.display();
     }));
-    var disclaimer = this.containerEl.createEl("p", { cls: "mod-warning" });
+    let disclaimer = this.containerEl.createEl("p", { cls: "mod-warning" });
     disclaimer.createSpan({ text: "Please be advised that, when adding a site as a custom frame, you potentially expose personal information you enter to other plugins you have installed. For more information, see " });
-    disclaimer.createEl("a", { text: "this discussion", href: "https://github.com/Ellpeck/ObsidianCustomFrames/issues/54#issuecomment-1210879685", cls: "mod-warning" });
+    disclaimer.createEl("a", {
+      text: "this discussion",
+      href: "https://github.com/Ellpeck/ObsidianCustomFrames/issues/54#issuecomment-1210879685",
+      cls: "mod-warning"
+    });
     disclaimer.createSpan({ text: "." });
     this.containerEl.createEl("hr");
     this.containerEl.createEl("p", { text: "If you like this plugin and want to support its development, you can do so through my website by clicking this fancy image!" });
-    this.containerEl.createEl("a", { href: "https://ellpeck.de/support" }).createEl("img", { attr: { src: "https://ellpeck.de/res/generalsupport.png" }, cls: "custom-frames-support" });
+    this.containerEl.createEl("a", { href: "https://ellpeck.de/support" }).createEl("img", {
+      attr: { src: "https://ellpeck.de/res/generalsupport.png" },
+      cls: "custom-frames-support"
+    });
   }
 };
 
@@ -590,3 +630,6 @@ var CustomFramesPlugin = class extends import_obsidian4.Plugin {
     });
   }
 };
+
+
+/* nosourcemap */
