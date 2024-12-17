@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📒Planner/🥋Grad/2024/Prospective Advisors/UC Berkeley.md",
+                "file": "💭Reflection/Entertainment/📺Favorite Shows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UC Berkeley"
+              "title": "📺Favorite Shows"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -188,20 +189,21 @@
       "random-note:Open random note": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "dbfolder:Create a new database table": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "91152b6c993f426b",
   "lastOpenFiles": [
+    "💭Reflection/Entertainment/🎬Favorite Movies.md",
+    "💭Reflection/Entertainment/🔖Content to Consume.md",
+    "💭Reflection/Entertainment/📺Favorite Shows.md",
+    "📒Planner/🥋Grad/2024/Prospective Advisors/UC Berkeley.md",
     "📒Planner/🥋Grad/2024/Ranking Scores.md",
     "📒Planner/🥋Grad/2024/Prospective Advisors/UC San Diego.md",
     "📒Planner/🥋Grad/2024/Prospective Advisors/University of Toronto.md",
     "📒Planner/🥋Grad/2024/Prospective Advisors/UC Irvine.md",
-    "💭Reflection/Entertainment/🔖Content to Consume.md",
-    "💭Reflection/Entertainment/🎬Favorite Movies.md",
-    "💭Reflection/Entertainment/📺Favorite Shows.md",
     "📒Planner/🥋Grad/2024/Fellowships.md",
     "💭Reflection/Quotes/Real People Quotes.md",
     "💭Reflection/Quotes/Podcast Quotes.md",
@@ -220,7 +222,6 @@
     "📒Planner/🎩Work/💼 Jobs/💼 Software Engineer - Consumer ML Models.md",
     "📎Attachments/✏️Excalidraw/Reading Wikipedia to Answer Open-Domain Questions 2024-05-04 22.00.09.excalidraw.md",
     "🧪Academic/Processed/DrQA.md",
-    "🧪Academic/Processed/Reading Wikipedia to Answer Open-Domain Questions.md",
     "🧪Academic/Research/TrVAE",
     "🧪Academic/Research/School",
     "💭Reflection/Entertainment/Bookshelf",
