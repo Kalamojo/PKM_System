@@ -1,0 +1,5 @@
+- Food Value Search Engine
+- Colormind API powered UI
+- Faculty Shortlster
+	- Site that scrapes Faculty profiles and computes word embeddings of their research. Then clusters them together and allows user to find closest matches
+- Spotify KNN

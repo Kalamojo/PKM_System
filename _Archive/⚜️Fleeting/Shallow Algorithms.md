@@ -1,0 +1,9 @@
+- Supervised Learning
+	- Regression
+		- Linear Regression
+	- Classification 
+- <mark style="background: #BBFABBA6;">Support Vector Machine</mark> 
+- Unsupervised Learning
+	- Clustering
+	- <mark style="background: #ABF7F7A6;">Cocktail Party algorithm</mark> 
+- Hypothesis

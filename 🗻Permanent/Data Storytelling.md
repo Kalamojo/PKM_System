@@ -5,7 +5,7 @@ tags: [personal]
 ## Data Storytelling
 
 ---
-> Make it easy for the audience to get the point, like in 10-15 seconds. Often makes use of [[Data Visualization]]
+> Make it easy for the audience to get the point, like in 10-15 seconds. Often makes use of [[🗻Permanent/Data Visualization]]
 
 ---
 ## Qualities

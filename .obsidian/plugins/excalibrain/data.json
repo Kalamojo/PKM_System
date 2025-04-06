@@ -68,6 +68,9 @@
       "East",
       "n",
       "Next"
+    ],
+    "hidden": [
+      ""
     ]
   },
   "inferAllLinksAsFriends": false,
@@ -90,6 +93,7 @@
   "showFullTagName": false,
   "maxItemCount": 30,
   "renderSiblings": true,
+  "applyPowerFilter": false,
   "baseNodeStyle": {
     "prefix": "",
     "backgroundColor": "#00000066",

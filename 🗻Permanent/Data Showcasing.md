@@ -9,7 +9,7 @@ tags: [personal]
 Showcase a lot of [[Data]] so your audince members can think for themselves and decide what's important.
 ```
 ## Qualities
-Your [[Data Visualization]] should be:
+Your [[🗻Permanent/Data Visualization]] should be:
 - Highly contextual
 - Open ended
 
