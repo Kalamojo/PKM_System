@@ -2,8 +2,6 @@
 type: paper
 tags: academic
 ---
-
-
 # Machine Learning for Time Series Anomaly Detection
 
 A model can "learn" when it can estimate a data point by inferring some structure from previous data. In other words, it can learn patterns based on previous data that will help calculate new data.

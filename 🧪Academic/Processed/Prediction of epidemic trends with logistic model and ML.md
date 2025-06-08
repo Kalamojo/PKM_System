@@ -3,7 +3,7 @@ alias: []
 tags: [academic]
 type: presentation
 ---
-### Prediction of epidemic trends in COVID-19 with logistic model and machine learning techniques
+# Prediction of epidemic trends in COVID-19 with logistic model and machine learning techniques
 
 
 - Wang et al, 2020

@@ -2,7 +2,6 @@
 type: podcast
 tags: academic
 ---
-
 # What is AI, ML, DS
 
 Artificial Intelligence is the automation of human intelligence with the use of computer systems.
