@@ -2,10 +2,8 @@
   "baseFontSize": 17,
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
-    "TabsObsidian",
     "latex_big",
-    "banner_pos",
-    "centered"
+    "translucent"
   ],
   "translucency": false,
   "accentColor": "#f38b2b"
