@@ -8,36 +8,18 @@ excalidraw-plugin: parsed
 
 
 
-# Text Elements
+# Excalidraw Data
+
+## Text Elements
 %%
-# Drawing
-```json
-{
-	"type": "excalidraw",
-	"version": 2,
-	"source": "https://excalidraw.com",
-	"elements": [],
-	"appState": {
-		"theme": "dark",
-		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#000000",
-		"currentItemBackgroundColor": "transparent",
-		"currentItemFillStyle": "hachure",
-		"currentItemStrokeWidth": 1,
-		"currentItemStrokeStyle": "solid",
-		"currentItemRoughness": 1,
-		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 20,
-		"currentItemTextAlign": "left",
-		"currentItemStrokeSharpness": "sharp",
-		"currentItemStartArrowhead": null,
-		"currentItemEndArrowhead": "arrow",
-		"currentItemLinearStrokeSharpness": "round",
-		"gridSize": 20,
-		"colorPalette": {}
-	},
-	"files": {}
-}
+## Drawing
+```compressed-json
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQBGOJ4aOiCEfQQOKGZuAG0AXX4IXDg4AGUoqHFUUDBIdXTqiGJcUgBrFLqGQgQKACFcbDblUmEOYgBhNnw2Um4IAGIAMxXV
+
+zshsEUCsgEkq/QrRtoQpmbmJBYAGa5v1iE3Sbag99IGhkbHJ6dn5qHIOZhwVqZKB3B5PF76ABihHw+AqMGC80kgw0gTBWxBkMObGOAHUSOpuPF+BtMbt9jjjgikRJBB4MY8sfsAErCZSSDjhHJoEngMlMinpADyQOwahgxOupPu5Oe+yhnCgUNw+lhkt5MvBzPSiqyZUIRmqPEuWrlkIAKlgoABBIjKLgSYJLUFmwXy9IVVq2x5sCiSELEbgcIRw
+
+t0Q/YAUXGNt9/sD81aoyo4Z1+ljyYt8CaoyE4zuzGwozhAA1uAB2AAc5ZlheL+AAmtwAKwAFnLCQAbK3Lp2eM2ZUY2AZuLUuvQCEJqvF+QBfVNC/RsvPELnMHnoXP5mUjEgGo3cE070h7qpwFvHkgAWTYxAQ0dwmmCQbQSwIYUvXzOo/5kD60xfTdlE0XAAAoeHiGteEg6hoKgy5tGbABKdZIBZBBlFDVp5lIYCwJ4ABmU1eCI2DCOIhDkIgOctW
+
++UgAAUCAQGRqmAed+Vld0qQQUUoHYAFg1DfAZSWcgMnQ8YmEIDhlB/OpIEyR9n24P4p1JDYiHPNBVIQdSIA4VVqh0vThCgIguRU0gpxoji7AAKwQbBsjKAy4BvO8HyfBBALffAPw4wY+MYC1h3wOSulgRB5jCYInP41DZWYKADCzKK0BDMNfwgGYhm87hfP8+SIFEgwyjSOLOHy99dKy/BQltOLgtCwS4TncB2MgJZYXCUdZxAWcgA==
 ```
 %%

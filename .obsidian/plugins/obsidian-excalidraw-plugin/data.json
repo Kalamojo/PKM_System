@@ -102,7 +102,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.6.7",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.12.2",
     "libraryItems": [
       {
         "id": "he-s7yNp1I7DIxUPGw9zL",
@@ -183,7 +183,8 @@
                 62.07302017561529
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -230,7 +231,8 @@
                 37.855374086622675
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -277,7 +279,8 @@
                 34.011101841242805
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -324,7 +327,8 @@
                 -20.807832195149214
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -371,7 +375,8 @@
                 25.894951885267858
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           }
         ],
         "created": 1659863337886,
@@ -456,7 +461,8 @@
                 49.28615538139134
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -503,7 +509,8 @@
                 30.057275189373165
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -550,7 +557,8 @@
                 25.733119709460734
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -597,7 +605,8 @@
                 18.19071092374616
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -644,7 +653,8 @@
                 -15.402957589820515
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -691,7 +701,8 @@
                 12.911229185001785
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -804,7 +815,8 @@
                 0
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "ellipse",
@@ -979,7 +991,8 @@
                 61.57834305239284
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1026,7 +1039,8 @@
                 37.55369410555039
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1073,7 +1087,8 @@
                 34.887159612848606
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1120,7 +1135,8 @@
                 22.727555618028187
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1167,7 +1183,8 @@
                 -19.244524129499055
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1222,7 +1239,8 @@
                 19.656485851742378
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1289,7 +1307,8 @@
                 0
               ]
             ],
-            "index": "a7"
+            "index": "a7",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -1404,7 +1423,8 @@
                 63.96365067379871
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1451,7 +1471,8 @@
                 39.00837944331107
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1498,7 +1519,8 @@
                 35.02587564704395
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1545,7 +1567,8 @@
                 22.395255469513813
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1592,7 +1615,8 @@
                 -19.337282032879873
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1639,7 +1663,8 @@
                 16.75621372712345
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -1754,7 +1779,8 @@
                 62.39556560013866
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1801,7 +1827,8 @@
                 38.05207915543875
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1848,7 +1875,8 @@
                 35.11380233498009
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1895,7 +1923,8 @@
                 -17.081977002497215
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -1942,7 +1971,8 @@
                 16.502404602149724
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2001,7 +2031,8 @@
                 34.8406076038362
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2056,7 +2087,8 @@
                 22.039791368375006
               ]
             ],
-            "index": "a7"
+            "index": "a7",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2107,7 +2139,8 @@
                 17.920748908184656
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2162,7 +2195,8 @@
                 19.441525134983937
               ]
             ],
-            "index": "a9"
+            "index": "a9",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2213,7 +2247,8 @@
                 17.583424984258823
               ]
             ],
-            "index": "aA"
+            "index": "aA",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2264,7 +2299,8 @@
                 15.121454026145708
               ]
             ],
-            "index": "aB"
+            "index": "aB",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2327,7 +2363,8 @@
                 -6.16100517416793
               ]
             ],
-            "index": "aC"
+            "index": "aC",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2378,7 +2415,8 @@
                 7.46362433679377
               ]
             ],
-            "index": "aD"
+            "index": "aD",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2429,7 +2467,8 @@
                 6.836136069337963
               ]
             ],
-            "index": "aE"
+            "index": "aE",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2480,7 +2519,8 @@
                 6.836136069337963
               ]
             ],
-            "index": "aF"
+            "index": "aF",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2539,7 +2579,8 @@
                 -54.81520150671389
               ]
             ],
-            "index": "aG"
+            "index": "aG",
+            "polygon": false
           }
         ],
         "created": 1659863327528,
@@ -2626,7 +2667,8 @@
                 29.423758342517576
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2674,7 +2716,8 @@
                 16.381077520120563
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2722,7 +2765,8 @@
                 14.81557535082132
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2770,7 +2814,8 @@
                 10.859826216044992
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2818,7 +2863,8 @@
                 -9.195541798215446
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2889,7 +2935,8 @@
                 -0.17438609570499786
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "line",
@@ -2956,7 +3003,8 @@
                 -4.784936849226437
               ]
             ],
-            "index": "a7"
+            "index": "a7",
+            "polygon": false
           }
         ],
         "created": 1659863325658,
@@ -3041,7 +3089,8 @@
                 61.930947762807584
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3088,7 +3137,8 @@
                 37.76873089898643
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3135,7 +3185,8 @@
                 35.086927521543586
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3190,7 +3241,8 @@
                 -7.181977544593087
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3245,7 +3297,8 @@
                 9.328625461176804
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           }
         ],
         "created": 1659863323698,
@@ -3332,7 +3385,8 @@
                 62.07302017561529
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3380,7 +3434,8 @@
                 37.855374086622675
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3428,7 +3483,8 @@
                 35.16741853017612
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3476,7 +3532,8 @@
                 -20.807832195149214
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3524,7 +3581,8 @@
                 27.692151644718507
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "text",
@@ -3652,7 +3710,8 @@
                 62.07302017561529
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3700,7 +3759,8 @@
                 37.855374086622675
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3748,7 +3808,8 @@
                 35.16741853017612
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3796,7 +3857,8 @@
                 -20.807832195149214
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -3844,7 +3906,8 @@
                 27.692151644718507
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "text",
@@ -3969,7 +4032,8 @@
                 -1.72381591796875
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           }
         ],
         "id": "4HzNhY4JtvUK0-0kRJxxd",
@@ -4055,7 +4119,8 @@
                 -1.72381591796875
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           }
         ],
         "id": "rExTccQOMDhHGeA-fJsxn",
@@ -4228,7 +4293,8 @@
                 19.2227783203125
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "freedraw",
@@ -7825,7 +7891,8 @@
                 29.69879150390625
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -7872,7 +7939,8 @@
                 16.003662109375
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -7919,7 +7987,8 @@
                 14.933837890625
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           }
         ],
         "id": "3f7hLuOLzrNBB-e_Rakmn",
@@ -7973,7 +8042,8 @@
                 -0.1976318359375
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8020,7 +8090,8 @@
                 11.2626953125
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           }
         ],
         "id": "pCXQ3BrZTrYQNqnviaxgj",
@@ -8074,7 +8145,8 @@
                 -1.6494140625
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8121,7 +8193,8 @@
                 19.0980224609375
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8168,7 +8241,8 @@
                 19.0980224609375
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8215,7 +8289,8 @@
                 10.6824951171875
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8262,7 +8337,8 @@
                 -13.5301513671875
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8309,7 +8385,8 @@
                 -9.9893798828125
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8356,7 +8433,8 @@
                 11.1353759765625
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           }
         ],
         "id": "_RDBsrJkHsRaqM3vinsc2",
@@ -8410,7 +8488,8 @@
                 -1.6494140625
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8457,7 +8536,8 @@
                 10.6824951171875
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8504,7 +8584,8 @@
                 -13.5301513671875
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8551,7 +8632,8 @@
                 -9.9893798828125
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8598,7 +8680,8 @@
                 11.1353759765625
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "ellipse",
@@ -8712,7 +8795,8 @@
                 -1.6494140625
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8759,7 +8843,8 @@
                 19.0980224609375
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8806,7 +8891,8 @@
                 19.0980224609375
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           }
         ],
         "id": "xDmkdopxH126533dAyB9K",
@@ -8860,7 +8946,8 @@
                 -1.6494140625
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8907,7 +8994,8 @@
                 19.0980224609375
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -8954,7 +9042,8 @@
                 19.0980224609375
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "ellipse",
@@ -9281,7 +9370,8 @@
                 130.4052668013237
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -9328,7 +9418,8 @@
                 -1.9752637267113187
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -9375,7 +9466,8 @@
                 -47.56125829592338
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -9422,7 +9514,8 @@
                 43.883056640625
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           }
         ],
         "id": "fWrdnyjk6O5WVQ1HM24dE",
@@ -9554,7 +9647,8 @@
                 29.10211181640625
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -9599,7 +9693,8 @@
                 35.6409912109375
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -9709,7 +9804,8 @@
                 30.34539794921875
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -9754,7 +9850,8 @@
                 35.6409912109375
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -9839,7 +9936,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -9887,7 +9985,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -10396,7 +10495,8 @@
                 280
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -10443,7 +10543,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -11168,7 +11269,8 @@
                 280
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -11215,7 +11317,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -11940,7 +12043,8 @@
                 280
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -11987,7 +12091,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -12382,7 +12487,8 @@
                 280
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -12429,7 +12535,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -12852,7 +12959,8 @@
                 280
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "line",
@@ -12900,7 +13008,8 @@
                 0
               ]
             ],
-            "index": "a9"
+            "index": "a9",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -13555,7 +13664,8 @@
                 280
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "line",
@@ -13603,7 +13713,8 @@
                 0
               ]
             ],
-            "index": "a9"
+            "index": "a9",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -14419,7 +14530,8 @@
                 280
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -14466,7 +14578,8 @@
                 0
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -14881,7 +14994,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -14929,7 +15043,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -15027,7 +15142,8 @@
                 -226.83333333333337
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -15083,7 +15199,8 @@
                 -198.44084294514732
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -15139,7 +15256,8 @@
                 -140
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -15195,7 +15313,8 @@
                 -160
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "line",
@@ -15251,7 +15370,8 @@
                 -60.925666781666905
               ]
             ],
-            "index": "a7"
+            "index": "a7",
+            "polygon": false
           },
           {
             "type": "line",
@@ -15307,7 +15427,8 @@
                 -104.50772003936936
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           }
         ],
         "id": "MXqvxx_Rl_ep45lG6GGdk",
@@ -15361,7 +15482,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -15408,7 +15530,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -15998,7 +16121,8 @@
                 -122.22222222222217
               ]
             ],
-            "index": "aI"
+            "index": "aI",
+            "polygon": false
           }
         ],
         "id": "W_Q2X_TfC11UjLw5xDGA3",
@@ -16053,7 +16177,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16101,7 +16226,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -16239,7 +16365,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16335,7 +16462,8 @@
                 0
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16382,7 +16510,8 @@
                 280
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           }
         ],
         "id": "TYBGjCg8P4oGA6y-fYieq",
@@ -16438,7 +16567,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16487,7 +16617,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -16627,7 +16758,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16800,7 +16932,8 @@
                 0
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16849,7 +16982,8 @@
                 280
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           }
         ],
         "id": "3HVdsQPC7JGvMN3Iwgb1x",
@@ -16904,7 +17038,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -16952,7 +17087,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -17090,7 +17226,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -17262,7 +17399,8 @@
                 0
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -17310,7 +17448,8 @@
                 280
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -17434,7 +17573,8 @@
                 0
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           }
         ],
         "id": "Yw59mf1OLwSJ8LCq21F-R",
@@ -17488,7 +17628,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -17535,7 +17676,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -17715,7 +17857,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -17762,7 +17905,8 @@
                 280
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -17901,7 +18045,8 @@
                 0
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -18040,7 +18185,8 @@
                 0
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           }
         ],
         "id": "1jZlqTJniWpXdgT_Tp5wj",
@@ -18094,7 +18240,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -18141,7 +18288,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -19077,7 +19225,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -19125,7 +19274,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "ellipse",
@@ -19499,7 +19649,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "text",
@@ -31737,7 +31888,8 @@
                 280
               ]
             ],
-            "index": "b5Z"
+            "index": "b5Z",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -31814,7 +31966,8 @@
                 0
               ]
             ],
-            "index": "b5b"
+            "index": "b5b",
+            "polygon": false
           }
         ],
         "id": "qIjYg3HQmeklKU-lZYmrH",
@@ -31868,7 +32021,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "text",
@@ -32526,7 +32680,8 @@
                 280
               ]
             ],
-            "index": "aL"
+            "index": "aL",
+            "polygon": false
           },
           {
             "type": "line",
@@ -32573,7 +32728,8 @@
                 0
               ]
             ],
-            "index": "aM"
+            "index": "aM",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -38975,7 +39131,8 @@
                 280
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -39022,7 +39179,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "text",
@@ -39200,7 +39358,8 @@
                 0
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "line",
@@ -39247,7 +39406,8 @@
                 0
               ]
             ],
-            "index": "a9"
+            "index": "a9",
+            "polygon": false
           },
           {
             "type": "line",
@@ -39294,7 +39454,8 @@
                 0
               ]
             ],
-            "index": "aA"
+            "index": "aA",
+            "polygon": false
           },
           {
             "type": "line",
@@ -39341,7 +39502,8 @@
                 0
               ]
             ],
-            "index": "aB"
+            "index": "aB",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -39679,7 +39841,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -39726,7 +39889,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -40181,7 +40345,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -40228,7 +40393,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -41343,7 +41509,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -41390,7 +41557,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -45175,7 +45343,8 @@
                 280
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -45222,7 +45391,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "text",
@@ -45677,7 +45847,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -45724,7 +45895,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -46612,7 +46784,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -46659,7 +46832,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -46783,7 +46957,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           }
         ],
         "id": "5B9TAd2K5RXPAFOLPN2O0",
@@ -46837,7 +47012,8 @@
                 280
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -46884,7 +47060,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "text",
@@ -46972,7 +47149,8 @@
                 141.50999633427728
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47019,7 +47197,8 @@
                 223.00916698955007
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47066,7 +47245,8 @@
                 101.30995189450687
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47113,7 +47293,8 @@
                 182.18890614230213
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "rectangle",
@@ -47280,7 +47461,8 @@
                 0
               ]
             ],
-            "index": "aB"
+            "index": "aB",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47327,7 +47509,8 @@
                 0
               ]
             ],
-            "index": "aC"
+            "index": "aC",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47374,7 +47557,8 @@
                 0
               ]
             ],
-            "index": "aD"
+            "index": "aD",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47421,7 +47605,8 @@
                 0
               ]
             ],
-            "index": "aE"
+            "index": "aE",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47468,7 +47653,8 @@
                 0
               ]
             ],
-            "index": "aF"
+            "index": "aF",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47515,7 +47701,8 @@
                 0
               ]
             ],
-            "index": "aG"
+            "index": "aG",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47562,7 +47749,8 @@
                 0
               ]
             ],
-            "index": "aH"
+            "index": "aH",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47609,7 +47797,8 @@
                 0
               ]
             ],
-            "index": "aI"
+            "index": "aI",
+            "polygon": false
           }
         ],
         "id": "vv93goYRccBGLxhLL4MhJ",
@@ -47691,7 +47880,8 @@
                 0
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47766,7 +47956,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47841,7 +48032,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47924,7 +48116,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -47971,7 +48164,8 @@
                 280
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48018,7 +48212,8 @@
                 0
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "text",
@@ -48137,7 +48332,8 @@
                 0
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48208,7 +48404,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48275,7 +48472,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48354,7 +48552,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "text",
@@ -48566,7 +48765,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48681,7 +48881,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48776,7 +48977,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -48899,7 +49101,8 @@
                 0
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           }
         ],
         "id": "8hoyBKldzbmTm71bDqvmF",
@@ -49014,7 +49217,8 @@
                 0
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49081,7 +49285,8 @@
                 0
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49148,7 +49353,8 @@
                 0
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49216,7 +49422,8 @@
                 0
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49284,7 +49491,8 @@
                 0
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49352,7 +49560,8 @@
                 0
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49420,7 +49629,8 @@
                 0
               ]
             ],
-            "index": "a7"
+            "index": "a7",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49488,7 +49698,8 @@
                 0
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49556,7 +49767,8 @@
                 0
               ]
             ],
-            "index": "a9"
+            "index": "a9",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49624,7 +49836,8 @@
                 0
               ]
             ],
-            "index": "aA"
+            "index": "aA",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49692,7 +49905,8 @@
                 0
               ]
             ],
-            "index": "aB"
+            "index": "aB",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49760,7 +49974,8 @@
                 0
               ]
             ],
-            "index": "aC"
+            "index": "aC",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49827,7 +50042,8 @@
                 0
               ]
             ],
-            "index": "aD"
+            "index": "aD",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49894,7 +50110,8 @@
                 0
               ]
             ],
-            "index": "aE"
+            "index": "aE",
+            "polygon": false
           },
           {
             "type": "line",
@@ -49961,7 +50178,8 @@
                 0
               ]
             ],
-            "index": "aF"
+            "index": "aF",
+            "polygon": false
           },
           {
             "type": "text",
@@ -50272,7 +50490,8 @@
                 0
               ]
             ],
-            "index": "a0"
+            "index": "a0",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50321,7 +50540,8 @@
                 60
               ]
             ],
-            "index": "a1"
+            "index": "a1",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50370,7 +50590,8 @@
                 59.029411764705856
               ]
             ],
-            "index": "a2"
+            "index": "a2",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50419,7 +50640,8 @@
                 100
               ]
             ],
-            "index": "a3"
+            "index": "a3",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50468,7 +50690,8 @@
                 100
               ]
             ],
-            "index": "a4"
+            "index": "a4",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50517,7 +50740,8 @@
                 60.20588235294122
               ]
             ],
-            "index": "a5"
+            "index": "a5",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50566,7 +50790,8 @@
                 -60
               ]
             ],
-            "index": "a6"
+            "index": "a6",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50615,7 +50840,8 @@
                 49.15732665319548
               ]
             ],
-            "index": "a7"
+            "index": "a7",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50664,7 +50890,8 @@
                 48.36213460439377
               ]
             ],
-            "index": "a8"
+            "index": "a8",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50713,7 +50940,8 @@
                 81.92887775532577
               ]
             ],
-            "index": "a9"
+            "index": "a9",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50762,7 +50990,8 @@
                 81.92887775532577
               ]
             ],
-            "index": "aA"
+            "index": "aA",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50811,7 +51040,8 @@
                 49.32600375445648
               ]
             ],
-            "index": "aB"
+            "index": "aB",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50860,7 +51090,8 @@
                 -49.15732665319548
               ]
             ],
-            "index": "aC"
+            "index": "aC",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50909,7 +51140,8 @@
                 39.39517239735056
               ]
             ],
-            "index": "aD"
+            "index": "aD",
+            "polygon": false
           },
           {
             "type": "line",
@@ -50958,7 +51190,8 @@
                 38.75789754974634
               ]
             ],
-            "index": "aE"
+            "index": "aE",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51007,7 +51240,8 @@
                 65.65862066225094
               ]
             ],
-            "index": "aF"
+            "index": "aF",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51056,7 +51290,8 @@
                 65.65862066225094
               ]
             ],
-            "index": "aG"
+            "index": "aG",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51105,7 +51340,8 @@
                 39.53035191047876
               ]
             ],
-            "index": "aH"
+            "index": "aH",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51154,7 +51390,8 @@
                 -39.39517239735056
               ]
             ],
-            "index": "aI"
+            "index": "aI",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51203,7 +51440,8 @@
                 29.7666473775779
               ]
             ],
-            "index": "aJ"
+            "index": "aJ",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51252,7 +51490,8 @@
                 29.28512808176413
               ]
             ],
-            "index": "aK"
+            "index": "aK",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51301,7 +51540,8 @@
                 49.61107896262983
               ]
             ],
-            "index": "aL"
+            "index": "aL",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51350,7 +51590,8 @@
                 49.61107896262983
               ]
             ],
-            "index": "aM"
+            "index": "aM",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51399,7 +51640,8 @@
                 29.868787834265696
               ]
             ],
-            "index": "aN"
+            "index": "aN",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51448,7 +51690,8 @@
                 -29.7666473775779
               ]
             ],
-            "index": "aO"
+            "index": "aO",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51497,7 +51740,8 @@
                 20.218921836120693
               ]
             ],
-            "index": "aP"
+            "index": "aP",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51546,7 +51790,8 @@
                 19.89185104171285
               ]
             ],
-            "index": "aQ"
+            "index": "aQ",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51595,7 +51840,8 @@
                 33.69820306020117
               ]
             ],
-            "index": "aR"
+            "index": "aR",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51644,7 +51890,8 @@
                 33.69820306020117
               ]
             ],
-            "index": "aS"
+            "index": "aS",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51693,7 +51940,8 @@
                 20.288300489479944
               ]
             ],
-            "index": "aT"
+            "index": "aT",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51742,7 +51990,8 @@
                 -20.218921836120693
               ]
             ],
-            "index": "aU"
+            "index": "aU",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51791,7 +52040,8 @@
                 10.435630640531159
               ]
             ],
-            "index": "aV"
+            "index": "aV",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51840,7 +52090,8 @@
                 10.266818968404914
               ]
             ],
-            "index": "aW"
+            "index": "aW",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51889,7 +52140,8 @@
                 17.392717734218607
               ]
             ],
-            "index": "aX"
+            "index": "aX",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51938,7 +52190,8 @@
                 17.392717734218607
               ]
             ],
-            "index": "aY"
+            "index": "aY",
+            "polygon": false
           },
           {
             "type": "line",
@@ -51987,7 +52240,8 @@
                 10.471439177042788
               ]
             ],
-            "index": "aZ"
+            "index": "aZ",
+            "polygon": false
           },
           {
             "type": "line",
@@ -52036,7 +52290,8 @@
                 -10.435630640531159
               ]
             ],
-            "index": "aa"
+            "index": "aa",
+            "polygon": false
           },
           {
             "type": "line",
@@ -52084,7 +52339,8 @@
                 216.875
               ]
             ],
-            "index": "ab"
+            "index": "ab",
+            "polygon": false
           },
           {
             "type": "line",
@@ -52132,7 +52388,8 @@
                 -97.5
               ]
             ],
-            "index": "ac"
+            "index": "ac",
+            "polygon": false
           },
           {
             "type": "line",
@@ -52180,7 +52437,8 @@
                 98.125
               ]
             ],
-            "index": "ad"
+            "index": "ad",
+            "polygon": false
           },
           {
             "type": "text",

@@ -1,9 +1,10 @@
 ---
-alias: []
-tags: [academic, steps|categories]
-type: MOC
+aliases: 
+tags:
+  - academic
+type:
+  - MOC
 ---
 # <% tp.file.title %>
 
-
-1. 
+1. <% tp.file.cursor(1) %>
