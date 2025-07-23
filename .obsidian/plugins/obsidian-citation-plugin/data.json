@@ -1,7 +1,7 @@
 {
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "@{{citekey}}",
-  "literatureNoteFolder": "🧪Academic/Literature",
+  "literatureNoteFolder": "Documents/Annotations",
   "literatureNoteContentTemplate": "---\nalias: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\ntype: paper\ntags: academic\npage(s): {{page}}\n---\n> [!abstract]\n> {{abstract}}\n\n## References\n1. [{{citekey}}]({{zoteroSelectURI}})\n",
   "markdownCitationTemplate": "[@{{citekey}}]({{zoteroSelectURI}})",
   "alternativeMarkdownCitationTemplate": "[[@{{citekey}}]]",
