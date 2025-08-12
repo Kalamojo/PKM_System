@@ -7,6 +7,6 @@ oa:
 interview: 
 status: resume-screen
 location: Remote
-position-season: Fall 2026
+position-season: Summer 2026
 ---
 <%*tp.file.rename("💼 " + tp.file.title)%>
