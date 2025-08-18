@@ -17,4 +17,4 @@ $$\int_{-\infty}^{\infty} f(x) \,dx = 1$$
 
 ## References
 1. [[Probability]]
-2. [[Continous Random Variable]]
+2. [[Continuous Random Variable]]

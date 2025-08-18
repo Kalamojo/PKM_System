@@ -1,0 +1,22 @@
+# Statement of Purpose M1
+#📝Essay
+
+## Introduce Who You Are
+
+I was born in Nigeria, but soon after, my parents made their way to the United States. In my early years of US education, I found myself going through the motions of completing assignments, procrastinating on projects, and cramming for exams. It was in 4th grade that I first received any inclination that I might be a "good" student after I was placed in the gifted and talented program. Up until my Junior year of high school, I pursued that path, trying my utmost to maintain high grades for no reason other than to excel in school and make my family and teachers proud. However, after taking a course on Computer Science principles, the course of my life shifted substantially. Computer Science became the compass that ultimately directed my efforts. No longer did I mindlessly persist with schoolwork for the sake of continuing schoolwork. I began to consider Software Development and Machine Learning Research, along with other related industries, and I let those options guide my academic decisions.
+
+## Academic Interest
+
+My primary interest is in the inner workings of Machine Learning models and how we can apply them to real-world problems. As a result of the contributions of Mathematicians, Statisticians, and Computer Scientists for nearly a century, we can create programs that "think". This fact alone was enough to command my interest in AI and ML, but while the theory is fascinating, the applications of these models are just as exciting. One of the most significant impacts of this technology is its contribution in saving time and resources for humans. Manual tasks that took time away from people in all kinds of industries are now performed by AI systems. Companies like Netflix are automatically recommending movies to customers. We can ask our phones questions and receive answers without typing or human support. Tools like Google search allow us to throw any question at a model and receive answers instantly. Learning how these tools work internally, as well as how they can save resources for people, has driven my academic pursuits and has inspired me to try and discover new techniques and applications of Machine Learning.
+
+## Future Academic Goals
+
+To apply these interests, I hope to partake in the Machine Intelligence field of the CS Research Mentorship Program. The opportunity to discover more about Machine Learning in a structured effort, under the guidance of an experienced mentor, would allow me to learn more about the field and best research practices. While I have experience with investigating literary sources and determining best tools and methods, I hope to learn more about the project selection process, what goes into defining a relevant problem, and a taste of the general research environment. I believe my background in Software Engineering will assist in bringing my analytical perspective to the table. Establishing a project proposal, determining the required sub-tasks, and carrying through with accomplishing goals aren't foreign concepts to me, and I am excited by the prospect of doing so in a more academic setting. Machine Learning is a perfect blend between theory and application, and I would love the chance to find that balance in this program.
+
+## Long-Term Goals
+
+I plan to pursue a Master's degree in Machine Learning this coming Fall. 1-2 years in the future, after obtaining my Master's, I see myself working as a Machine Learning Engineer or an ML Researcher for a couple of years. But ultimately, I dream of making significant contributions to the field of Machine Learning myself. I hope to make a contribution that impacts ML and inspires others to pursue Machine Learning as an industry or academic career choice, whether by creating a new algorithm, pushing for revolutionary new techniques, or giving back to the ML community through education with podcasts or online courses. I currently have my sights set on creating an analytical tool to visualize all the inner workings of Neural Networks as they train, enabling ML engineers to truly understand the models they build and develop more effective models in the future.
+
+## Anticipatory Thanks
+
+I look forward to being matched with a mentor and the community of learners that this program provides. I also hope to share my own experiences with others, guiding us all along our academic journeys.

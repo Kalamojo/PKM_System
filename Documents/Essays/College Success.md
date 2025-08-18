@@ -1,0 +1,13 @@
+# College Success
+#📝Essay
+
+## [[🏫 Carnegie Mellon#Short Answers]]
+Throughout my Junior and Senior high school years, I have experimented with various learning methods and techniques to discover the best way to learn. It has not been an easy task, and I have tried everything from written notes to typed, planners to todo-lists, and calendars to time-blocking. I have sampled these methods with varying results, and I still have a ways to go to make something final.
+Having the opportunity to experiment with high-level curriculum and activities would go a long way in helping me find an academic system. I could also find inspiration from other students, noting how they get things done.
+A successful college experience is one in which I have worked out a productivity system that makes the best use of my time and efforts.
+In addition to general productivity, I wish to finalize my academic major and career options. Even as I apply for universities and select my major for each one, I find myself unsure of the specific path to take. Computer Science is a vast field with many disciplines, and it is daunting knowing that I will have to make a decision. Listening to academic and industry professionals speak about their line of work, especially in Computer Science, has made it clear that these men and women enjoy their professions and find their work fulfilling. One day, I wish to find that same fulfillment in whichever field of study I choose.
+
+## [[💸 Amazon Future Engineer#Short Answer]]
+I am pursuing Computer Science intending to become a Data Scientist in the future. I plan to use my education and skills to help corporations and individuals utilize Artificial Intelligence to revolutionize their work. A.I. is taking the world by storm, and I hope to help revolutionize the field even further and make use of its methods.
+I will pursue a Master's Degree in Computer Science or Machine Learning, devoting my studies to understanding both the theory and applications of each field. I have yet to decide on either the Academic or Industry route past my Master's Degree, and I hope to make this decision after exploring both in college.
+Ultimately, I hope to make an impact on people around the world by automating menial processes and giving them time for more meaningful pursuits. Education is my means to achieving this goal, so I am excited to attend college and move one step closer to accomplishing it.

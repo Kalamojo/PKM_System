@@ -1,0 +1,14 @@
+# Significant Activities
+#📝Essay
+
+## [[🏫 UT Austin#Honors Program]]
+My first computer science course was during my freshman year of high school. In Computer Science Principles I was introduced to coding in general, and I gained a deep interest in understanding how to command a device to carry out certain objectives. During 10th grade, however, I followed a more independent path in learning. I took to learning the basics of HTML, CSS, and JavaScript. Website creation was, and still is, a highly satisfying process, so I enjoyed following various tutorials to help me accomplish that.
+It was during my senior year of high school that I began to take a much more active role in furthering my formal education in Computer Science. With my mathematics requirements fulfilled the previous year, I was able to take Computer Science 1, Computer Science Lab, and Introduction to Computer Science. These courses have taught me a lot about object-oriented programming and programming fundamentals. In addition, I have also learned a little about how exactly computers function and carry out procedures.
+I also joined the Frontera Devs Mentorship program in 12th grade, and it has been exceptionally helpful for preparing me for Computer Science industry positions. From resume reviews to general discussions of my future goals, Frontera Devs has given me the confidence to pursue a job in the field.
+Next semester, I will be continuing my education with more Computer Science courses like Computer Science 2, Mathematical Foundations of Computer Science, and Introduction to Data Science.
+Not so long ago, I never would have dreamed that I would take courses dedicated to programming and writing code. It has been an interesting and enriching experience, and I believe I am adjusting to this dynamic.
+
+## [[🏫 Princeton#Extracurricular Activity and Work Experience]]
+During the summer of my Junior year of Highschool, I participated in the UTRGV High Scholars program with one other partner. We were assigned a professor from UTRGV as a mentor and college students as assistant mentors. My partner and I found sources from scientific papers, performed virtual experiments with software, and conducted meaningful independent research.
+By the time our project posters were due, we had organized a research paper on "Detecting Estrogen by Utilizing Piezoelectric-Based Microcantilevers." We then had the opportunity to present our findings to professors and other student researchers. My partner and I received third place in the Mathematics and Engineering department.
+This experience exposed me to the academic world and scientific research. I collaborated with my peers and University professors to produce a research paper and share my findings. It was a real challenge, but certainly a rewarding one.

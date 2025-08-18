@@ -1,0 +1,17 @@
+# Background
+#📝Essay
+
+## [[🏫 MIT#Identity]]
+I was born in Nigeria, and after having lived there for 2 years, my family emigrated to the United States. While I have lived in this country for as long as I can remember, my family still holds close ties to our home country. We primarily eat foods native to Nigeria and we occasionally don Yoruba clothing for Church. My siblings and I have also struggled to learn our native language, Yoruba, but to no avail. Our parents constantly exploit us for it, conversing between themselves in their "secret code". My family is Catholic as well, and we go to Mass every Sunday, Monday, and Friday.
+
+## [[🏫 MIT#Identity]]
+At two years old, I emigrated to America to arrive at a small town in Washington state. It was from there that my first memories came, and where three of my sibling were born. At the age of 8, I moved once again. My dad was offered a job in Texas, and I was forced to leave my friends and the only home I had ever known. Since then, I have adapted to my new life; I have made new friends, continued my education, and explored my interests.
+Adapting to a new environment was not easy, especially since I was a minority in the areas I stayed. I initially had difficulty making friends here in Texas and was unsure of myself. As time passed, I slowly grew more self-confident. Taking an interest in website design and computer architecture, I decided upon Computer Science as a career path. I have stumbled and faltered in my academic and personal life, but I can honestly say that my experiences have aided me in my endeavors and helped shape the individual I am now.
+
+## [[🏫 MIT#Identity]]
+With the exception of my 3 younger siblings, my entire family was born in Nigeria. My parent's decision to leave to America was a bold and unprecedented choice. My dad wished to continue his education here, and my mom supported him and wished to give her children the best chance in life. Over the course of my upbringing, my parents were forced to adapt to a new environment and way of life. My dad pursued a PhD at Washington State University and searched for jobs to support our family.
+Over the course of our 6 years in Washington, my mom had 3 more children, completing my family.
+
+## [[💸 Millman Opportunity]]
+I was born in Nigeria, and at the ripe age of 2, my family emigrated to the United States. While I have lived in this country for as long as I can remember, my family still holds close ties to our home country. We primarily eat foods native to Nigeria like the satisfying pounded-yam, the filling jollof rice, and the sweet dessert chin-chin. My parents have tried their hardest to continue the traditions their parents taught them years ago, and it has been interesting to observe Nigerian customs in the US.
+Growing up in Washington, my four siblings and I rarely encountered African or African American children. That experience of often being the only dark-skinned individual in a classroom further solidified my identity as a Nigerian boy. Since moving from Washington to Texas, my family has continued practicing Nigerian culture. A few years ago, I even got the chance to revisit my birth country and stay with my relatives for a few weeks. It was an enjoyable experience I will never forget.

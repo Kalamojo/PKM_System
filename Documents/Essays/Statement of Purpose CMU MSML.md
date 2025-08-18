@@ -1,0 +1,23 @@
+# Statement of Purpose CMU
+#📝Essay
+
+
+## Introduce Who You Are
+
+My education journey, spanning two continents and eight different schools, was fairly consistent up until 10th grade. After emigrating from Nigeria to the US, I went through the motions of a standard student and slowly began developing habits for schoolwork. I made conscious efforts to separate my academic endeavors from my personal interests. Homework, projects, and even studying were done in class whenever possible to maximize my free time at home. It wasn't until my Sophomore year of high school that I found any reason to contradict this lifestyle. I took a required Computer Science Principles course, and our first assignment was to use a programming environment called Jeroo to move these kangaroo avatars through obstacle courses and solve puzzles. Those programming assignments were the first pieces of schoolwork that I willingly thought about and completed outside of class. There was something about solving problems in such a way that was irresistible to me, and I began to consider a future that involved programming professionally. My personal interests and academic pursuits had finally collided.
+
+## Academic Interests
+
+From my time studying Computer Science, the most intriguing subject for me has been the training process of Machine Learning models. It's astonishing how simply providing a model a measurement of its performance enables it to learn to complete a task, and how that framework has led to models that can do things such as predicting the future and holding conversations with humans. My research with Dr. Ayati of The University of Texas Rio Grande Valley utilized Transfer Learning to predict the development of Alzheimer's from proteomics data, and I found the research of potential training methods to accomplish that task to be the most exciting part of the project. My advisor and I would spend many meetings discussing not only how each method works in practice, but more importantly why they work. Since taking an interest in this space, I've often worked on designing those integral questions that allow models to achieve answers.
+
+## Future Academic Goals
+
+To apply these interests, I hope to conduct research here in the Machine Learning department. More specifically, I believe my focus on developing innovative learning methods for Machine Learning models aligns very closely with those of Dr. Ruslan Salakhutdinov and could contribute to one of his multiple emerging research directions pushing the boundaries of what is possible with Deep Learning. I can also see myself working with Dr. Katerina Fragkiadaki to develop intuitive ways to teach models to create embeddings or predict 3D renders given sets of 2D images, primarily focusing on designing training methods that utilize human-inspired perception concepts. Having conducted research in the Xu lab for the past few months, I'm certain that I would also work well with Dr. Min Xu on his Deep Learning applications in cryo-electron tomography, specifically researching unsupervised and semi-supervised methods for cryo-ET. Each of these professors is pursuing groundbreaking work in their respective areas, and I believe that I can contribute and make an impact in any one of their labs.
+
+## Long-Term Goals
+
+One of the primary reasons for pursuing admission to this Master's program is to confirm whether I ultimately wish to continue my education with a Ph.D. or obtain an industry research position. In the words of Dr. Salakhutdinov, while academia has more freedom, industry has a more immediate impact on users, and the best way to determine which to pursue is to try them for yourself. In any case, I hope to contribute to the field of Machine Learning as a whole, whether by developing new training algorithms or pushing for the application of revolutionary methods in new fields. I currently have my sights set on developing more intelligent loss functions that adapt to environments along with the models they guide, enabling more robust learning for many ML frameworks.
+
+## Anticipatory Thanks
+
+I look forward to working with an advisor in the program and the revolutionary community of researchers and learners in Carnegie Mellon's Machine Learning department. I also hope to share my experiences and perspectives with others in an effort to help guide us all toward further development in this exciting field.

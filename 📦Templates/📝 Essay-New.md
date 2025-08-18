@@ -1,6 +1,0 @@
-## [[]]
-
-### Brainstorm
-- 
-
-### Draft

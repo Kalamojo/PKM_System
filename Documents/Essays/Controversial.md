@@ -1,0 +1,7 @@
+# Controversial
+#📝Essay
+
+## [[🏫 Princeton#Your Voice]]
+While conversing with a friend from my old school, we happened upon the topic of abortion. I was under the impression that it was wrong and that it should be prevented while my friend strongly believed that mothers had the right to abort. This was a tense discussion, and as the conversation progressed, we both became more and more insistent on our own views and beliefs. Noticing the the escallating agression in each of us, I tried to change the direction of our talk and try something new.
+Instead of insisting on my own view and it's benefits, I asked my friend what worlds in which each of our views won-out would be like. Taking that perspective, we speculated on the effects of abortion and anti-abortion policies. By taking the time to talk about these possibilities, we were able to discover the negative effects of each viewpoint. While I am still certain of the unfairness to unborn children abortion holds, unwanted children can end up being abandoned and left to our adoption services and the foster child system. This is one area that can be improved upon substantially to help improve the lives of children and lower abortion rates.
+My conversation with my friend helped me realize that the solutions being discussed may not always be the only ones. If we take the time to truly understand those we argue with, we can come up with ways to satisfy everyone's needs.
