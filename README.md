@@ -22,6 +22,3 @@ banner_x: 0.5
 ```dataview
 CALENDAR file.cday
 ```
-
-Mobile sync test
-Number 4
