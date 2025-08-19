@@ -42,3 +42,5 @@ I gained an interest for AI Safety after taking a Data Mining & Machine Learning
 ### Final Draft
 
 I formed an interest in AI Safety after taking a Data Mining & Machine Learning course by Dr. Yifeng Gao at The University of Texas Rio Grande Valley, where he introduced me to scenarios in which widely-used "state of the art" ML models contained potentially very unsafe properties, like in the case of Robert Geirhos' "ImageNet-trained CNNs are biased towards texture" paper. After this, I searched for other areas in which models could be untrustworthy or unreliable, which led me to several related research papers. It was this direction that informed the theme of my Statement of Purpose for my Master's applications, which then led me to the program here at the University of Maryland. With any luck, this opportunity will lead me to many more in the future.
+
+Extra line
