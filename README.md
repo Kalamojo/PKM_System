@@ -23,4 +23,4 @@ banner_x: 0.5
 CALENDAR file.cday
 ```
 
-Mobile test
+Mobile sync test
