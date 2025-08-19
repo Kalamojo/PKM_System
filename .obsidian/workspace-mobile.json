@@ -15,7 +15,8 @@
               "state": {
                 "file": "💭Reflection/Quotes/Goofy ahhh Quotes.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Goofy ahhh Quotes"
@@ -62,8 +63,8 @@
         "state": {
           "type": "recent-files",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "lucide-ghost",
+          "title": "recent-files"
         }
       },
       {
@@ -89,8 +90,8 @@
         "state": {
           "type": "file-tree-view",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "lucide-ghost",
+          "title": "file-tree-view"
         }
       },
       {
@@ -111,8 +112,8 @@
           "state": {
             "sortOrder": "frequency"
           },
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "lucide-ghost",
+          "title": "all-properties"
         }
       }
     ],
@@ -159,8 +160,8 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
+          "icon": "lucide-ghost",
+          "title": "calendar"
         }
       },
       {
@@ -182,17 +183,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "dbfolder:Create a new database table": false,
-      "periodic-notes:Open this week": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "91152b6c993f426b",
