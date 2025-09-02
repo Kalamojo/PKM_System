@@ -7,7 +7,7 @@ type: note
 
 From what I understand, variational autoencoders are simply weird autoencoders used for generating [[Data]] rather than learning more about the original data.
 
-Autoencoders take input data, [[Encoder|encode]]  it to a dense representation, and then [[Decoder|decode]]  it to regenerate the original data. This sounds useless at first glance, but once an autoencoder is good at this process, we can learn a lot about their encoded data. Similar to Principal Component Analysis (PCA), these encodings are great for [[Dimensionality]] reduction, a useful [[Representation Learning|representation]] for training models and gaining general insights about data.
+Autoencoders take input data, [[Encoder|encode]]  it to a dense representation, and then [[Decoder|decode]]  it to regenerate the original data. This sounds useless at first glance, but once an autoencoder is good at this process, we can learn a lot about their encoded data. Similar to Principal Component Analysis (PCA), these encodings are great for [[Dimensionality]] reduction, a useful [[Notes/Representation Learning|representation]] for training models and gaining general insights about data.
 
 Variational Autoencoders also train to be good at this process of encoding and decoding. However, when making "predictions", they alter data at the encoded stage to reproduce a variant of their original data that is "unique".
 
