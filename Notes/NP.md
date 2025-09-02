@@ -1,7 +1,7 @@
 ---
 alias: [Nondeterministic Polynomial Time]
 subject: Automata
-tags: [school]
+tags: [undergrad]
 ---
 # NP
 

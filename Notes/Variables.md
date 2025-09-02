@@ -1,7 +1,7 @@
 ---
 alias: [Variable]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Variables
 

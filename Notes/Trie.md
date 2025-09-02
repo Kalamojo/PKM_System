@@ -1,7 +1,7 @@
 ---
 alias: [Prefix Tree]
 subject: Data Structures and Algorithms
-tags: [school]
+tags: [undergrad]
 ---
 # Trie
 

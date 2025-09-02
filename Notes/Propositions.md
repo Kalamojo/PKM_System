@@ -1,7 +1,7 @@
 ---
 alias: [Proposition]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Propositions
 

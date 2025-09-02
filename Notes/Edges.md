@@ -1,7 +1,7 @@
 ---
 alias: [Edge]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Edges
 

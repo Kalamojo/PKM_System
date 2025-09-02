@@ -1,7 +1,7 @@
 ---
 alias: [Sorting Algorithms]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # Sort Algorithms
 

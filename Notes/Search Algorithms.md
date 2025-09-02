@@ -1,7 +1,7 @@
 ---
 alias: [Search Algorithm]
 subject: School
-tags: [school]
+tags: [undergrad]
 ---
 # Search Algorithms
 

@@ -1,7 +1,7 @@
 ---
 alias: [Binary Trees]
 subject: Data Structures and Algorithms
-tags: [school]
+tags: [undergrad]
 ---
 # Binary Tree
 

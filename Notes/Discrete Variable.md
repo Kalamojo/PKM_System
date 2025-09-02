@@ -1,7 +1,7 @@
 ---
 alias: [Discrete]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Discrete Variable
 

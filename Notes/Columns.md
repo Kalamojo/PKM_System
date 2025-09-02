@@ -1,7 +1,7 @@
 ---
 alias: [Column]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Columns
 

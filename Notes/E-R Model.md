@@ -1,7 +1,7 @@
 ---
 alias: [Entity-Relationship Model]
 subject: Database Design
-tags: [school]
+tags: [undergrad]
 ---
 # E-R Model
 

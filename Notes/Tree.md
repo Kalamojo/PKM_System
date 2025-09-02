@@ -1,7 +1,7 @@
 ---
 alias: [Trees]
 subject: Automata
-tags: [school]
+tags: [undergrad]
 ---
 # Tree
 

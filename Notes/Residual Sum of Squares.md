@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Residual Sum of Squares
 

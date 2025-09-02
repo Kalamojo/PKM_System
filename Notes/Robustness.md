@@ -1,7 +1,7 @@
 ---
 alias: [Robust]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Robustness
 

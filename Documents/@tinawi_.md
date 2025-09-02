@@ -1,9 +1,11 @@
 ---
 alias: Machine Learning for Time Series Anomaly Detection
 authors: Ihssan Tinawi
-year: 
+year:
 type: paper
-tags: academic
+tags:
+  - academic
+  - annotation
 page(s): 55
 ---
 > [!abstract] 

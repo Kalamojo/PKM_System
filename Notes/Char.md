@@ -1,7 +1,7 @@
 ---
 alias: [character]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # Char
 

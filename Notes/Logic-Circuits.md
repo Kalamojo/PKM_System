@@ -1,7 +1,7 @@
 ---
 alias: [Digital Logic]
 subject: Digital Systems Engineering
-tags: [school]
+tags: [undergrad]
 ---
 # Logic-Circuits
 

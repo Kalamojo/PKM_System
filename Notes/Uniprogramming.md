@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Operating Systems
-tags: [school]
+tags: [undergrad]
 ---
 # Uniprogramming
 

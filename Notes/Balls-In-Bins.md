@@ -1,7 +1,7 @@
 ---
 alias: [Stars and bars]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Balls-In-Bins
 

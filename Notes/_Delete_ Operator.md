@@ -1,7 +1,7 @@
 ---
 alias: [Delete, del]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # 'Delete' Operator
 

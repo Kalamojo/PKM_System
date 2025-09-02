@@ -1,7 +1,7 @@
 ---
 alias: [Similar]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Similarity
 

@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Data Structures and Algorithms
-tags: [school]
+tags: [undergrad]
 ---
 # Radix Sort
 

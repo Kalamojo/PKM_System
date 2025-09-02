@@ -1,7 +1,7 @@
 ---
 alias: [Standard Score]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Z-value
 

@@ -1,7 +1,7 @@
 ---
 alias: [\subset, \subseteq]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Subset
 

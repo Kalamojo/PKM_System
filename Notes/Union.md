@@ -1,7 +1,7 @@
 ---
 alias: [\cup]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Union
 

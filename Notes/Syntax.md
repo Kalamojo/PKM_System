@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Organization of Programming Languages
-tags: [school]
+tags: [undergrad]
 ---
 # Syntax
 

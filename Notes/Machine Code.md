@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: 
-tags: [school]
+tags: [undergrad]
 ---
 # Machine Code
 

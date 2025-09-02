@@ -1,6 +1,8 @@
 ---
 type: article
-tags: academic
+tags:
+  - academic
+  - annotation
 ---
 
 # Artificial Intelligence Wiki

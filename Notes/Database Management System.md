@@ -1,7 +1,7 @@
 ---
 alias: [DBMS]
 subject: Database Design
-tags: [school]
+tags: [undergrad]
 ---
 # Database Management System
 

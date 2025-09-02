@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Deep Learning
-tags: [school]
+tags: [undergrad]
 ---
 # Learning
 

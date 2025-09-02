@@ -1,7 +1,7 @@
 ---
 alias: [\supset, \supseteq]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Superset
 > [!note]

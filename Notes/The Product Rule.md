@@ -1,7 +1,7 @@
 ---
 alias: [Product Rule]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # The Product Rule
 

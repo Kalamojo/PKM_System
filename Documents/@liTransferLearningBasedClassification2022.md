@@ -3,8 +3,10 @@ alias: A Transfer Learning-Based Classification Model for Particle Pruning in Cr
 authors: Hongjia Li, Ge Chen, Shan Gao, Jintao Li, Xiaohua Wan, Fa Zhang
 year: 2022
 type: paper
-tags: academic
-page(s): 
+tags:
+  - academic
+  - annotation
+page(s):
 ---
 > [!abstract]
 > The cryo-electron microscopy (cryo-EM) single-particle analysis requires tens of thousands of particle projections to reveal structural information of macromolecular complexes. However, due to the low signal-to-noise ratio and the presence of high contrast artifacts and contaminants in the micrographs, the semiautomatic and fully automatic particle picking algorithms tend to suffer from high false-positive rates, which degrades the confidence of structure determination. In this study, we introduce PickerOptimizer (PO), a transfer learning-based classification neural network for particle pruning in cryo-EM, as an additional strategy to complement the current automated particle picking algorithms. To achieve high classification performance with minimal human intervention, we adopted two key strategies: (1) utilizing the transfer learning techniques to train the convolutional neural network, where the knowledge gained from public classification datasets is applied to the field of cryo-EM. (2) Designing a multiloss strategy, a combination of multiple loss functions, to guide the optimization of the network parameters. To reduce the domain shift between cryo-EM images and natural images for pretraining, we build the first image classification dataset for cryo-EM, which contains positive and negative samples collected from EMPIAR entries. The PO is tested on 14 public experimental datasets, achieving accuracy and F1 scores above 95% in most cases. Furthermore, three case studies are provided to verify the model performance by applying PO on problematic particle selections, showing that our algorithm achieved better or comparable performance compared with other particle pruning strategies.

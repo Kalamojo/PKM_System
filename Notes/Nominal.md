@@ -1,7 +1,7 @@
 ---
 alias: [Symbol]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Nominal
 

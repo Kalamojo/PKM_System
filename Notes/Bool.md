@@ -1,7 +1,7 @@
 ---
 alias: [boolean]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # Bool
 

@@ -1,7 +1,7 @@
 ---
 alias: [Dimensions, Dimension]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Dimensionality
 

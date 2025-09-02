@@ -1,7 +1,7 @@
 ---
 alias: [RAM, Random Access Memory]
 subject: Operating Systems
-tags: [school]
+tags: [undergrad]
 ---
 # Main Memory
 

@@ -1,7 +1,7 @@
 ---
 alias: [integer]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # Int
 

@@ -1,9 +1,9 @@
 ---
 alias: []
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
-# C++ Basic Types #next
+# C++ Basic Types #⌛TBC 
 
 
 1. [[Char]]

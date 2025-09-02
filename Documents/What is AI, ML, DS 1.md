@@ -1,6 +1,8 @@
 ---
 type: podcast
-tags: academic
+tags:
+  - academic
+  - annotation
 ---
 # What is AI, ML, DS
 

@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Data Mining
-tags: [school]
+tags: [undergrad]
 ---
 # Data Mining
 

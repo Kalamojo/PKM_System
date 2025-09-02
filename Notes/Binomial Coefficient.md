@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Binomial Coefficient
 

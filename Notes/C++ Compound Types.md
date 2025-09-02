@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # C++ Compound Types
 

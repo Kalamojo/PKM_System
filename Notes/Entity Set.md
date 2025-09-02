@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Database Design
-tags: [school]
+tags: [undergrad]
 ---
 # Entity Set
 

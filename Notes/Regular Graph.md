@@ -1,7 +1,7 @@
 ---
 alias: [K-regular Graph, K-regular]
 subject: Automata
-tags: [school]
+tags: [undergrad]
 ---
 # Regular Graph
 

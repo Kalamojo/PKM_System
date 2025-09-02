@@ -1,7 +1,7 @@
 ---
 alias: [Expected surprise, Randomness, Uncertainty]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Entropy
 

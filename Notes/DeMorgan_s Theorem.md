@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Digital Systems Engineering
-tags: [school]
+tags: [undergrad]
 ---
 # DeMorgan's Theorem
 

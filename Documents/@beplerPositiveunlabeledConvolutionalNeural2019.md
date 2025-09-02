@@ -3,7 +3,9 @@ alias: Positive-unlabeled convolutional neural networks for particle picking in 
 authors: Tristan Bepler, Tristan Bepler, Andrew Morin, Micah Rapp, Julia Brasch, Lawrence Shapiro, Alex J. Noble, Bonnie Berger
 year: 2019
 type: paper
-tags: academic
+tags:
+  - academic
+  - annotation
 page(s): 1153–1160
 ---
 > [!abstract]

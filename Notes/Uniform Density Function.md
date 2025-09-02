@@ -1,7 +1,7 @@
 ---
 alias: [Uniform Density]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Uniform Density Function
 

@@ -1,7 +1,7 @@
 ---
 alias: [Vertex, Node]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Vertices
 

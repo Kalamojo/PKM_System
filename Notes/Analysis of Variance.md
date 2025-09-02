@@ -1,7 +1,7 @@
 ---
 alias: [ANOVA]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Analysis of Variance
 

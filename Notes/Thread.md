@@ -1,7 +1,7 @@
 ---
 alias: [Threads]
 subject: Operating Systems
-tags: [school]
+tags: [undergrad]
 ---
 # Thread
 

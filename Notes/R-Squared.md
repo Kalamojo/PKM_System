@@ -1,7 +1,7 @@
 ---
 alias: [r^2, Coefficient of Determination]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # R-Squared
 

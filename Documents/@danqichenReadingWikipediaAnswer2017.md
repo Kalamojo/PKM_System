@@ -3,7 +3,9 @@ alias: Reading Wikipedia to Answer Open-Domain Questions
 authors: Danqi Chen, Danqi Chen, Adam Fisch, Adam Fisch, Jason Weston, Jason Weston, Antoine Bordes, Antoine Bordes
 year: 2017
 type: paper
-tags: academic
+tags:
+  - academic
+  - annotation
 page(s): 1870–1879
 ---
 > [!abstract]

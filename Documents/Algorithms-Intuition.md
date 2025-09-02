@@ -68,4 +68,4 @@ The Reinforcement Learning "The floor is lava" concept allows algorithms to solv
 			- Deep Q Networks
 
 ## References
-1. [[Documents/Annotations/Algorithms-Intuition]]
+1. [[Algorithms-Intuition 1]]

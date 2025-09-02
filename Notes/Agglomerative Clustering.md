@@ -1,7 +1,7 @@
 ---
 alias: [Bottom-up clustering]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Agglomerative (Bottom-up) Clustering
 

@@ -1,7 +1,7 @@
 ---
 alias: [Characteristic, Property, Independent Variable]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Feature
 
@@ -13,5 +13,5 @@ tags: [school]
 
 ## References
 1. [[Notes/Machine Learning]]
-2. [[Documents/Annotations/Algorithms-Intuition]]
+2. [[Algorithms-Intuition 1]]
 3. [[Algorithm]]

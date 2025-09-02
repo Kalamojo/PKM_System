@@ -1,7 +1,7 @@
 ---
 alias: [Data Structure]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # Data Structures
 

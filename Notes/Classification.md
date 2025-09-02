@@ -1,7 +1,7 @@
 ---
 alias: [Classify, Classifying]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Classification
 

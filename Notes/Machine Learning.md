@@ -1,7 +1,7 @@
 ---
 alias: [ML]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Machine Learning
 

@@ -3,7 +3,9 @@ alias: Prediction of epidemic trends in COVID-19 with logistic model and machine
 authors: Peipei Wang, Xinqi Zheng, Jiayang Li, Bangren Zhu
 year: 2020
 type: paper
-tags: academic
+tags:
+  - academic
+  - annotation
 page(s): 110058–110058
 ---
 > [!abstract]

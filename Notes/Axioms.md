@@ -1,7 +1,7 @@
 ---
 alias: [axiom]
 subject: Digital Systems Engineering
-tags: [school]
+tags: [undergrad]
 ---
 # Axioms
 

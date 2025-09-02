@@ -1,7 +1,7 @@
 ---
 alias: [AIC]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Aikaike Information Criterion
 

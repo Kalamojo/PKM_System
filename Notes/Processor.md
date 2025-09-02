@@ -1,7 +1,7 @@
 ---
 alias: [CPU, Central Processing Unit]
 subject: Operating Systems
-tags: [school]
+tags: [undergrad]
 ---
 # Processor
 

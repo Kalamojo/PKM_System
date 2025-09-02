@@ -1,7 +1,7 @@
 ---
 alias: [Count]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # Counting
 

@@ -1,7 +1,7 @@
 ---
 alias: [Sum Rule]
 subject: Math Foundations of CS
-tags: [school]
+tags: [undergrad]
 ---
 # The Sum Rule
 

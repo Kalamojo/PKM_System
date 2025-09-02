@@ -3,8 +3,10 @@ alias: Conditional out-of-distribution generation for unpaired data using transf
 authors: Mohammad Lotfollahi, Mohsen Naghipourfar, Fabian J. Theis, Fabian J. Theis, F. Alexander Wolf
 year: 2020
 type: paper
-tags: academic
-page(s): 
+tags:
+  - academic
+  - annotation
+page(s):
 ---
 > [!abstract]
 > MOTIVATION While generative models have shown great success in sampling high-dimensional samples conditional on low-dimensional descriptors (stroke thickness in MNIST, hair color in CelebA, speaker identity in WaveNet), their generation out-of-distribution poses fundamental problems due to the difficulty of learning compact joint distribution across conditions. The canonical example of the conditional variational autoencoder (CVAE), for instance, does not explicitly relate conditions during training and, hence, has no explicit incentive of learning such a compact representation. RESULTS We overcome the limitation of the CVAE by matching distributions across conditions using maximum mean discrepancy in the decoder layer that follows the bottleneck. This introduces a strong regularization both for reconstructing samples within the same condition and for transforming samples across conditions, resulting in much improved generalization. As this amount to solving a style-transfer problem, we refer to the model as transfer VAE (trVAE). Benchmarking trVAE on high-dimensional image and single-cell RNA-seq, we demonstrate higher robustness and higher accuracy than existing approaches. We also show qualitatively improved predictions by tackling previously problematic minority classes and multiple conditions in the context of cellular perturbation response to treatment and disease based on high-dimensional single-cell gene expression data. For generic tasks, we improve Pearson correlations of high-dimensional estimated means and variances with their ground truths from 0.89 to 0.97 and 0.75 to 0.87, respectively. We further demonstrate that trVAE learns cell-type-specific responses after perturbation and improves the prediction of most cell-type-specific genes by 65%. AVAILABILITY AND IMPLEMENTATION The trVAE implementation is available via github.com/theislab/trvae. The results of this article can be reproduced via github.com/theislab/trvae_reproducibility.

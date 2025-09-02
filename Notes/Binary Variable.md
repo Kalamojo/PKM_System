@@ -1,7 +1,7 @@
 ---
 alias: [boolean variable]
 subject: Digital Systems Engineering
-tags: [school]
+tags: [undergrad]
 ---
 # Binary Variable
 

@@ -1,10 +1,9 @@
 ---
-alias: [&]
+alias: [\&]
 subject: Computer Science 2
-tags: [school]
+tags: [undergrad]
 ---
 # Address-of Operator
-
 
 > [!note]
 > When paired with a variable, returns the memory address of said variable.

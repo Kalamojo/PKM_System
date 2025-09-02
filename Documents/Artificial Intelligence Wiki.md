@@ -17,4 +17,4 @@ Machine perception is an AI's ability to use senses to understand aspects of the
 Machines with general intelligence can perform a wide range of tasks in a number of ways, similar to a human.
 
 ## References
-1. [[Documents/Annotations/Artificial Intelligence Wiki]]
+1. [[Artificial Intelligence Wiki 1]]

@@ -1,7 +1,7 @@
 ---
 alias: [DS]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Data Science
 

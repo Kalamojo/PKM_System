@@ -1,7 +1,7 @@
 ---
 alias: [Sum of Product, SOP]
 subject: Digital Systems Engineering
-tags: [school]
+tags: [undergrad]
 ---
 # Sum of Product Form
 

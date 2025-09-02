@@ -1,7 +1,7 @@
 ---
 alias: []
 subject: Automata
-tags: [school]
+tags: [undergrad]
 ---
 # Node Degree
 

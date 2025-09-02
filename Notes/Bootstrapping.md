@@ -1,7 +1,7 @@
 ---
 alias: [bootstrap]
 subject: Data Science Intro
-tags: [school]
+tags: [undergrad]
 ---
 # Bootstrapping
 
