@@ -23,4 +23,4 @@ banner_x: 0.5
 CALENDAR file.cday
 ```
 
-Yet another test sync
+Yet another test syncing
