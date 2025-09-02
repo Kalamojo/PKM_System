@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "ad40f9b032a86279",
+    "type": "split",
+    "children": [
+      {
+        "id": "636c01a5a1ba9b49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91152b6c993f426b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Computer Graphics/Primary Rays.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Primary Rays"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "352eddaf40c8076d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "cf561b1eb3c5b8c7",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "72e8e5f66fb2fabc",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "3690467c577e64c1",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "recent-files"
+        }
+      },
+      {
+        "id": "a09ee8d0160089fc",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Algorithms",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "0b1c25e553f4fda2",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "file-tree-view"
+        }
+      },
+      {
+        "id": "244ab1677889dc0c",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "718726e9349616cc",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          },
+          "icon": "lucide-ghost",
+          "title": "all-properties"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "35ec9f3b7fa2d303",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7ea9c19ae9f1068c",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "📒Planner/🥋Grad/2024/Prospective Advisors/UC Irvine.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "6454a8dc6c8205a8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "📒Planner/🥋Grad/2024/Prospective Advisors/UC Irvine.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "480e9997b947e170",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "calendar"
+        }
+      },
+      {
+        "id": "73e748ee10bb9885",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "📒Planner/🥋Grad/2024/Prospective Advisors/UC Irvine.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "91152b6c993f426b",
+  "lastOpenFiles": [
+    "Notes/Computer Graphics/Caustics.md",
+    "Notes/Machine Learning Theory/Classical ML.md",
+    "Notes/Regression.md",
+    "Notes/_Delete_ Operator.md",
+    "README.md",
+    "_Archive/⚜️Fleeting/Things to Work On (If desperate).md",
+    "_Archive/💭Reflection/Quotes/Podcast Quotes.md",
+    "_Archive/💭Reflection/Quotes/Book Quotes.md",
+    "_Archive/⚜️Fleeting/Shallow Algorithms.md",
+    "_Archive/⚜️Fleeting/Research Conferences.md",
+    "_Archive/💭Reflection/🍲Restaurant Recommendations.md",
+    "_Archive/💭Reflection/Things to Work On.md",
+    "Documents/@liTransferLearningBasedClassification2022.md",
+    "Documents/Essays/SPAR Applications.md",
+    "💭Reflection/Things to Work On.md",
+    "💭Reflection/📜Title Ideas.md",
+    "Notes/Data.md",
+    "💭Reflection/Quotes/Book Quotes.md",
+    "💭Reflection/Quotes/Goofy ahhh Quotes.md",
+    "💭Reflection/Quotes/Real People Quotes.md",
+    "📒Planner/🥋Grad/2024/Prospective Advisors/UMD College Park.md",
+    "📒Planner/🥋Grad/2024/Ranking Scores.md",
+    "📒Planner/🥋Grad/2024/Fellowships.md",
+    "📒Planner/🥋Grad/2024/Prospective Advisors/UT Dallas.md",
+    "📒Planner/🥋Grad/2024/Prospective Advisors/Columbia University.md",
+    "📒Planner/🥋Grad/2024/Prospective Advisors/Boston University.md",
+    "🧪Academic/Research/TrVAE",
+    "🧪Academic/Research/School",
+    "💭Reflection/Entertainment/Bookshelf",
+    "💭Reflection/Entertainment"
+  ]
+}
