@@ -1,7 +1,8 @@
 ---
 alias: []
 subject: <% tp.file.folder() %>
-tags: [undergrad]
+tags:
+  - masters
 ---
 # <% tp.file.title %>
 

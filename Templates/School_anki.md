@@ -1,7 +1,8 @@
 ---
 alias: []
 subject: <% tp.file.folder() %>
-tags: [undergrad]
+tags:
+  - masters
 ---
 TARGET DECK: <% tp.file.title %>
 <% tp.file.rename("🗃️ " + tp.file.title) %>
