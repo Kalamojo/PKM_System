@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # Tabular Data
 
-```ad-note
-Data that is structured into rows, each of which contains information about some thing. It is the simplest way to present data.
-```
+> [!note]
+> Data that is structured into rows, each of which contains information about some thing. It is the simplest way to present data.
 
 ## References
 1. [[Data Matrix]]

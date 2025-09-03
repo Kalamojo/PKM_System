@@ -5,9 +5,8 @@ tags: [personal]
 # Data Showcasing
 
 
-```ad-note
-Showcase a lot of [[Data]] so your audince members can think for themselves and decide what's important.
-```
+> [!note]
+> Showcase a lot of [[Data]] so your audince members can think for themselves and decide what's important.
 ## Qualities
 Your [[Notes/Data Visualization]] should be:
 - Highly contextual

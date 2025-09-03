@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # Sample Standard Deviation
 
-```ad-note
-The average distance of observed values from the expected values. Also calculated as the square root of the sample variance.
-```
+> [!note]
+> The average distance of observed values from the expected values. Also calculated as the square root of the sample variance.
 
 > [!math]
 > $$s=\sqrt{\frac{\sum_{i=1}^{N}\left(x_{i}-\bar{x}\right)^{2}}{N-1}}$$

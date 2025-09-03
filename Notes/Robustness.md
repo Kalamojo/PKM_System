@@ -6,14 +6,12 @@ tags: [undergrad]
 # Robustness
 
 
-```ad-note
-A statistic is robust if it is not affected by extreme values (like outliers).
-```
+> [!note]
+> A statistic is robust if it is not affected by extreme values (like outliers).
 
-```ad-example
-- Median
-- Mode
-```
+> [!example]
+> - Median
+> - Mode
 
 ## References
 1. [[Descriptive Statistics]]

@@ -6,9 +6,8 @@ tags: [undergrad]
 # Normalization
 
 
-```ad-note
-The process of transforming data features to be on a similar scale. This allows other processes to run more smoothly with fewer errors.
-```
+> [!note]
+> The process of transforming data features to be on a similar scale. This allows other processes to run more smoothly with fewer errors.
 
 ## References
 1. [[Range Normalization]]

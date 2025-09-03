@@ -12,13 +12,12 @@ tags: [undergrad]
 > [!quote] 
 > "A range of plausible values for a population parameter with a certain level of confidence."
 
-```ad-math
- $$X \pm Z \frac{s}{\sqrt{n}}$$
- - $X=$ value that the confidence interval is being computed for
- - $Z=$ z value for the desired confidence interval
- - $s=$ standard deviation of the sample
- - $n=$ sample size
-```
+> [!math]
+>  $X \pm Z \frac{s}{\sqrt{n}}$
+>  - $X=$ value that the confidence interval is being computed for
+>  - $Z=$ z value for the desired confidence interval
+>  - $s=$ standard deviation of the sample
+>  - $n=$ sample size
 
 ## References
 1. [[Probability]]

@@ -4,9 +4,8 @@ tags: [personal]
 ---
 # Regression
 
-```ad-note
-Regression models find the relationship between dependent variables and independent variables. Their [[Label|outputs]] are [[Continuous]]. 
-```
+> [!note]
+> Regression models find the relationship between dependent variables and independent variables. Their [[Label|outputs]] are [[Continuous]]. 
 
 ## References
 1. [[Notes/Linear Regression]]

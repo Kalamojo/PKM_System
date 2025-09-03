@@ -6,9 +6,8 @@ tags: [undergrad]
 # True Positive
 
 
-```ad-note
-Predicted positive: is actually positive.
-```
+> [!note]
+> Predicted positive: is actually positive.
 
 ## References
 1. 

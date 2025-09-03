@@ -6,9 +6,8 @@ tags: [undergrad]
 # Proximity Measuring
 
 
-```ad-note
-A measure of either similarity or dissimilarity of given points. Is used to evaluate how far points are from one another.
-```
+> [!note]
+> A measure of either similarity or dissimilarity of given points. Is used to evaluate how far points are from one another.
 
 ## References
 1. [[Notes/Clustering]]

@@ -8,11 +8,10 @@ tags: [undergrad]
 > [!note]
 > A string is a set of characters. It can even be represented as an array of characters. These are words, symbols, and numbers, all surrounded by quotation marks.
 
-````ad-example
-```cpp
-string name = "Kolade Alabi";
-char firstName[6] = {'K', 'o', 'l', 'a', 'd', 'e'};
-````
+> [!example]
+> ```cpp
+> string name = "Kolade Alabi";
+> char firstName[6] = {'K', 'o', 'l', 'a', 'd', 'e'};
 
 ## References
 1. [[Char]]

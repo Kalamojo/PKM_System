@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # False Negative
 
-```ad-note
-Predicted negative: is actually positive.
-```
+> [!note]
+> Predicted negative: is actually positive.
 
 ## References
 1. 

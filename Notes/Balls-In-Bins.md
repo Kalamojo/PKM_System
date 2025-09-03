@@ -6,9 +6,8 @@ tags: [undergrad]
 # Balls-In-Bins
 
 
-```ad-note
-There are ${n+b-1}\choose{b-1}$ ways to put $n$ indistinguishable balls into $b$ different bins.
-```
+> [!note]
+> There are ${n+b-1}\choose{b-1}$ ways to put $n$ indistinguishable balls into $b$ different bins.
 
 > [!example] 
 > How many solutions to $x + y + z = 10?$

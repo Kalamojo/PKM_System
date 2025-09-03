@@ -6,13 +6,11 @@ tags: [undergrad]
 # Sample Mean
 
 
-```ad-note
-The average of all input values in a sample. Serves as an estimator for an unknown population mean.
-```
+> [!note]
+> The average of all input values in a sample. Serves as an estimator for an unknown population mean.
 
-```ad-math
-$$m = \frac{\text{sum of terms}}{\text{number of terms}}$$
-```
+> [!math]
+> $m = \frac{\text{sum of terms}}{\text{number of terms}}$
 
 ## References
 1. [[Descriptive Statistics]]

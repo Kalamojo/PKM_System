@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # Theorem
 
-```ad-note
-A true proposition not self-evident but proved by a chain of reasoning.
-```
+> [!note]
+> A true proposition not self-evident but proved by a chain of reasoning.
 
 > [!example] 
 > Pigs cannot fly

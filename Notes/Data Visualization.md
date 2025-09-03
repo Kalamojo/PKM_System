@@ -4,9 +4,8 @@ tags: [personal]
 ---
 # Data Visualization
 
-```ad-note
-Data Visualization is the graphical representation of information and [[Data]]. Visual elements like charts graphs and maps help users to understand trends, outliers, and patterns in data.
-```
+> [!note]
+> Data Visualization is the graphical representation of information and [[Data]]. Visual elements like charts graphs and maps help users to understand trends, outliers, and patterns in data.
 ## Types
 - [[Data Storytelling]]: for presentations to decision makers in organizations
 - [[Data Showcasing]]: for presentations to analysts, scientists, mathematicians, and engineers (technical people)

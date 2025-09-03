@@ -8,12 +8,11 @@ tags: [undergrad]
 > [!note]
 > Data type used to represent a valueless entity. Is used for functions that do not return values.
 
-````ad-example
-```cpp
-void display() {
-	cout << "Hello World" << endl;
-}
-````
+> [!example]
+> ```cpp
+> void display() {
+> 	cout << "Hello World" << endl;
+> }
 
 ## References
 1. [[C++ Basic Types]]

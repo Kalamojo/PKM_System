@@ -5,15 +5,13 @@ tags: [undergrad]
 ---
 # Multiplexer
 
-```ad-note
-Acts as a switch between inputted values. When the switch is 0, the 0'th input is activated. When switch is 1, the 1'th input is activated. And so on, and so forth.
-```
+> [!note]
+> Acts as a switch between inputted values. When the switch is 0, the 0'th input is activated. When switch is 1, the 1'th input is activated. And so on, and so forth.
 
-```ad-example
-| ![[Multiplexer 2022-03-31 09.49.25.excalidraw]] | 2:1 Multiplexer |
-| ----------------------------------------------- | ----- |
-|                                                 |       |
-```
+> [!example]
+> | ![[Multiplexer 2022-03-31 09.49.25.excalidraw]] | 2:1 Multiplexer |
+> | ----------------------------------------------- | ----- |
+> |                                                 |       |
 
 ## References
 1. [[AND]]

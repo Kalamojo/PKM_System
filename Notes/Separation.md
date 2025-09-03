@@ -6,9 +6,8 @@ tags: [undergrad]
 # Separation
 
 
-```ad-note
-Elements from seperate groups are far away from each other.
-```
+> [!note]
+> Elements from seperate groups are far away from each other.
 
 ## References
 1. [[Notes/Clustering]]

@@ -15,10 +15,9 @@ tags: [undergrad]
 > When $X$ is continous, $F$ is given as
 > $$F(x) = P(X \le x) = \int_{-\infty}^x f(u) \,du$$
 
-```ad-example
-Cumulative density function for rolling a 3:
-$$F(3) = P(X \leq 3) = \frac{1}{6} * 3 = \frac{1}{2}$$
-```
+> [!example]
+> Cumulative density function for rolling a 3:
+> $F(3) = P(X \leq 3) = \frac{1}{6} * 3 = \frac{1}{2}$
 
 ## References
 1. [[Probability]]

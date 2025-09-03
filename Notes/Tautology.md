@@ -6,9 +6,8 @@ tags: [undergrad]
 # Tautology
 
 
-```ad-note
-A proposition that is always true.
-```
+> [!note]
+> A proposition that is always true.
 
 ## References
 1. [[Propositions]]

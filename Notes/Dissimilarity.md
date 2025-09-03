@@ -5,10 +5,9 @@ tags: [undergrad]
 ---
 # Dissimilarity
 
-```ad-note
-A numerical measure of how different two objects are.
-Minimum dissimilarity is usually 0, meaning that the objects are not similar whatsoever.
-```
+> [!note]
+> A numerical measure of how different two objects are.
+> Minimum dissimilarity is usually 0, meaning that the objects are not similar whatsoever.
 
 | Nominal             | Ordinal                | Interval or Ratio |
 | ------------------- | ---------------------- | ----------------- |

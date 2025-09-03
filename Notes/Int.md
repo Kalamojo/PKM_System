@@ -11,10 +11,9 @@ tags: [undergrad]
 >[!info]
 > Requires 4 bytes of memory, and ranges from -2147483648 to 2147483647.
 
-````ad-example
-```cpp
-int dogs = 5;
-````
+> [!example]
+> ```cpp
+> int dogs = 5;
 
 ## References
 1. [[C++ Basic Types]]

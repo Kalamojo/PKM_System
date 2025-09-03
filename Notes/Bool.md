@@ -8,10 +8,9 @@ tags: [undergrad]
 > [!note]
 > Data type used for storing binary values. Can be either true or false.
 
-````ad-example
-```cpp
-bool flag = true;
-````
+> [!example]
+> ```cpp
+> bool flag = true;
 
 ## References
 1. [[C++ Basic Types]]

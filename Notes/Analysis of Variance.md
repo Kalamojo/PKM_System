@@ -5,22 +5,19 @@ tags: [undergrad]
 ---
 # Analysis of Variance
 
-```ad-note
-A single statistic that allows comparison of variance between groups with variance within groups.
-```
+> [!note]
+> A single statistic that allows comparison of variance between groups with variance within groups.
 
-```ad-math
-$$F = \frac{VAR_{between}}{VAR_{within}}$$
+> [!math]
+> $F = \frac{VAR_{between}}{VAR_{within}}$
+> 
+> $VAR_{between}$ degrees of freedom $= m - 1$
+> $VAR_{within}$ degrees of freedom  $= m * (n - 1)$
+> $m=$ number of groups
+> $n =$ size of groups
 
-$VAR_{between}$ degrees of freedom $= m - 1$
-$VAR_{within}$ degrees of freedom  $= m * (n - 1)$
-$m=$ number of groups
-$n =$ size of groups
-```
-
-```ad-note
-The higher the F-value is, the less probable is the null hypothesis that the groups came from the same population.
-```
+> [!note]
+> The higher the F-value is, the less probable is the null hypothesis that the groups came from the same population.
 
 ## References
 1. [[F-Statistic]]

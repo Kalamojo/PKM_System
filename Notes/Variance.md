@@ -5,15 +5,13 @@ tags: [undergrad]
 ---
 # Variance
 
-```ad-note
-Measures how much values in $X$ deviate from the mean of $X$.
-```
+> [!note]
+> Measures how much values in $X$ deviate from the mean of $X$.
 
-```ad-math
-$\sigma^{2}=\operatorname{var}(X)=E\left[(X-\mu)^{2}\right]=$
-
-$$\begin{cases}\sum_{x}(x-\mu)^{2} f(x) & \text { if } X \text { is discrete } \\ \int_{-\infty}^{\infty}(x-\mu)^{2} f(x) d x & \text { if } X \text { is continuous }\end{cases}$$
-```
+> [!math]
+> $\sigma^{2}=\operatorname{var}(X)=E\left[(X-\mu)^{2}\right]=$
+> 
+> $\begin{cases}\sum_{x}(x-\mu)^{2} f(x) & \text { if } X \text { is discrete } \\ \int_{-\infty}^{\infty}(x-\mu)^{2} f(x) d x & \text { if } X \text { is continuous }\end{cases}$
 
 ## References
 1. [[Descriptive Statistics]]

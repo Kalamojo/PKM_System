@@ -6,9 +6,8 @@ tags: [undergrad]
 # Anomaly Detection
 
 
-```ad-note
-#⌛TBC 
-```
+> [!note]
+> #⌛TBC 
 
 ## References
 1. 

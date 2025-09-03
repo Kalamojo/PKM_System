@@ -4,9 +4,8 @@ tags: [personal]
 ---
 # Binary
 
-```ad-note
-0s or 1s. These are the only two options in the binary system. 
-```
+> [!note]
+> 0s or 1s. These are the only two options in the binary system. 
 
 > [!info]
 > For an 4 bit number:

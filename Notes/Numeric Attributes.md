@@ -6,9 +6,8 @@ tags: [undergrad]
 # Numeric Attributes
 
 
-```ad-note
-Numbers. Real-valued or integer-valued domain.
-```
+> [!note]
+> Numbers. Real-valued or integer-valued domain.
 
 ## References
 1. [[Interval-scaled]]

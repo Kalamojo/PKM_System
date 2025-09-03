@@ -4,9 +4,8 @@ tags: [personal]
 ---
 # Data Art
 
-```ad-note
-Using [[Data Visualization]] to make a statement.
-```
+> [!note]
+> Using [[Data Visualization]] to make a statement.
 ## Qualities
 - Attention getting
 - Creative, controversial

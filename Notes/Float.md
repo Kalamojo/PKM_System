@@ -11,10 +11,9 @@ tags: [undergrad]
 > [!info]
 > Requires 4 bytes of memory. Limit is 7 decimal digit.
 
-````ad-example
-```cpp
-float grade = 98.3;
-````
+> [!example]
+> ```cpp
+> float grade = 98.3;
 
 ## References
 1. [[C++ Basic Types]]

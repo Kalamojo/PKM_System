@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # Weights
 
-```ad-note
-The parameters of a Machine Learning model. They are a set of numbers embedded into a model to help predict correct output values.
-```
+> [!note]
+> The parameters of a Machine Learning model. They are a set of numbers embedded into a model to help predict correct output values.
 
 >[!example]
 > There may be a situation in which a person wants to decide whether they will apply for a scholarhip. There are 3 different factors:

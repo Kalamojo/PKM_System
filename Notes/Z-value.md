@@ -6,16 +6,14 @@ tags: [undergrad]
 # Z-value
 
 
-```ad-note
-Can be used to find the p-value of of observations.
-```
+> [!note]
+> Can be used to find the p-value of of observations.
 
-```ad-math
-$Z = \frac{x - \mu}{\sigma}$
-$x=\text{observed value}$
-$\mu = \text{sample mean}$
-$\sigma = \text{sample standard deviation}$
-```
+> [!math]
+> $Z = \frac{x - \mu}{\sigma}$
+> $x=\text{observed value}$
+> $\mu = \text{sample mean}$
+> $\sigma = \text{sample standard deviation}$
 
 ## References
 1. [[Sample Mean]]

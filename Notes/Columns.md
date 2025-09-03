@@ -5,14 +5,13 @@ tags: [undergrad]
 ---
 # Columns
 
-```ad-example
-- attributes
-- properties
-- features
-- dimensions
-- variables
-- fields
-```
+> [!example]
+> - attributes
+> - properties
+> - features
+> - dimensions
+> - variables
+> - fields
 
 > [!info]
 > given as ==n==-tuple

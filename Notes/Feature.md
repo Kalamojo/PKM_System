@@ -1,7 +1,11 @@
 ---
-alias: [Characteristic, Property, Independent Variable]
+alias:
+  - Characteristic
+  - Property
+  - Independent Variable
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Feature
 

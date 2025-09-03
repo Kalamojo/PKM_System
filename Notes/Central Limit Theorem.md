@@ -14,9 +14,8 @@ tags: [undergrad]
 > - Mean of samples $\approx$ population mean -> $\mu_{\bar{x}} \approx \mu$
 > - standard deviation of samples} $\approx$ population standard deviation $/$ square root of size of each sample - > $\sigma_{\bar{x}} \approx \frac{\sigma}{\sqrt{n}}$
 
-```ad-example
-![[Pasted image 20220302102318.png]]
-```
+> [!example]
+> ![[Pasted image 20220302102318.png]]
 
 ## References
 1. [[Normalization]]

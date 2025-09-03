@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # Placeholder Imputation
 
-```ad-note
-Missing values are assigned a common value as a placeholder.
-```
+> [!note]
+> Missing values are assigned a common value as a placeholder.
 
 ## References
 1. [[Handling Missing Values]]

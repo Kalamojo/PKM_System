@@ -6,13 +6,11 @@ tags: [undergrad]
 # Hard Clustering
 
 
-```ad-note
-Points are assigned to discrete classes and are colored with a specific hue based on that class.
-```
+> [!note]
+> Points are assigned to discrete classes and are colored with a specific hue based on that class.
 
-```ad-example
-![[Pasted image 20220323191901.png]]
-```
+> [!example]
+> ![[Pasted image 20220323191901.png]]
 
 ## References
 1. [[Notes/Clustering]]

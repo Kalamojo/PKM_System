@@ -5,9 +5,8 @@ tags: [undergrad]
 ---
 # Logic-Circuit
 
-```ad-note
-Complex functions composed of basic gates and functions.
-```
+> [!note]
+> Complex functions composed of basic gates and functions.
 
 > [!example]
 > ![[Pasted image 20220125101340.png|center]]

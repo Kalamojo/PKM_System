@@ -5,16 +5,14 @@ tags: [undergrad]
 ---
 # Standard Deviation
 
-```ad-note
-A measure of the dispertion of a set of values. Also calculated as the positive square root of the variance.
-```
+> [!note]
+> A measure of the dispertion of a set of values. Also calculated as the positive square root of the variance.
 
-```ad-math
-$$\sigma=\sqrt{E[(X - \mu)^2]}$$
-$N = \text{population size}$
-$x_i = \text{value from the population}$
-$\mu = \text{population mean}$
-```
+> [!math]
+> $\sigma=\sqrt{E[(X - \mu)^2]}$
+> $N = \text{population size}$
+> $x_i = \text{value from the population}$
+> $\mu = \text{population mean}$
 
 ## References
 1. [[Descriptive Statistics]]
