@@ -6,7 +6,7 @@ tags: [undergrad]
 # Tree
 
 >[!note]
-> A connected graph without any loops
+> A connected graph without any loops.
 
 > [!example]
 > ![[Tree 2023-01-23 11.32.25.excalidraw|center|600]]
