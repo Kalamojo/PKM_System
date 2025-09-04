@@ -36,7 +36,6 @@
     "month-duration": "number",
     "commute-minutes": "number",
     "activation-cost": "number",
-    "total-cost": "number",
-    "excalidraw-embed-md": "checkbox"
+    "total-cost": "number"
   }
 }
