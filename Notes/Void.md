@@ -13,6 +13,7 @@ tags: [undergrad]
 > void display() {
 > 	cout << "Hello World" << endl;
 > }
+> ```
 
 ## References
 1. [[C++ Basic Types]]

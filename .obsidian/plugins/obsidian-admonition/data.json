@@ -56,9 +56,10 @@
         "type": "font-awesome"
       },
       "command": false,
-      "title": "Methods",
+      "title": "Method",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     },
     "options": {
       "type": "options",

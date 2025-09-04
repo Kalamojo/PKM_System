@@ -13,6 +13,7 @@ tags: [undergrad]
 > char *char_ptr = new char;
 > int *int_array = new int[20]; 
 > MyClass *m1 = new MyClass(1,1,2); // class constructor
+> ```
 
 ## References
 1. [[Pointer]]

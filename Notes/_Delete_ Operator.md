@@ -15,6 +15,7 @@ tags: [undergrad]
 > // Convention is to then set pointer to deleted memory to NULL
 > PointerName = 0; || PointerName = nullptr;
 > ArrayName = 0;
+> ```
 
 ## References
 1. [['New' Operator]]

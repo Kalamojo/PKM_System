@@ -12,6 +12,7 @@ tags: [undergrad]
 > ```cpp
 > string name = "Kolade Alabi";
 > char firstName[6] = {'K', 'o', 'l', 'a', 'd', 'e'};
+> ```
 
 ## References
 1. [[Char]]

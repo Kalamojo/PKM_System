@@ -6,10 +6,10 @@ tags: [undergrad]
 # Process
 
 >[!note]
-> A collection of resources that are exxecuting a program. This is the whole image of something 'running' in the computer.
+> A collection of resources that are executing a program. This is the whole image of something 'running' in the computer.
 
-## Elements
-
+> [!info]
+> Elements:
 > - Identifier
 > - State
 > - Context Data

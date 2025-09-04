@@ -4,14 +4,14 @@ subject: Computer Science 2
 tags: [undergrad]
 ---
 # Merge Sort
-#⌛TBC 
+
 > [!info]
 > Time Complexity: O(nlog(n))
 
 > [!note]
 > Works by splitting list into half repeatedly untile sizes of 1 are achieved. Then sub-arrays are combined in a sorted way.
 
-
+#⌛TBC Implement algorithm and add more links
 ```cpp
 #include <iostream>
 using namespace std;

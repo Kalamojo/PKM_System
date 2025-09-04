@@ -14,6 +14,7 @@ tags: [undergrad]
 > [!example]
 > ```cpp
 > int dogs = 5;
+> ```
 
 ## References
 1. [[C++ Basic Types]]

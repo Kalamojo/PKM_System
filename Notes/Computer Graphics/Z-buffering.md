@@ -7,7 +7,7 @@ tags:
 # Z-buffering
 
 >[!note]
-> #⌛TBC 
+> A [[Data]] buffer used in [[Computer Graphics]] to store information about depth, so that objects don't overlap.
 
 ## References
 1. [[Rendering Pipeline]]

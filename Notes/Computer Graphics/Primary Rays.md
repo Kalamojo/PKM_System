@@ -1,5 +1,6 @@
 ---
-alias: []
+alias:
+  - Camera Rays
 subject: Computer Graphics
 tags:
   - masters
@@ -7,7 +8,7 @@ tags:
 # Primary Rays
 
 >[!note]
-> #⌛TBC 
+> The first rays cast into a scene, which originate from the Camera or eye view, as opposed to [[Secondary Rays]]
 
 ## References
 1. [[Ray Tracing]]

@@ -3,6 +3,7 @@ alias: ["Linked List"]
 tags: [personal]
 ---
 # Linked Lists
+#⌛TBC Add more links
 
 > [!note]
 > Linked lists are data linked together by pointers.
@@ -19,6 +20,7 @@ Linked lists are made up of **nodes**. These nodes are just things that have som
 > Code:
 > ```cpp
 > node* a = new node(3);
+> ```
 
 Whenever nodes are linked together, they form a linked list.
 
@@ -31,6 +33,7 @@ Whenever nodes are linked together, they form a linked list.
 > node* a = new node(3);
 > node* b = new node(7);
 > a->next = b;
+> ```
 
 > [!example]
 > Printing out a Linked List:
@@ -39,6 +42,7 @@ Whenever nodes are linked together, they form a linked list.
 > 	cout << temp->data << endl; // Print out the value of the node
 > 	temp = temp->next; // Current node is now pointing to the next
 > }
+> ```
 
 > [!example]
 > Searching a linked list for a value:
@@ -51,6 +55,7 @@ Whenever nodes are linked together, they form a linked list.
 > 	}
 > }
 > return false;
+> ```
 
 > [!tip]
 > Linked lists don't allow you to access items by index, and you would have to traverse the list to get a certain item. However, you can assign temporary pointers to nodes to make accessing them easier.
@@ -61,6 +66,7 @@ Whenever nodes are linked together, they form a linked list.
 > head->next->next->next = new node(4); // fourth node
 > 
 > node* temp = head->next->next->next; // assign a temp pointer to fourth node
+> ```
 
 > [!summary]
 > Linked lists are like arrays in the sense that they are things that hold multiple items. However, they two are very different.

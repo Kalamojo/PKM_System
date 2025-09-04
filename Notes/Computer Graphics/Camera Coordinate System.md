@@ -1,5 +1,6 @@
 ---
-alias: []
+alias:
+  - Camera Coordinates
 subject: Computer Graphics
 tags:
   - masters
@@ -7,7 +8,8 @@ tags:
 # Camera Coordinate System
 
 >[!note]
-> #⌛TBC 
+> Intuitive user-provided parameter [[Vector|vectors]] used to place a Camera in world
 
 ## References
 1. [[Primary Rays]]
+2. [[Vector]]

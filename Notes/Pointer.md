@@ -15,6 +15,7 @@ tags: [undergrad]
 > 
 > int x = 5;
 > iPtr = &x; //initialize pointer with address variable value
+> ```
 
 ## References
 1. [[Array-based data structure]]
