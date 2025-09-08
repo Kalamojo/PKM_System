@@ -4,6 +4,7 @@ subject: Math Foundations of CS
 tags: [undergrad]
 ---
 # Logic
+#⌛TBC Rename/make into a new note
 
 1. [[Propositions]]
 2. [[OR]]

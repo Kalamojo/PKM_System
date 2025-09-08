@@ -7,7 +7,7 @@ tags:
 # Classical ML
 
 >[!note]
-> #⌛TBC 
+> The collection of traditional [[Machine Learning]] [[Algorithm|algorithms]] that predate modern algorithms. They are generally more simple and interpretable than [[Modern ML]].
 
 > [!example]
 > - [[Classification]]
