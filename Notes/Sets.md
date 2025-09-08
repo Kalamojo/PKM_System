@@ -5,7 +5,6 @@ tags: [undergrad]
 ---
 # Sets
 
-
 > [!note]
 > A collection of objects called elements. Order and multiplicity of values do not matter.
 
