@@ -10,7 +10,7 @@ tags:
 > #⌛TBC 
 
 > [!example] Examples
-> - [[1-dimensional Threshold]]
+> - [[1-Dimensional Threshold]]
 > - [[Axis-aligned Rectangle]]
 > - [[Linear Separator]]
 

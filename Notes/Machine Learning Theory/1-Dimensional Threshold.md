@@ -4,7 +4,7 @@ subject: Machine Learning Theory
 tags:
   - masters
 ---
-# 1-dimensional Threshold
+# 1-Dimensional Threshold
 
 >[!note]
 > #⌛TBC 
