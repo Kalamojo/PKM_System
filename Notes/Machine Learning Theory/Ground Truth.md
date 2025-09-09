@@ -7,7 +7,13 @@ tags:
 # Ground Truth
 
 >[!note]
-> #⌛TBC 
+> The set of all correct answers/outputs for an input $x$.
+
+>[!math]
+>Represented by:
+>$$Y(x)$$
+> given input $x$
 
 ## References
-1. 
+1. [[Label]]
+2. [[Feature]]

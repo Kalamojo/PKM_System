@@ -7,7 +7,12 @@ tags: [undergrad]
 
 
 > [!note]
-> Sections of code that can be executed at any time to perform individual tasks. Function receives parameters and may or may not return values.
+> Sections of code, or logic, that can be executed at any time to perform individual tasks. Function receives parameters and may or may not return values.
+
+>[!math]
+> Represented by:
+> $$f(x)$$
+> given input $x$
 
 > [!example]
 > ```cpp
@@ -17,3 +22,5 @@ tags: [undergrad]
 
 ## References
 1. [[C++ Compound Types]]
+2. [[Feature]]
+3. [[Label]]

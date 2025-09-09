@@ -6,7 +6,7 @@ tags: [undergrad]
 # Learning
 
 >[!note]
-> Using past experiences to improve future performance
+> Using past experiences to improve future performance.
 
 ## References
 1. [[Data]]

@@ -7,8 +7,7 @@ tags: [undergrad]
 
 
 > [!note]
-> A measure of how alike two objects are. In Data Science, it is a strictly numerical measure.
-> It often falls in the range $[0, 1]$.
+> A measure of how alike two objects are. In Data Science, it is a strictly numerical measure. It often falls in the range $[0, 1]$.
 
 > [!math]
 > | Nominal             | Ordinal     | Interval or Ratio                                |
