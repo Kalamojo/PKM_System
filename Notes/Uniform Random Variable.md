@@ -10,4 +10,4 @@ tags: [undergrad]
 
 ## References
 1. [[Uniform Distribution]]
-2. [[Random Variable]]
+2. [[Notes/Random Variable]]

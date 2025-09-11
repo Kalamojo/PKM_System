@@ -22,4 +22,4 @@ tags: [undergrad]
 ## References
 1. [[Probability]]
 2. [[Probability Mass Function]]
-3. [[Probability Density Function]]
+3. [[Notes/Probability Density Function]]

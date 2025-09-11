@@ -13,6 +13,6 @@ tags: [undergrad]
 
 ## References
 1. [[Normal Distribution]]
-2. [[Probability Density Function]]
+2. [[Notes/Probability Density Function]]
 3. [[Standard Deviation]]
 4. [[Mean]]

@@ -13,4 +13,4 @@ tags: [undergrad]
 
 ## References
 1. [[Uniform Distribution]]
-2. [[Probability Density Function]]
+2. [[Notes/Probability Density Function]]

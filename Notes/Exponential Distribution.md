@@ -15,5 +15,5 @@ $\lambda = \frac{1}{\text{mean}} = \text{rate parameter}$
 ## References
 1. [[Exponential Density Function]]
 2. [[Distribution]]
-3. [[Probability Density Function]]
+3. [[Notes/Probability Density Function]]
 4. [[Mean]]

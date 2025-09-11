@@ -12,4 +12,4 @@ tags: [undergrad]
 ## References
 1. [[Power-Law Exponent]]
 2. [[Power-Law Distribution]]
-3. [[Probability Density Function]]
+3. [[Notes/Probability Density Function]]

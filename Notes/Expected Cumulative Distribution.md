@@ -9,5 +9,5 @@ tags: [undergrad]
 > $$F_{\text{exp}}(x_i) = P(Z \leq x_i)$$
 
 ## References
-1. [[Cumulative Distribution Function]]
+1. [[Notes/Cumulative Distribution Function]]
 2. [[Z-value]]

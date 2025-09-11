@@ -10,5 +10,5 @@ tags: [undergrad]
 
 ## References
 1. [[Descriptive Statistics]]
-2. [[Probability Density Function]]
+2. [[Notes/Probability Density Function]]
 3. [[Probability Mass Function]]
