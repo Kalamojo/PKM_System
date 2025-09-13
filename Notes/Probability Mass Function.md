@@ -1,7 +1,9 @@
 ---
-alias: [Probability Mass]
+aliases:
+  - Probability Mass
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Probability Mass Function
 

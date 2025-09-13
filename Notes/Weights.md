@@ -1,7 +1,10 @@
 ---
-alias: [Parameters, Parameter]
+aliases:
+  - Parameters
+  - Parameter
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Weights
 

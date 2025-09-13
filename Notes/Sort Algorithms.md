@@ -1,7 +1,9 @@
 ---
-alias: [Sorting Algorithms]
+aliases:
+  - Sorting Algorithms
 subject: Computer Science 2
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Sort Algorithms
 

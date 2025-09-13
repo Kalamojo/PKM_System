@@ -15,6 +15,7 @@
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
   "disableSuggestionsInMathBlock": false,
+  "disableSuggestionsInCodeBlock": false,
   "insertSpaceAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "patternsToSuppressTrigger": [
@@ -23,9 +24,9 @@
   ],
   "phrasePatternsToSuppressTrigger": [],
   "noAutoFocusUntilCycle": false,
-  "showMatchStrategy": true,
-  "showComplementAutomatically": true,
-  "showIndexingStatus": true,
+  "showMatchStrategy": false,
+  "showComplementAutomatically": false,
+  "showIndexingStatus": false,
   "descriptionOnSuggestion": "Short",
   "hotkeys": {
     "select": [
@@ -70,6 +71,7 @@
   "currentVaultMinNumberOfCharacters": 0,
   "includeCurrentVaultPathPrefixPatterns": "",
   "excludeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathGlobPatterns": [],
   "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
   "excludeCurrentVaultWordPatterns": [],
   "enableCustomDictionaryComplement": false,
@@ -81,9 +83,10 @@
   "caretLocationSymbolAfterComplement": "",
   "displayedTextSuffix": " => ...",
   "enableInternalLinkComplement": true,
-  "suggestInternalLinkWithAlias": false,
+  "suggestInternalLinkWithAlias": true,
   "excludeInternalLinkPathPrefixPatterns": "",
-  "excludeSelfInternalLink": false,
+  "excludeInternalLinkPathGlobPatterns": [],
+  "excludeSelfInternalLink": true,
   "excludeExistingInActiveFileInternalLinks": false,
   "updateInternalLinksOnSave": true,
   "insertAliasTransformedFromDisplayedInternalLink": {
@@ -93,9 +96,13 @@
   },
   "frontMatterKeyForExclusionInternalLink": "",
   "tagsForExclusionInternalLink": [],
-  "enableFrontMatterComplement": true,
+  "enableFrontMatterComplement": false,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
+  "currentFileMinNumberOfCharactersForTrigger": 0,
+  "currentVaultMinNumberOfCharactersForTrigger": 0,
+  "customDictionaryMinNumberOfCharactersForTrigger": 0,
+  "internalLinkMinNumberOfCharactersForTrigger": 0,
   "intelligentSuggestionPrioritization": {
     "enabled": true,
     "historyFilePath": "",
@@ -103,12 +110,5 @@
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
-  "showLogAboutPerformanceInConsole": false,
-  "insertAfterCompletion": false,
-  "useCommonPrefixCompletionOfSuggestion": false,
-  "selectSuggestionKeys": "Enter",
-  "additionalCycleThroughSuggestionsKeys": "None",
-  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
-  "openSourceFileKey": "None",
-  "selectionHistoryTree": {}
+  "showLogAboutPerformanceInConsole": false
 }

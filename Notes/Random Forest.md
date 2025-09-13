@@ -1,6 +1,7 @@
 ---
-alias: []
-tags: [personal]
+aliases: []
+tags:
+  - personal
 ---
 # Random Forests
 #⌛TBC 

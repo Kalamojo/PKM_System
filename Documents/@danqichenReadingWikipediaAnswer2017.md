@@ -1,5 +1,5 @@
 ---
-alias: Reading Wikipedia to Answer Open-Domain Questions
+aliases: Reading Wikipedia to Answer Open-Domain Questions
 authors: Danqi Chen, Danqi Chen, Adam Fisch, Adam Fisch, Jason Weston, Jason Weston, Antoine Bordes, Antoine Bordes
 year: 2017
 type: paper

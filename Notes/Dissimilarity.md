@@ -1,7 +1,9 @@
 ---
-alias: [Dissimilar]
+aliases:
+  - Dissimilar
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Dissimilarity
 

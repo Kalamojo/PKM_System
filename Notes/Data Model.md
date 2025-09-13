@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Database Design
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Data Model
 

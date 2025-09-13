@@ -1,7 +1,9 @@
 ---
-alias: [Nondeterministic Polynomial Time]
+aliases:
+  - Nondeterministic Polynomial Time
 subject: Automata
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # NP
 

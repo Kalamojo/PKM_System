@@ -1,5 +1,5 @@
 ---
-alias: Prediction of epidemic trends in COVID-19 with logistic model and machine learning technics
+aliases: Prediction of epidemic trends in COVID-19 with logistic model and machine learning technics
 authors: Peipei Wang, Xinqi Zheng, Jiayang Li, Bangren Zhu
 year: 2020
 type: paper

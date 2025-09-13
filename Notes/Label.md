@@ -1,7 +1,9 @@
 ---
-alias: [Dependent variable]
+aliases:
+  - Dependent variable
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Label
 

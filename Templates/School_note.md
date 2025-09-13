@@ -1,5 +1,5 @@
 ---
-alias: []
+aliases: []
 subject: <% tp.file.folder() %>
 tags:
   - masters

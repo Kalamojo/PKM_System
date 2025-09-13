@@ -1,7 +1,9 @@
 ---
-alias: [K-Fold Cross-Validation]
+aliases:
+  - K-Fold Cross-Validation
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # K-Fold Cross Validation
 

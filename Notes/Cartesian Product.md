@@ -1,7 +1,9 @@
 ---
-alias: [Cartesian Square]
+aliases:
+  - Cartesian Square
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Cartesian Product
 

@@ -1,7 +1,9 @@
 ---
-alias: [Order]
+aliases:
+  - Order
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Ordinal
 

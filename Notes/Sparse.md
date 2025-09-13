@@ -1,6 +1,9 @@
 ---
-alias: [Sparsity, Sparse Representation]
-tags: [personal]
+aliases:
+  - Sparsity
+  - Sparse Representation
+tags:
+  - personal
 ---
 # Sparse Representation
 

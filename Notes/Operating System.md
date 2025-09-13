@@ -1,7 +1,9 @@
 ---
-alias: [OS]
+aliases:
+  - OS
 subject: Operating Systems
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Operating System
 

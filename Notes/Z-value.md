@@ -1,7 +1,9 @@
 ---
-alias: [Standard Score]
+aliases:
+  - Standard Score
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Z-value
 

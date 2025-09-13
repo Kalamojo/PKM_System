@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Digital Systems Engineering
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # 5 Variable K-map
 

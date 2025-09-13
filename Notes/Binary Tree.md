@@ -1,7 +1,9 @@
 ---
-alias: [Binary Trees]
+aliases:
+  - Binary Trees
 subject: Data Structures and Algorithms
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Binary Tree
 

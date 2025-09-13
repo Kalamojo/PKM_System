@@ -13,5 +13,5 @@ tags: academic
 ## References
 1. [[Algorithm]]
 2. [[Documents/Algorithms-Intuition]]
-3. [[🧪Academic/Saved/Supervised Learning]]
+3. [[Supervised Learning]]
 4. [[Linear Regression]]

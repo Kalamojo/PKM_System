@@ -1,5 +1,6 @@
 ---
-alias: [Transfer VAE]
+aliases:
+  - Transfer VAE
 tags: academic
 type: note
 ---

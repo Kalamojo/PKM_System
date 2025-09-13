@@ -1,7 +1,10 @@
 ---
-alias: [..., ellipses]
+aliases:
+  - ...
+  - ellipses
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Infinite Set
 

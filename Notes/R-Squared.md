@@ -1,7 +1,10 @@
 ---
-alias: [r^2, Coefficient of Determination]
+aliases:
+  - r^2
+  - Coefficient of Determination
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # R-Squared
 

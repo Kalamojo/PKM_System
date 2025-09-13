@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Jaccard Index
 

@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - Characteristic
   - Property
   - Independent Variable
@@ -10,7 +10,7 @@ tags:
 # Feature
 
 >[!note]
-> A measurable property or characteristic. In Machine Learning, it is an independent variables or input variables that influence your prediction of your [[Label]].
+> A measurable property or characteristic. In Machine Learning, it is an independent variable or input variables that influence your prediction of your [[Label]].
 
 >[!math]
 > Represented by:

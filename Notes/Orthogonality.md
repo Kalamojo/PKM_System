@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Organization of Programming Languages
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Orthogonality
 

@@ -1,6 +1,8 @@
 ---
-alias: [Data Showcase]
-tags: [personal]
+aliases:
+  - Data Showcase
+tags:
+  - personal
 ---
 # Data Showcasing
 

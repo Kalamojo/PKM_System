@@ -1,5 +1,5 @@
 ---
-alias: Positive-unlabeled convolutional neural networks for particle picking in cryo-electron micrographs.
+aliases: Positive-unlabeled convolutional neural networks for particle picking in cryo-electron micrographs.
 authors: Tristan Bepler, Tristan Bepler, Andrew Morin, Micah Rapp, Julia Brasch, Lawrence Shapiro, Alex J. Noble, Bonnie Berger
 year: 2019
 type: paper

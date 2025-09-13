@@ -1,7 +1,9 @@
 ---
-alias: [Symbol]
+aliases:
+  - Symbol
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Nominal
 

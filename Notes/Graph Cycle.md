@@ -1,7 +1,9 @@
 ---
-alias: [Cycle]
+aliases:
+  - Cycle
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Graph Cycle
 

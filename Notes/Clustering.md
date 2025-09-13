@@ -1,6 +1,8 @@
 ---
-alias: [Cluster]
-tags: [personal]
+aliases:
+  - Cluster
+tags:
+  - personal
 ---
 # Clustering
 

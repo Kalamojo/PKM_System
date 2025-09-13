@@ -1,6 +1,8 @@
 ---
-alias: ["Linked List"]
-tags: [personal]
+aliases:
+  - Linked List
+tags:
+  - personal
 ---
 # Linked Lists
 #⌛TBC Add more links

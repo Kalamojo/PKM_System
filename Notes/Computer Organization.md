@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Organization and Assembler Language
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Computer Organization
 

@@ -1,6 +1,8 @@
 ---
-alias: [Decimal]
-tags: [personal]
+aliases:
+  - Decimal
+tags:
+  - personal
 ---
 # Continuous
 

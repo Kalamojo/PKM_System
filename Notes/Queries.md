@@ -1,7 +1,9 @@
 ---
-alias: [Query]
+aliases:
+  - Query
 subject: Database Design
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Queries
 

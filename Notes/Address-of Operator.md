@@ -1,7 +1,9 @@
 ---
-alias: [\&]
+aliases:
+  - \&
 subject: Computer Science 2
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Address-of Operator
 

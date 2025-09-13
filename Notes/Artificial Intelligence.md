@@ -1,6 +1,9 @@
 ---
-alias: [AI]
-tags: [personal, academic]
+aliases:
+  - AI
+tags:
+  - personal
+  - academic
 ---
 # Artificial Intelligence
 

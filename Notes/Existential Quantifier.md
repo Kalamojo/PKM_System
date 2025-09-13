@@ -1,7 +1,10 @@
 ---
-alias: [there exists, \exists]
+aliases:
+  - there exists
+  - \exists
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Existential Quantifier
 

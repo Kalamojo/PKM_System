@@ -1,7 +1,10 @@
 ---
-alias: [\supset, \supseteq]
+aliases:
+  - \supset
+  - \supseteq
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Superset
 > [!note]

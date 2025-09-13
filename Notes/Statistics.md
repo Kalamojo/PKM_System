@@ -1,6 +1,8 @@
 ---
-alias: [stats]
-tags: [personal]
+aliases:
+  - stats
+tags:
+  - personal
 ---
 # Statistics
 

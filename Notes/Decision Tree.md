@@ -1,8 +1,10 @@
 ---
-alias: []
-tags: [personal]
+aliases: []
+tags:
+  - personal
 ---
 # Decision Tree
+#⌛TBC Draw one for the example
 
 > [!note]
 > A [[Machine Learning]] [[Algorithm]] in which inputs are passed through a stream of gates, and the probability that a condition is met depends on those gates and what they decide

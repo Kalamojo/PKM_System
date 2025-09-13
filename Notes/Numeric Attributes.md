@@ -1,7 +1,10 @@
 ---
-alias: [Numeric, Numerical]
+aliases:
+  - Numeric
+  - Numerical
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Numeric Attributes
 

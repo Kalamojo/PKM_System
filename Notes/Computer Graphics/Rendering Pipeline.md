@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - Computer Graphics Pipeline
 subject: Computer Graphics
 tags:

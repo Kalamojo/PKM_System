@@ -1,7 +1,9 @@
 ---
-alias: [Y-intercept]
+aliases:
+  - Y-intercept
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Bias
 

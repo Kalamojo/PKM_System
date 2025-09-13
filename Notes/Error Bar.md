@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Error Bar
 
@@ -9,7 +10,7 @@ tags: [undergrad]
 > Used as graphical representations of data variability. If multiple categories are being placed onto one plot, an error bar may show the standard deviation of each category or confidence interval.
 
 > [!example]
-> ![How to create custom error bars in Graph Builder - JMP User Community](http://community.jmp.com/t5/image/serverpage/image-id/5077iA224E437B4C0EE63/image-size/large?v=v2&px=999)
+> ![[Pasted image 20250913135438.png|center|600]]
 
 ## References
 1. [[Visualization]]

@@ -1,7 +1,9 @@
 ---
-alias: [DBMS]
+aliases:
+  - DBMS
 subject: Database Design
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Database Management System
 

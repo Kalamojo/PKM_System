@@ -1,10 +1,11 @@
 ---
-alias: []
+aliases:
+  - Hypothesis
 subject: Computer Science 2
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Function
-
 
 > [!note]
 > Sections of code, or logic, that can be executed at any time to perform individual tasks. Function receives parameters and may or may not return values.
@@ -12,6 +13,8 @@ tags: [undergrad]
 >[!math]
 > Represented by:
 > $$f(x)$$
+> or:
+> $$h$$
 > given input $x$
 
 > [!example]

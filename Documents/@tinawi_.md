@@ -1,5 +1,5 @@
 ---
-alias: Machine Learning for Time Series Anomaly Detection
+aliases: Machine Learning for Time Series Anomaly Detection
 authors: Ihssan Tinawi
 year:
 type: paper

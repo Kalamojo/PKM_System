@@ -1,7 +1,10 @@
 ---
-alias: [Sum of Product, SOP]
+aliases:
+  - Sum of Product
+  - SOP
 subject: Digital Systems Engineering
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Sum of Product Form
 

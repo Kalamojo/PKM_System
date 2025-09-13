@@ -1,6 +1,8 @@
 ---
-alias: [Gradient Descent]
-tags: [personal]
+aliases:
+  - Gradient Descent
+tags:
+  - personal
 ---
 # Batch Gradient Descent
 

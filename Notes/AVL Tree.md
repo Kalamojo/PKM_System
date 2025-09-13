@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Data Structures and Algorithms
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # AVL Tree
 

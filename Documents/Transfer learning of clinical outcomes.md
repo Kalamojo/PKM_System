@@ -1,5 +1,6 @@
 ---
-alias: [Transfer Learning]
+aliases:
+  - Transfer Learning
 tags: academic
 type: note
 ---

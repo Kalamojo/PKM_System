@@ -1,5 +1,5 @@
 ---
-alias: Conditional out-of-distribution generation for unpaired data using transfer VAE.
+aliases: Conditional out-of-distribution generation for unpaired data using transfer VAE.
 authors: Mohammad Lotfollahi, Mohsen Naghipourfar, Fabian J. Theis, Fabian J. Theis, F. Alexander Wolf
 year: 2020
 type: paper

@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Deep Learning
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Learning
 

@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - BVH
 subject: Computer Graphics
 tags:

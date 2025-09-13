@@ -1,7 +1,9 @@
 ---
-alias: [Interval]
+aliases:
+  - Interval
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Interval-scaled
 

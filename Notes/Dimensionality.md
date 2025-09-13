@@ -1,7 +1,10 @@
 ---
-alias: [Dimensions, Dimension]
+aliases:
+  - Dimensions
+  - Dimension
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Dimensionality
 

@@ -1,7 +1,9 @@
 ---
-alias: [Permutation]
+aliases:
+  - Permutation
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Permutations
 

@@ -1,17 +1,21 @@
 ---
-alias: []
-tags: [personal]
+aliases: []
+tags:
+  - personal
 ---
 # Hypothesis Class
 
 > [!note]
->The set of functions that can be used on your data. In [[Notes/Machine Learning]], this is the set of various operationss and methods that are available.
-
-> [!example]
->For a [[Decision Tree]], this can be any possible conditions that can be evaluated on the input 
-> - Any possible $m$ or $b$ in $y=mx+b$
+>The set of functions that can be used on your [[Data]]. In [[Machine Learning]], this is the set of various operations and methods that are available.
 
 > [!math]
->$$h \epsilon H$$
->$H=$ Hypothesis class
->$h=$ one function out of the hypothesis class
+>$$h \epsilon \mathcal{H}$$
+>- $\mathcal{H}=$ Hypothesis class
+>- $h=$ one [[Function]] out of the hypothesis class
+
+> [!example]
+>For [[Logistic Regression]], this can be any possible conditions that can be evaluated on the input 
+> - Any possible $m$ or $b$ in $y=mx+b$
+
+## References
+1. [[Function]]

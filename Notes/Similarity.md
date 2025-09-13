@@ -1,7 +1,9 @@
 ---
-alias: [Similar]
+aliases:
+  - Similar
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Similarity
 

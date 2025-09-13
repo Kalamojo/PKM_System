@@ -1,5 +1,5 @@
 ---
-alias: []
+aliases: []
 subject: Computer Graphics
 tags:
   - masters

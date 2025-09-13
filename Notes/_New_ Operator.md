@@ -1,7 +1,9 @@
 ---
-alias: [new]
+aliases:
+  - new
 subject: Computer Science 2
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # 'New' Operator
 

@@ -1,7 +1,9 @@
 ---
-alias: [BIC]
+aliases:
+  - BIC
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Bayesian Information Criterion
 

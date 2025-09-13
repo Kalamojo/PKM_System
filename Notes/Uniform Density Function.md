@@ -1,7 +1,9 @@
 ---
-alias: [Uniform Density]
+aliases:
+  - Uniform Density
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Uniform Density Function
 
@@ -13,4 +15,4 @@ tags: [undergrad]
 
 ## References
 1. [[Uniform Distribution]]
-2. [[Notes/Probability Density Function]]
+2. [[Probability Density Function]]

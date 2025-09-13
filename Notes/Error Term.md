@@ -1,6 +1,8 @@
 ---
-alias: [Error]
-tags: [personal]
+aliases:
+  - Error
+tags:
+  - personal
 ---
 # Error Term
 

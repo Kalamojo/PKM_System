@@ -1,7 +1,10 @@
 ---
-alias: [Categorical, category]
+aliases:
+  - Categorical
+  - category
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Categorical Attributes
 

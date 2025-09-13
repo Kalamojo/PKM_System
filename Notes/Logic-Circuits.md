@@ -1,7 +1,9 @@
 ---
-alias: [Digital Logic]
+aliases:
+  - Digital Logic
 subject: Digital Systems Engineering
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Logic-Circuits
 

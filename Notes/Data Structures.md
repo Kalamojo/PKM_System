@@ -1,7 +1,9 @@
 ---
-alias: [Data Structure]
+aliases:
+  - Data Structure
 subject: Computer Science 2
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Data Structures
 #⌛TBC Make into a note

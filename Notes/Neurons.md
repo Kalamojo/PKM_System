@@ -1,6 +1,8 @@
 ---
-alias: [Neuron]
-tags: [personal]
+aliases:
+  - Neuron
+tags:
+  - personal
 ---
 # Neurons
 

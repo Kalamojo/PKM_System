@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - Camera Coordinates
 subject: Computer Graphics
 tags:

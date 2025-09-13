@@ -1,7 +1,9 @@
 ---
-alias: [Transaction]
+aliases:
+  - Transaction
 subject: Database Design
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Transactions
 

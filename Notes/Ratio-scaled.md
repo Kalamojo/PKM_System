@@ -1,7 +1,9 @@
 ---
-alias: [Ratio]
+aliases:
+  - Ratio
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Ratio-scaled
 

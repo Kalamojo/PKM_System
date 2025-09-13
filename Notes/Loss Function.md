@@ -1,6 +1,8 @@
 ---
-alias: [Cost Function]
-tags: [personal]
+aliases:
+  - Cost Function
+tags:
+  - personal
 ---
 ## Loss Function
 

@@ -1,7 +1,9 @@
 ---
-alias: [list]
+aliases:
+  - list
 subject: Computer Science 2
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Array
 

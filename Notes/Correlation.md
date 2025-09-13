@@ -1,6 +1,8 @@
 ---
-alias: [Correlate]
-tags: [personal]
+aliases:
+  - Correlate
+tags:
+  - personal
 ---
 # Correlation
 

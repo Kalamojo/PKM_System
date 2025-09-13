@@ -1,7 +1,10 @@
 ---
-alias: [Vertex, Node]
+aliases:
+  - Vertex
+  - Node
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Vertices
 

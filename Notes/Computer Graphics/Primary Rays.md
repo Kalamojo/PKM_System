@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - Camera Rays
 subject: Computer Graphics
 tags:

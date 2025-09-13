@@ -1,7 +1,9 @@
 ---
-alias: [Normalize]
+aliases:
+  - Normalize
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Normalization
 

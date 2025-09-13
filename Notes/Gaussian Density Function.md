@@ -1,7 +1,9 @@
 ---
-alias: [Gaussian]
+aliases:
+  - Gaussian
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Gaussian Density Function
 

@@ -1,5 +1,6 @@
 ---
-alias: [NLP]
+aliases:
+  - NLP
 type: note
 tags: academic
 ---

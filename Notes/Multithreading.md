@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Operating Systems
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Multithreading
 

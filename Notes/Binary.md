@@ -1,6 +1,8 @@
 ---
-alias: [Boolean]
-tags: [personal]
+aliases:
+  - Boolean
+tags:
+  - personal
 ---
 # Binary
 

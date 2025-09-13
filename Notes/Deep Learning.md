@@ -1,6 +1,8 @@
 ---
-alias: [DL]
-tags: [personal]
+aliases:
+  - DL
+tags:
+  - personal
 ---
 # Deep Learning
 

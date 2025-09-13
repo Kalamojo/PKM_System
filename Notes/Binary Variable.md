@@ -1,7 +1,9 @@
 ---
-alias: [boolean variable]
+aliases:
+  - boolean variable
 subject: Digital Systems Engineering
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Binary Variable
 

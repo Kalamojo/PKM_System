@@ -1,7 +1,9 @@
 ---
-alias: [Set]
+aliases:
+  - Set
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Sets
 

@@ -1,7 +1,9 @@
 ---
-alias: [associate]
+aliases:
+  - associate
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Association
 

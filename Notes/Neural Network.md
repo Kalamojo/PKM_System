@@ -1,6 +1,9 @@
 ---
-alias: [Neural Network, Neural Net]
-tags: [personal]
+aliases:
+  - Neural Network
+  - Neural Net
+tags:
+  - personal
 ---
 # Neural Networks
 

@@ -1,5 +1,5 @@
 ---
-alias: []
+aliases: []
 subject: Machine Learning Theory
 tags:
   - masters

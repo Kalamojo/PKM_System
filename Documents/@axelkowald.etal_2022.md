@@ -1,5 +1,5 @@
 ---
-alias: Transfer learning of clinical outcomes from preclinical molecular data, principles and perspectives.
+aliases: Transfer learning of clinical outcomes from preclinical molecular data, principles and perspectives.
 authors: Axel Kowald, Israel Barrantes, Steffen Möller, Daniel Palmer, Hugo Murua Escobar, Anne Schwerk, Georg Fuellen
 year: 2022
 type: paper

@@ -1,6 +1,8 @@
 ---
-alias: [Analysis of Variance]
-tags: [personal]
+aliases:
+  - Analysis of Variance
+tags:
+  - personal
 ---
 # ANalysis Of VAriance (ANOVA)
 

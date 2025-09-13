@@ -1,7 +1,11 @@
 ---
-alias: [LOOCV, Leave-One-Out Cross Validation, Leave-One-Out Cross-Validation]
+aliases:
+  - LOOCV
+  - Leave-One-Out Cross Validation
+  - Leave-One-Out Cross-Validation
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Leave-One-Out Validation
 

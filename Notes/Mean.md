@@ -1,7 +1,9 @@
 ---
-alias: [Expected Value]
+aliases:
+  - Expected Value
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Mean
 

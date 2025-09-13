@@ -1,6 +1,8 @@
 ---
-alias: [Datum]
-tags: [personal]
+aliases:
+  - Datum
+tags:
+  - personal
 ---
 # Data
 

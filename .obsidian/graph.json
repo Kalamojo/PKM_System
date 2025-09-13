@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"Notes/Computer Graphics\"  ",
+  "search": "path:\"Notes/Machine Learning Theory\"  ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -36,7 +36,7 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -1.2,
   "nodeSizeMultiplier": 1.60769230769231,
@@ -46,6 +46,6 @@
   "repelStrength": 10,
   "linkStrength": 0.916666666666667,
   "linkDistance": 250,
-  "scale": 1.1082687794659047,
+  "scale": 0.7388458529772692,
   "close": false
 }

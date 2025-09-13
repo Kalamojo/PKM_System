@@ -1,7 +1,9 @@
 ---
-alias: [Z-normalization]
+aliases:
+  - Z-normalization
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Standard Score Normalization
 

@@ -1,5 +1,5 @@
 ---
-alias: A Transfer Learning-Based Classification Model for Particle Pruning in Cryo-Electron Microscopy
+aliases: A Transfer Learning-Based Classification Model for Particle Pruning in Cryo-Electron Microscopy
 authors: Hongjia Li, Ge Chen, Shan Gao, Jintao Li, Xiaohua Wan, Fa Zhang
 year: 2022
 type: paper

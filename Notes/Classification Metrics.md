@@ -1,7 +1,9 @@
 ---
-alias: [Classification Metric]
+aliases:
+  - Classification Metric
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Classification Metrics
 

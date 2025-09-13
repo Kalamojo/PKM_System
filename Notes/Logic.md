@@ -1,7 +1,8 @@
 ---
-alias: []
+aliases: []
 subject: Math Foundations of CS
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Logic
 #⌛TBC Rename/make into a new note

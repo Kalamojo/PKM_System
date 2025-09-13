@@ -1,7 +1,9 @@
 ---
-alias: [Continous]
+aliases:
+  - Continous
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Continuous Variables
 

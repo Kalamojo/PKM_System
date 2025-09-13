@@ -1,7 +1,8 @@
 ---
-alias: []
-subject: 
-tags: [undergrad]
+aliases: []
+subject:
+tags:
+  - undergrad
 ---
 # Machine Code
 

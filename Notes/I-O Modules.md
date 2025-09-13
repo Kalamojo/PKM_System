@@ -1,7 +1,9 @@
 ---
-alias: [I/O Modules]
+aliases:
+  - I/O Modules
 subject: Operating Systems
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # I-O Modules
 

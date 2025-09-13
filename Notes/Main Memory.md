@@ -1,7 +1,10 @@
 ---
-alias: [RAM, Random Access Memory]
+aliases:
+  - RAM
+  - Random Access Memory
 subject: Operating Systems
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Main Memory
 

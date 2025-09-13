@@ -1,7 +1,9 @@
 ---
-alias: [Relation]
+aliases:
+  - Relation
 subject: Database Design
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Relationship
 

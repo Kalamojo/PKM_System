@@ -1,7 +1,9 @@
 ---
-alias: [Average]
+aliases:
+  - Average
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Sample Mean
 

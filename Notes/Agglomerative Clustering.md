@@ -1,7 +1,9 @@
 ---
-alias: [Bottom-up clustering]
+aliases:
+  - Bottom-up clustering
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Agglomerative (Bottom-up) Clustering
 

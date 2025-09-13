@@ -1,7 +1,9 @@
 ---
-alias: [Entity-Relationship Model]
+aliases:
+  - Entity-Relationship Model
 subject: Database Design
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # E-R Model
 

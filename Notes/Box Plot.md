@@ -1,7 +1,9 @@
 ---
-alias: [Box and whisker plot]
+aliases:
+  - Box and whisker plot
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Box Plot
 

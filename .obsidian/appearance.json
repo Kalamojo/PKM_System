@@ -3,8 +3,9 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "latex_big",
-    "translucent"
+    "translucent",
+    "centered"
   ],
   "translucency": false,
-  "accentColor": "#f38b2b"
+  "accentColor": "#f59b00"
 }

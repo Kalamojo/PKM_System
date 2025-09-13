@@ -1,7 +1,10 @@
 ---
-alias: [CPU, Central Processing Unit]
+aliases:
+  - CPU
+  - Central Processing Unit
 subject: Operating Systems
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Processor
 

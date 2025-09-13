@@ -1,7 +1,9 @@
 ---
-alias: [ML]
+aliases:
+  - ML
 subject: Data Science Intro
-tags: [undergrad]
+tags:
+  - undergrad
 ---
 # Machine Learning
 

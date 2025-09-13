@@ -1,6 +1,8 @@
 ---
-alias: [cause]
-tags: [personal]
+aliases:
+  - cause
+tags:
+  - personal
 ---
 # Causation
 
