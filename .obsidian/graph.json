@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
-  "search": "path:\"Notes/Machine Learning Theory\"  ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 16766090
       }
+    },
+    {
+      "query": "tag:#masters  ",
+      "color": {
+        "a": 1,
+        "rgb": 2844142
+      }
     }
   ],
   "collapse-display": false,
@@ -46,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 0.916666666666667,
   "linkDistance": 250,
-  "scale": 0.7388458529772692,
+  "scale": 0.21891728977104266,
   "close": false
 }

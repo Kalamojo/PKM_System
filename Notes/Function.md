@@ -15,7 +15,7 @@ tags:
 > $$f(x)$$
 > or:
 > $$h$$
-> given input $x$
+> given [[Feature|Inputs]] $x$
 
 > [!example]
 > ```cpp

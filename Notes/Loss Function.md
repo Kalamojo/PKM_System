@@ -38,5 +38,5 @@ Unlike the square loss, extreme outliers don't have quite as much weight on the 
 
 ## References
 1. [[Hypothesis Class]]
-2. [[Weight]]
+2. [[Weights]]
 3. [[Error Term]]

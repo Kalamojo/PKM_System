@@ -3,6 +3,7 @@ aliases:
   - Characteristic
   - Property
   - Independent Variable
+  - Inputs
 subject: Data Science Intro
 tags:
   - undergrad

@@ -7,6 +7,10 @@ tags: academic
 >[!note]
 >An Algorithm, in the most basic sense, is a sequence of instructions written to solve a specific problem.
 
+> [!math]
+> Represented by:
+> $$A$$
+
 > [!info] 
 > It is a piece of software or code, or even [[Logic]], that takes in data, discovers the relationships between each input, and determines which features contribute to the output.
 

@@ -33,6 +33,7 @@ tags:
 > int student::area() {
 > 	return width * height;
 > }
+> ```
 
 ## References
 1. [[C++ Compound Types]]

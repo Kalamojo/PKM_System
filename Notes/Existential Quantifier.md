@@ -9,7 +9,11 @@ tags:
 # Existential Quantifier
 
 > [!note]
-> Represented as "there exists" or $\exists$.
+> Asserts the existence of an object with some property.
+
+> [!math]
+> Represented by:
+> $$\exists$$
 
 > [!example] 
 > - $\exists x Q(x,5) = \text{there exists an x that is larger than 5}$

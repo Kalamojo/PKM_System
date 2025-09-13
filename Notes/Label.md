@@ -1,6 +1,7 @@
 ---
 aliases:
   - Dependent variable
+  - outputs
 subject: Data Science Intro
 tags:
   - undergrad
