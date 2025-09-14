@@ -2,6 +2,7 @@
 aliases:
   - Dependent variable
   - outputs
+  - labeling
 subject: Data Science Intro
 tags:
   - undergrad
@@ -18,3 +19,4 @@ tags:
 ## References
 1. [[Notes/Machine Learning]]
 2. [[Feature]]
+3. [[Variables|Variable]]

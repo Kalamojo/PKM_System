@@ -13,8 +13,8 @@ tags:
 > $$\exists h^\star \in \mathcal{H}$$
 > s.t.
 > $$\text{err}_{\mathcal{D},f}(h^\star)=0$$
+> for [[Distribution]] $\mathcal{D}$ and [[Label|labelling]] [[Function]] $f$.
 
 ## References
 1. [[Function|Hypothesis]]
 2. [[Hypothesis Class]]
-3. [[Ground Truth]]

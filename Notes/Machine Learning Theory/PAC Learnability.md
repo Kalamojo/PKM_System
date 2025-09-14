@@ -11,15 +11,16 @@ tags:
 > A [[Hypothesis Class]] $\mathcal{H}$ is PAC-learnable if there exists an [[Algorithm]] $A$ with a complexity function $m_\mathcal{H}$, such that the algorithm will return a [[Probably Approximately Correct]] [[Function|Hypothesis]] $h$.
 
 > [!math]
-> For all
+> For every
 > $$0 \lt \mathcal{E},\delta \lt 1,$$
-> all possible [[Distribution|distributions]] $\mathcal{D}$ over all [[Feature|Inputs]] $\mathcal{X}$, and all [[Label|labeling]] [[Function|functions]] $f$, if the [[Realizability Assumption]] holds with respect to $\mathcal{H}$, $\mathcal{D}$, $f$, 
+> for [[Distribution]] $\mathcal{D}$ over all [[Feature|Inputs]] $\mathcal{X}$ from $\mathcal{D}$, and for [[Label|labeling]] [[Function]] $f$, if the [[Realizability Assumption]] holds with respect to $\mathcal{H}$, $\mathcal{D}$, $f$, 
 > 
 > then when given
 > $$m \geq m_\mathcal{H}(\mathcal{E},\delta)$$
-> samples, with probability at least $1 - \delta$, $A$ returns $h$ with [[Error Term|Error]]
+> samples, with [[Probability]] at least $1 - \delta$, $A$ returns $h$ with [[Error Term|Error]]
 >  $$\text{err}_{\mathcal{D},f}(h) \leq \mathcal{E}$$
->  - $m_\mathcal{H}=$ the [[Sample Complexity]] of learning $\mathcal{H}$
+>  
+>  > - $m_\mathcal{H}=$ the [[Sample Complexity]] of learning $\mathcal{H}$
 > 
 > If such an algorithm $A$ exists, then $\mathcal{H}$ is PAC-learnable.
 

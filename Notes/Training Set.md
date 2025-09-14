@@ -6,7 +6,7 @@ tags:
 # Training Set
 
 > [!note]
-> The set of features used to train a [[Supervised Learning]] model in order to make predictions.
+> The [[Sets|Set]] of features used to train a [[Supervised Learning]] model in order to make predictions.
 
 > [!math]
 > $$S = \{(x_i, y_i)\}^{m}_{i=1}$$
@@ -16,7 +16,8 @@ tags:
 > - $m=$ number of [[Data]] points
 
 ## References
-1. [[Supervised Learning]]
-2. [[Training]]
-3. [[Feature]]
-4. [[Label]]
+1. [[Sets]]
+2. [[Supervised Learning]]
+3. [[Training]]
+4. [[Feature]]
+5. [[Label]]

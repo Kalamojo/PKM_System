@@ -7,7 +7,13 @@ tags:
 # Cardinality
 
 > [!note]
-> The size of a set $S$ is denoted as $|S|$
+> The size of a set $S$
+
+> [!math]
+> Represented by:
+>  $$|S|$$
+>  or
+>  $$m$$
 
 > [!example] 
 > - $|{a,b,c}| = 3$

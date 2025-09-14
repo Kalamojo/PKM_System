@@ -24,3 +24,4 @@ tags:
 1. [[Machine Learning]]
 2. [[Algorithms-Intuition 1]]
 3. [[Algorithm]]
+4. [[Variables|Variable]]
