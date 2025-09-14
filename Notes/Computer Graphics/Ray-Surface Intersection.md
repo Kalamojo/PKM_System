@@ -7,7 +7,7 @@ tags:
 # Ray-Surface Intersection
 
 >[!note]
-> #⌛TBC 
+> What it sounds like.
 
 > [!example]
 > - [[Implicit Surfaces]]
