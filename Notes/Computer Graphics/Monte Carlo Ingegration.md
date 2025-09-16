@@ -9,5 +9,9 @@ tags:
 >[!note]
 > #⌛TBC 
 
+> [!method]
+> [[Variance]] reduction methods for Monte Carlo Ingegration:
+> - [[Importance Sampling]]
+
 ## References
 1. 

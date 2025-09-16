@@ -4,8 +4,8 @@ subject: Computer Graphics
 tags:
   - masters
 ---
-# Cumulative Distribution function
-#⌛TBC Or cumulative density function (capitalize F)
+# Chain Rule
+
 >[!note]
 > #⌛TBC 
 
