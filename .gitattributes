@@ -1,5 +1,8 @@
 _Archive/** filter=git-crypt diff=git-crypt
-Planner/** filter=git-crypt diff=git-crypt
 Attachments/** filter=git-crypt diff=git-crypt
+Planner/** filter=git-crypt diff=git-crypt
+
+Documents/Research/** filter=git-crypt diff=git-crypt
+
 .trash/** filter=git-crypt diff=git-crypt
 excalibrain.md filter=git-crypt diff=git-crypt
