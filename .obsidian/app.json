@@ -36,7 +36,7 @@
     "pageSize": "Legal",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 95
   },
   "readableLineLength": false,
   "showInlineTitle": false,
