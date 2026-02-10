@@ -38,6 +38,7 @@
     "activation-cost": "number",
     "total-cost": "number",
     "excalidraw-embed-md": "checkbox",
-    "interview-2": "date"
+    "interview-2": "date",
+    "excalidraw-export-internal-links": "checkbox"
   }
 }

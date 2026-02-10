@@ -2,14 +2,14 @@
 aliases:
   - "{{title}}"
 authors: "{{authors}}"
-year: {{ date.year() }}
+year:
+  "{ date.year() }":
 type: paper
 tags:
   - academic
 page(s): "{{pages}}"
 ---
-{% if abstractNote %}
-> [!abstract]
+{% if abstractNote %}> [!abstract]
 > {{abstractNote}}
 {% endif %}
 # Annotations
