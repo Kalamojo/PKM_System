@@ -1,8 +1,9 @@
 ---
 aliases:
-  - Probably Approximately Precision and Recall Learning
-authors: Lee Cohen, Yishay Mansour, Shay Moran, Han Shao
-year: 2025
+  - "Probably Approximately Precision and Recall Learning"
+authors: "Lee Cohen, Yishay Mansour, Shay Moran, Han Shao"
+year:
+  2025
 type: paper
 tags:
   - academic
@@ -12,7 +13,7 @@ page(s): ""
 > Precision and Recall are fundamental metrics in machine learning tasks where both accurate predictions and comprehensive coverage are essential, such as in multi-label learning, language generation, medical studies, and recommender systems. A key challenge in these settings is the prevalence of one-sided feedback, where only positive examples are observed during training—e.g., in multi-label tasks like tagging people in Facebook photos, we may observe only a few tagged individuals, without knowing who else appears in the image. To address learning under such partial feedback, we introduce a Probably Approximately Correct (PAC) framework in which hypotheses are set functions that map each input to a set of items, extending beyond single-label predictions and generalizing classical binary, multi-class, and multi-label models. Our results reveal sharp statistical and algorithmic separations from standard settings: classical methods such as Empirical Risk Minimization provably fail, even for simple hypothesis classes. We develop new algorithms that learn from positive data alone, achieving optimal sample complexity in the realizable case, and establishing multiplicative—rather than additive—approximation guarantees in the agnostic case, where achieving additive regret is impossible.
 
 # Annotations
-(2/10/2026, 2:47:21 PM)
+(2/11/2026, 7:33:20 PM)
 
 "lprecision(g) := Ex∼D  |g(x) \ gtarget(x)|  |g(x)| and lrecall(g) := Ex∼D  |gtarget(x) \ g(x)|  |gtarget(x)| ,  where D denotes the distribution over inputs. Precision and recall are equal to 1 minus the precision and recall losses, respectively." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 2](zotero://open-pdf/library/items/9ZBAH8MA?page=2&annotation=RW86L5ND))
 
@@ -29,8 +30,6 @@ page(s): ""
 "Pareto-Loss Objective Let p, p′, r, r′ ∈ [0, 1]. We write (p, r) =⇒ (p′, r′) to denote the following statement: there exists a polynomial P such that, for any finite hypothesis class H, there is an algorithm A such that the following holds: If D is a distribution for which there exists a hypothesis in H with precision and recall losses (p, r), then for any ε, δ > 0, if A is given p, r and an IID training set of size P (log|H|, 1/ε, 1/δ), with probability at least 1 − δ, it outputs a hypothesis with precision and recall losses at most p′ + ε and r′ + ε.4" ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 5](zotero://open-pdf/library/items/9ZBAH8MA?page=5&annotation=2IQMY4RJ))([Cohenprobablyapproximatelyprecision2025](zotero://open-pdf/library/items/9ZBAH8MA?page=5&annotation=2IQMY4RJ)) Somewhat unclear. Are we saying that given that there is a hypothesis that achieves p and r losses, we can guarantee with high probability that there is a (better?) hypothesis that achieves p' and r' losses (with some margin of error)?
 
 "One might argue that the issue in the above example arises from the large size of the ground-truth set; however, we will later show that even when the ground-truth set has a small size, accurately estimating and optimizing precision remains impossible." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 6](zotero://open-pdf/library/items/9ZBAH8MA?page=6&annotation=L5DS2FQE))([Cohenprobablyapproximatelyprecision2025](zotero://open-pdf/library/items/9ZBAH8MA?page=6&annotation=L5DS2FQE)) I mean I would argue that recall suffers more in this case, but this still seems to hold true
-
-"The maximum likelihood method  returns goutput = arg maxg∈H  Qm i=1  1(vi∈g(xi))  ng(xi) , which is equivalent to returning the hypothesis with the minimum sum of log output sizes among all consistent hypotheses, i.e.,  goutput = arg min  g:g is consistent  m  X  i=1  log(ng(xi)) ." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 7](zotero://open-pdf/library/items/9ZBAH8MA?page=7&annotation=PID7SD4I))
 
 "Any consistent hypothesis will have low empirical recall loss by applying standard concentration inequality and thus, lbrecall(goutput) is small" ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 7](zotero://open-pdf/library/items/9ZBAH8MA?page=7&annotation=PEWKEQFU))([Cohenprobablyapproximatelyprecision2025](zotero://open-pdf/library/items/9ZBAH8MA?page=7&annotation=PEWKEQFU)) Not familiar with how this can be confirmed mathematically
 
@@ -53,6 +52,10 @@ page(s): ""
 "We are therefore interested in the following question: whether (p = 0, r) ⇒ (p′ = 0, r′ = r)? We propose an algorithm with sample complexity depending on output set size of the target hypothesis and show that it is impossible to achieve zero precision loss with sample complexity independent of the target hypothesis’s output set size." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 9](zotero://open-pdf/library/items/9ZBAH8MA?page=9&annotation=7U2QPFVU))([Cohenprobablyapproximatelyprecision2025](zotero://open-pdf/library/items/9ZBAH8MA?page=9&annotation=7U2QPFVU)) Even if there exists some hypothesis with perfect precision, without knowing that the number of ground truth answers is small (or large), there's no way of really narrowing down hypotheses by the size of their outputs to mimic precision loss
 
 "When the target hypothesis’s output size ngtarget(x) is bounded by C almost everywhere, we have  E |g(x) ∩ gtarget(x)|  ng(x) · ngtarget (x) = E 1 − lprecision(g, x)  ngtarget (x) ≤ E 1  ngtarget (x) − E lprecision(g, x)  C.  Therefore, we have ∆g,D ≥ lprecision(g)  C . This implies that when the target hypothesis has bounded output size, we are able to find the hypothesis with zero precision loss. However, when the target hypothesis’s output size becomes too large, we show that it is impossible to achieve precision-recall of (0, r)." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 10](zotero://open-pdf/library/items/9ZBAH8MA?page=10&annotation=NFMX7TEE))([Cohenprobablyapproximatelyprecision2025](zotero://open-pdf/library/items/9ZBAH8MA?page=10&annotation=NFMX7TEE)) Makes perfect sense. If the ground truth answers size is large, then we cannot verifiably penalize or eliminate hypotheses for having large prediction sets. Suddenly, outputting very few items is not necessarily a good indicator that your answers are more precise
+
+"In the realizable setting, the target hypothesis gtarget is in the hypothesis class. Given the IID training data (x1, v1), . . . , (xm, vm), the maximum likelihood method returns the hypothesis  goutput = arg max  g∈H  m  Y  i=1  1(vi ∈ g(xi))  ng(xi) ." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 14](zotero://open-pdf/library/items/9ZBAH8MA?page=14&annotation=DLH6EBJF))
+
+![[Attachments/💤Zotero/cohenProbablyApproximatelyPrecision2025/cohenProbablyApproximatelyPrecision2025-17-x67-y121.png]]
 
 "Nevertheless, hypotheses with optimal F1 or Fβ scores are specific points on this Pareto front, and it will be interesting for future work to find them efficiently." ([Cohenprobablyapproximatelyprecision2025](zotero://select/library/items/XTHEWPNU)) ([pdf, p. 29](zotero://open-pdf/library/items/9ZBAH8MA?page=29&annotation=ZDH776ZR))
 

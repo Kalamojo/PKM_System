@@ -3,7 +3,7 @@ aliases:
   - "{{title}}"
 authors: "{{authors}}"
 year:
-  "{ date.year() }":
+  {{date.year()}}
 type: paper
 tags:
   - academic
