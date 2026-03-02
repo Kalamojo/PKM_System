@@ -11,4 +11,4 @@ tags:
 
 ## References
 1. [[Handling Missing Values]]
-2. [[Notes/Machine Learning]]
+2. [[Machine Learning]]

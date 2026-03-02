@@ -15,7 +15,7 @@ tags:
 > [!math]
 ># $$E = [\ell(h_i(x, y))]_{(x, y)\sim P}$$
 >$E=$ the Expected loss
->$\ell =$ [[Notes/Loss Function]]
+>$\ell =$ [[Loss Function]]
 
 This is a measure of how poorly a function acts on a distribution from a given population. Generalized functions will have a small $E$ value.
 

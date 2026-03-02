@@ -9,5 +9,5 @@ tags: academic
 
 ## References
 1. [[Artificial Intelligence]]
-2. [[Documents/Artificial Intelligence Wiki]]
+2. [[Artificial Intelligence Wiki]]
 3. [[Ontology]]

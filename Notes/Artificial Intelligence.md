@@ -13,9 +13,9 @@ tags:
 > [!info]
 There are various ways to acomplish this task, including Machine Learning and various methods that make use of algorithms.
 The two main elements of Artificial intelligence are:
-> 1. Prediction - predictive modeling (from [[Notes/Data Science]])
+> 1. Prediction - predictive modeling (from [[Data Science]])
 > 2. Execution- autonomous responce (from engineering)
 
 ## References
-1. [[Documents/What is AI, ML, DS]]
-2. [[Documents/Artificial Intelligence Wiki]]
+1. [[What is AI, ML, DS]]
+2. [[Artificial Intelligence Wiki]]

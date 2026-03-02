@@ -18,5 +18,5 @@ tags:
 
 ## References
 1. [[K-Fold Cross Validation]]
-2. [[Notes/Supervised Learning]]
-3. [[Notes/Training]]
+2. [[Supervised Learning]]
+3. [[Training]]

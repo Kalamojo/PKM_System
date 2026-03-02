@@ -17,6 +17,6 @@ tags:
 > $$y$$
 
 ## References
-1. [[Notes/Machine Learning]]
+1. [[Machine Learning]]
 2. [[Feature]]
 3. [[Variables|Variable]]

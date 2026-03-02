@@ -6,7 +6,7 @@ tags:
 # Data Art
 
 > [!note]
-> Using [[Data Visualization]] to make a statement.
+> Using [[Notes/Data Visualization]] to make a statement.
 ## Qualities
 - Attention getting
 - Creative, controversial

@@ -27,7 +27,7 @@ tags:
 > >    $\min _{\mu} \sum_{i=1}^{k} \sum_{x \in C_{i}}\left|x-\mu_{i}\right|^{2}$
 
 ## References
-1. [[Notes/Clustering]]
+1. [[Clustering]]
 2. [[Centroid]]
 3. [[Sample Mean]]
 4. [[Euclidian Distance]]

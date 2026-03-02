@@ -15,4 +15,4 @@ Takes the actual dependent values and subtracts model's predicted values from it
 
 ## References
 1. [[Error Term]]
-2. [[Notes/Loss Function]]
+2. [[Loss Function]]

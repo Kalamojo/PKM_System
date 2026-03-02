@@ -14,5 +14,5 @@ tags:
 
 ## References
 1. [[I-O Modules|I/O Modules]]
-2. [[Processor]]
+2. [[Notes/Processor]]
 3. [[Process]]

@@ -11,4 +11,4 @@ tags:
 > Objects that do not belong to any cluster and are far away from other points.
 
 ## References
-1. [[Notes/Clustering]]
+1. [[Clustering]]

@@ -13,4 +13,4 @@ tags:
 > The number of features in a dataset.
 
 ## References
-1. [[Notes/Feature]]
+1. [[Feature]]

@@ -6,7 +6,7 @@ tags:
 ---
 # Data and Distributions
 
-1. [[Notes/Data Science]]
+1. [[Data Science]]
 2. [[Variables]]
 3. [[Tabular Data]]
 4. [[Probability Measurement]]

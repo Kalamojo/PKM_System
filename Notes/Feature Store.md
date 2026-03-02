@@ -9,5 +9,5 @@ tags: academic
 
 ## References
 1. [[Feature Engineering]]
-2. [[Documents/What is AI, ML, DS]]
+2. [[What is AI, ML, DS]]
 3. [[Data Lake]]

@@ -10,5 +10,5 @@ tags: academic
 
 ## References
 1. [[Machine Learning]]
-2. [[Documents/Algorithms-Intuition]]
+2. [[Algorithms-Intuition]]
 3. [[Knowledge Representation]]

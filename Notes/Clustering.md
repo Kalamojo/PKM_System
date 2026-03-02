@@ -19,5 +19,5 @@ tags:
 ## References
 1. [[Data]]
 2. [[Algorithm]]
-3. [[Documents/Algorithms-Intuition]]
+3. [[Algorithms-Intuition]]
 4. [[🧪Academic/Saved/Unsupervised Learning]]

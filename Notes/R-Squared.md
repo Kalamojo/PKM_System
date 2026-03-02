@@ -24,6 +24,6 @@ tags:
 > Is not very reliable with few datapoints. For example, a model fitted on a dataset wtih only 1 feature and 2 points will have an $R^2$ of 1, implying that it is perfect.
 
 ## References
-1. [[Notes/Linear Regression]]
+1. [[Linear Regression]]
 3. [[Variance]]
 4. [[Residual Sum of Squares]]

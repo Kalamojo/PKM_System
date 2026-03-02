@@ -60,4 +60,4 @@ tags:
 > print(grad(theta))
 
 ## References
-1. [[Notes/Loss Function|Cost Function]]
+1. [[Loss Function|Cost Function]]

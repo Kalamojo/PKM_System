@@ -14,5 +14,5 @@ tags:
 > ![[Pasted image 20220323191901.png]]
 
 ## References
-1. [[Notes/Clustering]]
+1. [[Clustering]]
 2. [[Discrete Variable]]

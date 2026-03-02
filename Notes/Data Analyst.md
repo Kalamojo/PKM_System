@@ -14,6 +14,6 @@ tags: academic
 
 ## References
 1. [[Data Analysis]]
-2. [[Documents/What is AI, ML, DS]]
+2. [[What is AI, ML, DS]]
 3. [[Data Scientist]]
 4. [[Data]]

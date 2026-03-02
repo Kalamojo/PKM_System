@@ -17,4 +17,4 @@ tags:
 
 > [!info] 
 > This allows much more complex tasks to be completed, such as winning a game of chess or checkers. A goal is defined, and it is up to the model to decide which is the best way to achieve it. This is made possible by a [[Neural Network]], which uses nodes to process things.
-Deep Learning is particularly effective for making predictions from [[Big Data]], and it is considered a sub-field of [[Notes/Data Science|Data Science]].
+Deep Learning is particularly effective for making predictions from [[Big Data]], and it is considered a sub-field of [[Data Science|Data Science]].

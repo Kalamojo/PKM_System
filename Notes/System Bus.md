@@ -11,6 +11,6 @@ tags:
 
 ## References
 1. [[Computer]]
-2. [[Processor]]
+2. [[Notes/Processor]]
 3. [[Main Memory]]
 4. [[I-O Modules|I/O Modules]]

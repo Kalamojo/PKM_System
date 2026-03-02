@@ -12,7 +12,7 @@ tags:
 > ![[Drawing 2021-11-12 15.29.26.excalidraw|600]]
 
 > [!info]
-> To compute those outputs, various [[Weight|Weights]] are used. This process takes all the weights, multiplied by their associated binary values, to create a [[Weighted sum]]. In any given perceptron, if the weighted sum of all their inputs is $\leq$ to their threshold, it will return a 0. Likewise, if the weighted sum of the inputs is > the threshold, the perceptron will reeturn a 1. 
+> To compute those outputs, various [[Weight|Weights]] are used. This process takes all the weights, multiplied by their associated binary values, to create a [[Weighted Sum]]. In any given perceptron, if the weighted sum of all their inputs is $\leq$ to their threshold, it will return a 0. Likewise, if the weighted sum of the inputs is > the threshold, the perceptron will reeturn a 1. 
 > Alternatively, the threshold can be subtracted from the weighted sum, and then compared to 0 like so:
 > 
 > > [!math]

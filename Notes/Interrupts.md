@@ -11,4 +11,4 @@ tags:
 
 ## References
 1. [[Computer]]
-2. [[Processor]]
+2. [[Notes/Processor]]

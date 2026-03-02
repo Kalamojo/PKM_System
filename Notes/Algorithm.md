@@ -15,5 +15,5 @@ tags: academic
 > It is a piece of software or code, or even [[Logic]], that takes in data, discovers the relationships between each input, and determines which features contribute to the output.
 
 ## References
-1. [[Documents/Algorithms-Intuition]]
+1. [[Algorithms-Intuition]]
 2. [[Feature]]

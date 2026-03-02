@@ -8,8 +8,8 @@ tags:
 
 1. [[Regression]]
 2. [[Classification]]
-3. [[Notes/Linear Regression]]
-4. [[Notes/Linear Regression]]
+3. [[Linear Regression]]
+4. [[Linear Regression]]
 5. [[K-Fold Cross Validation]]
 6. [[Leave-One-Out Validation]]
 7. [[K Nearest Neighbor|KNN]]

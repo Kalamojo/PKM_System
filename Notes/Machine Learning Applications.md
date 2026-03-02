@@ -10,5 +10,5 @@ tags:
 2. Recommendation
 3. [[Classification]]
 4. [[Regression]]
-5. [[Notes/Clustering]]
+5. [[Clustering]]
 6. [[Anomaly Detection]]

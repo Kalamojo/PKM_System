@@ -10,7 +10,7 @@ tags:
 
 ## Benefits
 - Easy to learn, human readable
-- Extensive array of [[Notes/Data Science]] libraries
+- Extensive array of [[Data Science]] libraries
 - Biggest user base of all data science languages
 - Useful in [[Data Engineering]]
 

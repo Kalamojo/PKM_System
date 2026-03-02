@@ -13,5 +13,5 @@ tags:
 > $$A(v) = \begin{cases} x, & \text{for } 0 \le x \le 1 \\ 2-x, & \text{for } 1 < x \le 2 \\ 0, & \text{otherwise} \end{cases}$$
 
 ## References
-1. [[Notes/Random Variable]]
+1. [[Random Variable]]
 2. [[Continuous Variables]]

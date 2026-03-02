@@ -24,8 +24,8 @@ tags:
 
 ## References
 1. [[Regression]]
-2. [[Notes/Supervised Learning]]
-3. [[Notes/Weights]]
+2. [[Supervised Learning]]
+3. [[Weights]]
 4. [[Bias]]
 5. [[Ordinary Least Squares]]
 6. [[Residual Sum of Squares]]

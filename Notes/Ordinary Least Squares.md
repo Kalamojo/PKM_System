@@ -13,4 +13,4 @@ tags:
 > $\text { total error }=\sum_{i}\left(y_{i}-\widehat{y}_{i}\right)^{2}=\sum_{i}\left(y_{i}-\sum_{k} w_{k} x_{k}^{(i)}\right)^{2}$
 
 ## References
-1. [[Notes/Loss Function]]
+1. [[Loss Function]]

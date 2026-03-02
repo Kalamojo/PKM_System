@@ -9,7 +9,7 @@ tags:
 
 
 > [!note]
-> Sparse representations of [[Data]] are useful for [[Notes/Machine Learning]] procesees. This is a situation in which most values in a set are 0, while a few values actually filled. The 0s are not actually stored during operations.
+> Sparse representations of [[Data]] are useful for [[Machine Learning]] procesees. This is a situation in which most values in a set are 0, while a few values actually filled. The 0s are not actually stored during operations.
 
 > [!info] 
 > Allows high-dimensional data to still be manipulated and stored, since only a finite amount of values are used at a given time

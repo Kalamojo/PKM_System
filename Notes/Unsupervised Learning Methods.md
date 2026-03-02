@@ -7,7 +7,7 @@ tags:
 # Unsupervised Learning Methods
 
 
-1. [[Notes/Clustering]]
+1. [[Clustering]]
 2. [[Homogeneity]]
 3. [[Separation]]
 4. [[Outliers]]

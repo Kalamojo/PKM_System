@@ -11,7 +11,7 @@ tags:
 > The reshaping of data and the selection of 'best' features to get the most value and insight out of a dataset.
 
 ## References
-1. [[Notes/Feature]]
+1. [[Feature]]
 2. [[Dataset]]
-3. [[Documents/What is Feature Engineering]]
-4. [[Documents/What is AI, ML, DS]]
+3. [[What is Feature Engineering]]
+4. [[What is AI, ML, DS]]

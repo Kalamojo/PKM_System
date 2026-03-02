@@ -14,7 +14,7 @@ tags:
 > - Deriving insights from data (including [[Big Data]])
 > - Uncovering [[Correlation|correlations]] and [[Causation|causes]] in business data to support decision-making
 > - Generate predictions from data and visualize data
-> Data scientists may use [[Notes/Machine Learning]] or other methods to generate these predictions and understand data.
+> Data scientists may use [[Machine Learning]] or other methods to generate these predictions and understand data.
 
 ## References
 1. [[Data and Distributions]]
@@ -23,4 +23,4 @@ tags:
 4. [[Artificial Intelligence]]
 5. [[Deep Learning]]
 6. [[🧪Academic/Saved/Machine Learning]]
-7. [[Notes/Machine Learning]]
+7. [[Machine Learning]]

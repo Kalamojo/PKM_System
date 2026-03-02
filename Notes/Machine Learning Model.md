@@ -9,7 +9,7 @@ tags: academic
 
 ## References
 1. [[Machine Learning]]
-2. [[Documents/What is AI, ML, DS]]
-3. [[Documents/Algorithms-Intuition]]
+2. [[What is AI, ML, DS]]
+3. [[Algorithms-Intuition]]
 4. [[Algorithm]]
 5. [[Data]]

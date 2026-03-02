@@ -11,7 +11,7 @@ tags:
 3. [[Appropriate Fitting]]
 4. [[Aikaike Information Criterion]]
 5. [[Bayesian Information Criterion]]
-6. [[Notes/Loss Function]]
+6. [[Loss Function]]
 7. [[Ordinary Least Squares|OLS]]
 8. [[R-Squared]]
 9. [[Batch Gradient Descent|Gradient Descent]]

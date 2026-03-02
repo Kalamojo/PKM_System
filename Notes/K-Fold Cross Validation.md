@@ -18,5 +18,5 @@ tags:
 > - The either the sum or average of all 5 tests are used to tally a final evaluation for the accuracy of the model.
 
 ## References
-1. [[Notes/Supervised Learning]]
-2. [[Notes/Training]]
+1. [[Supervised Learning]]
+2. [[Training]]

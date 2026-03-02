@@ -12,6 +12,6 @@ tags: academic
 
 ## References
 1. [[Algorithm]]
-2. [[Documents/Algorithms-Intuition]]
+2. [[Algorithms-Intuition]]
 3. [[Supervised Learning]]
 4. [[Linear Regression]]

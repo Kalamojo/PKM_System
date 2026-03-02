@@ -13,5 +13,5 @@ A random variable that takes on only a finite or countably infinite number of va
 >The sample space of A is $O$ = [4.3, 7.9], and its range is {0, 1}. Thus, A is discrete.
 
 ## References
-1. [[Notes/Random Variable]]
+1. [[Random Variable]]
 2. [[Discrete Variable]]

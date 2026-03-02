@@ -11,4 +11,4 @@ tags:
 
 ## References
 1. [[Uniform Distribution]]
-2. [[Notes/Random Variable]]
+2. [[Random Variable]]

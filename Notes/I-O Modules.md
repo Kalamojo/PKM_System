@@ -12,4 +12,4 @@ tags:
 
 ## References
 1. [[Computer]]
-2. [[Processor|CPU]]
+2. [[Notes/Processor|CPU]]

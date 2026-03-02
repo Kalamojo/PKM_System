@@ -11,4 +11,4 @@ tags:
 > Model memorizes or imitates training data, and it fails when encountering new testing data.
 
 ## References
-1. [[Notes/Machine Learning]]
+1. [[Machine Learning]]

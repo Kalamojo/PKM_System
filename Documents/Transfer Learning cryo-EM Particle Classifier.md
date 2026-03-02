@@ -21,7 +21,7 @@ However, these two tasks are not perfectly analogous, and so to help facilitate 
 
 ## Multi-loss Strategy
 
-The primary issue with [[Notes/Training|Training]] a model on limited data is [[Overfitting]]. [[Machine Learning Model|Models]] essentially perform well on the data they were trained on, and don't generalize well to new data. The selected method of combating this overfitting is to make use of multiple [[Notes/Loss Function|Loss Functions]] to train the same model.
+The primary issue with [[Training|Training]] a model on limited data is [[Overfitting]]. [[Machine Learning Model|Models]] essentially perform well on the data they were trained on, and don't generalize well to new data. The selected method of combating this overfitting is to make use of multiple [[Loss Function|Loss Functions]] to train the same model.
 
 To even obtain multiple loss values, multiple tasks need to be performed to measure performance from. However, in a classification model, it is not obvious how to derive multiple useful tasks a model can perform. This is how the task of object/particle detection is transformed into two tasks:
 

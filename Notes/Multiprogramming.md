@@ -15,5 +15,5 @@ tags:
 ## References
 1. [[Uniprogramming]]
 2. [[I-O Modules|I/O Modules]]
-3. [[Processor]]
+3. [[Notes/Processor]]
 4. [[Process]]

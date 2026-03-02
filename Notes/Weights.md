@@ -21,6 +21,6 @@ tags:
 
 ![[Drawing 2021-12-15 20.58.12.excalidraw|700]]
 ## References
-1. [[Notes/Feature]]
-2. [[Notes/Machine Learning]]
+1. [[Feature]]
+2. [[Machine Learning]]
 3. [[Bias]]

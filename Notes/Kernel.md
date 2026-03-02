@@ -12,4 +12,4 @@ tags:
 ## References
 1. [[Operating System]]
 2. [[Main Memory]]
-3. [[Processor|CPU]]
+3. [[Notes/Processor|CPU]]

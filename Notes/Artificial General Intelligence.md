@@ -13,5 +13,5 @@ aliases:
 
 ## References
 1. [[Artificial Intelligence]]
-2. [[Documents/Artificial Intelligence Wiki]]
-3. [[Documents/What is AI, ML, DS]]
+2. [[Artificial Intelligence Wiki]]
+3. [[What is AI, ML, DS]]

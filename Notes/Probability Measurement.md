@@ -6,7 +6,7 @@ tags:
 ---
 # Probability Measurement
 
-1. [[Notes/Random Variable]]
+1. [[Random Variable]]
 2. [[Probability Mass Function|PMF]]
 3. [[Notes/Probability Density Function|PDF]]
 4. [[Notes/Cumulative Distribution Function|CDF]]
