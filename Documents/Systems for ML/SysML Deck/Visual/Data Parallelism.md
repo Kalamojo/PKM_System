@@ -8,4 +8,4 @@ What type of parallel training strategy is depicted here?
 
 ---
 
-[[Documents/Systems for ML/SysML Cards/Definitions/Data Parallelism|Data Parallelism]]
+[[Documents/Systems for ML/SysML Deck/Definitions/Data Parallelism|Data Parallelism]]

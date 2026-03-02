@@ -8,4 +8,4 @@ What type of parallel training strategy is depicted here?
 
 ---
 
-[[Documents/Systems for ML/SysML Cards/Definitions/Inter-Layer Parallelism|Inter-Layer Parallelism]] (or Pipeline parallelism)
+[[Documents/Systems for ML/SysML Deck/Definitions/Inter-Layer Parallelism|Inter-Layer Parallelism]] (or Pipeline parallelism)

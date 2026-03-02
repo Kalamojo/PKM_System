@@ -4,7 +4,7 @@
     "port": 8765
   },
   "folders": [
-    "Documents/Systems for ML/SysML Cards"
+    "Documents\\Systems for ML\\SysML Deck"
   ],
   "ignoreFolderNotes": true,
   "manageFilenames": {
@@ -18,25 +18,25 @@
   "stats": {
     "sync": {
       "auto": 0,
-      "duration": 10063.755468738265,
+      "duration": 13238.838867190527,
       "errors": 0,
       "invalid": 2,
-      "latestSyncTime": 1772491642,
-      "manual": 8,
+      "latestSyncTime": 1772492815,
+      "manual": 10,
       "notes": {
         "ankiUnreachable": 2,
         "created": 66,
         "deleted": 2,
         "matched": 0,
-        "unchanged": 35,
-        "updated": 6
+        "unchanged": 99,
+        "updated": 70
       }
     }
   },
   "sync": {
     "autoSyncDebounceIntervalMs": 4000,
     "autoSyncEnabled": false,
-    "mediaMode": "local",
+    "mediaMode": "all",
     "pushToAnkiWeb": true
   },
   "verboseNotices": false
