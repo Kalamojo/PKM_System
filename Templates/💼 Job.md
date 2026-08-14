@@ -3,10 +3,10 @@ tags:
   - 💼job
 company: <% tp.file.cursor(1) %>
 date-applied: <% tp.date.now() %>
-oa: 
-interview: 
+oa:
+interview:
 status: resume-screen
 location: Remote
-position-season: Summer 2026
+position-season: Fall 2027
 ---
 <%*tp.file.rename("💼 " + tp.file.title)%>
