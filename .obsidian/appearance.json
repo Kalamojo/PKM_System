@@ -7,5 +7,6 @@
     "centered"
   ],
   "translucency": false,
-  "accentColor": "#f59b00"
+  "accentColor": "#f59b00",
+  "showRibbon": true
 }
